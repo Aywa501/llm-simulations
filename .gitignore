@@ -1,0 +1,60 @@
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.apdisk
+
+# Thumbnails
+Thumbs.db
+
+# Xcode
+# Build products
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.xcide
+!default.xcide
+*.hmap
+*.ipa
+*.dSYM.zip
+*.app
+*.appex
+*.framework
+*.xcarchive
+*.modulemap
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcodeproj/xcuserdata/
+!*.xcodeproj/xcworkspace/
+*.xcworkspace/contents.xcworkspacedata
+!*.xcworkspace/xcshareddata/
+!*.xcworkspace/xcuserdata/
+
+# Swift Package Manager
+.swiftpm/
+
+# Carthage
+Carthage/Build/
+Carthage/Checkouts/
+
+# CocoaPods
+Pods/
+
+# Environment variables
+.env
+.env.*
+
+# Logs
+*.log
