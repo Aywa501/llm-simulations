@@ -1,0 +1,10 @@
+[
+{"id": "f97a06b1-4487-4652-903a-710ce6cbe1eb", "group": "price_only", "error": "'ResponseReasoningItem' object has no attribute 'get'"},
+{"id": "ed058596-d9b1-4221-af1d-354c5666379e", "group": "price_only", "error": "'ResponseReasoningItem' object has no attribute 'get'"},
+{"id": "6d35f51e-2947-4f70-9e69-f3c9bbf2f425", "group": "emissions", "error": "'ResponseReasoningItem' object has no attribute 'get'"},
+{"id": "72fe54ca-715b-4d08-8e43-04820108a4a6", "group": "emissions", "error": "'ResponseReasoningItem' object has no attribute 'get'"},
+{"id": "8f1cabda-92b1-4778-9b4d-eefcbd1fcf70", "group": "carbon_price", "error": "'ResponseReasoningItem' object has no attribute 'get'"},
+{"id": "e75c4277-04c9-492d-a067-fe3125f0df04", "group": "carbon_price", "error": "'ResponseReasoningItem' object has no attribute 'get'"},
+{"id": "31e26fcd-ac45-4144-9e56-6e4d35a7a040", "group": "carbon_price_info", "error": "'ResponseReasoningItem' object has no attribute 'get'"},
+{"id": "e89f893c-4cde-4fca-bfec-b4ac1c98c24f", "group": "carbon_price_info", "error": "'ResponseReasoningItem' object has no attribute 'get'"}
+]

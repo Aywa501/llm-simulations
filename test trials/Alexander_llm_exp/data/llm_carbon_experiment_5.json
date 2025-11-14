@@ -1,0 +1,10 @@
+[
+{"id": "e3326347-5605-4401-990d-c2812af0e84f", "group": "price_only", "error": "empty output_text"},
+{"id": "d0aac597-2f3d-4fff-8518-7e863872adfd", "group": "price_only", "response": "Round 1: Car — Fuel €54 vs train €60, so I save"},
+{"id": "3362d58f-20b9-4e1f-9aab-b778882676e4", "group": "emissions", "response": "I’m an ordinary person in Germany who owns a car and sometimes uses trains. I’ve been told the car emits 75 kg CO₂"},
+{"id": "3d7856ff-81b9-42f4-ad1f-075bc304fd42", "group": "emissions", "error": "empty output_text"},
+{"id": "523cf512-0a4d-47bc-a506-0d007d2ec28d", "group": "carbon_price", "error": "empty output_text"},
+{"id": "56cd8d4b-418b-4b2f-89b7-57d339508e56", "group": "carbon_price", "error": "empty output_text"},
+{"id": "ac3a6030-162a-43ee-bbc9-740e4eaa117c", "group": "carbon_price_info", "error": "empty output_text"},
+{"id": "772c4bd0-75a2-4df6-aa55-16659fc3d205", "group": "carbon_price_info", "error": "empty output_text"}
+]

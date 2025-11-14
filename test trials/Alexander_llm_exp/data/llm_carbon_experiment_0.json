@@ -1,0 +1,102 @@
+[
+  {
+    "id": "d5350011-4d65-44d2-b4d5-1b53926753d4",
+    "group": "price_only",
+    "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'temperature' does not support 0.9 with this model. Only the default (1) value is supported.\", 'type': 'invalid_request_error', 'param': 'temperature', 'code': 'unsupported_value'}}"
+  },
+  {
+    "id": "6fa64f87-f0e2-4ba3-bfeb-e4b14e5336b6",
+    "group": "price_only",
+    "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'temperature' does not support 0.9 with this model. Only the default (1) value is supported.\", 'type': 'invalid_request_error', 'param': 'temperature', 'code': 'unsupported_value'}}"
+  },
+  {
+    "id": "430e46fb-40aa-47e2-a798-ecf4a98c3ab9",
+    "group": "price_only",
+    "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'temperature' does not support 0.9 with this model. Only the default (1) value is supported.\", 'type': 'invalid_request_error', 'param': 'temperature', 'code': 'unsupported_value'}}"
+  },
+  {
+    "id": "95e77f6d-105a-4906-8258-4a49d31f6c95",
+    "group": "price_only",
+    "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'temperature' does not support 0.9 with this model. Only the default (1) value is supported.\", 'type': 'invalid_request_error', 'param': 'temperature', 'code': 'unsupported_value'}}"
+  },
+  {
+    "id": "bc478ffb-c337-45a4-8e83-aed466e59cff",
+    "group": "price_only",
+    "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'temperature' does not support 0.9 with this model. Only the default (1) value is supported.\", 'type': 'invalid_request_error', 'param': 'temperature', 'code': 'unsupported_value'}}"
+  },
+  {
+    "id": "f1e75441-fdc8-4a53-aa7c-3d868b8bc233",
+    "group": "emissions",
+    "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'temperature' does not support 0.9 with this model. Only the default (1) value is supported.\", 'type': 'invalid_request_error', 'param': 'temperature', 'code': 'unsupported_value'}}"
+  },
+  {
+    "id": "574761c2-f4eb-42c7-9eb5-00f2fda62e86",
+    "group": "emissions",
+    "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'temperature' does not support 0.9 with this model. Only the default (1) value is supported.\", 'type': 'invalid_request_error', 'param': 'temperature', 'code': 'unsupported_value'}}"
+  },
+  {
+    "id": "cc0457a6-3039-4c59-950a-f2a5589e331e",
+    "group": "emissions",
+    "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'temperature' does not support 0.9 with this model. Only the default (1) value is supported.\", 'type': 'invalid_request_error', 'param': 'temperature', 'code': 'unsupported_value'}}"
+  },
+  {
+    "id": "a2980355-b462-4533-86fd-ae590e657be0",
+    "group": "emissions",
+    "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'temperature' does not support 0.9 with this model. Only the default (1) value is supported.\", 'type': 'invalid_request_error', 'param': 'temperature', 'code': 'unsupported_value'}}"
+  },
+  {
+    "id": "dcec9992-e3be-4532-bffa-9d9d107a8c1a",
+    "group": "emissions",
+    "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'temperature' does not support 0.9 with this model. Only the default (1) value is supported.\", 'type': 'invalid_request_error', 'param': 'temperature', 'code': 'unsupported_value'}}"
+  },
+  {
+    "id": "1a2bbd30-64a8-42e4-95ba-b142ef71b6cb",
+    "group": "carbon_price",
+    "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'temperature' does not support 0.9 with this model. Only the default (1) value is supported.\", 'type': 'invalid_request_error', 'param': 'temperature', 'code': 'unsupported_value'}}"
+  },
+  {
+    "id": "ce3c1ce5-70e8-4803-8106-804913f8fdf4",
+    "group": "carbon_price",
+    "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'temperature' does not support 0.9 with this model. Only the default (1) value is supported.\", 'type': 'invalid_request_error', 'param': 'temperature', 'code': 'unsupported_value'}}"
+  },
+  {
+    "id": "c2e4ba72-7f01-4e55-931c-81ffb324fad9",
+    "group": "carbon_price",
+    "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'temperature' does not support 0.9 with this model. Only the default (1) value is supported.\", 'type': 'invalid_request_error', 'param': 'temperature', 'code': 'unsupported_value'}}"
+  },
+  {
+    "id": "66ca5b59-a128-4538-89bc-0b9480f8923b",
+    "group": "carbon_price",
+    "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'temperature' does not support 0.9 with this model. Only the default (1) value is supported.\", 'type': 'invalid_request_error', 'param': 'temperature', 'code': 'unsupported_value'}}"
+  },
+  {
+    "id": "2c2b3ab1-c030-4c9f-9d4d-99a4108e4e9c",
+    "group": "carbon_price",
+    "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'temperature' does not support 0.9 with this model. Only the default (1) value is supported.\", 'type': 'invalid_request_error', 'param': 'temperature', 'code': 'unsupported_value'}}"
+  },
+  {
+    "id": "83171a37-fe01-4071-be94-4a66552c6c54",
+    "group": "carbon_price_info",
+    "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'temperature' does not support 0.9 with this model. Only the default (1) value is supported.\", 'type': 'invalid_request_error', 'param': 'temperature', 'code': 'unsupported_value'}}"
+  },
+  {
+    "id": "58e152b8-c4dc-4c36-8ce3-3bb28bf7c0ac",
+    "group": "carbon_price_info",
+    "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'temperature' does not support 0.9 with this model. Only the default (1) value is supported.\", 'type': 'invalid_request_error', 'param': 'temperature', 'code': 'unsupported_value'}}"
+  },
+  {
+    "id": "8354bd01-a000-4db4-98b2-fcbf8ead8fb5",
+    "group": "carbon_price_info",
+    "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'temperature' does not support 0.9 with this model. Only the default (1) value is supported.\", 'type': 'invalid_request_error', 'param': 'temperature', 'code': 'unsupported_value'}}"
+  },
+  {
+    "id": "bcbfcf3c-043a-4eeb-b2d2-108105f1a7d0",
+    "group": "carbon_price_info",
+    "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'temperature' does not support 0.9 with this model. Only the default (1) value is supported.\", 'type': 'invalid_request_error', 'param': 'temperature', 'code': 'unsupported_value'}}"
+  },
+  {
+    "id": "05bc6818-e785-4ca6-878c-453b93d5119a",
+    "group": "carbon_price_info",
+    "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'temperature' does not support 0.9 with this model. Only the default (1) value is supported.\", 'type': 'invalid_request_error', 'param': 'temperature', 'code': 'unsupported_value'}}"
+  }
+]

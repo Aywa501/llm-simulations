@@ -1,0 +1,10 @@
+[
+{"id": "72a042a1-ba0e-446f-9757-e162100613a8", "group": "price_only", "error": "'NoneType' object is not subscriptable"},
+{"id": "f58c53ef-e20e-4e19-8585-8a441f061bfc", "group": "price_only", "error": "'NoneType' object is not subscriptable"},
+{"id": "00002f81-004e-4deb-bd35-4e5d50833a66", "group": "emissions", "error": "'NoneType' object is not subscriptable"},
+{"id": "7504c8aa-249a-4c0d-b705-543f602c8513", "group": "emissions", "error": "'NoneType' object is not subscriptable"},
+{"id": "a7114c00-0ea4-488f-8f05-0d077682d0dd", "group": "carbon_price", "error": "'NoneType' object is not subscriptable"},
+{"id": "3c411090-752d-4c89-bb1a-6ec132ae8937", "group": "carbon_price", "error": "'NoneType' object is not subscriptable"},
+{"id": "bf27ed16-d261-4077-a304-058c4e2637f6", "group": "carbon_price_info", "error": "'NoneType' object is not subscriptable"},
+{"id": "a8377976-0ae8-4157-b9f2-82927eccc2c1", "group": "carbon_price_info", "error": "'NoneType' object is not subscriptable"}
+]

@@ -1,0 +1,102 @@
+[
+{
+  "id": "970ec5a9-6a03-4dd4-8ff6-76f181a6530c",
+  "group": "price_only",
+  "response": "[NO RESPONSE AFTER RETRIES]"
+},
+{
+  "id": "2cc77634-1c45-442a-9aa2-88a0c3111d9d",
+  "group": "price_only",
+  "response": "[NO RESPONSE AFTER RETRIES]"
+},
+{
+  "id": "56559334-644c-4636-98e5-93c23b57a298",
+  "group": "price_only",
+  "response": "[NO RESPONSE AFTER RETRIES]"
+},
+{
+  "id": "3ee3eed2-e435-43c6-ab32-519514ba4b0a",
+  "group": "price_only",
+  "response": "[NO RESPONSE AFTER RETRIES]"
+},
+{
+  "id": "639de1fc-caed-4d7d-b371-d4121b57422e",
+  "group": "price_only",
+  "response": "[NO RESPONSE AFTER RETRIES]"
+},
+{
+  "id": "355729b2-08f2-45a2-adbe-6102822014f8",
+  "group": "emissions",
+  "response": "[NO RESPONSE AFTER RETRIES]"
+},
+{
+  "id": "140b5ba2-b686-4432-bd4b-ef5f7577e54f",
+  "group": "emissions",
+  "response": "[NO RESPONSE AFTER RETRIES]"
+},
+{
+  "id": "454666bf-a123-45d7-87b6-75e3b104d9d7",
+  "group": "emissions",
+  "response": "[NO RESPONSE AFTER RETRIES]"
+},
+{
+  "id": "24e3cf3e-9c01-47a4-8dc7-3b10a4a05304",
+  "group": "emissions",
+  "response": "[NO RESPONSE AFTER RETRIES]"
+},
+{
+  "id": "96a5f575-8398-4c0e-a82a-c7b684ff3b0e",
+  "group": "emissions",
+  "response": "[NO RESPONSE AFTER RETRIES]"
+},
+{
+  "id": "5db5bc61-818b-4de5-b454-aaf143fa1014",
+  "group": "carbon_price",
+  "response": "[NO RESPONSE AFTER RETRIES]"
+},
+{
+  "id": "ee5313f1-8202-43da-9ee4-198474bed94f",
+  "group": "carbon_price",
+  "response": "[NO RESPONSE AFTER RETRIES]"
+},
+{
+  "id": "b35dfdb9-3a43-46b6-9a92-ebe3013b31b3",
+  "group": "carbon_price",
+  "response": "[NO RESPONSE AFTER RETRIES]"
+},
+{
+  "id": "15510f23-605f-46cf-9bbe-3ed04479a8fe",
+  "group": "carbon_price",
+  "response": "[NO RESPONSE AFTER RETRIES]"
+},
+{
+  "id": "edbdcaf5-3dec-4f3b-b830-24f7441d7f30",
+  "group": "carbon_price",
+  "response": "[NO RESPONSE AFTER RETRIES]"
+},
+{
+  "id": "c2b5e2c2-6041-4dfd-9698-8c41f6daca46",
+  "group": "carbon_price_info",
+  "response": "[NO RESPONSE AFTER RETRIES]"
+},
+{
+  "id": "9f7f7580-4c30-4f66-8fd6-d09b1de50ed0",
+  "group": "carbon_price_info",
+  "response": "[NO RESPONSE AFTER RETRIES]"
+},
+{
+  "id": "35850078-851a-4211-adca-5135e9176696",
+  "group": "carbon_price_info",
+  "response": "[NO RESPONSE AFTER RETRIES]"
+},
+{
+  "id": "701d8df3-7531-48ea-91e1-c985cd047c86",
+  "group": "carbon_price_info",
+  "response": "[NO RESPONSE AFTER RETRIES]"
+},
+{
+  "id": "e977d398-fb97-4716-8bab-6d86529670bb",
+  "group": "carbon_price_info",
+  "response": "[NO RESPONSE AFTER RETRIES]"
+}
+]
