@@ -1,60 +1,219 @@
-# macOS system files
+############################
+# OS-SPECIFIC FILES
+############################
+
+# macOS
 .DS_Store
 .AppleDouble
 .LSOverride
 Icon?
 ._*
-.DocumentRevisions-V100
-.fseventsd
 .Spotlight-V100
-.TemporaryItems
 .Trashes
-.VolumeIcon.icns
-.com.apple.timemachine.donotpresent
-.apdisk
 
-# Thumbnails
+# Windows
 Thumbs.db
+Thumbs.db:encryptable
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
 
-# Xcode
-# Build products
-build/
-*.pbxuser
-!default.pbxuser
-*.mode1v3
-!default.mode1v3
-*.xcide
-!default.xcide
-*.hmap
-*.ipa
-*.dSYM.zip
-*.app
-*.appex
-*.framework
-*.xcarchive
-*.modulemap
-*.xcodeproj/*
-!*.xcodeproj/project.pbxproj
-!*.xcodeproj/xcshareddata/
-!*.xcodeproj/xcuserdata/
-!*.xcodeproj/xcworkspace/
-*.xcworkspace/contents.xcworkspacedata
-!*.xcworkspace/xcshareddata/
-!*.xcworkspace/xcuserdata/
+# Linux
+*~
+.nfs*
 
-# Swift Package Manager
-.swiftpm/
 
-# Carthage
-Carthage/Build/
-Carthage/Checkouts/
+############################
+# EDITORS / IDEs
+############################
 
-# CocoaPods
-Pods/
+# VSCode
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/*.code-snippets
 
-# Environment variables
-.env
-.env.*
+# JetBrains (IntelliJ, PyCharm, WebStorm, etc.)
+.idea/
+*.iml
+out/
+
+# Sublime
+*.sublime-workspace
+*.sublime-project
+
+# Vim
+*.swp
+*.swo
+*.swm
+.vim/
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+
+############################
+# GENERAL DEVELOPMENT
+############################
 
 # Logs
+logs/
 *.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Temporary files
+tmp/
+temp/
+.cache/
+.cache-loader/
+dist/
+build/
+target/
+coverage/
+*.tmp
+*.bak
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Package manager output
+node_modules/
+bower_components/
+jspm_packages/
+
+
+############################
+# LANGUAGE-SPECIFIC
+############################
+
+### Node / JavaScript ###
+npm-debug.log*
+yarn.lock
+.pnpm-store/
+
+### TypeScript ###
+*.tsbuildinfo
+
+### Python ###
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+.pytest_cache/
+.mypy_cache/
+.hypothesis/
+venv/
+ENV/
+env/
+
+### Java ###
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.car
+*.classpath
+*.project
+*.settings/
+*.factorypath
+
+### C / C++ ###
+*.o
+*.obj
+*.so
+*.dll
+*.exe
+*.out
+
+### Go ###
+bin/
+build/
+*.exe
+*.test
+go.sum
+
+### Rust ###
+target/
+*.rs.bk
+Cargo.lock
+
+### PHP ###
+vendor/
+composer.lock
+
+### Ruby ###
+.bundle/
+vendor/bundle/
+Gemfile.lock
+
+### Swift ###
+*.xcodeproj/*
+*.xcworkspace/*
+build/
+DerivedData/
+
+### .NET ###
+bin/
+obj/
+*.user
+*.rsuser
+
+
+############################
+# DOCKER
+############################
+docker-compose.override.yml
+.docker/
+*.pid
+
+
+############################
+# DATABASE / BACKUP FILES
+############################
+*.sqlite
+*.sqlite3
+*.db
+*.sql
+*.bak
+
+
+############################
+# DESIGN / BINARY ASSETS
+############################
+*.psd
+*.ai
+*.sketch
+*.xcf
+
+
+############################
+# SENSITIVE OR IGNORED BY DEFAULT
+############################
+
+# SSH keys
+*.pem
+*.key
+*.pub
+
+# IDE crash reports
+crashlytics-build.properties
+
+# Uploaded or generated content
+uploads/
+public/uploads/
+storage/
+.migrations/
