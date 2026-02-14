@@ -217,3 +217,7 @@ uploads/
 public/uploads/
 storage/
 .migrations/
+
+#misc
+dataverse_files/
+Data\ Retrival/commands.sh
