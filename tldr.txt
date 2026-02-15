@@ -18,7 +18,6 @@ https://arxiv.org/abs/1904.09675
 https://aclanthology.org/2020.acl-main.704/
 https://proceedings.mlr.press/v37/kusnerb15.html
 https://pure.psu.edu/en/publications/automatic-analysis-of-syntactic-complexity-in-second-language-wri
-https://pure.psu.edu/en/publications/automatic-analysis-of-syntactic-complexity-in-second-language-wri
 
 distributional comparisons:
 https://jmlr.csail.mit.edu/papers/v13/gretton12a.html
