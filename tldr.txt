@@ -7,7 +7,11 @@ Full doc here: https://docs.google.com/document/d/1vCyfUhEbOf_YhtKaQOY9ICtdfhbau
 links/names of papers read (+ doc contents):
 
 initial:
-Large Language Models as Simulated Economic Agents: What Can We Learn from Homo Silicus?Generative Agents: Interactive Simulacra of Human BehaviorComputational Agents Exhibit Believable Humanlike BehaviorGenerative Agent Simulations of 1,000 PeoplePredicting Results of Social Science Experiments Using Large Language Models
+Large Language Models as Simulated Economic Agents: What Can We Learn from Homo Silicus?
+Generative Agents: Interactive Simulacra of Human Behavior
+Computational Agents Exhibit Believable Humanlike Behavior
+Generative Agent Simulations of 1,000 People
+Predicting Results of Social Science Experiments Using Large Language Models
 
 metrics:
 https://arxiv.org/abs/1904.09675
