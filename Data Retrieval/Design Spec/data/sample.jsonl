@@ -64,6 +64,8 @@
             "keywords": { "type": "array", "items": { "type": "string" } },
             "additional_keywords": { "type": "array", "items": { "type": "string" } },
             "trial_card": { "type": ["string", "null"] },
+            "is_public_data_available_raw": { "type": ["string", "boolean", "null"] },
+            "public_data_url_raw": { "type": ["string", "null"] },
             "arms": { "type": ["array", "null"], "items": { "type": "object" } }
           }
         }
@@ -112,7 +114,9 @@
             "assignment_rules",
             "design_completeness",
             "extraction_sources",
-            "notes"
+            "notes",
+            "public_data_available",
+            "public_data_url"
           ],
           "properties": {
             "design_type": {
@@ -173,7 +177,10 @@
               "items": { "type": "string", "enum": ["registry", "paper"] }
             },
 
-            "notes": { "type": "string" }
+            "notes": { "type": "string" },
+            
+            "public_data_available": { "type": ["boolean", "null"] },
+            "public_data_url": { "type": ["string", "null"] }
           }
         },
 

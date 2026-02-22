@@ -196,6 +196,20 @@ def main():
             if k in llm_extraction:
                 derived[k] = llm_extraction[k]
 
+        # Deterministic derivations for public data
+        raw_available = original_spec.get("is_public_data_available_raw")
+        
+        # parse_bool might be useful, let's use it or implement basic logic:
+        # if raw_available is not strictly bool, we convert "yes" "true" etc.
+        if isinstance(raw_available, bool):
+            derived["public_data_available"] = raw_available
+        elif isinstance(raw_available, str):
+            derived["public_data_available"] = raw_available.strip().lower() in ["true", "yes", "1"]
+        else:
+            derived["public_data_available"] = False
+            
+        derived["public_data_url"] = original_spec.get("public_data_url_raw")
+
         # Evidence Quotes
         evidence = {}
         if "evidence_quotes" in llm_extraction:
@@ -235,6 +249,9 @@ def main():
             "flags": [],
             "needs_manual": not is_valid # simplistic
         }
+
+        if derived.get("public_data_available") is True and not derived.get("public_data_url"):
+            quality["flags"].append("missing_public_data_url")
 
         # Assemble Final Object
         enriched_spec = {

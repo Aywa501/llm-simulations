@@ -141,6 +141,10 @@ def main():
                 "is_clustered": None,
                 "unit_of_randomization_canonical": None,
                 "evidence_quotes": [],
+                
+                # Raw pass-through fields for public data
+                "is_public_data_available_raw": t.get("Is public data available?"),
+                "public_data_url_raw": t.get("Public Data URL"),
             }
 
             f.write(json.dumps(spec, ensure_ascii=False) + "\n")
