@@ -55,7 +55,7 @@ def parse_sample_sizes(trial: Dict[str, Any]) -> Dict[str, str]:
 def main():
     ap = argparse.ArgumentParser()
     # Simplified paths
-    ap.add_argument("--in", dest="inp", default="data/trials_sampled_50.json", help="Input JSON file")
+    ap.add_argument("--in", dest="inp", default="data/trials_sample.json", help="Input JSON file")
     ap.add_argument("--out", dest="out", default="data/design_specs.jsonl", help="Output JSONL file")
     args = ap.parse_args()
 
