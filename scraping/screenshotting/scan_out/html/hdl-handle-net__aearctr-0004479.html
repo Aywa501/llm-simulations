@@ -1,0 +1,149 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"><html><head>
+    <title>Cannot Connect to Server</title>
+</head>
+<body bgcolor="#ffffff">
+
+<img src="/static/images/res_tool.gif" width="270" height="40" alt="Handle.net Logo">
+
+
+
+
+
+<!-- No status message was provided by the namespace-->
+<h3>Error - Cannot Connect to Server</h3><p></p>
+
+<p>The handle you requested -- </p> <p><b><i>10438.3/FK2/PGIFU0</i></b></p>
+<p>-- cannot be found.</p>
+
+<div class="divider">&nbsp;</div>
+
+
+
+<p>You may report this error using the form below. Error reports are sent to the operator of the particular handle service responsible for the handle.</p>
+
+<div style="padding-left: 4em;">
+    <form name="notFoundForm" onsubmit="submitHandleNotFound(event); return false" action="#">
+        <table border="0" cellspacing="3" cellpadding="3">
+            <tbody>
+            <tr>
+                <td>
+                    <table border="0" align="center" cellpadding="3" cellspacing="3">
+                        <tbody><tr>
+                            <th align="right" scope="row"><label>Handle:</label></th>
+                            <td><input id="missingHandle" name="missingHandle" type="text" value="10438.3/FK2/PGIFU0" size="42" readonly="readonly"></td>
+                        </tr>
+                        <tr>
+                            <th align="right" scope="row"><label>URL of Web Page Listing the Handle:</label></th>
+                            <td><input id="referringPage" name="referringPage" type="text" value="" size="42" readonly="readonly"></td>
+                        </tr>
+                        <tr>
+                            <th align="right" scope="row">Your Email Address:</th>
+                            <td><input id="userEmailAddress" name="userEmailAddress" type="text" value="Please enter your email address" size="42"></td>
+                        </tr>
+                        <tr>
+                            <th align="right" scope="row" valign="top">Additional Information About the Error:</th>
+                            <td><textarea id="comments" style="width: 100%" name="comments" cols="30" rows="6"></textarea></td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td align="right">
+                    <p><input id="sendButton" name="send" type="submit" value="Submit Error Report"></p>
+                </td>
+            </tr>
+            <tr>
+                <td align="center">
+                    <p id="invalidEmail" style="display: none; background:#F5B7B1; border-radius: 5px;">The email address entered is invalid</p>
+                    <p id="successNotification" style="display: none; background:#ABEBC6; border-radius: 5px;">The report has been sent successfully</p>
+                    <p id="errorNotification" style="display: none; background:#F5B7B1; border-radius: 5px;">There was an error submitting the report</p>
+                    <p id="fallback" style="display: none;">Please <a href="mailto:hdladmin@cnri.reston.va.us?subject=Handle%20Not%20Found&amp;body=The%20following%20handle%20was%20not%20found:%0D%0A10438.3%2FFK2%2FPGIFU0.%20%0D%0AThe%20referring%20page%20was:%20%0D%0A">contact us</a> if you wish to report this error directly by email.</p>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </form>
+</div>
+
+
+<p>If you need further assistance, please contact <a href="mailto:hdladmin@cnri.reston.va.us">hdladmin@cnri.reston.va.us</a>.</p>
+
+<!--
+HAS_NS_MSG -> 
+NS_STATUS_MSG -> 
+NS_STATUS -> active
+
+-->
+
+
+<hr noshade="" width="80%" size="1">
+<br><br>
+<p><strong><em><small>
+    <a href="/help.html">Handle Proxy Server Documentation</a><br>
+    <a href="https://www.handle.net/">Handle.net Web Site</a>
+</small>
+</em></strong></p>
+
+<script type="text/javascript">
+        async function submitHandleNotFound(event) {
+            event.preventDefault();
+            document.getElementById("errorNotification").style.display = "none";
+            document.getElementById("successNotification").style.display = "none";
+            document.getElementById("invalidEmail").style.display = "none";
+            document.getElementById("fallback").style.display = "none";
+
+            const missingHandle = document.getElementById('missingHandle');
+            const referringPage = document.getElementById('referringPage');
+            const userEmailAddress = document.getElementById('userEmailAddress');
+            const comments = document.getElementById('comments');
+
+            const handleNotFoundRequest = {
+                handle: missingHandle.value,
+                reporterEmail: userEmailAddress.value,
+                referringUrl: referringPage.value,
+                additionalInfo: comments.value
+            };
+
+            if (!validateEmail(handleNotFoundRequest.reporterEmail)) {
+                document.getElementById("invalidEmail").style.display = "block";
+                return;
+            } else {
+                document.getElementById("invalidEmail").style.display = "none";
+            }
+
+            const serviceUrl = "https://handle-not-found.epf.net/objects/?type=HandleNotFound&full";
+            try {
+                document.getElementById("sendButton").disabled = true;
+                document.getElementById("sendButton").value = "Sending...";
+                const response = await fetch(serviceUrl, {
+                    method: 'post',
+                    headers: {
+                        'Accept': 'application/json, text/plain, */*',
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(handleNotFoundRequest)
+                });
+                const result = await response.json();
+                document.getElementById("errorNotification").style.display = "none";
+                document.getElementById("successNotification").style.display = "block";
+                document.getElementById("sendButton").style.display = "none";
+                document.getElementById("fallback").style.display = "none";
+            } catch (error) {
+                document.getElementById("sendButton").disabled = false;
+                document.getElementById("sendButton").value = "Submit Error Report";
+                document.getElementById("errorNotification").style.display = "block";
+                document.getElementById("successNotification").style.display = "none";
+                document.getElementById("fallback").style.display = "block";
+            }
+        }
+
+        function validateEmail(email) {
+            const regEx = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            return regEx.test(email);
+        }
+    </script>
+<script defer="" src="https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516" integrity="sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg==" data-cf-beacon="{&quot;version&quot;:&quot;2024.11.0&quot;,&quot;token&quot;:&quot;b23e155b57e14787acf5b7e6b5780d5e&quot;,&quot;r&quot;:1,&quot;server_timing&quot;:{&quot;name&quot;:{&quot;cfCacheStatus&quot;:true,&quot;cfEdge&quot;:true,&quot;cfExtPri&quot;:true,&quot;cfL4&quot;:true,&quot;cfOrigin&quot;:true,&quot;cfSpeedBrain&quot;:true},&quot;location_startswith&quot;:null}}" crossorigin="anonymous"></script>
+
+
+</body></html>

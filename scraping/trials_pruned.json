@@ -1,0 +1,1557 @@
+{
+  "17": {
+    "Title": "Does Non-symbolic Math Practice in Young Children Improve Symbolic Mathematics Ability in Later Life?",
+    "Public Data URL": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/LCLKDT",
+    "RCT ID": "AEARCTR-0000027"
+  },
+  "18": {
+    "Title": "The Oregon Health Insurance Experiment",
+    "Public Data URL": "http://www.nber.org/oregon/data.html",
+    "RCT ID": "AEARCTR-0000028"
+  },
+  "28": {
+    "Title": "Commitment Savings Products in the Philippines",
+    "Public Data URL": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/27854",
+    "RCT ID": "AEARCTR-0000045"
+  },
+  "40": {
+    "Title": "Self-Control and Chronic Illness: Theory and Evidence From a Field Experiment",
+    "Public Data URL": "https://doi.org/10.7910/DVN/MKRCFU",
+    "RCT ID": "AEARCTR-0000062"
+  },
+  "51": {
+    "Title": "Evaluating a Nationwide Business Plan Competition",
+    "Public Data URL": "http://microdata.worldbank.org/index.php/catalog/2329",
+    "RCT ID": "AEARCTR-0000078"
+  },
+  "56": {
+    "Title": "Testing the Impact of Access to Basic Bank Accounts: A Randomized Field Experiment in three countries",
+    "Public Data URL": "https://www.openicpsr.org/openicpsr/project/116346/version/V1/view",
+    "RCT ID": "AEARCTR-0000083"
+  },
+  "79": {
+    "Title": "Food Constraints, Yield Uncertainty and “Ganyu” Labour",
+    "Public Data URL": "https://www.aeaweb.org/articles?id=10.1257/aer.20180607",
+    "RCT ID": "AEARCTR-0000130"
+  },
+  "84": {
+    "Title": "(Ineffective) Messages to Encourage Recycling: Evidence from a Randomized Evaluation in Peru",
+    "Public Data URL": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/Q8PTLL",
+    "RCT ID": "AEARCTR-0000139"
+  },
+  "95": {
+    "Title": "Evaluating Agricultural Training in Armenia",
+    "Public Data URL": "http://data.mcc.gov/evaluations/index.php/catalog/1/overview",
+    "RCT ID": "AEARCTR-0000162"
+  },
+  "98": {
+    "Title": "Land Property Rights and Agricultural Investment in the Philippines: Experimental Evidence on Impacts and Mechanisms",
+    "Public Data URL": "https://doi.org/10.7910/DVN/2LYWNU",
+    "RCT ID": "AEARCTR-0000168"
+  },
+  "122": {
+    "Title": "Using Cultural Ceremonies to Reduce Intimate Partner Violence and HIV Transmission ",
+    "Public Data URL": "https://osf.io/pwd87/",
+    "RCT ID": "AEARCTR-0000211"
+  },
+  "131": {
+    "Title": "Getting Parents Involved: A Field Experiment in Deprived Schools",
+    "Public Data URL": "http://restud.oxfordjournals.org/content/early/2013/09/19/restud.rdt027/suppl/DC1",
+    "RCT ID": "AEARCTR-0000225"
+  },
+  "146": {
+    "Title": "An Experimental Study of the Value of Postsecondary Credentials in the Labor Market",
+    "Public Data URL": "https://www.aeaweb.org/articles?id=10.1257/aer.20141757",
+    "RCT ID": "AEARCTR-0000262"
+  },
+  "149": {
+    "Title": "Evaluating the Impact of Working from Home on Productivity and Work-Life Balance in China",
+    "Public Data URL": "https://people.stanford.edu/nbloom/research",
+    "RCT ID": "AEARCTR-0000276"
+  },
+  "160": {
+    "Title": "Promoting Early Grade Reading &amp; Numeracy in Tanzania",
+    "Public Data URL": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910/DVN/XAOOTR",
+    "RCT ID": "AEARCTR-0000291"
+  },
+  "162": {
+    "Title": "Apprentice Labor and Firm Output: Evidence from a random match experiment",
+    "Public Data URL": "https://www.openicpsr.org/openicpsr/project/155121/version/V1/view",
+    "RCT ID": "AEARCTR-0000297"
+  },
+  "171": {
+    "Title": "The Heterogeneous Impact of Conditional Cash Transfers",
+    "Public Data URL": "http://academics.wellesley.edu/Economics/mcewan/PDF/GalianiandMcEwan(2013).zip",
+    "RCT ID": "AEARCTR-0000317"
+  },
+  "176": {
+    "Title": "Evaluating the Social and Economic Impact of Microcredit on Individual Borrowers &amp; Their Communities in Mexico",
+    "Public Data URL": "http://www.aeaweb.org/aej/app/data/0701/2013-0537_data.zip",
+    "RCT ID": "AEARCTR-0000325"
+  },
+  "177": {
+    "Title": "Testing Referrals for Peer Screening and Influencing Repayment",
+    "Public Data URL": "https://www.aeaweb.org/aej/mic/data/0703/2013-0234_data.zip",
+    "RCT ID": "AEARCTR-0000327"
+  },
+  "178": {
+    "Title": "Health Care Hotspotting: A Randomized Controlled Trial",
+    "Public Data URL": "https://doi.org/10.7910/DVN/ZJVVQZ",
+    "RCT ID": "AEARCTR-0000329"
+  },
+  "180": {
+    "Title": "Effective Delivery of Health Products in Ghana",
+    "Public Data URL": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/P04NKK",
+    "RCT ID": "AEARCTR-0000331"
+  },
+  "181": {
+    "Title": "Project Generasi: Conditional community block grants in Indonesia",
+    "Public Data URL": "http://economics.mit.edu/files/9627",
+    "RCT ID": "AEARCTR-0000332"
+  },
+  "194": {
+    "Title": "Understanding the Impacts of a Civic Participation Initiative in Rwanda: Experimental Findings",
+    "Public Data URL": "https://mcc.icpsr.umich.edu/evaluations/index.php/catalog/2001/versions/V1",
+    "RCT ID": "AEARCTR-0000352"
+  },
+  "205": {
+    "Title": " Impact Evaluation of a Microcredit Program in Morocco",
+    "Public Data URL": "http://www.aeaweb.org/aej/app/data/0701/2013-0535_data.zip",
+    "RCT ID": "AEARCTR-0000371"
+  },
+  "207": {
+    "Title": "Diminishing the Effect of Vote-buying on Electoral Outcomes in India: A Pilot RCT to Test the Effectiveness of Radio Messages",
+    "Public Data URL": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/VPGE7F",
+    "RCT ID": "AEARCTR-0000377"
+  },
+  "220": {
+    "Title": "Impacts of Teach For America on student achievement and other outcomes",
+    "Public Data URL": "https://www.mathematica-mpr.com/our-publications-and-findings/publications/public-use-files-from-the-national-evaluation-of-teach-for-america",
+    "RCT ID": "AEARCTR-0000404"
+  },
+  "239": {
+    "Title": "Income Timing, Temptation, and Expenditures: Field Experimental Evidence from Malawi",
+    "Public Data URL": "http://doi.org/10.17632/kf3wy2k2bb.1",
+    "RCT ID": "AEARCTR-0000437"
+  },
+  "263": {
+    "Title": "Counseling the Unemployed in France (OPP/CVE)",
+    "Public Data URL": "http://www.aeaweb.org/aej/app/data/0604/2013-0232_data.zip",
+    "RCT ID": "AEARCTR-0000472"
+  },
+  "264": {
+    "Title": "Discrimination in Hiring and Anonymous CVs in France (CV Anonymes)",
+    "Public Data URL": "http://www.aeaweb.org/aej/app/data/0703/2014-0185_data.zip",
+    "RCT ID": "AEARCTR-0000473"
+  },
+  "288": {
+    "Title": "Impact Evaluation of the Entreprenant Status in Cotonou",
+    "Public Data URL": "http://microdata.worldbank.org/index.php/catalog/2793/",
+    "RCT ID": "AEARCTR-0000515"
+  },
+  "295": {
+    "Title": "Upgrading Management Technology in Colombia",
+    "Public Data URL": "https://zenodo.org/records/4421786",
+    "RCT ID": "AEARCTR-0000528"
+  },
+  "311": {
+    "Title": "Preferences for Religious Giving",
+    "Public Data URL": "https://doi.org/10.7910/DVN/KVFRFO",
+    "RCT ID": "AEARCTR-0000558"
+  },
+  "314": {
+    "Title": "Harvesting Rainfall: Randomized Cistern Deployment in Northeast Brazil",
+    "Public Data URL": "http://doi.org/10.3886/E173341V1",
+    "RCT ID": "AEARCTR-0000561"
+  },
+  "339": {
+    "Title": "Moral Hazard, Networks and Risk Sharing: Evidence from a Lab Experiment in the Field",
+    "Public Data URL": "https://doi.org/10.1016/j.jebo.2020.09.028",
+    "RCT ID": "AEARCTR-0000605"
+  },
+  "343": {
+    "Title": "Motivating Bureaucrats: Autonomy vs Performance Pay for Public Procurement in Pakistan",
+    "Public Data URL": "https://doi.org/10.7910/DVN/OJQWO2",
+    "RCT ID": "AEARCTR-0000610"
+  },
+  "344": {
+    "Title": "When Contact Changes Minds: An Experiment on Transmission of Support for Gay Equality",
+    "Public Data URL": "http://www.openicpsr.org/repoEntity/show/19260?versionId=19260V1",
+    "RCT ID": "AEARCTR-0000611"
+  },
+  "377": {
+    "Title": "Impact Evaluation of Nadie es Perfecto,  a Program to Improve Parenting Skills in Chile\t",
+    "Public Data URL": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/RN2WDY",
+    "RCT ID": "AEARCTR-0000657"
+  },
+  "412": {
+    "Title": "Enfranchising Your Own? Experimental Evidence on Bureaucrat Diversity and Election Bias in India",
+    "Public Data URL": "https://doi.org/10.3886/E113180V1",
+    "RCT ID": "AEARCTR-0000716"
+  },
+  "423": {
+    "Title": "Morality-Efficiency Tradeoffs: An Experimental Study",
+    "Public Data URL": "http://doi.org/10.3886/E116212V1",
+    "RCT ID": "AEARCTR-0000732"
+  },
+  "445": {
+    "Title": "Is female empowerment always good for child welfare? ",
+    "Public Data URL": "https://doi.org/10.7910/DVN/TX2N3C",
+    "RCT ID": "AEARCTR-0000770"
+  },
+  "447": {
+    "Title": " Leveraging Patients' Social Networks to Overcome Tuberculosis Under-detection in India",
+    "Public Data URL": "https://www.openicpsr.org/openicpsr/project/150781/version/V1/view",
+    "RCT ID": "AEARCTR-0000773"
+  },
+  "501": {
+    "Title": "Innovative approaches to addressing gender gaps in productivity and earnings",
+    "Public Data URL": "http://microdata.worldbank.org/index.php/catalog/2860",
+    "RCT ID": "AEARCTR-0000888"
+  },
+  "506": {
+    "Title": "Testing an investment readiness program for start-ups",
+    "Public Data URL": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/CL6XJ9",
+    "RCT ID": "AEARCTR-0000895"
+  },
+  "526": {
+    "Title": "Representations and impact of educative and prevention websites on suicide",
+    "Public Data URL": "https://figshare.com/articles/dataset/Dataset_sav/4898147",
+    "RCT ID": "AEARCTR-0000924"
+  },
+  "547": {
+    "Title": "Evaluation of the DOLE Special Program for the Employment of Students (SPES)",
+    "Public Data URL": "https://github.com/eabeam/spesIE",
+    "RCT ID": "AEARCTR-0000949"
+  },
+  "582": {
+    "Title": "Community Driven Development in Sierra Leone",
+    "Public Data URL": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=hdl:1902.1/21708",
+    "RCT ID": "AEARCTR-0001000"
+  },
+  "592": {
+    "Title": "Improving seed selection and storage to increase yields among Ugandan potato growers",
+    "Public Data URL": "https://bitbucket.org/bjvca/potseedrct/src/3685eb35fe3eddf9418b5ea3081819c11c207089/data/endlineV1.csv?at=master&amp;fileviewer=file-view-default",
+    "RCT ID": "AEARCTR-0001014"
+  },
+  "598": {
+    "Title": "Inefficient Hiring in Entry-Level Labor Markets",
+    "Public Data URL": "http://www.aeaweb.org/aer/data/10411/20120270_data.zip",
+    "RCT ID": "AEARCTR-0001021"
+  },
+  "603": {
+    "Title": "Teacher Training and Entrepreneurship Education: Evidence from a Curriculum Reform in Rwanda",
+    "Public Data URL": "https://doi.org/10.7910/DVN/A7UTHN",
+    "RCT ID": "AEARCTR-0001030"
+  },
+  "607": {
+    "Title": "How to Promote Order and Property Rights under Weak Rule of Law? An Experiment in Changing Dispute Resolution Behavior through Community Education",
+    "Public Data URL": "http://chrisblattman.com/research/",
+    "RCT ID": "AEARCTR-0001038"
+  },
+  "610": {
+    "Title": "Generating Skilled Self-Employment in Developing Countries: Experimental Evidence from Uganda",
+    "Public Data URL": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/27898&amp;studyListingIndex=0_f8c4557435d9ff6c4df4e7151052",
+    "RCT ID": "AEARCTR-0001042"
+  },
+  "613": {
+    "Title": "The impact of mentoring and life skills on secondary school progression and child labor among girls: A randomized controlled trial in Rajasthan, India",
+    "Public Data URL": "https://doi.org/10.7910/DVN/CPJUP3",
+    "RCT ID": "AEARCTR-0001046"
+  },
+  "614": {
+    "Title": "Spring Cleaning: Rural Water Impacts, Valuations and Property Rights Institutions ",
+    "Public Data URL": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/28063",
+    "RCT ID": "AEARCTR-0001047"
+  },
+  "617": {
+    "Title": "Micro-Loans, Insecticide-Treated Bednets, and Malaria: Evidence from a Randomized Controlled Trial in Orissa, India",
+    "Public Data URL": "https://www.aeaweb.org/aer/data/10407/20110888_data.zip",
+    "RCT ID": "AEARCTR-0001050"
+  },
+  "627": {
+    "Title": "Understanding Mechanisms Underlying Peer Effects: Evidence from a Field Experiment on Financial Decisions",
+    "Public Data URL": "https://www.econometricsociety.org/content/supplement-understanding-mechanisms-underlying-peer-effects-evidence-field-experiment-0",
+    "RCT ID": "AEARCTR-0001070"
+  },
+  "628": {
+    "Title": "Using the infrastructure of a conditional cash transfer program to deliver a scalable integrated early child development program in Colombia: cluster randomized controlled trial",
+    "Public Data URL": "http://www.data-archive.ac.uk/",
+    "RCT ID": "AEARCTR-0001071"
+  },
+  "635": {
+    "Title": "Worms: Identifying Impacts on Education and Health in the Presence of Treatment Externalities",
+    "Public Data URL": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910/DVN/28038",
+    "RCT ID": "AEARCTR-0001081"
+  },
+  "637": {
+    "Title": "The Illusion of Sustainability",
+    "Public Data URL": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/28058",
+    "RCT ID": "AEARCTR-0001084"
+  },
+  "645": {
+    "Title": "Does Publicizing a Tax Credit for Political Contributions Increase Its Use? Results From a Randomized Field Experiment",
+    "Public Data URL": "http://isps.yale.edu/research/data/d066#.Vtk_ifl97IV",
+    "RCT ID": "AEARCTR-0001098"
+  },
+  "649": {
+    "Title": "Peers and Motivation at Work",
+    "Public Data URL": "https://doi.org/10.7910/DVN/CAXO8Y",
+    "RCT ID": "AEARCTR-0001105"
+  },
+  "652": {
+    "Title": "The Endowment Effect: High stakes evidence from rural Zambia",
+    "Public Data URL": "https://www.journals.uchicago.edu/doi/suppl/10.1086/720466",
+    "RCT ID": "AEARCTR-0001111"
+  },
+  "656": {
+    "Title": "Effects of Quality Improvement Strategies on Early Child Development in Community-based Childcare Centers in Malawi: A Cluster-Randomized Trial",
+    "Public Data URL": "https://drive.google.com/file/d/1J1ae3C3wEVBhuSpKVseqzvSPI9Qa2BI1/view",
+    "RCT ID": "AEARCTR-0001118"
+  },
+  "662": {
+    "Title": "Can Higher Prices Stimulate Product Use? Evidence from a Field Experiment in Zambia",
+    "Public Data URL": "https://www.aeaweb.org/aer/data/dec2010/20080857_data.zip",
+    "RCT ID": "AEARCTR-0001125"
+  },
+  "663": {
+    "Title": "Household Bargaining and Excess Fertility: An Experimental Study in Zambia",
+    "Public Data URL": "https://www.aeaweb.org/aer/data/10407/20101434_data.zip",
+    "RCT ID": "AEARCTR-0001126"
+  },
+  "664": {
+    "Title": "Who Gets the Job Referral? Evidence from a Social Networks Experiment",
+    "Public Data URL": "https://www.aeaweb.org/aer/data/dec2012/20110226_data.zip",
+    "RCT ID": "AEARCTR-0001127"
+  },
+  "665": {
+    "Title": "Does the Media Matter? A Field Experiment Measuring the Effect of Newspapers on Voting Behavior and Political Opinions",
+    "Public Data URL": "https://www.aeaweb.org/articles.php?doi=10.1257/app.1.2.35",
+    "RCT ID": "AEARCTR-0001128"
+  },
+  "666": {
+    "Title": "Put Your Money Where Your Butt Is: A Commitment Contract for Smoking Cessation",
+    "Public Data URL": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/28273",
+    "RCT ID": "AEARCTR-0001129"
+  },
+  "667": {
+    "Title": "Small individual loans and mental health: a randomized controlled trial among South African adults",
+    "Public Data URL": "http://www.dartmouth.edu/~jzinman/Papers/KZexpandaccess_rsa_public.dta",
+    "RCT ID": "AEARCTR-0001132"
+  },
+  "668": {
+    "Title": "Teaching entrepreneurship: Impact of business training on microfinance clients and institutions ",
+    "Public Data URL": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/27985",
+    "RCT ID": "AEARCTR-0001133"
+  },
+  "670": {
+    "Title": "Does Price Matter in Charitable Giving? Evidence from a Large-Scale Natural Field Experiment",
+    "Public Data URL": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/27853&amp;versionNumber=4",
+    "RCT ID": "AEARCTR-0001135"
+  },
+  "678": {
+    "Title": "Why Do Skilled Immigrants Struggle in the Labor Market? A Field Experiment with Thirteen Thousand Resumes",
+    "Public Data URL": "https://www.aeaweb.org/aej/pol/data/2009-0150_data.zip",
+    "RCT ID": "AEARCTR-0001149"
+  },
+  "685": {
+    "Title": "Price Subsidies, Diagnostic Tests, and Targeting of Malaria Treatment: Evidence from a Randomized Controlled Trial",
+    "Public Data URL": "https://www.aeaweb.org/aer/data/10502/20130267_data.zip",
+    "RCT ID": "AEARCTR-0001161"
+  },
+  "689": {
+    "Title": "Under-investment in a Profitable Technology: The Case of Seasonal Migration in Bangladesh",
+    "Public Data URL": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/28277",
+    "RCT ID": "AEARCTR-0001165"
+  },
+  "691": {
+    "Title": "Free distribution or cost-sharing? Evidence from a randomized malaria prevention experiment.",
+    "Public Data URL": "http://web.stanford.edu/~pdupas/CohenDupas_QJE2010_data&amp;code.zip",
+    "RCT ID": "AEARCTR-0001167"
+  },
+  "692": {
+    "Title": "Why Don’t the Poor Save More? Evidence from Health Savings Experiments",
+    "Public Data URL": "http://www.aeaweb.org/aer/data/june2013/20110911_data.zip",
+    "RCT ID": "AEARCTR-0001169"
+  },
+  "699": {
+    "Title": "The Demand for Medical Male Circumcision",
+    "Public Data URL": "https://www.aeaweb.org/articles?id=10.1257/app.6.2.152",
+    "RCT ID": "AEARCTR-0001180"
+  },
+  "701": {
+    "Title": "Education as Liberation?",
+    "Public Data URL": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/81NOQY",
+    "RCT ID": "AEARCTR-0001183"
+  },
+  "703": {
+    "Title": "Experimental Evidence on the Effects of Home Computers on Academic Achievement among Schoolchildren",
+    "Public Data URL": "https://www.aeaweb.org/aej/app/data/2012-0400_data.zip",
+    "RCT ID": "AEARCTR-0001185"
+  },
+  "709": {
+    "Title": "Improving immunisation coverage in rural India: clustered randomised controlled evaluation of immunization campaigns with and without incentives",
+    "Public Data URL": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=hdl:1902.1/15088&amp;studyListingIndex=2_e245865baf159b16f18584fe3f8f",
+    "RCT ID": "AEARCTR-0001193"
+  },
+  "710": {
+    "Title": "Putting a Band-Aid on a corpse: Incentives for nurses in the Indian public health care system",
+    "Public Data URL": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=hdl:1902.1/RKYSWXPPAC",
+    "RCT ID": "AEARCTR-0001194"
+  },
+  "717": {
+    "Title": "Can employment reduce lawlessness and rebellion? A field experiment with high-risk men in a fragile state",
+    "Public Data URL": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/11R0LX",
+    "RCT ID": "AEARCTR-0001203"
+  },
+  "721": {
+    "Title": "Private Information and the Allocation of Land Use Subsidies in Malawi",
+    "Public Data URL": "https://www.aeaweb.org/aej/app/data/2012-0207_data.zip",
+    "RCT ID": "AEARCTR-0001207"
+  },
+  "722": {
+    "Title": "The Impact of Soft-Skills Training for entrepreneurs in Jamaica.",
+    "Public Data URL": "https://doi.org/10.7910/DVN/C5SDO8",
+    "RCT ID": "AEARCTR-0001208"
+  },
+  "727": {
+    "Title": "Preventing intimate-partner violence: Impact Evaluation of Engaging Men through Accountable Practice in Eastern DRC",
+    "Public Data URL": "https://microdata.worldbank.org/index.php/catalog/4773",
+    "RCT ID": "AEARCTR-0001218"
+  },
+  "733": {
+    "Title": "The returns to cash and microenterprise support among the ultra-poor: A field experiment",
+    "Public Data URL": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/QA0R1O",
+    "RCT ID": "AEARCTR-0001225"
+  },
+  "734": {
+    "Title": "Incentives Work: Getting Teachers to Come to School",
+    "Public Data URL": "https://www.aeaweb.org/aer/data/june2012/20081207_data.zip",
+    "RCT ID": "AEARCTR-0001226"
+  },
+  "741": {
+    "Title": "Behind the GATE Experiment: Evidence on Effects of and Rationales for Subsidized Entrepreneurship Training",
+    "Public Data URL": "https://www.aeaweb.org/aej/pol/data/0702/2012-0337_data.zip",
+    "RCT ID": "AEARCTR-0001234"
+  },
+  "742": {
+    "Title": "Field Experiments Testing the Impact of Radio Advertisements on Electoral Competition",
+    "Public Data URL": "http://isps.yale.edu/research/data/d042#.Uv6LU_ldWBU",
+    "RCT ID": "AEARCTR-0001235"
+  },
+  "754": {
+    "Title": "A 20-year Follow-Up to an Early Childhood Stimulation Program in Jamaica",
+    "Public Data URL": "http://doi.org/10.3886/E2402V5",
+    "RCT ID": "AEARCTR-0001284"
+  },
+  "760": {
+    "Title": "Turning a Shove into a Nudge? A \"Labeled Cash Transfer\" for Education",
+    "Public Data URL": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/29014",
+    "RCT ID": "AEARCTR-0001291"
+  },
+  "766": {
+    "Title": "Interest Rates and Consumer Credit in South Africa",
+    "Public Data URL": "https://www.aeaweb.org/aer/data/june08/20070848_data.zip",
+    "RCT ID": "AEARCTR-0001298"
+  },
+  "768": {
+    "Title": "Household Welfare Effects of Street Paving in Mexico",
+    "Public Data URL": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/6TC8RO",
+    "RCT ID": "AEARCTR-0001300"
+  },
+  "769": {
+    "Title": "Peer Effects, Pupil-Teacher Ratios, and Teacher Incentives in Kenya",
+    "Public Data URL": "http://dvn.iq.harvard.edu/dvn/dv/mit/faces/study/StudyPage.xhtml?globalId=hdl:1902.1/16787&amp;studyListingIndex=1_8bf27802c97f7947da43a2c8dc1a",
+    "RCT ID": "AEARCTR-0001304"
+  },
+  "775": {
+    "Title": "The Role of Information in Agricultural Technology Adoption: Experimental Evidence from Rice Farmers in Uganda",
+    "Public Data URL": "https://bitbucket.org/bjvca/ricerct/src/e0d5b1ddfd9647547c71cbeb33f0e4f4764534c5/endline/data/raw_final_noID.csv?at=master&amp;fileviewer=file-view-default",
+    "RCT ID": "AEARCTR-0001312"
+  },
+  "778": {
+    "Title": "Marketing Effects in a Consumer Credit Market in South Africa",
+    "Public Data URL": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/II4HDS",
+    "RCT ID": "AEARCTR-0001319"
+  },
+  "781": {
+    "Title": "Technology Adoption and Public Good Provision: Evidence from Hillside Irrigation in Rwanda",
+    "Public Data URL": "https://www.openicpsr.org/openicpsr/project/159061/version/V1/view",
+    "RCT ID": "AEARCTR-0001323"
+  },
+  "783": {
+    "Title": "Insurance, Credit, and Technology Adoption: Field Experimental Evidence from Malawi",
+    "Public Data URL": "http://microdata.worldbank.org/index.php/catalog/1541",
+    "RCT ID": "AEARCTR-0001327"
+  },
+  "784": {
+    "Title": "Measuring Vote-Selling: Field Evidence from the Philippines",
+    "Public Data URL": "https://www.aeaweb.org/articles?id=10.1257/aer.p20151033",
+    "RCT ID": "AEARCTR-0001328"
+  },
+  "786": {
+    "Title": "Credit Market Consequences of Improved Personal Identification: Field Experimental Evidence from Malawi",
+    "Public Data URL": "https://www.aeaweb.org/articles?id=10.1257/aer.102.6.2923",
+    "RCT ID": "AEARCTR-0001330"
+  },
+  "791": {
+    "Title": "The Impact of Eyeglasses on the Academic Performance of Primary School Students in China",
+    "Public Data URL": "http://www.sciencedirect.com/science/article/pii/S0304387816300402#MMCvFirst",
+    "RCT ID": "AEARCTR-0001336"
+  },
+  "792": {
+    "Title": "Savings in Transnational Households: A Field Experiment Among Migrants from El Salvador",
+    "Public Data URL": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/27431",
+    "RCT ID": "AEARCTR-0001339"
+  },
+  "798": {
+    "Title": "Direct Democracy and Local Public Goods in Indonesia",
+    "Public Data URL": "http://econ-www.mit.edu/files/5584",
+    "RCT ID": "AEARCTR-0001348"
+  },
+  "802": {
+    "Title": "Estimating the Impact on the Lender's Bottom Line and Borrowers' Household Welfare of Expanding the Supply of Consumer Credit to the Working Poor in South Africa",
+    "Public Data URL": "http://www.aeaweb.org/aer/data/june08/20070848_data.zip",
+    "RCT ID": "AEARCTR-0001354"
+  },
+  "805": {
+    "Title": "Do Opposites Detract? Intrahousehold Preference Heterogeneity and Inefficient Strategic Savings",
+    "Public Data URL": "https://www.aeaweb.org/articles?id=10.1257/app.20130271",
+    "RCT ID": "AEARCTR-0001358"
+  },
+  "808": {
+    "Title": "Police Performance and Public Perception in Rajasthan, India",
+    "Public Data URL": "http://dvn.iq.harvard.edu/dvn/dv/jpal",
+    "RCT ID": "AEARCTR-0001362"
+  },
+  "821": {
+    "Title": "Election Fraud and Government Legitimacy in Afghanistan",
+    "Public Data URL": "https://www.aeaweb.org/aer/data/10501/20120427_data.zip",
+    "RCT ID": "AEARCTR-0001378"
+  },
+  "846": {
+    "Title": "Business Training for Women in Ahmedabad, India",
+    "Public Data URL": "https://www.aeaweb.org/articles?id=10.1257/aer.100.2.125",
+    "RCT ID": "AEARCTR-0001428"
+  },
+  "848": {
+    "Title": "Do Robotic Calls from Credible Sources Influence Voter Turnout or Vote Choice?",
+    "Public Data URL": "http://isps.yale.edu/research/data/d044#.V4qP_5MrKYV",
+    "RCT ID": "AEARCTR-0001430"
+  },
+  "850": {
+    "Title": "Preventing HIV and Teen Pregnancy in Kenya: The Roles of Teacher Training and Education Subsidies",
+    "Public Data URL": "https://www.aeaweb.org/aer/data/10509/20121607_data.zip",
+    "RCT ID": "AEARCTR-0001432"
+  },
+  "855": {
+    "Title": "Community Reconciliation in Sierra Leone",
+    "Public Data URL": "https://www.openicpsr.org/openicpsr/project/100193/version/V1/view",
+    "RCT ID": "AEARCTR-0001439"
+  },
+  "861": {
+    "Title": "Impact of Rainfall Insurance on Farmer Behavior in India",
+    "Public Data URL": "https://94f88122fb57bdb66436edca44e200e62c8f2fca.googledrive.com/host/0B1pYd9GqkTWjd0stNEp5djVEVHc/RF_Investment.zip",
+    "RCT ID": "AEARCTR-0001452"
+  },
+  "870": {
+    "Title": "The Profitability of Fertilizer in Mali",
+    "Public Data URL": "https://www.aeaweb.org/articles?id=10.1257/aer.103.3.381&amp;within%5Btitle%5D=on&amp;journal=1&amp;q=Profitability+of+Fertilizer&amp;from=j",
+    "RCT ID": "AEARCTR-0001466"
+  },
+  "872": {
+    "Title": "Evidence on Performance-Based Pay from School-Based Nutrition Programs in Rural China",
+    "Public Data URL": "http://www.nber.org/data-appendix/w21302/",
+    "RCT ID": "AEARCTR-0001469"
+  },
+  "873": {
+    "Title": "Moving to Opportunity or Isolation? Network Effects of a Slum Relocation Program in India",
+    "Public Data URL": "https://www.aeaweb.org/articles?id=10.1257/app.20150397&amp;&amp;from=f",
+    "RCT ID": "AEARCTR-0001470"
+  },
+  "895": {
+    "Title": " Partnership Schools for Liberia (PSL) program evaluation",
+    "Public Data URL": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/5OPIYU",
+    "RCT ID": "AEARCTR-0001501"
+  },
+  "924": {
+    "Title": "The Impact of Women's Political Reservation on Early Childhood Development and Learning in India",
+    "Public Data URL": "http://www.younglives.org.uk/",
+    "RCT ID": "AEARCTR-0001584"
+  },
+  "928": {
+    "Title": "Cooking Stoves, Indoor Air Pollution, and Respiratory Health in India",
+    "Public Data URL": "https://www.aeaweb.org/articles?id=10.1257/pol.20140008",
+    "RCT ID": "AEARCTR-0001589"
+  },
+  "931": {
+    "Title": "Savings Constraints and Microenterprise Development: Evidence from a Field Experiment in Kenya ",
+    "Public Data URL": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/EXL9DX",
+    "RCT ID": "AEARCTR-0001592"
+  },
+  "932": {
+    "Title": "Intergenerational Conflict and Schooling Decisions in Brazil",
+    "Public Data URL": "http://www.journals.uchicago.edu/doi/suppl/10.1086/666746/suppl_file/2011123data.zip",
+    "RCT ID": "AEARCTR-0001596"
+  },
+  "936": {
+    "Title": "The Effect of Information and Subsidies on Chlorine Usage in Zambia",
+    "Public Data URL": "http://dx.doi.org/10.1016/j.jebo.2012.12.031",
+    "RCT ID": "AEARCTR-0001600"
+  },
+  "937": {
+    "Title": "Teaching the Tax Code: Earnings Responses to an Experiment with EITC Recipients",
+    "Public Data URL": "https://www.aeaweb.org/articles?id=10.1257/app.5.1.1",
+    "RCT ID": "AEARCTR-0001601"
+  },
+  "941": {
+    "Title": "Testing Legislator Responsiveness to Citizens and Firms in the Vietnamese National Assembly: A Field Experiment",
+    "Public Data URL": "https://doi.org/10.7910/DVN/4WNEE9;https://doi.org/10.7910/DVN/RXA4JB",
+    "RCT ID": "AEARCTR-0001608"
+  },
+  "944": {
+    "Title": "The Impact of Microfinance on Social Capital and Female Empowerment in India",
+    "Public Data URL": "http://restud.oxfordjournals.org/content/80/4/1459/suppl/DC1",
+    "RCT ID": "AEARCTR-0001613"
+  },
+  "955": {
+    "Title": "Impact of Female Leadership on Aspirations and Educational Attainment for Teenage Girls in India",
+    "Public Data URL": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=hdl:1902.1/17154",
+    "RCT ID": "AEARCTR-0001632"
+  },
+  "956": {
+    "Title": "The Impact of Women Policy Makers on Public Goods in India",
+    "Public Data URL": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=hdl:1902.1/USBFNOMLAT&amp;studyListingIndex=1_8bf27802c97f7947da43a2c8dc1a",
+    "RCT ID": "AEARCTR-0001633"
+  },
+  "957": {
+    "Title": "Perceptions of Female Leaders in India",
+    "Public Data URL": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/PXV79W",
+    "RCT ID": "AEARCTR-0001634"
+  },
+  "958": {
+    "Title": "Impact Evaluation of a Large-Scale Rural Sanitation Project in Indonesia",
+    "Public Data URL": "http://microdata.worldbank.org/index.php/catalog/1554",
+    "RCT ID": "AEARCTR-0001636"
+  },
+  "969": {
+    "Title": "Household Water Connections in Tangier, Morocco",
+    "Public Data URL": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=hdl:1902.1/17950&amp;studyListingIndex=11_c1dcd7dc1b9b8e2b9d0e7baea04f",
+    "RCT ID": "AEARCTR-0001649"
+  },
+  "979": {
+    "Title": "Hiring Discrimination Against Maghrebi Women in the National Capital Region of Quebec, Canada: An Econometric Analysis on Field Experiment Data",
+    "Public Data URL": "https://sites.google.com/site/msimonbriere/research",
+    "RCT ID": "AEARCTR-0001668"
+  },
+  "983": {
+    "Title": "Employment Retention and Advancement Project--Texas Site",
+    "Public Data URL": "http://www.icpsr.umich.edu/icpsrweb/ICPSR/studies/33181",
+    "RCT ID": "AEARCTR-0001674"
+  },
+  "984": {
+    "Title": "The Impact of Social Pressure on Charitable Giving in the United States",
+    "Public Data URL": "http://eml.berkeley.edu/~sdellavi/index.html",
+    "RCT ID": "AEARCTR-0001675"
+  },
+  "1000": {
+    "Title": "Remedying Education: Evidence from two randomized experiments in India \r\n",
+    "Public Data URL": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=hdl:1902.1/QIABTVDYCJ&amp;studyListingIndex=1_32787f682c4ae94e7cc302fdb35a",
+    "RCT ID": "AEARCTR-0001701"
+  },
+  "1001": {
+    "Title": "Can Informational Campaigns Raise Awareness and Local Participation in Primary Education in India?",
+    "Public Data URL": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=hdl:1902.1/13084&amp;studyListingIndex=0_9a58e7e25d9ca74ae19ff8637295",
+    "RCT ID": "AEARCTR-0001702"
+  },
+  "1002": {
+    "Title": "Does Knowledge of Constitutional Principles Increase Support for Civil Liberties in the United States?",
+    "Public Data URL": "http://isps.yale.edu/research/data/d035#.UwuBhoVnjJZ",
+    "RCT ID": "AEARCTR-0001703"
+  },
+  "1010": {
+    "Title": "Social Networks and the Decision to Insure in China",
+    "Public Data URL": "https://www.aeaweb.org/articles?id=10.1257/app.20130442",
+    "RCT ID": "AEARCTR-0001747"
+  },
+  "1011": {
+    "Title": "Nudging Farmers to Use Fertilizer: Experimental Evidence from Kenya",
+    "Public Data URL": "https://www.aeaweb.org/articles?id=10.1257/aer.101.6.2350",
+    "RCT ID": "AEARCTR-0001748"
+  },
+  "1013": {
+    "Title": "Rates of Return to Fertilizer: Evidence from Field Experiments in Kenya",
+    "Public Data URL": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=hdl:1902.1/19699&amp;studyListingIndex=0_54dc4a5abeff3c10bd851427baca",
+    "RCT ID": "AEARCTR-0001750"
+  },
+  "1015": {
+    "Title": "Xenophobia and Social Desirability: MTurk Online Survey",
+    "Public Data URL": "http://doi.org/10.3886/E119846V1",
+    "RCT ID": "AEARCTR-0001752"
+  },
+  "1016": {
+    "Title": "Efficiency and Rent Seeking in Local Government in India",
+    "Public Data URL": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=hdl:1902.1/USBFNOMLAT",
+    "RCT ID": "AEARCTR-0001753"
+  },
+  "1040": {
+    "Title": "Price and Control Elasticities of Demand for Savings in the Philippines",
+    "Public Data URL": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/STTNUF",
+    "RCT ID": "AEARCTR-0001788"
+  },
+  "1054": {
+    "Title": "Finding Missing Markets: An Agricultural Brokerage Intervention in Kenya",
+    "Public Data URL": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910/DVN/PES3RD",
+    "RCT ID": "AEARCTR-0001812"
+  },
+  "1056": {
+    "Title": "Bank-Insured RoSCA for Microfinance: Experimental Evidence in Poor Egyptian Villages",
+    "Public Data URL": "http://erfdataportal.com/index.php/catalog/45",
+    "RCT ID": "AEARCTR-0001814"
+  },
+  "1067": {
+    "Title": "Increasing students' aspirations: the impact of a role model on students' educational attainment ",
+    "Public Data URL": "https://doi.org/10.7910/DVN/RU4RS0",
+    "RCT ID": "AEARCTR-0001832"
+  },
+  "1070": {
+    "Title": "Impact of disbursing microfinance loans on mobile money accounts",
+    "Public Data URL": "https://www.openicpsr.org/openicpsr/project/194886/version/V2/view",
+    "RCT ID": "AEARCTR-0001836"
+  },
+  "1071": {
+    "Title": "National Evaluation of Welfare-to-Work Strategies (NEWWS)",
+    "Public Data URL": "https://aspe.hhs.gov/national-evaluation-welfare-work-strategies-restricted-access-and-public-use-data",
+    "RCT ID": "AEARCTR-0001839"
+  },
+  "1074": {
+    "Title": "Voting to Tell Others",
+    "Public Data URL": "http://eml.berkeley.edu/~sdellavi/index.html",
+    "RCT ID": "AEARCTR-0001842"
+  },
+  "1078": {
+    "Title": "Clinical Decision Support (CDS) for Radiology Imaging: A Randomized Control Trial",
+    "Public Data URL": "https://doi.org/10.7910/DVN/BRKDVQ",
+    "RCT ID": "AEARCTR-0001846"
+  },
+  "1085": {
+    "Title": "Research as Leisure: Experimental Evidence on Voluntary Contributions to Science",
+    "Public Data URL": "https://library.ucsd.edu/dc/object/bb70016196",
+    "RCT ID": "AEARCTR-0001854"
+  },
+  "1086": {
+    "Title": "When Castes Collide: A Field Experiment in India",
+    "Public Data URL": "https://www.openicpsr.org/openicpsr/project/128201/version/V1/view",
+    "RCT ID": "AEARCTR-0001856"
+  },
+  "1092": {
+    "Title": "Preferences of Low-Income Voters on Public Education Spending in Brazil",
+    "Public Data URL": "http://onlinelibrary.wiley.com/store/10.1111/jeea.12174/asset/supinfo/jeea12174-sup-0001-SuppMat.zip?v=1&amp;s=837f964330d9ef426e60097bfc162dc2024030af",
+    "RCT ID": "AEARCTR-0001866"
+  },
+  "1095": {
+    "Title": "The Effect of Academic Achievement Awards on College Success in Canada",
+    "Public Data URL": "http://economics.mit.edu/faculty/angrist/data1/data/angrist,",
+    "RCT ID": "AEARCTR-0001876"
+  },
+  "1103": {
+    "Title": "Limited Insurance Within the Household in Kenya",
+    "Public Data URL": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/0QZA4C",
+    "RCT ID": "AEARCTR-0001893"
+  },
+  "1112": {
+    "Title": "The Case of College Coaching in the United States",
+    "Public Data URL": "https://www.aeaweb.org/articles?id=10.1257/app.20150530",
+    "RCT ID": "AEARCTR-0001913"
+  },
+  "1119": {
+    "Title": "Conditional Subsidies for School Attendance (“Subsidios\r\nCondicionados a la Asistencia Escolar”) in Bogota, Colombia",
+    "Public Data URL": "https://www-aeaweb-org.ezp-prod1.hul.harvard.edu/aej/app/data/2010-0132_data.zip",
+    "RCT ID": "AEARCTR-0001930"
+  },
+  "1135": {
+    "Title": "Dynamic Agricultural Tablet-based Extension Services: Electronic solutions against agricultural pests intervention (eSAP)",
+    "Public Data URL": "https://reshare.ukdataservice.ac.uk/853079/",
+    "RCT ID": "AEARCTR-0001961"
+  },
+  "1137": {
+    "Title": "Reading the Fine Print: Credit Demand and Information Disclosure in Brazil",
+    "Public Data URL": "http://pubsonline.informs.org/doi/suppl/10.1287/mnsc.2015.2281",
+    "RCT ID": "AEARCTR-0001964"
+  },
+  "1143": {
+    "Title": "Does Corruption Information Inspire the Fight or Quash the Hope? A Field Experiment in Mexico on Voter Turnout, Choice, and Party Identification",
+    "Public Data URL": "http://campuspress.yale.edu/anadelao/files/2010/11/Replication-files-24ft7wz.zip",
+    "RCT ID": "AEARCTR-0001973"
+  },
+  "1145": {
+    "Title": "National Supported Work Demonstration",
+    "Public Data URL": "http://www.icpsr.umich.edu/icpsrweb/ICPSR/studies/7865",
+    "RCT ID": "AEARCTR-0001975"
+  },
+  "1149": {
+    "Title": "Are High-Quality Schools Enough to Increase Achievement Among the Poor? Evidence from the Harlem Children’s Zone",
+    "Public Data URL": "http://www.aeaweb.org/aej/app/data/2010-0191_data.zip",
+    "RCT ID": "AEARCTR-0001984"
+  },
+  "1156": {
+    "Title": "Islamophobia, Legitimacy and Social Desirability: MTurk Online Survey",
+    "Public Data URL": "http://doi.org/10.3886/E119846V1",
+    "RCT ID": "AEARCTR-0001994"
+  },
+  "1172": {
+    "Title": "Legitimacy And Social Desirability: MTurk Online Survey",
+    "Public Data URL": "http://doi.org/10.3886/E119846V1",
+    "RCT ID": "AEARCTR-0002028"
+  },
+  "1186": {
+    "Title": "Minnesota Family Investment Program",
+    "Public Data URL": "http://www.mdrc.org/available-public-use-files#bookmark5",
+    "RCT ID": "AEARCTR-0002050"
+  },
+  "1189": {
+    "Title": "Jobs First",
+    "Public Data URL": "http://www.mdrc.org/available-public-use-files#bookmark4",
+    "RCT ID": "AEARCTR-0002055"
+  },
+  "1190": {
+    "Title": "Welfare Restructuring Project",
+    "Public Data URL": "http://www.mdrc.org/available-public-use-files#bookmark3",
+    "RCT ID": "AEARCTR-0002058"
+  },
+  "1197": {
+    "Title": "Family Transition Program",
+    "Public Data URL": "http://www.mdrc.org/available-public-use-files#bookmark6",
+    "RCT ID": "AEARCTR-0002069"
+  },
+  "1208": {
+    "Title": "Working toward Wellness",
+    "Public Data URL": "http://www.icpsr.umich.edu/icpsrweb/ICPSR/studies/33782",
+    "RCT ID": "AEARCTR-0002084"
+  },
+  "1210": {
+    "Title": "Transitional Work Corporation/Success Through Employment Preparation",
+    "Public Data URL": "http://www.icpsr.umich.edu/icpsrweb/ICPSR/studies/33784",
+    "RCT ID": "AEARCTR-0002087"
+  },
+  "1239": {
+    "Title": "Estimating the Demand for Entrepreneurship Programs: Experimental Evidence from Jamaica.",
+    "Public Data URL": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/2TW2XG",
+    "RCT ID": "AEARCTR-0002130"
+  },
+  "1255": {
+    "Title": "ICT-mediated agricultural knowledge transfer in Uganda: What works?",
+    "Public Data URL": "https://github.com/bjvca/maizeUG/blob/master/endline/data/endline.csv",
+    "RCT ID": "AEARCTR-0002153"
+  },
+  "1292": {
+    "Title": "Messaging and Low-income Solar Adoption",
+    "Public Data URL": "https://github.com/MartenOvaere/Self_Interest_Attracts_More_Sunlight",
+    "RCT ID": "AEARCTR-0002218"
+  },
+  "1295": {
+    "Title": "Management and energy efficiency in a Chinese manufacturing cluster",
+    "Public Data URL": "https://doi.org/10.7910/DVN/AWLTYI",
+    "RCT ID": "AEARCTR-0002221"
+  },
+  "1336": {
+    "Title": "Shelter from the Storm: Upgrading Housing Infrastructure in Latin American Slums",
+    "Public Data URL": "https://www.dropbox.com/sh/5eurav73h7khtn5/AACUtB-w8cSuPeDcjVcKVApVa?dl=0",
+    "RCT ID": "AEARCTR-0002271"
+  },
+  "1350": {
+    "Title": "The Effects of Working while in School: Evidence from Employment Lotteries",
+    "Public Data URL": "https://www.openicpsr.org/openicpsr/project/151261/version/V1/view",
+    "RCT ID": "AEARCTR-0002287"
+  },
+  "1370": {
+    "Title": "Land Tenure and Agricultural Investment",
+    "Public Data URL": "https://doi.org/10.1016/j.jdeveco.2021.102632",
+    "RCT ID": "AEARCTR-0002315"
+  },
+  "1378": {
+    "Title": "Learning accountability: Can formal education help hold politicians to account?",
+    "Public Data URL": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/QAJQXP",
+    "RCT ID": "AEARCTR-0002324"
+  },
+  "1404": {
+    "Title": "What Motivates Political Activists? Evidence From a Field Experiment",
+    "Public Data URL": "https://doi.org/10.5281/zenodo.7663389\rhttps://doi.org/10.7910/DVN/2KLNFX",
+    "RCT ID": "AEARCTR-0002358"
+  },
+  "1421": {
+    "Title": "THE HALF-LIFE OF HAPPINESS: HEDONIC ADAPTATION IN THE SUBJECTIVE WELL-BEING OF POOR SLUM DWELLERS TO THE SATISFACTION OF BASIC HOUSING NEEDS",
+    "Public Data URL": "https://www.dropbox.com/sh/bul7udmpb9b0rbq/AAA1ufxi7Ak68D12MloLQyoIa?dl=0",
+    "RCT ID": "AEARCTR-0002380"
+  },
+  "1438": {
+    "Title": "Experimental games to teach farmers about weather index insurance",
+    "Public Data URL": "https://onlinelibrary.wiley.com/doi/abs/10.1111/ajae.12124?af=R",
+    "RCT ID": "AEARCTR-0002401"
+  },
+  "1458": {
+    "Title": "Teaching with the test: Experimental Evidence on Diagnostic Feedback and Capacity-Building for Public Schools in Argentina",
+    "Public Data URL": "http://larioja2016.wixsite.com/larioja",
+    "RCT ID": "AEARCTR-0002434"
+  },
+  "1491": {
+    "Title": "Behavioral barriers to energy efficiency adoption in Kenya: evidence from cookstoves",
+    "Public Data URL": "https://doi.org/10.3886/E166661V1",
+    "RCT ID": "AEARCTR-0002484"
+  },
+  "1496": {
+    "Title": "On the mechanics of the political resource curse: information and local elite behaviour in Mozambique",
+    "Public Data URL": "https://doi.org/10.1257/aer.20190842",
+    "RCT ID": "AEARCTR-0002493"
+  },
+  "1497": {
+    "Title": "Sleepless in Chennai: The Consequences of Sleep Deprivation Among the Urban Poor",
+    "Public Data URL": "https://doi.org/10.7910/DVN/GJ9QPC",
+    "RCT ID": "AEARCTR-0002494"
+  },
+  "1503": {
+    "Title": "The Math for Parents and Children Together Project",
+    "Public Data URL": "https://www.openicpsr.org/openicpsr/project/176341/version/V2/view",
+    "RCT ID": "AEARCTR-0002512"
+  },
+  "1571": {
+    "Title": "Impact of participation in a farming contract on rice farmers’ livelihood in Benin: A Randomized Control Trial approach",
+    "Public Data URL": "https://doi.org/10.1016/j.jdeveco.2021.102626",
+    "RCT ID": "AEARCTR-0002619"
+  },
+  "1579": {
+    "Title": "Evaluation of Big Word Club",
+    "Public Data URL": "https://sites.google.com/view/bip-bwc-online-appendix/home",
+    "RCT ID": "AEARCTR-0002631"
+  },
+  "1625": {
+    "Title": "Unpacking a Multi-Faceted Program to Build Sustainable Income for the Very Poor",
+    "Public Data URL": "https://doi.org/10.7910/DVN/AY2MMB",
+    "RCT ID": "AEARCTR-0002689"
+  },
+  "1645": {
+    "Title": "Girl Empower",
+    "Public Data URL": "https://microdata.worldbank.org/index.php/catalog/3870",
+    "RCT ID": "AEARCTR-0002717"
+  },
+  "1671": {
+    "Title": "Access to safe drinking water Experimental evidence from new water sources in Bangladesh",
+    "Public Data URL": "https://doi.org/10.7910/DVN/JM63QP",
+    "RCT ID": "AEARCTR-0002755"
+  },
+  "1679": {
+    "Title": "Governance Structures and the Promotion of the Public Interest: Evidence from Brazilian Resource-Scarce Communities",
+    "Public Data URL": "https://osf.io/sg49y",
+    "RCT ID": "AEARCTR-0002765"
+  },
+  "1683": {
+    "Title": "Building High-Growth Firms Through Training the Owner vs Through Linking the Firm to Business Service Markets\r\n",
+    "Public Data URL": "https://microdata.worldbank.org/index.php/catalog/4033",
+    "RCT ID": "AEARCTR-0002769"
+  },
+  "1702": {
+    "Title": "Accelerating Science-based Growth Through Co-innovation",
+    "Public Data URL": "https://www.researchgate.net/profile/Ferran_Giones/publication/332259155_Data_from_the_Pilot_Study_-_baseline_and_follow-up_-_Project_IGL_Co-Innovation_2018/data/5caa3f9992851c64bd57aa78/IGL-Co-innovation-Anon-Data.xlsx",
+    "RCT ID": "AEARCTR-0002793"
+  },
+  "1704": {
+    "Title": "Close contact, Trust, and Interethnic Friendship  - A large scale field experiment of Roma desk mates in Hungarian schools",
+    "Public Data URL": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/NQKPGY",
+    "RCT ID": "AEARCTR-0002795"
+  },
+  "1708": {
+    "Title": "Policy Promises",
+    "Public Data URL": "https://doi.org/10.1017/S0003055421001155",
+    "RCT ID": "AEARCTR-0002799"
+  },
+  "1716": {
+    "Title": "Do Management Interventions Last? Evidence from India",
+    "Public Data URL": "https://datacatalog.worldbank.org/int/search/dataset/0048381/India---Replication-Files-for--Do-Management-Interventions-Last--Evidence-from-India--2017",
+    "RCT ID": "AEARCTR-0002808"
+  },
+  "1759": {
+    "Title": "Maternal Cash Transfers and Child Health: Evidence from India",
+    "Public Data URL": "https://doi.org/10.7910/DVN/VAFYV1",
+    "RCT ID": "AEARCTR-0002899"
+  },
+  "1781": {
+    "Title": "Individualized Self-learning Program to Improve Primary Education: Evidence from a Randomized Field Experiment in Bangladesh",
+    "Public Data URL": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/OADRDM",
+    "RCT ID": "AEARCTR-0002925"
+  },
+  "1829": {
+    "Title": "Heterogeneity of Experimental Findings: Evidence from Real-Effort Tasks",
+    "Public Data URL": "https://www.openicpsr.org/openicpsr/project/135221/version/V1/view",
+    "RCT ID": "AEARCTR-0002987"
+  },
+  "1874": {
+    "Title": "Are the Referees and Editors in Economics Gender Neutral?",
+    "Public Data URL": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/LYMVHH",
+    "RCT ID": "AEARCTR-0003048"
+  },
+  "1905": {
+    "Title": "Hidden Income and the Perceived Returns to Migration",
+    "Public Data URL": "https://doi.org/10.3886/E176081V1",
+    "RCT ID": "AEARCTR-0003101"
+  },
+  "1913": {
+    "Title": "Information and Public Service Provision: Experimental Evidence from School WASH Services in Bangladesh",
+    "Public Data URL": "https://doi.org/10.7910/DVN/U9I4Z2",
+    "RCT ID": "AEARCTR-0003111"
+  },
+  "1917": {
+    "Title": "Color me Honest! Time Pressure and (Dis-)Honest Behavior",
+    "Public Data URL": "https://github.com/carinahausladen/color-me-honest",
+    "RCT ID": "AEARCTR-0003115"
+  },
+  "1921": {
+    "Title": "Interactive versus non-interactive implementations of \"Dictator Games\"",
+    "Public Data URL": "https://osf.io/fsg52/",
+    "RCT ID": "AEARCTR-0003121"
+  },
+  "1936": {
+    "Title": "Poverty and Migration in the Digital Age: Experimental Evidence on Mobile Banking in Bangladesh",
+    "Public Data URL": "https://www.openicpsr.org/openicpsr/project/112186/version/V1/view",
+    "RCT ID": "AEARCTR-0003149"
+  },
+  "1997": {
+    "Title": "Evaluation of the Red de Protección Social Conditional Cash Transfer Program in Nicaragua",
+    "Public Data URL": "http://ebrary.ifpri.org/cdm/ref/collection/p15738coll3/id/47",
+    "RCT ID": "AEARCTR-0003243"
+  },
+  "2065": {
+    "Title": "Bangladesh Chars Tobacco Assessment Project (CTAP) 2018",
+    "Public Data URL": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/YAAV4X",
+    "RCT ID": "AEARCTR-0003344"
+  },
+  "2075": {
+    "Title": "Engendering Policing: Evaluating Reforms to Increase Women’s Access to Security and Justice",
+    "Public Data URL": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/R75XVZ",
+    "RCT ID": "AEARCTR-0003357"
+  },
+  "2077": {
+    "Title": "Does work effort for public versus private organizations differ? Evidence from an online work task experiment ",
+    "Public Data URL": "https://osf.io/8f95q/",
+    "RCT ID": "AEARCTR-0003361"
+  },
+  "2103": {
+    "Title": "Designing and Evaluating Behavior Change Interventions to Improve the Adoption and Use of Improved Cookstoves",
+    "Public Data URL": "https://osf.io/b5asn/",
+    "RCT ID": "AEARCTR-0003400"
+  },
+  "2105": {
+    "Title": "Anchoring bias in markets",
+    "Public Data URL": "https://github.com/KonstantinosIoannidis/Anchoring/tree/master/Data",
+    "RCT ID": "AEARCTR-0003402"
+  },
+  "2113": {
+    "Title": "Narrow Bracketing in Effort Choices",
+    "Public Data URL": "https://github.com/MarcKaufmann/narrow-bracketing-in-work-choices",
+    "RCT ID": "AEARCTR-0003412"
+  },
+  "2134": {
+    "Title": "Does monitoring adversely affect worker performance? Evidence from a natural field experiment",
+    "Public Data URL": "https://osf.io/r9atb/",
+    "RCT ID": "AEARCTR-0003475"
+  },
+  "2147": {
+    "Title": "Promoting Educational Success with Socio-emotional Skills Training",
+    "Public Data URL": "https://zenodo.org/records/10561109",
+    "RCT ID": "AEARCTR-0003496"
+  },
+  "2167": {
+    "Title": "Strategic Behavior, Learning and Technology Adoption",
+    "Public Data URL": "https://microdata.worldbank.org",
+    "RCT ID": "AEARCTR-0003521"
+  },
+  "2188": {
+    "Title": "The Distribution of 1st and 2nd Rolls in Lying Experiments: Distinguishing Between Competing Theories",
+    "Public Data URL": "https://doi.org/10.7910/DVN/OXOGY3",
+    "RCT ID": "AEARCTR-0003547"
+  },
+  "2193": {
+    "Title": "Decentralization and Local Public Goods: How does allocation of decision-­making authority affect provision?",
+    "Public Data URL": "https://doi.org/10.1016/j.jdeveco.2020.102609",
+    "RCT ID": "AEARCTR-0003555"
+  },
+  "2450": {
+    "Title": "Preferences for Religious Giving - follow-up",
+    "Public Data URL": "https://doi.org/10.7910/DVN/KVFRFO",
+    "RCT ID": "AEARCTR-0003989"
+  },
+  "2455": {
+    "Title": "A Pair-Matched Randomized Evaluation of Faith-Based Couples Counseling in Uganda",
+    "Public Data URL": "https://doi.org/10.7910/DVN/9TEAIV",
+    "RCT ID": "AEARCTR-0003994"
+  },
+  "2502": {
+    "Title": "Statistical or Taste-Based Discrimination? Evidence on the Basis for Race and Gender Biases in Citizens’ Choice of Service Provider",
+    "Public Data URL": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/5EJ0FG",
+    "RCT ID": "AEARCTR-0004050"
+  },
+  "2515": {
+    "Title": "Social preferences and refugee integration in Jordan",
+    "Public Data URL": "https://doi.org/10.7910/DVN/QA1IDU",
+    "RCT ID": "AEARCTR-0004063"
+  },
+  "2542": {
+    "Title": "Fresh Food Farmacy: A Randomized Controlled Trial",
+    "Public Data URL": "https://doi.org/10.7910/DVN/LZUTU0",
+    "RCT ID": "AEARCTR-0004098"
+  },
+  "2661": {
+    "Title": "Adaptive Treatment Assignment for Policy Choice: Phone Enrollment for an Agricultural Extension Service",
+    "Public Data URL": "https://www.econometricsociety.org/content/supplement-adaptive-treatment-assignment-experiments-policy-choice",
+    "RCT ID": "AEARCTR-0004263"
+  },
+  "2693": {
+    "Title": "Social interactions, framing, and the disposition effect",
+    "Public Data URL": "https://doi.org/10.17605/OSF.IO/348YZ",
+    "RCT ID": "AEARCTR-0004304"
+  },
+  "2701": {
+    "Title": "Complexity and Under-vs. Overreaction in Expectation Formation",
+    "Public Data URL": "https://drive.google.com/file/d/1J4unQ1RbmL8cOah4TD12JYgb91uDrgtd/view",
+    "RCT ID": "AEARCTR-0004316"
+  },
+  "2745": {
+    "Title": "Risk taking on behalf of others - the importance of uncertainty revelation",
+    "Public Data URL": "https://doi.org/10.7910/DVN/YCRFK1",
+    "RCT ID": "AEARCTR-0004403"
+  },
+  "2798": {
+    "Title": "Mindsets: The Influence of Intelligence Theories on Educational Outcomes",
+    "Public Data URL": "https://hdl.handle.net/10438.3/FK2/PGIFU0",
+    "RCT ID": "AEARCTR-0004479"
+  },
+  "2813": {
+    "Title": "Risk aversion, earning uncertainty and labour supply",
+    "Public Data URL": "https://reshare.ukdataservice.ac.uk/854567/",
+    "RCT ID": "AEARCTR-0004499"
+  },
+  "2854": {
+    "Title": "Attractive Flu Shot: A Behavioral Approach to Increasing Influenza Vaccination Uptake Rates",
+    "Public Data URL": "https://github.com/sarid-ins/attractive_flu_shot_v2",
+    "RCT ID": "AEARCTR-0004584"
+  },
+  "2906": {
+    "Title": "Temptation: Immediacy and certainty",
+    "Public Data URL": "https://doi.org/10.17605/OSF.IO/ZE3WJ",
+    "RCT ID": "AEARCTR-0004651"
+  },
+  "2949": {
+    "Title": "Spillovers of Payments for Ecosystem Services: Follow-up of a RCT in Uganda",
+    "Public Data URL": "http://doi.org/10.17605/OSF.IO/Q4YEM",
+    "RCT ID": "AEARCTR-0004714"
+  },
+  "2952": {
+    "Title": "Exploring the continuum between public and private goods: Bidding for soil fertility information in Malawi\r\n",
+    "Public Data URL": "https://doi.org/10.7910/DVN/ALKOCV",
+    "RCT ID": "AEARCTR-0004717"
+  },
+  "3016": {
+    "Title": "Youth Empowerment in Bolivia",
+    "Public Data URL": "https://www.sciencedirect.com/science/article/pii/S0304387821000894",
+    "RCT ID": "AEARCTR-0004836"
+  },
+  "3021": {
+    "Title": "Does self-reflection, professional skills, or cash lead to the highest socio-emotional and economic gains for women in Rwanda?",
+    "Public Data URL": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/7WCTBP",
+    "RCT ID": "AEARCTR-0004846"
+  },
+  "3038": {
+    "Title": "Testing for ethnic discrimination within the Czech Social Security system",
+    "Public Data URL": "https://doi.org/10.7910/DVN/S0JYQM",
+    "RCT ID": "AEARCTR-0004873"
+  },
+  "3065": {
+    "Title": "Impact of Health Shocks on Lifestyle Behavioural Changes",
+    "Public Data URL": "https://www.understandingsociety.ac.uk/",
+    "RCT ID": "AEARCTR-0004943"
+  },
+  "3126": {
+    "Title": "Nudging Debtors to Pay their Debt: A Randomized Control Trial",
+    "Public Data URL": "https://osf.io/9zcqd/",
+    "RCT ID": "AEARCTR-0005023"
+  },
+  "3144": {
+    "Title": "A Mobile Phone-based Intervention to Improve Health Screening Uptake: A Randomized Experiment in Indonesia",
+    "Public Data URL": "https://doi.org/10.25625/SE4IDP",
+    "RCT ID": "AEARCTR-0005047"
+  },
+  "3146": {
+    "Title": "Predicting compliance: Leveraging chat data for supervised classification in experimental research",
+    "Public Data URL": "https://github.com/carinahausladen/PredictingCompliance",
+    "RCT ID": "AEARCTR-0005049"
+  },
+  "3156": {
+    "Title": "Attitudes towards hiring decisions",
+    "Public Data URL": "https://osf.io/2eq43/",
+    "RCT ID": "AEARCTR-0005064"
+  },
+  "3204": {
+    "Title": "Taxing the Poor Twice: Poverty, Bandwidth, and Utility from Consumption",
+    "Public Data URL": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/K5AUV4",
+    "RCT ID": "AEARCTR-0005157"
+  },
+  "3243": {
+    "Title": "Forecasting the Results of Experiments: Piloting an Elicitation Strategy",
+    "Public Data URL": "https://www.openicpsr.org/openicpsr/project/117601/version/V1/view",
+    "RCT ID": "AEARCTR-0005211"
+  },
+  "3245": {
+    "Title": "Fostering innovation: Experimental evidence on the\r\neffectiveness of behavioral interventions",
+    "Public Data URL": "https://osf.io/hup9c/",
+    "RCT ID": "AEARCTR-0005214"
+  },
+  "3270": {
+    "Title": "Community advocacy forums and public service delivery - Impact, and the role of information, deliberation, and administrative placement",
+    "Public Data URL": "https://github.com/bjvca/baraza/tree/master/data/public",
+    "RCT ID": "AEARCTR-0005247"
+  },
+  "3354": {
+    "Title": "Inter- and Intragenerational Differences in Corrupt Behavior: The Development of Morals after German Reunification",
+    "Public Data URL": "https://osf.io/9fzvp/?view_only=5572b2dd749a4e5bb57322bbc3e8accf",
+    "RCT ID": "AEARCTR-0005397"
+  },
+  "3365": {
+    "Title": "Nudging Debtors to Pay their Debt: A Randomized Control Trial",
+    "Public Data URL": "https://osf.io/3e5cn/",
+    "RCT ID": "AEARCTR-0005441"
+  },
+  "3536": {
+    "Title": "Testing the impact of information and quality ratings on SME use of professional business services",
+    "Public Data URL": "https://microdata.worldbank.org/index.php/catalog/4033",
+    "RCT ID": "AEARCTR-0005707"
+  },
+  "3556": {
+    "Title": "Potential Biases in the Publication Process",
+    "Public Data URL": "https://doi.org/10.3886/E185342V4",
+    "RCT ID": "AEARCTR-0005729"
+  },
+  "3561": {
+    "Title": "Nudging Take-up of the Earned Income Tax Credit in California",
+    "Public Data URL": "https://doi.org/10.3886/E142221V1",
+    "RCT ID": "AEARCTR-0005734"
+  },
+  "3585": {
+    "Title": "The Voice of the Emperor and Personalized Messages during the COVID-19 Pandemic",
+    "Public Data URL": "https://osf.io/tejmf/?view_only=4af5b3f76ce743eea903382f8143866c",
+    "RCT ID": "AEARCTR-0005772"
+  },
+  "3591": {
+    "Title": "Adaptive Trial for COVID-19 Messaging Campaigns",
+    "Public Data URL": "https://doi.org/10.7910/DVN/0H5UGL",
+    "RCT ID": "AEARCTR-0005780"
+  },
+  "3759": {
+    "Title": "Shifting the reward for kind delegation",
+    "Public Data URL": "https://osf.io/pfq4k/",
+    "RCT ID": "AEARCTR-0006036"
+  },
+  "3820": {
+    "Title": "Demand for \"Safe Spaces\": Avoiding Harassment and Stigma",
+    "Public Data URL": "https://github.com/worldbank/rio-safe-space",
+    "RCT ID": "AEARCTR-0006142"
+  },
+  "3903": {
+    "Title": "Female Empowerment, Bank Savings Product Design, and Agricultural Development in Ethiopia",
+    "Public Data URL": "https://sites.google.com/view/josegaldo/izaglm/data?authuser=0",
+    "RCT ID": "AEARCTR-0006295"
+  },
+  "3912": {
+    "Title": "Cost-effective public good provision under consequential uncertainty",
+    "Public Data URL": "https://osf.io/9br85/",
+    "RCT ID": "AEARCTR-0006304"
+  },
+  "3931": {
+    "Title": "Demand and supply factors constraining the emergence and sustainability of an efficient seed system - three experiments in Uganda",
+    "Public Data URL": "https://github.com/bjvca/Seed_systems_project",
+    "RCT ID": "AEARCTR-0006361"
+  },
+  "3978": {
+    "Title": "\rImpact Evaluation of Parental Empowerment Program ",
+    "Public Data URL": "https://microdata.worldbank.org/index.php/catalog/1038",
+    "RCT ID": "AEARCTR-0006424"
+  },
+  "4024": {
+    "Title": "By chance or by choice: Biased attribution of others' outcomes (Online Experiments)",
+    "Public Data URL": "https://github.com/boonhankoh/EGK-effort_luck",
+    "RCT ID": "AEARCTR-0006519"
+  },
+  "4050": {
+    "Title": "Is it the Message or the Messenger? Examining Bias in Immigration Beliefs",
+    "Public Data URL": "https://doi.org/10.7910/DVN/8DM8KG",
+    "RCT ID": "AEARCTR-0006552"
+  },
+  "4091": {
+    "Title": "Subsidies, Information, and the Timing of Children's Health Care in Mali",
+    "Public Data URL": "https://reshare.ukdataservice.ac.uk/852386/",
+    "RCT ID": "AEARCTR-0006603"
+  },
+  "4276": {
+    "Title": "Community-wide collaboration to improve basic reading and math: Empirical evidence from Madagascar ",
+    "Public Data URL": "https://doi.org/10.7910/DVN/RCJ1YC",
+    "RCT ID": "AEARCTR-0006914"
+  },
+  "4395": {
+    "Title": "Enhancing Female Entrepreneurship through Cash Grants: Evidence from a Randomized Controlled Trial in Tunisia",
+    "Public Data URL": "https://www.dropbox.com/home/Repositories/Tunisia%20JDE/Repository/public?share_manage_access=false",
+    "RCT ID": "AEARCTR-0007136"
+  },
+  "4482": {
+    "Title": "What Drives Poor Care for Child Diarrhea?: A Standardized Patient Experiment in India",
+    "Public Data URL": "https://datadryad.org/dataset/doi:10.5061/dryad.3tx95x6nk",
+    "RCT ID": "AEARCTR-0007276"
+  },
+  "4520": {
+    "Title": "How to explain peer information: Nudging people to have a stronger intention to receive the COVID-19 vaccine",
+    "Public Data URL": "https://doi.org/10.1016/j.socscimed.2021.114561",
+    "RCT ID": "AEARCTR-0007361"
+  },
+  "4580": {
+    "Title": "Anticipated Peer Effects: An Application to COVID-19 Vaccinations",
+    "Public Data URL": "https://doi.org/10.3886/E177962V1",
+    "RCT ID": "AEARCTR-0007437"
+  },
+  "4612": {
+    "Title": "Can targeted messages reduce COVID-19 vaccination hesitancy? A randomized trial",
+    "Public Data URL": "https://doi.org/10.17605/OSF.IO/C8DVM",
+    "RCT ID": "AEARCTR-0007478"
+  },
+  "4657": {
+    "Title": "Discrimination of transgender people in the Swedish housing market",
+    "Public Data URL": "https://www.dropbox.com/s/0ni1uwqg63m3qmj/transgender_data.txt?dl=0",
+    "RCT ID": "AEARCTR-0007566"
+  },
+  "4682": {
+    "Title": "Why do Crowdinvestors invest? Survey and decision experiment",
+    "Public Data URL": "https://dx.doi.org/10.5255/UKDA-SN-856397",
+    "RCT ID": "AEARCTR-0007597"
+  },
+  "4710": {
+    "Title": "Pay-for-Performance and Bureaucratic Representation in Public Organization",
+    "Public Data URL": "https://doi.org/10.7910/DVN/NSHT68",
+    "RCT ID": "AEARCTR-0007632"
+  },
+  "4732": {
+    "Title": "Preferences for redistribution in Mexico",
+    "Public Data URL": "https://github.com/auroraramirez/Preferred-Tax-Rates-Depend-on-the-Rates-Paid-by-the-Rich",
+    "RCT ID": "AEARCTR-0007664"
+  },
+  "4734": {
+    "Title": "Job Characteristics and Attraction to Public Sector Employment: The Moderating Effects of Public Service Motivation and Self-Efficacy",
+    "Public Data URL": "https://doi.org/10.7910/DVN/P0XSAU",
+    "RCT ID": "AEARCTR-0007666"
+  },
+  "4735": {
+    "Title": "Time Pressure: Preferences and Performance Effects",
+    "Public Data URL": "https://pubsonline.informs.org/doi/suppl/10.1287/mnsc.2023.02078",
+    "RCT ID": "AEARCTR-0007667"
+  },
+  "4794": {
+    "Title": "Inequality, outreach and impact in public goods contributions",
+    "Public Data URL": "https://doi.org/10.25403/UPresearchdata.19114202.v1",
+    "RCT ID": "AEARCTR-0007746"
+  },
+  "4860": {
+    "Title": "How Voting Rules Impact Legitimacy",
+    "Public Data URL": "https://github.com/carinahausladen/LegitimacyVotingMethod",
+    "RCT ID": "AEARCTR-0007871"
+  },
+  "4902": {
+    "Title": "Nudging in complex environments",
+    "Public Data URL": "https://doi.org/10.7910/DVN/OR56Y7",
+    "RCT ID": "AEARCTR-0007932"
+  },
+  "4913": {
+    "Title": "Exploring the validity of a new version of the ‘Inclusion of the Other in the Self’ (IOS) task.",
+    "Public Data URL": "https://doi.org/10.17605/OSF.IO/9DBR6",
+    "RCT ID": "AEARCTR-0007947"
+  },
+  "4992": {
+    "Title": "How to reduce discrimination? Evidence from a field experiment in amateur football",
+    "Public Data URL": "https://doi.org/10.7910/DVN/ZETZDZ",
+    "RCT ID": "AEARCTR-0008049"
+  },
+  "5014": {
+    "Title": "Is Hybrid the Future of Work: Evidence from\r\nA CHINESE EXPERIMENT",
+    "Public Data URL": "https://doi.org/10.7910/DVN/6X4ZZL",
+    "RCT ID": "AEARCTR-0008075"
+  },
+  "5051": {
+    "Title": "Contact vs. Information: What shapes attitudes towards immigration? Evidence from an experiment in schools",
+    "Public Data URL": "https://doi.org/10.1016/j.socec.2021.101790",
+    "RCT ID": "AEARCTR-0008160"
+  },
+  "5076": {
+    "Title": "Reducing the Shadow Economy with Nudges: A Randomized Control Trial in Latvia",
+    "Public Data URL": "https://osf.io/yaetk/?view_only=84e09f746d394333bfc4fc96e54b5b81",
+    "RCT ID": "AEARCTR-0008198"
+  },
+  "5085": {
+    "Title": "Vaccination as personal public-good provision",
+    "Public Data URL": "https://doi.org/10.17605/OSF.IO/K6WE2",
+    "RCT ID": "AEARCTR-0008216"
+  },
+  "5138": {
+    "Title": "A Randomized Impact Evaluation of the Graduation Program \r\nStrengthen Productive Safety Net Program Phase 4 (PSNP4) Institutions and Resilience \r\n(SPIR) in Ethiopia",
+    "Public Data URL": "https://doi.org/10.7910/DVN/MBRDZ7",
+    "RCT ID": "AEARCTR-0008281"
+  },
+  "5145": {
+    "Title": "Enforcement and Deterrence with Certain Detection: An Experiment in Water Conservation Policy",
+    "Public Data URL": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/PSO21N",
+    "RCT ID": "AEARCTR-0008290"
+  },
+  "5237": {
+    "Title": "Public good games and attitudes towards vaccination: \r\ngroup size and safe action",
+    "Public Data URL": "https://docs.google.com/spreadsheets/d/1QvKvDcWO0DuzzrdbQZNtr4B_JnwYvqif/edit?usp=sharing&amp;ouid=117127892078828706389&amp;rtpof=true&amp;sd=true",
+    "RCT ID": "AEARCTR-0008408"
+  },
+  "5289": {
+    "Title": "Future time makers within a language and pro-environmental behavior",
+    "Public Data URL": "https://osf.io/49dzu/?view_only=8fa11e500cbd4de68385d7fcb0196260",
+    "RCT ID": "AEARCTR-0008477"
+  },
+  "5307": {
+    "Title": "Voters’ preferences for a meat tax: Evidence from a referendum choice experiment",
+    "Public Data URL": "https://doi.org/10.7910/DVN/YNMG1R",
+    "RCT ID": "AEARCTR-0008507"
+  },
+  "5338": {
+    "Title": "Two part tariffs, demand uncertainty and risk sharing: From theory to experimental evidence",
+    "Public Data URL": "https://github.com/npasquier/online-research-material/tree/main/Two-part-tariff-demand-uncertainty",
+    "RCT ID": "AEARCTR-0008576"
+  },
+  "5439": {
+    "Title": "Visual imagery skills and risk attitude",
+    "Public Data URL": "https://osf.io/9s7rv/",
+    "RCT ID": "AEARCTR-0008709"
+  },
+  "5473": {
+    "Title": "Scam Identification Ability (Pilot)",
+    "Public Data URL": "https://doi.org/10.7910/DVN/HUYYQZ",
+    "RCT ID": "AEARCTR-0008754"
+  },
+  "5486": {
+    "Title": "Ghana COVID-19 Vaccinations and Financial Incentives",
+    "Public Data URL": "https://doi.org/10.7910/DVN/X5MBHP",
+    "RCT ID": "AEARCTR-0008775"
+  },
+  "5554": {
+    "Title": "Do women shy away from risky skill games?",
+    "Public Data URL": "https://doi.org/10.11588/data/WVBHDQ",
+    "RCT ID": "AEARCTR-0008858"
+  },
+  "5625": {
+    "Title": "The Effects of Top-Down Monitoring on Medicine Theft",
+    "Public Data URL": "https://doi.org/10.7910/DVN/KRFPVU",
+    "RCT ID": "AEARCTR-0008989"
+  },
+  "5675": {
+    "Title": "Sharing rules in Bertrand duopolies with increasing returns",
+    "Public Data URL": "https://osf.io/jnufw/",
+    "RCT ID": "AEARCTR-0009056"
+  },
+  "5734": {
+    "Title": "Future tense and pro-environmental behavior (Follow-up study)",
+    "Public Data URL": "https://osf.io/49dzu/?view_only=8fa11e500cbd4de68385d7fcb0196260",
+    "RCT ID": "AEARCTR-0009132"
+  },
+  "5776": {
+    "Title": "Bringing Work Home: Internet-Mediated Gig Work and Women's Employment",
+    "Public Data URL": "https://doi.org/10.7910/DVN/JBVUO1",
+    "RCT ID": "AEARCTR-0009190"
+  },
+  "5879": {
+    "Title": "Leadership Styles and Labor Market Conditions: An Experiment",
+    "Public Data URL": "https://www.ifo.de/node/82285",
+    "RCT ID": "AEARCTR-0009365"
+  },
+  "5937": {
+    "Title": "The Impact of Team Incentives on Performance in Graduate School: Evidence from Two Pilot RCTs",
+    "Public Data URL": "https://sites.google.com/view/rohen-shah/replication-data/team-incentives",
+    "RCT ID": "AEARCTR-0009477"
+  },
+  "5981": {
+    "Title": "Measuring Labor Market Discrimination: A Correspondence Audit Study in Egypt",
+    "Public Data URL": "https://www.erfdataportal.com/index.php/catalog/268",
+    "RCT ID": "AEARCTR-0009534"
+  },
+  "5982": {
+    "Title": "The Variability of Conditional Cooperation in Sequential Prisoner’s Dilemmas",
+    "Public Data URL": "https://osf.io/8us67/",
+    "RCT ID": "AEARCTR-0009536"
+  },
+  "6061": {
+    "Title": "Can User-friendly Labels Reduce Pesticides Use? Empirical Evidence from a Randomized Controlled Trial",
+    "Public Data URL": "https://doi.org/10.7910/DVN/NS73ZD",
+    "RCT ID": "AEARCTR-0009642"
+  },
+  "6147": {
+    "Title": "Inelastic connections: Bureaucratic corruption suggestions and the demand for intermediaries",
+    "Public Data URL": "https://doi.org/10.6084/m9.figshare.21637190.v1",
+    "RCT ID": "AEARCTR-0009746"
+  },
+  "6185": {
+    "Title": "Perfecting Parenting: An evaluation of an integrated parenting program in rural China",
+    "Public Data URL": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/XBGUUL",
+    "RCT ID": "AEARCTR-0009789"
+  },
+  "6346": {
+    "Title": "The formats of epidemiological risk information disclosure and citizens’ voluntary self-reporting for close contact: report accuracy, time consumption, and privacy concerns",
+    "Public Data URL": "https://data.mendeley.com/datasets/jbcchx2rf9/1",
+    "RCT ID": "AEARCTR-0010036"
+  },
+  "6408": {
+    "Title": "Identifying Scalable and Cost-effective Approaches to Improving Parenting Practices for Young Children in Developing Settings",
+    "Public Data URL": "https://doi.org/10.5281/zenodo.14278006",
+    "RCT ID": "AEARCTR-0010129"
+  },
+  "6458": {
+    "Title": "Direct Aid to Afghan Women",
+    "Public Data URL": "https://github.com/mfsteinhauser/Direct-Aid-Replication-Materials",
+    "RCT ID": "AEARCTR-0010189"
+  },
+  "6559": {
+    "Title": "Moral Accounting and Real Effort: Experimental Evidence",
+    "Public Data URL": "https://www.openicpsr.org/openicpsr/project/208662/version/V1/view",
+    "RCT ID": "AEARCTR-0010348"
+  },
+  "6801": {
+    "Title": "Social Preferences of Different Income Groups",
+    "Public Data URL": "https://doi.org/10.3886/E222741V1",
+    "RCT ID": "AEARCTR-0010711"
+  },
+  "7108": {
+    "Title": "Nudging in clinical trial registration",
+    "Public Data URL": "https://doi.org/10.1257/rct.11161-2.0",
+    "RCT ID": "AEARCTR-0011161"
+  },
+  "7752": {
+    "Title": "Time Preferences and Food Choice",
+    "Public Data URL": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/NBL4I5",
+    "RCT ID": "AEARCTR-0012106"
+  },
+  "7923": {
+    "Title": "Pre-Analysis Plan: What drives refugees’ location choices?\r\nEvidence from a conjoint experiment among Ukrainian refugees",
+    "Public Data URL": "https://doi.org/10.5281/zenodo.15322600",
+    "RCT ID": "AEARCTR-0012333"
+  },
+  "8418": {
+    "Title": "Ghana Financial Incentives Trial Wave II: Spillover and Tuberculosis Screening",
+    "Public Data URL": "https://doi.org/10.7910/DVN/LTPBWY",
+    "RCT ID": "AEARCTR-0013055"
+  },
+  "9407": {
+    "Title": "Museums as Policy Tools: The Behavioral Impact of Cultural Experiences",
+    "Public Data URL": "https://drive.google.com/file/d/1tX9UoRMmCNX-_w5JpLoCD_zEpkhsI2qQ/view?usp=sharing",
+    "RCT ID": "AEARCTR-0014416"
+  },
+  "10101": {
+    "Title": "Reimagining new development narratives that center on the people and the environment",
+    "Public Data URL": "https://labnarasi.id/topik/pemahaman-masyarakat-indonesia-dan-narasi-dominan-tentang-pembangunan-dan-pertumbuhan-ekonomi/",
+    "RCT ID": "AEARCTR-0015433"
+  }
+}

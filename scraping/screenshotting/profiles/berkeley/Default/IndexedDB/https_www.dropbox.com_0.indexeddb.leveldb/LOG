@@ -1,0 +1,5 @@
+2026/03/09-10:33:34.791 171da9a Creating DB /Users/chouchou/Desktop/Research/llm-simulations/scraping/profiles/berkeley/Default/IndexedDB/https_www.dropbox.com_0.indexeddb.leveldb since it was missing.
+2026/03/09-10:33:34.794 171da9a Reusing MANIFEST /Users/chouchou/Desktop/Research/llm-simulations/scraping/profiles/berkeley/Default/IndexedDB/https_www.dropbox.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/03/09-10:34:02.746 171da9d Level-0 table #5: started
+2026/03/09-10:34:02.761 171da9d Level-0 table #5: 1127438 bytes OK
+2026/03/09-10:34:02.762 171da9d Delete type=0 #3
