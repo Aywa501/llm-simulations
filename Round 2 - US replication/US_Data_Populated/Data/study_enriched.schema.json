@@ -1,0 +1,458 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/aea-rct/study-enriched.v1.schema.json",
+  "title": "AEA RCT Study Enriched v1",
+  "description": "Extends design_specs_enriched.v1 with a minimal results layer for downstream simulation and evaluation.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "rct_id", "provenance", "enrichment"],
+  "properties": {
+    "schema_version": { "type": "string", "const": "study_enriched.v1" },
+
+    "seq_id": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Optional stable sequence id already present in current enriched records."
+    },
+
+    "rct_id": { "type": "string", "minLength": 1 },
+
+    "provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["registry"],
+      "properties": {
+        "registry": {
+          "type": "object",
+          "description": "Raw registry fields copied verbatim (do not edit).",
+          "additionalProperties": true,
+          "required": [
+            "rct_id",
+            "title",
+            "status",
+            "countries",
+            "start_date",
+            "end_date",
+            "intervention_start_date",
+            "intervention_end_date",
+            "randomization_unit",
+            "randomization_method",
+            "clustered",
+            "primary_outcomes",
+            "secondary_outcomes",
+            "intervention_text",
+            "experimental_design",
+            "experimental_design_details",
+            "sample_sizes",
+            "keywords",
+            "additional_keywords"
+          ],
+          "properties": {
+            "rct_id": { "type": "string" },
+            "title": { "type": "string" },
+            "status": { "type": "string" },
+            "doi_url": { "type": ["string", "null"] },
+            "countries": { "type": "array", "items": { "type": "string" } },
+            "start_date": { "type": ["string", "null"] },
+            "end_date": { "type": ["string", "null"] },
+            "intervention_start_date": { "type": ["string", "null"] },
+            "intervention_end_date": { "type": ["string", "null"] },
+            "randomization_unit": { "type": ["string", "null"] },
+            "randomization_method": { "type": ["string", "null"] },
+            "clustered": { "type": ["boolean", "null"] },
+            "primary_outcomes": { "type": "array", "items": { "type": "string" } },
+            "primary_outcomes_explanation": { "type": ["string", "null"] },
+            "secondary_outcomes": { "type": "array", "items": { "type": "string" } },
+            "secondary_outcomes_explanation": { "type": ["string", "null"] },
+            "intervention_text": { "type": ["string", "null"] },
+            "experimental_design": { "type": ["string", "null"] },
+            "experimental_design_details": { "type": ["string", "null"] },
+            "sample_sizes": { "type": ["object", "null"], "additionalProperties": true },
+            "keywords": { "type": "array", "items": { "type": "string" } },
+            "additional_keywords": { "type": "array", "items": { "type": "string" } },
+            "trial_card": { "type": ["string", "null"] },
+            "is_public_data_available_raw": { "type": ["string", "boolean", "null"] },
+            "public_data_url_raw": { "type": ["string", "null"] },
+            "arms": { "type": ["array", "null"], "items": { "type": "object" } }
+          }
+        }
+      }
+    },
+
+    "enrichment": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["llm", "derived", "results", "evidence", "quality"],
+      "properties": {
+        "llm": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["provider", "model", "prompt_version", "input_fingerprint"],
+          "properties": {
+            "provider": { "type": "string", "const": "openai" },
+            "model": { "type": "string", "minLength": 1 },
+            "prompt_version": { "type": "string", "minLength": 1 },
+            "input_fingerprint": {
+              "type": "string",
+              "description": "Stable hash of the exact text given to the model for design-spec extraction.",
+              "minLength": 16
+            },
+            "run_id": { "type": ["string", "null"] },
+            "created_at": { "type": ["string", "null"], "description": "ISO timestamp (optional)" }
+          }
+        },
+
+        "derived": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "design_type",
+            "unit_of_randomization_canonical",
+            "is_clustered",
+            "analysis_unit_canonical",
+            "primary_outcomes_dedup",
+            "arms",
+            "factors",
+            "assignment_rules",
+            "design_completeness",
+            "extraction_sources",
+            "notes",
+            "public_data_available",
+            "public_data_url"
+          ],
+          "properties": {
+            "design_type": {
+              "type": "string",
+              "enum": [
+                "simple_multiarm",
+                "factorial",
+                "encouragement",
+                "cluster_rct",
+                "crossover",
+                "stepped_wedge",
+                "multistage",
+                "saturation",
+                "discontinuity",
+                "observational",
+                "other"
+              ]
+            },
+
+            "unit_of_randomization_canonical": { "type": ["string", "null"] },
+
+            "is_clustered": {
+              "type": "boolean",
+              "description": "True iff unit_of_randomization_canonical is not individual-level."
+            },
+
+            "analysis_unit_canonical": { "type": ["string", "null"] },
+
+            "primary_outcomes_dedup": {
+              "type": "array",
+              "items": { "type": "string" }
+            },
+
+            "arms": {
+              "type": "array",
+              "description": "Explicit arms/cells when the text provides them.",
+              "items": { "$ref": "#/$defs/arm" }
+            },
+
+            "factors": {
+              "type": "array",
+              "description": "Factorial dimensions; empty for non-factorial designs.",
+              "items": { "$ref": "#/$defs/factor" }
+            },
+
+            "assignment_rules": {
+              "type": "array",
+              "items": { "type": "string" }
+            },
+
+            "design_completeness": {
+              "type": "string",
+              "enum": ["complete", "partial", "unclear"]
+            },
+
+            "extraction_sources": {
+              "type": "array",
+              "items": { "type": "string", "enum": ["registry", "paper"] }
+            },
+
+            "notes": { "type": "string" },
+            "public_data_available": { "type": ["boolean", "null"] },
+            "public_data_url": { "type": ["string", "null"] }
+          }
+        },
+
+        "results": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "extraction",
+            "status",
+            "summary_source_type",
+            "results_data_type",
+            "source_files",
+            "preferred_simulation_outcome_ids",
+            "outcomes",
+            "notes",
+            "quality"
+          ],
+          "properties": {
+            "extraction": { "$ref": "#/$defs/results_extraction" },
+
+            "status": {
+              "type": "string",
+              "enum": ["not_started", "partial", "complete"]
+            },
+
+            "summary_source_type": {
+              "type": "string",
+              "enum": [
+                "local_summary_files",
+                "paper_or_appendix_tables",
+                "code_output",
+                "mixed"
+              ]
+            },
+
+            "results_data_type": {
+              "type": "string",
+              "enum": [
+                "raw_arm_summaries",
+                "table_arm_summaries",
+                "text_reported_summaries",
+                "effect_estimates_only",
+                "conjoint_marginal_means",
+                "segment_specific_summaries",
+                "nonstandard_group_summaries"
+              ]
+            },
+
+            "source_files": {
+              "type": "array",
+              "description": "Relative paths, citations, or table labels used to extract group-level summary statistics.",
+              "items": { "type": "string", "minLength": 1 }
+            },
+
+            "preferred_simulation_outcome_ids": {
+              "type": "array",
+              "description": "A small subset of outcomes to use first for downstream simulation/evaluation.",
+              "items": { "type": "string", "pattern": "^out[0-9]+$" }
+            },
+
+            "outcomes": {
+              "type": "array",
+              "items": { "$ref": "#/$defs/result_outcome" }
+            },
+
+            "notes": { "type": "string" },
+
+            "quality": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["validation_passed", "validation_errors", "flags", "needs_manual"],
+              "properties": {
+                "validation_passed": { "type": "boolean" },
+                "validation_errors": { "type": "array", "items": { "type": "string" } },
+                "flags": {
+                  "type": "array",
+                  "items": { "type": "string" }
+                },
+                "needs_manual": { "type": "boolean" }
+              }
+            }
+          }
+        },
+
+        "evidence": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["quotes"],
+          "properties": {
+            "quotes": {
+              "type": "array",
+              "items": { "$ref": "#/$defs/evidence_quote" }
+            }
+          }
+        },
+
+        "quality": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["validation_passed", "validation_errors", "flags", "needs_manual"],
+          "properties": {
+            "validation_passed": { "type": "boolean" },
+            "validation_errors": { "type": "array", "items": { "type": "string" } },
+            "flags": {
+              "type": "array",
+              "description": "Deterministic pipeline flags for known ambiguity/conflict.",
+              "items": { "type": "string" }
+            },
+            "needs_manual": { "type": "boolean" }
+          }
+        }
+      }
+    }
+  },
+
+  "$defs": {
+    "arm": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["arm_id", "name", "role", "description", "evidence_quote_ids"],
+      "properties": {
+        "arm_id": { "type": "string", "minLength": 1 },
+        "name": { "type": "string", "minLength": 1 },
+        "role": {
+          "type": "string",
+          "enum": ["control", "treatment", "experimental", "active_comparator", "placebo", "unknown"]
+        },
+        "description": { "type": "string" },
+        "evidence_quote_ids": {
+          "type": "array",
+          "items": { "type": "string", "pattern": "^eq[0-9]+$" },
+          "minItems": 1
+        }
+      }
+    },
+
+    "factor": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["factor_id", "name", "levels"],
+      "properties": {
+        "factor_id": { "type": "string", "minLength": 1 },
+        "name": { "type": "string", "minLength": 1 },
+        "levels": {
+          "type": "array",
+          "minItems": 2,
+          "items": { "$ref": "#/$defs/level" }
+        }
+      }
+    },
+
+    "level": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["level_id", "name", "description", "evidence_quote_ids"],
+      "properties": {
+        "level_id": { "type": "string", "minLength": 1 },
+        "name": { "type": "string", "minLength": 1 },
+        "description": { "type": "string" },
+        "evidence_quote_ids": {
+          "type": "array",
+          "items": { "type": "string", "pattern": "^eq[0-9]+$" },
+          "minItems": 1
+        }
+      }
+    },
+
+    "results_extraction": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["method"],
+      "properties": {
+        "method": {
+          "type": "string",
+          "enum": ["llm", "manual", "script", "mixed"]
+        },
+        "provider": { "type": ["string", "null"] },
+        "model": { "type": ["string", "null"] },
+        "prompt_version": { "type": ["string", "null"] },
+        "input_fingerprint": { "type": ["string", "null"] },
+        "run_id": { "type": ["string", "null"] },
+        "created_at": { "type": ["string", "null"] }
+      }
+    },
+
+    "result_outcome": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "outcome_id",
+        "name",
+        "is_primary",
+        "preferred_for_simulation",
+        "timepoint",
+        "outcome_type",
+        "unit",
+        "analysis_population",
+        "group_summaries",
+        "evidence_quote_ids",
+        "notes"
+      ],
+      "properties": {
+        "outcome_id": { "type": "string", "pattern": "^out[0-9]+$" },
+        "name": { "type": "string", "minLength": 1 },
+        "is_primary": { "type": "boolean" },
+        "preferred_for_simulation": { "type": "boolean" },
+        "timepoint": { "type": ["string", "null"] },
+        "outcome_type": {
+          "type": "string",
+          "enum": [
+            "binary",
+            "continuous",
+            "count",
+            "ordinal",
+            "categorical",
+            "time_to_event",
+            "index",
+            "other"
+          ]
+        },
+        "unit": { "type": ["string", "null"] },
+        "analysis_population": { "type": ["string", "null"] },
+        "group_summaries": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/group_summary" }
+        },
+        "evidence_quote_ids": {
+          "type": "array",
+          "items": { "type": "string", "pattern": "^eq[0-9]+$" }
+        },
+        "notes": { "type": "string" }
+      }
+    },
+
+    "group_summary": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["arm_id", "n_analyzed", "metric", "value"],
+      "properties": {
+        "arm_id": { "type": "string", "minLength": 1 },
+        "n_analyzed": { "type": ["integer", "null"], "minimum": 0 },
+        "metric": {
+          "type": "string",
+          "enum": ["mean", "proportion", "rate", "count", "index", "other"]
+        },
+        "value": { "type": "number" },
+        "sd": { "type": ["number", "null"] },
+        "se": { "type": ["number", "null"] },
+        "ci_lower": { "type": ["number", "null"] },
+        "ci_upper": { "type": ["number", "null"] },
+        "evidence_quote_ids": {
+          "type": "array",
+          "items": { "type": "string", "pattern": "^eq[0-9]+$" }
+        },
+        "notes": { "type": "string" }
+      }
+    },
+
+    "evidence_quote": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "source_doc", "quote", "supports"],
+      "properties": {
+        "id": { "type": "string", "pattern": "^eq[0-9]+$" },
+        "source_doc": {
+          "type": "string",
+          "enum": ["registry", "paper", "appendix", "code", "table", "readme", "data", "other"]
+        },
+        "quote": { "type": "string", "minLength": 1 },
+        "supports": { "type": "string", "minLength": 1 }
+      }
+    }
+  }
+}

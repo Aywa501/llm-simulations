@@ -1,0 +1,53 @@
+version 1.0
+@totalColumns: 50
+Variable name, Corresponding Part: corresponding number in "AEA_RCT_Registry_Data_Elements_Definitions.pdf"
+Title, I:1
+Url, none
+Last update date, I:4 (date)
+Published at, I:4 (date/time)
+First registered on, I:3 
+RCT_ID, I:2
+DOI Number, I:5
+Primary Investigator, I:8
+Status, I:10
+Start date, I:18
+End date, I:21
+Keywords, I:11 I:12
+Country names, I:7
+Other Primary Investigators, I:9
+Jel code, I:13
+Secondary IDs, I:14
+Abstract, I:15
+External Links, I:16 I:17
+Sponsors, I:22 I:23 I:24
+Partners, I:25 I:26 I:27
+Intervention start date, I:19
+Intervention end date, I:20
+Intervention, I:28 I:29
+Primary outcome end points, I:30
+Primary outcome explanation, I:31
+Secondary outcome end points, I:32
+Secondary outcome explanation, I:33
+Experimental design, I:34
+Experimental design details, I:35
+Randomization method, I:36
+Randomization unit, I:37
+Sample size number clusters, I:39
+Sample size number observations, I:40
+Sample size number arms, I:41
+Minimum effect size, I:42
+IRB, I:43 I:44 I:45 I:46
+Analysis Plan Documents, I:47 I:48 I:49 I:50 I:51 I:52
+Intervention completion date, II:4
+Data collection completion, II:5
+Data collection completion date, II:6
+Number of clusters, II:7
+Attrition correlated, II:8
+Total number of observations, II:9
+Treatment arms, II:10
+Public data, II:11
+Public data url, II:12
+Program files, II:15
+Program files url, II:16
+Post trial documents csv, II:20 II:21 II:22
+Relevant papers for csv, II:23 II:24 II:25

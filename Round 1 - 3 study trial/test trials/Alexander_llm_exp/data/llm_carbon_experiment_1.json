@@ -1,0 +1,102 @@
+[
+  {
+    "id": "7f163388-94ee-4a46-b143-3fea08c6dd8b",
+    "group": "price_only",
+    "response": ""
+  },
+  {
+    "id": "848bb249-9250-4547-adf1-6e9ecd23393a",
+    "group": "price_only",
+    "response": ""
+  },
+  {
+    "id": "8de844b3-5e9b-4308-9ef6-2c4c6020471a",
+    "group": "price_only",
+    "response": ""
+  },
+  {
+    "id": "cd58ccf7-4cde-4658-9544-609108d7c45d",
+    "group": "price_only",
+    "response": ""
+  },
+  {
+    "id": "22ed041d-28f5-4a2a-b553-0173abc08e11",
+    "group": "price_only",
+    "response": ""
+  },
+  {
+    "id": "a3f501be-186e-4062-902a-8537f573e411",
+    "group": "emissions",
+    "response": ""
+  },
+  {
+    "id": "802093ed-a934-46d4-ab58-a15c116dba99",
+    "group": "emissions",
+    "response": ""
+  },
+  {
+    "id": "ee30d027-391c-4e85-97f8-a02758ffb04e",
+    "group": "emissions",
+    "response": ""
+  },
+  {
+    "id": "28d9a01e-f1c4-4dc7-89f0-f773ebea6739",
+    "group": "emissions",
+    "response": ""
+  },
+  {
+    "id": "32e259fd-7e03-4bb1-b4c9-3d28efac23cd",
+    "group": "emissions",
+    "response": ""
+  },
+  {
+    "id": "4fbc4a9b-bb86-4772-99c4-2ee9eafd93a9",
+    "group": "carbon_price",
+    "response": ""
+  },
+  {
+    "id": "117b53e4-78f0-41eb-8387-ff69dd833636",
+    "group": "carbon_price",
+    "response": "Round 1: Fuel €54, Train €60 → I choose the car. It’s cheaper and more convenient (flexibility, no schedules), so I’d drive.\n\nRound 2: Fuel €60, Train €60 → I choose the train. Same price, so I’d pick the train for less hassle with parking and lower emissions.\n\nRound 3: Fuel €66, Train €60 → I choose the train. It’s cheaper and with the CO₂ price included I'd prefer the lower-emission option.\n\nRound 4: Fuel €72, Train €60 → I choose the train. Clear price advantage and environmental/safety convenience make the train better.\n\nRound 5: Fuel €78, Train €60 → I choose the train. Significantly cheaper and more climate-friendly.\n\nRound 6: Fuel €84, Train €60 → I choose the train. Too expensive to justify driving.\n\nRound 7: Fuel €90, Train €60 → I choose the train. No contest on cost, and I prefer avoiding the higher emissions.\n\nRound 8: Fuel €94, Train €60 → I choose the train. Fuel is nearly my whole budget; train is the sensible choice.\n\nRound 9: Fuel €100, Train €60 → I choose the train. Fuel would use my entire budget and is much more expensive, so train for sure."
+  },
+  {
+    "id": "5895641b-387d-4c98-b049-61ba490bd779",
+    "group": "carbon_price",
+    "response": ""
+  },
+  {
+    "id": "0768ea32-d3ab-4af6-bf4e-4fcf8be2514d",
+    "group": "carbon_price",
+    "response": ""
+  },
+  {
+    "id": "96bf7734-a17c-4830-9f38-132f8ad377ea",
+    "group": "carbon_price",
+    "response": ""
+  },
+  {
+    "id": "b0c4f32d-d31f-4869-9eb6-58a99dbd9799",
+    "group": "carbon_price_info",
+    "response": ""
+  },
+  {
+    "id": "cb6e7093-0cc6-4eee-8219-126c2c77d92a",
+    "group": "carbon_price_info",
+    "response": ""
+  },
+  {
+    "id": "b1bc72d3-f5af-459a-90d0-2dbb9b9da48f",
+    "group": "carbon_price_info",
+    "response": ""
+  },
+  {
+    "id": "ecbfec57-74dc-48bd-9b89-6d52697a0c66",
+    "group": "carbon_price_info",
+    "response": ""
+  },
+  {
+    "id": "38edfe27-ff96-4bcc-942e-2b65a3df133d",
+    "group": "carbon_price_info",
+    "response": ""
+  }
+]

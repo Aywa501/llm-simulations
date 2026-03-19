@@ -1,0 +1,10 @@
+[
+{"id": "3f775eb8-9cf6-49a1-b33b-99e64c8834fd", "group": "price_only", "error": "empty output_text"},
+{"id": "575695c6-5be6-4f48-8211-e9bfacdc1dfb", "group": "price_only", "error": "empty output_text"},
+{"id": "95711969-1b14-459a-8415-a59fa2d5c144", "group": "emissions", "error": "empty output_text"},
+{"id": "5a6c0d26-1cd1-455c-a047-e51f3f975f4d", "group": "emissions", "response": "Round 1 — Choose car. Fuel €54 vs train €60: the car is cheaper by €6 and more convenient (door-to-door). I’m aware"},
+{"id": "3ebf4c72-2fc9-4e4b-bd1e-7efd3e01c88f", "group": "carbon_price", "error": "empty output_text"},
+{"id": "cb65978f-8d62-4abc-9bdf-0c36fc2a2556", "group": "carbon_price", "error": "empty output_text"},
+{"id": "9d93087e-5beb-4db2-92e4-b97b4c9dcb98", "group": "carbon_price_info", "error": "empty output_text"},
+{"id": "57aeefd2-9d5d-461e-b515-ba71fa78d330", "group": "carbon_price_info", "error": "empty output_text"}
+]
