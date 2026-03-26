@@ -1,0 +1,27 @@
+Comparable arm×outcome pairs : 37
+Pearson  r = 0.818  (p=0.000)
+Spearman r = 0.751  (p=0.000)
+
+Per-study breakdown:
+  seq=6 Kidney allocation (morality/efficiency)             n=15  r=0.535  p=0.040
+  seq=20 Xenophobia & social desirability                    n=8  r=-0.913  p=0.002
+  seq=28 Islamophobia & social desirability                  n=6  r=-0.299  p=0.565
+  seq=29 Legitimacy & social desirability                    n=4  r=0.737  p=0.263
+  seq=52 Job attraction (community demographics)             n=4  r=0.204  p=0.796
+
+Excluded / flagged:
+  seq=28 A1                                       LLM safety refusal: always 0
+  seq=28 A2                                       LLM safety refusal: always 0
+  seq=28 A3                                       LLM safety refusal: always 0
+  seq=28 A4                                       LLM safety refusal: always 0
+  seq=28 A5                                       LLM safety refusal: always 0
+  seq=28 A6                                       LLM safety refusal: always 0
+  seq=46 Control                                  Arm label mismatch: sim arms differ from microdata arms
+  seq=46 Same_Effort                              Arm label mismatch: sim arms differ from microdata arms
+  seq=46 Same_Suffering                           Arm label mismatch: sim arms differ from microdata arms
+  seq=46 No_Discrimination                        Arm label mismatch: sim arms differ from microdata arms
+  seq=46 All_Constant                             Arm label mismatch: sim arms differ from microdata arms
+  seq=53 bonus_large                              Arm label mismatch: sim arms differ from microdata arms
+  seq=53 bonus_mod                                Arm label mismatch: sim arms differ from microdata arms
+  seq=53 bonus_small                              Arm label mismatch: sim arms differ from microdata arms
+  seq=53 no_bonus                                 Arm label mismatch: sim arms differ from microdata arms

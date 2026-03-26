@@ -1,0 +1,962 @@
+{
+  "b1ad0af03ec944e464eee4504e4d50b3": {
+    "tier": 3,
+    "reason": "This is a school-level field experiment with real academic test score outcomes, not a survey or vignette response. It also involves children and institutional actors (schools) rather than individual self-reports.",
+    "simulatable": false
+  },
+  "f29c8d53d6204ea899ac08a93d3be3f4": {
+    "tier": 3,
+    "reason": "This is a field experiment on real-world Medicaid enrollment with outcomes measured using administrative records, health exams, and other behavioral/clinical data rather than a simple survey response. It also involves actual government program participation and household-level treatment effects, which are out of scope for a generic LLM respondent.",
+    "simulatable": false
+  },
+  "abc0b5a62b93184eeb29b694e360d347": {
+    "tier": 3,
+    "reason": "This is a field experiment on community college students with outcomes measured in administrative records, including credit hours, GPA, degree completion, transfers, and time to completion. The intervention also involves real-world case management and financial assistance rather than a simple survey response, so it is out of scope for low-role-casting simulation.",
+    "simulatable": false
+  },
+  "8311e2f01137d0fbf73f1d0bb5051cdb": {
+    "tier": 3,
+    "reason": "The intervention is evaluated through real educational performance outcomes: student reading and math test scores. This is a field experiment with children as subjects and administrative/standardized test outcomes, which is out of scope for LLM role-casting replication.",
+    "simulatable": false
+  },
+  "e0aec8f9dac540d75380fe5da6c5c22e": {
+    "tier": 3,
+    "reason": "The field experiment involves prior donors receiving phone calls and the outcome is actual donation behavior, which is a real behavioral outcome rather than a survey response. The lab experiment also measures actual monetary giving, so replicating it would require behavioral performance rather than simple role-based answering.",
+    "simulatable": false
+  },
+  "137aa35ed8c6868a5e98d645b04c9452": {
+    "tier": 3,
+    "reason": "This is a field RCT targeting ESRD facilities and clinicians, with outcomes measured as real treatment behavior and administrative patient outcomes rather than survey responses. It also requires institutions to act under payment incentives, which is fundamentally out of scope for an LLM.",
+    "simulatable": false
+  },
+  "2aacafe554621a6cc51833e6dad3040c": {
+    "tier": 3,
+    "reason": "This is a field experiment with real administrative outcomes (criminal justice involvement and labor market outcomes), not a survey or vignette response. It also involves court/jail participants and institutional effects, which are out of scope for simple LLM role-playing.",
+    "simulatable": false
+  },
+  "462b44f6e2b46378fb2d47525d6a57a6": {
+    "tier": 3,
+    "reason": "This is a field experiment with real behavioral outcomes observed from tax returns, specifically changes in earnings and EITC amounts rather than survey responses. The intervention is delivered in person by H&R Block employees, so it is out of scope for simple LLM role casting.",
+    "simulatable": false
+  },
+  "6f76197fe81d5d0e3a5711110f013e8a": {
+    "tier": 3,
+    "reason": "This is a natural field experiment on a crowd-science platform with real behavioral outcomes: number of contributors, contributions made, and quality of contributions. The treatment is about actual participation in scientific work, not a survey response, so it is out of scope for simple LLM role-playing.",
+    "simulatable": false
+  },
+  "a5358bc3624ead648926f2da1ba8e18a": {
+    "tier": 3,
+    "reason": "This is a school-based intervention with outcomes measured by individual reading assessments of children, a population an LLM cannot represent. The study is fundamentally about real academic performance in elementary students, so it is out of scope for simple role casting.",
+    "simulatable": false
+  },
+  "7888b9ed1171a81c7f2d89f642c173dc": {
+    "tier": 3,
+    "reason": "This is a field/natural experiment using administrative records on real academic performance and later behavioral outcomes, not a survey or vignette response. The primary outcomes include GPA, major choice, and fraternity membership, which are observed behaviors rather than LLM-generated opinions.",
+    "simulatable": false
+  },
+  "94127e9c0e32c7fc8c6eafa3587087d3": {
+    "tier": 1,
+    "reason": "This is an online/in-person survey and choice experiment where participants answer as themselves, making insurance choices and risk-preference selections in hypothetical monetary scenarios. No special demographic role, institution, or real-world behavioral outcome is required beyond survey responses and incentivized choices.",
+    "simulatable": true
+  },
+  "61c7bacb611a098c589081d21433c63f": {
+    "tier": 3,
+    "reason": "This is a field experiment on real educational behavior and administrative outcomes (GPA, attendance, graduation, college enrollment/graduation), not a survey or vignette. It also involves students as the subject population and outcomes observed in records, so it is fundamentally out of scope for LLM role-playing.",
+    "simulatable": false
+  },
+  "c0638c3b4d01c5b65c3e47cb9ff50071": {
+    "tier": 3,
+    "reason": "This is a field experiment with real behavioral outcomes observed on a platform (sign-ups, trips logged, miles logged), not a survey or vignette response. It also involves participants interacting with an actual government-run service and measuring follow-through behavior, which is out of scope for simple LLM role casting.",
+    "simulatable": false
+  },
+  "d36f19de7aa64eb2af5b26b0ee15476c": {
+    "tier": 3,
+    "reason": "Study 1 measures real work performance (output and quality of submitted work) in a field experiment on MTurk, so the outcome is behavioral rather than a survey response. Study 2 is a survey rating task, but the presence of the performance-based field component makes the overall study Tier 3.",
+    "simulatable": false
+  },
+  "9d8a3415ef2e6cec41bfd75fb30989c6": {
+    "tier": 3,
+    "reason": "This is a field experiment with real behavioral/academic outcomes measured on children (reading proficiency, fluency, sight word efficiency), not a survey or vignette response. The participants are elementary school students, a population an LLM cannot directly represent for outcome simulation.",
+    "simulatable": false
+  },
+  "3095f89bb28e745f7390aeb2e60110f8": {
+    "tier": 3,
+    "reason": "This is a field experiment using IRS mailings with outcomes measured in administrative records, including response to the mailing, disbursed benefits, and denied claims. The intervention is not a simple survey/vignette and the relevant behavior is actual program take-up rather than stated responses.",
+    "simulatable": false
+  },
+  "778bc31cbe7c003936741f1daae521d2": {
+    "tier": 1,
+    "reason": "This is an online forecasting survey where participants provide predictions as themselves; the manipulations are about response format and reference values, not requiring a special real-world role or institution. The LLM can simulate a generic academic/researcher respondent without heavy role casting.",
+    "simulatable": true
+  },
+  "7be27fd4cd84dca3f49e4346c42aa474": {
+    "tier": 1,
+    "reason": "This is a survey/vignette experiment about attitudes toward hypothetical hiring decisions, with respondents answering as themselves. It does not require acting as a firm, institution, or other out-of-scope entity, and the outcomes are self-reported attitudes rather than real behavioral performance.",
+    "simulatable": true
+  },
+  "a7bce0c7fbe2d4242a46ea897505e8fe": {
+    "tier": 3,
+    "reason": "This is a natural field experiment with real donation behavior observed from mailed solicitations, not a survey or vignette response. The outcome is actual charitable giving, so it is out of scope for an LLM to replicate as a generic respondent.",
+    "simulatable": false
+  },
+  "dadaeab80c211f2d953f54c9aa2a3d87": {
+    "tier": 1,
+    "reason": "This is an online survey/vignette experiment where respondents make hypothetical financial choices as themselves, with no need to adopt a special profession, institution, or lived experience beyond being a survey participant. The outcome is a stated preference for one option over another, which an LLM can simulate as a generic respondent.",
+    "simulatable": true
+  },
+  "650bd81b422ec9041a3beaf022bee43b": {
+    "tier": 3,
+    "reason": "This is a labor-task experiment with real behavioral performance as the primary outcome (data-entry accuracy/output), not just survey responses. Replicating it would require the model to perform the task and generate performance outcomes, which is out of scope for a generic LLM respondent.",
+    "simulatable": false
+  },
+  "cbbcb750fba985e6656be73086491800": {
+    "tier": 3,
+    "reason": "The respondents are firms/employers making hiring decisions on behalf of an organization, which requires role-casting as an institution rather than as an individual survey respondent. The outcome is a labor-demand choice in a firm-level incentive-compatible setting, so this is out of scope for simple generic LLM respondent simulation.",
+    "simulatable": false
+  },
+  "8daebdd99073fa93de60b6e9567b3f02": {
+    "tier": 3,
+    "reason": "This is a school-based field experiment with child participants and real academic outcomes, including grades, standardized test scores, and attendance. The intervention is a tangible home computer provision, and the key outcomes are not just survey responses, so it is out of scope for simple LLM role-playing.",
+    "simulatable": false
+  },
+  "06899f0f284c5516a758e761c1e1ee04": {
+    "tier": 3,
+    "reason": "This is a school-level field experiment where the intervention changes teacher assignments and the primary outcomes are students\u2019 real academic test scores. It requires acting as an institution (the school) and involves behavioral/administrative outcomes, which is out of scope for an LLM simulation.",
+    "simulatable": false
+  },
+  "f220622b11c90301fc2c655f14b301b9": {
+    "tier": 3,
+    "reason": "This is a lab group-performance experiment requiring participants to interact as members of a team and complete group tasks in person. It also includes real behavioral performance on cognitive and group problem-solving tasks, which is outside simple survey/vignette replication.",
+    "simulatable": false
+  },
+  "92167285313f6ee8ff11cfa8aadea16d": {
+    "tier": 3,
+    "reason": "This is a field experiment with real behavioral outcomes observed in administrative records, including audit take-up and investment take-up. It is not a simple survey/vignette response and requires actual household behavior rather than an LLM-generated answer.",
+    "simulatable": false
+  },
+  "5e1b0bf70cced073968b9e7b66ad6dcf": {
+    "tier": 3,
+    "reason": "This is a field experiment with real patient health outcomes and administrative records, not a survey or vignette response. The intervention concerns assignment to clinician teams in a hospital, which is fundamentally out of scope for an LLM to replicate as a respondent.",
+    "simulatable": false
+  },
+  "0308b1edbc5d0e925c39cdf31a02c613": {
+    "tier": 3,
+    "reason": "This is a classroom field experiment with real behavioral performance outcomes: students complete module assessments and standardized quiz scores are recorded. Because the outcome is actual academic test performance rather than a survey/vignette response, it falls in Tier 3.",
+    "simulatable": false
+  },
+  "eb1f30f01b0b847fe714edb392f910c8": {
+    "tier": 1,
+    "reason": "This is an online survey/vignette-style factorial experiment where parents evaluate school information displays and report understandability, usability, and stated choice preferences. It does not require acting as an institution or producing real-world behavioral outcomes.",
+    "simulatable": true
+  },
+  "e395b269aa2ab219621a7dfd2adef76a": {
+    "tier": 3,
+    "reason": "This is a field experiment on real Facebook users with an incentive-compatible deactivation outcome, which is a behavioral choice tied to actual platform use rather than a simple survey response. It also relies on observed behavior in a live online environment, making it out of scope for generic LLM role-play.",
+    "simulatable": false
+  },
+  "5b71fd35fd18c63b09515d7c3b0ef557": {
+    "tier": 3,
+    "reason": "The unit of analysis and intervention is physician practices, which must act as organizations adopting and using EHR systems and reporting quality measures. This is an institutional behavior study with real-world administrative/operational outcomes, so it is out of scope for a generic LLM respondent.",
+    "simulatable": false
+  },
+  "8d637d5fa4abc06555b5402c8b046ef9": {
+    "tier": 3,
+    "reason": "This is a field experiment with real behavioral outcomes observed from administrative transaction records (use of discount, number and amount of remittances), not just survey responses. It also involves participants acting in their role as migrant remitters in a real-world service setting, which is out of scope for simple LLM role casting.",
+    "simulatable": false
+  },
+  "cd10597bf1aeb762dc709418866a6cfc": {
+    "tier": 3,
+    "reason": "This is a field experiment with elderly Medicare beneficiaries, and the primary outcomes are actual plan-switching behavior and cost savings observed over time rather than simple survey responses. It also involves real-world administrative/behavioral outcomes tied to a government insurance program, which is out of scope for a generic LLM respondent.",
+    "simulatable": false
+  },
+  "a34b5fb47180247cb5c91d70cf86ce6c": {
+    "tier": 3,
+    "reason": "This is a field experiment on real households with outcomes measured from administrative water-use and enforcement records, not a survey or vignette response. The intervention and outcomes are behavioral and observed in the real world, so it is out of scope for simple LLM role casting.",
+    "simulatable": false
+  },
+  "dd9d31a08bdaacdb71e87098c42d0e64": {
+    "tier": 3,
+    "reason": "This is a field experiment with real-world educational outcomes for middle school students, including actual high school choices and enrollment. The intervention is delivered through informational materials and text reminders, but the primary outcomes are administrative/behavioral rather than survey responses, making it out of scope for simple LLM role-playing.",
+    "simulatable": false
+  },
+  "3967d86f3b4237360415d8818e0750bd": {
+    "tier": 3,
+    "reason": "This is a field experiment with real behavioral outcomes observed in administrative records: college enrollment and persistence. The intervention also includes in-person mentoring, which is outside a simple text-based role-play setting.",
+    "simulatable": false
+  },
+  "34a4a28c88dc779b276d54fd67de5695": {
+    "tier": 3,
+    "reason": "This is a resume audit field experiment with real employers as the responding agents, and the outcome is actual behavioral response (calls/emails) observed in the field. It requires acting as an organization/employer and is therefore out of scope for simple LLM respondent simulation.",
+    "simulatable": false
+  },
+  "603f1f27399043bc8fddb78a955c93d2": {
+    "tier": 3,
+    "reason": "This is a field experiment with real educational outcomes for college students, including credit accumulation, retention, transfer, and graduation. The intervention also involves institutional services and administrative records rather than a simple survey or vignette response.",
+    "simulatable": false
+  },
+  "bbd077a6551d93b20f421121e995a910": {
+    "tier": 1,
+    "reason": "This is a follow-up survey asking respondents about their own vaccination status and timing, plus some economic-game style measures. It does not require adopting a special role, and the responses are self-reports rather than institutional or behavioral outcomes.",
+    "simulatable": true
+  },
+  "1317366fe413b684726239b887196683": {
+    "tier": 3,
+    "reason": "This is a teacher professional development intervention in schools, but the primary outcomes are real behavioral/academic performance measures such as AP exam taking and scores, plus student assessments. Those outcomes are not simple survey responses and the study is fundamentally out of scope for an LLM to replicate as a respondent.",
+    "simulatable": false
+  },
+  "6fad488cc0a5e029321a20bdd2dde8c7": {
+    "tier": 1,
+    "reason": "This is a survey/vignette choice task where respondents choose between repayment plans as themselves, with randomized plan attributes. No special demographic role, institution, or real-world behavioral outcome is required.",
+    "simulatable": true
+  },
+  "5d38c2813476350526c6d5700583ba00": {
+    "tier": 3,
+    "reason": "This is a field experiment with real-world behavioral outcomes measured from administrative voting records, not just survey responses. The intervention is a newspaper subscription delivered in the field, and the key outcome is actual turnout behavior.",
+    "simulatable": false
+  },
+  "ead2e31dc64c05f4b4df86cb5d9281aa": {
+    "tier": 3,
+    "reason": "This is a field experiment on teacher hiring where the treatment affects real hiring decisions and downstream administrative outcomes like hiring, performance evaluations, and retention. It also involves hiring managers and applicants in an institutional setting, which is out of scope for simple LLM role casting.",
+    "simulatable": false
+  },
+  "8e20e31a5010937fe67ec3f623475468": {
+    "tier": 3,
+    "reason": "This is a school-based field experiment with real behavioral and administrative outcomes, including student learning performance, parent-teacher conferences, and standardized test scores. It also involves teachers acting in their professional roles and outcomes observed in the real world rather than a survey or vignette.",
+    "simulatable": false
+  },
+  "28d77dba0416137a62d0a1e8af4b14e2": {
+    "tier": 1,
+    "reason": "This is an online MTurk vignette/incentivized choice experiment where participants make giving decisions as generic \u201crich\u201d players. It does not require a specific real-world profession, institution, or non-text behavioral performance beyond survey-style choices.",
+    "simulatable": true
+  },
+  "c92879e00f065efa43ade827fe193d72": {
+    "tier": 3,
+    "reason": "This is a field experiment on a company career website with real behavioral outcomes in the application funnel and administrative records (applications, screens, interviews, offers). It is not a survey/vignette response task and involves an organization acting in a labor market setting.",
+    "simulatable": false
+  },
+  "d51b1a361292c035aa6ddafba6f16771": {
+    "tier": 3,
+    "reason": "This is a field experiment with firm-level administrative outcomes (revenue and hiring) rather than survey responses. The participants are firms acting as organizations, which requires heavy role casting and is outside the scope of a generic respondent LLM.",
+    "simulatable": false
+  },
+  "ae284e9fe62940f262d295ecf9eb5cdd": {
+    "tier": 3,
+    "reason": "This is a municipality-level field experiment where the intervention is delivered through campaigns, ambassadors, events, and verbal messaging, and the primary outcome is real-world solar adoption observed in administrative records. It requires acting through organizations/communities rather than a simple respondent persona.",
+    "simulatable": false
+  },
+  "a84417c504cf3ce93573ee58ced7f17b": {
+    "tier": 3,
+    "reason": "This is a workforce program field experiment with real-world employment and earnings outcomes measured using administrative wage/benefits data, not a survey or vignette response. Replicating it would require actual behavioral and labor-market outcomes rather than LLM-generated answers.",
+    "simulatable": false
+  },
+  "6d6e8db68355c0747add2ef5665d0933": {
+    "tier": 3,
+    "reason": "This is a hospital-based care management field trial with outcomes measured in administrative health records such as readmissions, ED use, hospital days, and charges. It is fundamentally out of scope for an LLM because it requires real-world patient behavior and institutional healthcare delivery rather than survey responses.",
+    "simulatable": false
+  },
+  "69111605544d66bd43e0eff3a908d08b": {
+    "tier": 3,
+    "reason": "This is a school-based field experiment with real academic test-score outcomes for children, not a survey or vignette study. The intervention is delivered in schools and the subjects are students, so it is out of scope for simple LLM role-casting.",
+    "simulatable": false
+  },
+  "40b3ad27259a139f06054333805b23e1": {
+    "tier": 3,
+    "reason": "The outcome is actual voter turnout, a real-world behavioral outcome observed in election records rather than a survey response. The intervention is also a field canvassing/mail experiment, so it is out of scope for simple LLM role-playing.",
+    "simulatable": false
+  },
+  "4294250a3f79e537f416ecebd78ebc2f": {
+    "tier": 3,
+    "reason": "The main study is an observational analysis of editorial decisions and referee recommendations in a professional institution setting, which is outside a generic respondent LLM role. The outcomes concern real editorial behavior and institutional decision-making rather than a survey-only vignette response.",
+    "simulatable": false
+  },
+  "f7a4a181971200c0a379e62735f43913": {
+    "tier": 3,
+    "reason": "This is a field experiment conducted through H&R Block tax offices, with participants making real financial decisions that affect actual IRA contributions and matched funds. The outcome is real behavioral take-up and contribution amounts, not a survey response.",
+    "simulatable": false
+  },
+  "20038d12211d780fc137243fd8b5b8d3": {
+    "tier": 3,
+    "reason": "This is a field experiment with real-world behavioral and administrative outcomes, including arrests, employment, and school persistence, rather than a survey or vignette response. It also involves actual youth participation in a summer jobs program, which is outside what an LLM can meaningfully replicate.",
+    "simulatable": false
+  },
+  "cfe78b4415b97f3f35a726f5359c2ef1": {
+    "tier": 1,
+    "reason": "This is a survey-based conjoint experiment where respondents make stated choices between hypothetical job offers. It does not require acting as an institution or producing real-world behavioral outcomes, so a generic respondent model is sufficient.",
+    "simulatable": true
+  },
+  "0c5118b89fe39c4e5ab3c8b44d22ea95": {
+    "tier": 3,
+    "reason": "The primary outcome is real behavioral performance in a rule-following task (placing balls into buckets), not just a survey response. Because the experiment measures actual task execution, it is fundamentally out of scope for a generic LLM simulation.",
+    "simulatable": false
+  },
+  "c29cf6bf6006e015f9414cd114c1dac5": {
+    "tier": 3,
+    "reason": "This is a college-student commitment-device field experiment with real behavioral outcomes (tutoring attendance and learning outcomes) and administrative/academic performance measures, not just survey responses. It also involves actual contract take-up and consequences tied to exam performance, which is outside a generic LLM respondent role.",
+    "simulatable": false
+  },
+  "d9c0f8ced68a1d63dbbd0bba01c16a29": {
+    "tier": 2,
+    "reason": "This is a survey of individual lottery players asking about their own earnings, savings, consumption, and work behavior, so an LLM would need to adopt the respondent\u2019s lived experience as a lottery winner or non-winner. It does not require institutional or physical performance, but it is not a generic no-persona survey because the treatment/outcomes are tied to the participant\u2019s specific lottery status and background.",
+    "simulatable": true
+  },
+  "4929a54d8a2e4b4d47ad6b0a531b29f5": {
+    "tier": 3,
+    "reason": "This is a field experiment with real-world behavioral outcomes measured from public records (voter turnout), not a survey response. The intervention also includes phone calls and direct mail aimed at actual voters, making it out of scope for simple LLM role-play.",
+    "simulatable": false
+  },
+  "48451eadc043d9edfbfccc3cb133d491": {
+    "tier": 3,
+    "reason": "This is a field experiment in schools with real behavioral and administrative outcomes, including teacher transfers, hiring decisions, retention, and student test scores. It requires participants to act as principals and teachers within an institutional setting, which is out of scope for a generic LLM response.",
+    "simulatable": false
+  },
+  "d3538b0a76f11e7a2dc9fc4f4ccb4e12": {
+    "tier": 3,
+    "reason": "This is a field experiment with real behavioral outcomes: actual charitable donations and actual voting, not just survey responses. Replicating it would require observing real-world actions rather than having an LLM answer as a generic respondent.",
+    "simulatable": false
+  },
+  "df13d1a44ef3b0efc824efd845119165": {
+    "tier": 1,
+    "reason": "This is an online survey/vignette-style experiment measuring subjective well-being after participants are told their own and another participant\u2019s payments. No special demographic role, institution, or real-world behavioral outcome is required.",
+    "simulatable": true
+  },
+  "ccd8e847a7ddf8865a1c573a76caf23f": {
+    "tier": 3,
+    "reason": "This is a field experiment with real-world administrative outcomes (employment, earnings, income, public assistance receipt) among TANF applicants/recipients, not a survey or vignette response task. Replicating it would require modeling actual behavioral and institutional interactions rather than simple role-based text responses.",
+    "simulatable": false
+  },
+  "30a82c27432a2fe891627dcbff281b29": {
+    "tier": 3,
+    "reason": "This is a field experiment with real administrative outcome data: the primary outcome is actual Medicaid enrollment, not a survey response. Replicating it would require observing real-world take-up behavior and government records, which is out of scope for an LLM.",
+    "simulatable": false
+  },
+  "0bd22e9678912e6a67a5f024331aa2cd": {
+    "tier": 1,
+    "reason": "This is a survey/vignette-style study of Americans reporting beliefs, self-reported distancing, media trust, and predictions. It does not require acting as an institution or producing real-world behavioral outcomes, so an LLM can simulate a generic respondent without special role casting.",
+    "simulatable": true
+  },
+  "44d69a57d7ef41b101f53549acf4416c": {
+    "tier": 3,
+    "reason": "This is a field experiment with real-world educational outcomes measured by student achievement in math and reading, not a survey or vignette response. The participants are children and the intervention operates through actual teacher assignment and school administration, which is out of scope for an LLM to replicate behaviorally.",
+    "simulatable": false
+  },
+  "727b49d2bced9bb665ab39b7df3d80b2": {
+    "tier": 1,
+    "reason": "This is an online MTurk survey where participants state their willingness to pay as themselves in hypothetical decision tasks. It does not require acting as an institution, using real-world behavior, or adopting a specialized lived experience beyond a generic respondent.",
+    "simulatable": true
+  },
+  "2755eeb0dff624aecfb23fb64f2b82b6": {
+    "tier": 3,
+    "reason": "This is a field experiment with teachers acting in their professional role, and the primary outcomes are real student test scores and teacher effort-related behaviors rather than survey responses. It also involves school district administration and classroom performance, which is out of scope for simple LLM role-playing.",
+    "simulatable": false
+  },
+  "8440507069bdc137b74c1b0cc11a9259": {
+    "tier": 3,
+    "reason": "The intervention targets prescribers acting in their professional role, and the primary outcome is real-world prescribing behavior measured from administrative claims. This is a field experiment on professional conduct rather than a survey or vignette response.",
+    "simulatable": false
+  },
+  "f25caa1f263a11e9740e310ef6dfeb55": {
+    "tier": 3,
+    "reason": "This is a field experiment with real educational outcomes measured by administrative test scores, not a survey or vignette response. The intervention also involves actual school attendance and academic performance, which an LLM cannot meaningfully simulate as a respondent.",
+    "simulatable": false
+  },
+  "0f148eba622740f7b3561818ab202dca": {
+    "tier": 2,
+    "reason": "This is a recruiter judgment task, but the respondent is not acting as an institution; they are evaluating applicant profiles as a person in a hiring role. The task is text-based and survey-like, but it requires adopting the specific role of a recruiter, so role casting is needed.",
+    "simulatable": true
+  },
+  "a77dcdebd152e5c34712a0759793f2e7": {
+    "tier": 3,
+    "reason": "This is a field-style entrepreneurial pitching study where participants are investors responding to pitches and the outcome is actual reply behavior, not a simple survey response. It also involves role-specific interaction with real-world pitch communications, which is out of scope for a generic LLM respondent.",
+    "simulatable": false
+  },
+  "8993cf368bd7e3cb7c12bc09cafc5b95": {
+    "tier": 3,
+    "reason": "This is a door-to-door field experiment with real charitable giving and observed behavioral outcomes (answering the door, checking opt-out, amount given), not a survey-only vignette. The treatment is delivered in person by solicitors in a physical environment, so it is out of scope for simple LLM role-playing.",
+    "simulatable": false
+  },
+  "195102854b94f834d9e012731ed3f28d": {
+    "tier": 1,
+    "reason": "This is an online belief-elicitation and information-treatment survey where participants respond as themselves to questions about immigration attitudes and petition intentions. No special demographic role, institution, or real-world behavioral setting is required beyond generic respondent behavior.",
+    "simulatable": true
+  },
+  "ea7716b07b57475252efb6742b0a5675": {
+    "tier": 1,
+    "reason": "This is a text-based survey/vignette experiment where respondents evaluate abstracts and make judgments as themselves. No special demographic, professional, or institutional role is required beyond being a survey participant.",
+    "simulatable": true
+  },
+  "c5a8027f91ccf05d4fc60bd198e71fc7": {
+    "tier": 1,
+    "reason": "This is a survey/vignette-style study where respondents decide whether to listen to others with different political views. It does not require a special demographic role, institution, or real-world behavioral outcome beyond survey engagement.",
+    "simulatable": true
+  },
+  "24965a8eb8356237b4fa12bc6a285472": {
+    "tier": 3,
+    "reason": "This is a field experiment on entrepreneurship training with real-world behavioral and economic outcomes measured over months and years, including business ownership, sales, employment, and income. It is not a simple survey/vignette task and would require actual participant behavior rather than LLM-generated responses.",
+    "simulatable": false
+  },
+  "3fb12ffde9af502a7697ef7b9198ba68": {
+    "tier": 2,
+    "reason": "This is an online survey/vignette-style experiment, but the treatment and outcomes depend on participants adopting a specific gender identity and responding as male or female subjects. That requires role casting by demographic identity rather than a generic respondent.",
+    "simulatable": true
+  },
+  "484dbd64c2f8387aca5d06b9e3f3be85": {
+    "tier": 3,
+    "reason": "This is a field experiment with real-world labor-market and administrative-record outcomes (employment, earnings, welfare, arrests), not just survey responses. It also involves in-person intervention and validated records, making it fundamentally out of scope for an LLM to replicate as a respondent.",
+    "simulatable": false
+  },
+  "17ba7792fb3e12299047eed8a907a70d": {
+    "tier": 3,
+    "reason": "Participants must act as traders in a live double-auction market, with outcomes based on real trading performance and profits rather than survey responses. This is a behavioral market experiment, so it is fundamentally out of scope for a generic LLM respondent.",
+    "simulatable": false
+  },
+  "871d84130b533b71ea9c0bd1eca50c7f": {
+    "tier": 3,
+    "reason": "This is a field experiment delivered through Facebook ads with outcomes measured as real click behavior on a live website, not a survey or vignette response. It also relies on observed administrative-style engagement data rather than participants answering as themselves in a controlled text scenario.",
+    "simulatable": false
+  },
+  "42defeaef912997f31adbe38e58f8727": {
+    "tier": 1,
+    "reason": "This is a student survey/intervention study where the main outcomes are reading-related responses and a standardized reading test, not a role-specific or institutional task. The LLM could be used as a generic student respondent for the survey-like components, though the actual reading test performance is not meaningfully simulatable.",
+    "simulatable": false
+  },
+  "815ebb92a5b8bcf8a2e7ab2935132150": {
+    "tier": 3,
+    "reason": "This is a field experiment involving real legal representation by student-attorneys and outcomes observed from administrative records (appeal win/loss and timing), not a survey or vignette response. The participant is effectively a claimant in a real-world legal process, so it is out of scope for simple LLM role casting.",
+    "simulatable": false
+  },
+  "82ddcfb4f081aaefb4d10cac56a875be": {
+    "tier": 3,
+    "reason": "This is a field experiment with real academic performance outcomes from administrative records, not a survey or vignette response. The treatment is actual school attendance and the outcomes are standardized test scores, which are fundamentally out of scope for LLM role-casting.",
+    "simulatable": false
+  },
+  "d23efbb10c6f26ac86c7c6af47ae0b4b": {
+    "tier": 3,
+    "reason": "This is a field experiment delivered through radio advertisements at the municipality level, not a survey or vignette. The outcome is electoral competitiveness observed in real-world elections, so it is fundamentally out of scope for an LLM to replicate as a respondent.",
+    "simulatable": false
+  },
+  "569766900e37697598cbe948969db7d3": {
+    "tier": 1,
+    "reason": "This is a phone-based survey/intervention study where respondents answer as themselves about beliefs, knowledge, and self-reported social distancing. It does not require acting as an institution, using physical performance, or any out-of-scope population.",
+    "simulatable": true
+  },
+  "1240338ebb2aca4bcea0a68ef6e34dbf": {
+    "tier": 1,
+    "reason": "This is a text-based survey experiment with nationally representative U.S. adults answering policy preference, belief, and intended behavior questions as themselves. No special institutional role, physical task, or non-text modality is required.",
+    "simulatable": true
+  },
+  "5f91e7dde7202d4f2c296c4e747a865f": {
+    "tier": 3,
+    "reason": "This is a field experiment with real-world behavioral outcomes measured through bank account opening, savings balances, and remittance behavior over time. It also involves in-person marketer visits and administrative/financial actions rather than a purely survey-based response.",
+    "simulatable": false
+  },
+  "0fa2a3a892352876eee2e12b14d526fc": {
+    "tier": 3,
+    "reason": "This is a school-level field experiment where the intervention targets principals and school leaders acting in their institutional roles, and the primary outcomes include real student test scores and other behavioral/administrative measures. It is fundamentally out of scope for a generic LLM respondent.",
+    "simulatable": false
+  },
+  "c7706fd1009bc657e06ee87aeb525cf5": {
+    "tier": 3,
+    "reason": "This is a field experiment involving real legal representation in housing court, with outcomes measured through actual case progression, possession, rent losses, and court records. It requires participants to act as litigants in a real institution, so it is fundamentally out of scope for an LLM survey-style simulation.",
+    "simulatable": false
+  },
+  "3c20264fe21c7affa720aa23a08febbe": {
+    "tier": 3,
+    "reason": "This is a natural field experiment with real-effort worker performance as the primary outcome, so it depends on actual behavioral performance rather than survey responses. The treatment also occurs in a labor-market setting with monitoring/control, which is out of scope for a generic LLM respondent.",
+    "simulatable": false
+  },
+  "90af065180ee9de7ed65b513eb43f5c5": {
+    "tier": 3,
+    "reason": "This is a field experiment with a real behavioral outcome observed from administrative records: actual voter turnout. The intervention is delivered by mail, but the key outcome is not a survey response, so it is fundamentally out of scope for an LLM simulation.",
+    "simulatable": false
+  },
+  "f085b45c080857f4097b7d3749cf32c8": {
+    "tier": 3,
+    "reason": "This is a correspondence study where the outcome is a real-world employer callback to submitted resumes, observed through email/phone responses rather than a survey response. It is a field experiment with administrative-style behavioral outcomes, so it is out of scope for simple LLM role casting.",
+    "simulatable": false
+  },
+  "926597cf1ce2d06dc19a1f93fc64c493": {
+    "tier": 1,
+    "reason": "This is a survey-like behavioral intervention where participants respond as themselves to reminders and incentives, with outcomes measured as gym visits. It does not require adopting a special profession, institution, or non-human role, and the treatment is text-based.",
+    "simulatable": true
+  },
+  "7d46a88c6a20078e13848a7fc19767b8": {
+    "tier": 3,
+    "reason": "This is a correspondence study using email contact, and the subjects are agents responding in a market context rather than generic survey respondents. The task involves real-world professional behavior and institutional role performance, so it is out of scope for simple LLM role casting.",
+    "simulatable": false
+  },
+  "b62f16302e4042b13e716cfb59ba7660": {
+    "tier": 3,
+    "reason": "This is a field experiment with real-world educational and labor-market outcomes, including high school graduation, postsecondary enrollment, employment, and earnings. Those outcomes are observed in administrative/behavioral records rather than a survey response, so an LLM cannot meaningfully replicate the experiment.",
+    "simulatable": false
+  },
+  "2adb81b9af2953086e9ea24d9f355216": {
+    "tier": 3,
+    "reason": "The study is a field experiment on students with real behavioral outcomes, including academic test scores and school behavior, not just survey responses. It also involves children, which is outside what an LLM can directly represent without heavy role casting.",
+    "simulatable": false
+  },
+  "428bc75ab993a68868d21dc98cdd488b": {
+    "tier": 1,
+    "reason": "This is an MTurk vignette survey where respondents rate the fairness of hypothetical discrimination scenarios on a 1-7 scale. The LLM can answer as a generic survey respondent without needing a specific real-world role or institutional behavior.",
+    "simulatable": true
+  },
+  "93ce997c0dc34d0e62f42d9c8836554d": {
+    "tier": 1,
+    "reason": "This is an online MTurk survey/vignette-style experiment where participants respond as themselves, write about personal experiences, and then complete a dishonesty task. No special demographic or institutional role is required beyond being a generic adult respondent.",
+    "simulatable": true
+  },
+  "03c547b402eee2547a6c1481c2b69c49": {
+    "tier": 3,
+    "reason": "The study involves participants receiving an actual cash transfer delivered through M-Pesa and includes a video selection task with audio/video media and in-person enumerator interaction. Because the intervention is not just a text vignette and the setting is a field/lab experiment with real-world delivery, it is out of scope for simple LLM role-play replication.",
+    "simulatable": false
+  },
+  "334a54a7a76bba637c669860ea941310": {
+    "tier": 3,
+    "reason": "This is a field canvassing experiment with in-person interaction and outcomes measured later in real-world survey responses after a doorstep conversation. Replicating it would require simulating a live human canvasser and the social dynamics of face-to-face contact, which is beyond simple role casting.",
+    "simulatable": false
+  },
+  "5bd4e9244575dc30f9fb3b58ba9965e6": {
+    "tier": 1,
+    "reason": "This is an online survey/prediction task where respondents answer true/false questions and forecast others' responses. It does not require a special demographic role, institution, or real-world behavior beyond stated beliefs.",
+    "simulatable": true
+  },
+  "0b6d9eee4287a1fded13a8bc7f2f52ae": {
+    "tier": 3,
+    "reason": "This is a field experiment with real-world administrative outcomes (earnings, employment, college enrollment, incarceration, mortality), not a survey or vignette response. Replicating it would require actual youth participants and observed records rather than LLM-generated answers.",
+    "simulatable": false
+  },
+  "bd7fc832dba07aa587692fc7d96a9846": {
+    "tier": 3,
+    "reason": "This is a real performance task where students take an actual mathematics test and outcomes are test scores, not survey responses. It also involves children/adolescents in a school setting, which is out of scope for simple LLM role casting.",
+    "simulatable": false
+  },
+  "d9ea8c895831a2f49da1baaad77ac48e": {
+    "tier": 3,
+    "reason": "This is a field experiment with real-world administrative and labor-market outcomes such as service receipt, employment, earnings, income, and benefits take-up. Replicating it would require actual behavioral and institutional responses, not just survey-style answers.",
+    "simulatable": false
+  },
+  "26570e50b57a9f4b6a425521f42edb9c": {
+    "tier": 3,
+    "reason": "The study measures real behavioral outcomes in the field: fair attendance and later retirement-plan enrollment from administrative records. It is not a simple survey/vignette response, and the treatment affects actual actions rather than stated preferences.",
+    "simulatable": false
+  },
+  "8b37ae9c6652b71d209e8211a1b5d879": {
+    "tier": 3,
+    "reason": "This is a field experiment with real behavioral outcomes: actual thermostat set-points and building energy usage in a residence hall. The intervention is delivered by email, but the key outcomes are observed physical/administrative behavior rather than survey responses.",
+    "simulatable": false
+  },
+  "0aa544b7967bf12d2f26ba78ce0abec7": {
+    "tier": 3,
+    "reason": "This is a field experiment on actual educational outcomes, with primary outcomes being real test scores rather than survey responses. The treatment is an offer of school admission and the study concerns students as a real-world population, so it is out of scope for simple LLM role casting.",
+    "simulatable": false
+  },
+  "b4131f4301a15afc7aa5702d72a89ed7": {
+    "tier": 1,
+    "reason": "This is a text-based survey/vignette experiment measuring stated charitable giving from a hypothetical lottery payout. Respondents can be simulated as generic survey participants without adopting a specific real-world role.",
+    "simulatable": true
+  },
+  "7d72bd5b401e698fe99b5a3414640f3c": {
+    "tier": 3,
+    "reason": "This is a real behavioral performance task requiring participants to physically press keys as quickly as possible for 10 minutes, with outcomes based on actual task performance rather than survey responses. That makes it fundamentally out of scope for a generic LLM simulation.",
+    "simulatable": false
+  },
+  "7f11c52b13c55f61536ea598745484a9": {
+    "tier": 3,
+    "reason": "The study targets noncustodial fathers with specific legal and employment circumstances, and the primary outcomes are real-world administrative records on employment, earnings, and child support payments. This is a field experiment with behavioral and administrative outcomes, so it is out of scope for simple LLM simulation.",
+    "simulatable": false
+  },
+  "6d296561a23f7061e5d249174a60a5ea": {
+    "tier": 3,
+    "reason": "This is a field experiment with a real behavioral/legal outcome: failure to appear in court, observed from court records. It also targets people experiencing homelessness, but the key issue is that the outcome is administrative and not a survey response.",
+    "simulatable": false
+  },
+  "6667d4853b51d7fdf0e55a7a27a30e5e": {
+    "tier": 3,
+    "reason": "This is a performance experiment with real academic test scores as the primary outcome, not just survey responses or vignettes. Replicating it would require actual student effort and test performance in a course setting, which is out of scope for an LLM.",
+    "simulatable": false
+  },
+  "c4ef9bca99e51cf2859534e298a86884": {
+    "tier": 3,
+    "reason": "This is a workplace wellness field experiment with real behavioral and administrative outcomes (biometric screening completion, wellness participation, claims data, absenteeism, biometric measures), not just survey responses. It also involves employees acting in a workplace context and some treatments depend on participation in actual wellness programs.",
+    "simulatable": false
+  },
+  "31a6ac3ae1d180a8bc772dd3242104cc": {
+    "tier": 1,
+    "reason": "This is an individual-level messaging and lottery-incentive experiment with self-reported or diary-style day-level behavior outcomes. It does not require participants to adopt a special role, and the interventions are text-based rather than institutional or physical.",
+    "simulatable": true
+  },
+  "2baacf5af9f01f8e768a4ac2ba9f9419": {
+    "tier": 3,
+    "reason": "This is a school-based field experiment with children/high school students, and the primary outcomes include knowledge and support measured after a real curriculum intervention. Because the participants are minors and the treatment is delivered through an actual classroom setting, it falls outside simple survey/vignette replication.",
+    "simulatable": false
+  },
+  "0f34953ef5950b06b4497f75efa585fe": {
+    "tier": 3,
+    "reason": "This is a field experiment with real-world program participation and administrative/behavioral outcomes such as earnings, work effort, benefit use, and child outcomes. It is not a simple survey or vignette response task, and it involves actual institutions and lived program eligibility.",
+    "simulatable": false
+  },
+  "75f5299b11e9ef6ff862d6b6243fefce": {
+    "tier": 3,
+    "reason": "This is a field experiment with real behavioral outcomes measured from administrative transaction records (future borrowing and loan amounts), not just survey responses. Replicating it would require acting in a real payday lending setting and observing actual financial behavior, which is out of scope for an LLM.",
+    "simulatable": false
+  },
+  "c924391ee28f506951157bfcbfd03ac9": {
+    "tier": 2,
+    "reason": "This is a survey/vignette-style choice task, but the design explicitly recruits respondents with specific political affiliations (conservative, liberal) and analyzes responses by those identities. That requires role casting as a particular demographic/political persona rather than a generic respondent.",
+    "simulatable": true
+  },
+  "32a4955f688c2ad2e48bb150a8d398d8": {
+    "tier": 1,
+    "reason": "This is a text-based survey/vignette experiment where respondents report beliefs and expectations as themselves, with no need for a special demographic or institutional role. The interventions are informational forecasts and hypothetical scenarios, which an LLM can answer as a generic respondent.",
+    "simulatable": true
+  },
+  "d2b245edc150e8680fd172d73b240674": {
+    "tier": 3,
+    "reason": "This is a field experiment with youth participants and primary outcomes measured through administrative/real-world records such as criminal behavior, education, labor market involvement, health, fertility, and household functioning. It is not a simple survey/vignette task and involves a population (children/young people) and outcomes that an LLM cannot meaningfully simulate.",
+    "simulatable": false
+  },
+  "33697acc6b95d460d39cea6db27cf68d": {
+    "tier": 3,
+    "reason": "This is an interactive group decision experiment where participants must act as voters in a mechanism design setting, with outcomes based on actual strategic behavior over multiple rounds. It is not just a simple self-report survey, so it requires heavy role casting and is best treated as out of scope for a generic LLM respondent.",
+    "simulatable": false
+  },
+  "962e14014df79c7c2a159d1623f6db3c": {
+    "tier": 3,
+    "reason": "Participants are real tax-preparation clients with actual debt, and the primary outcomes include real repayment behavior and debt levels tracked via credit reports over time. This is a field intervention with administrative/behavioral outcomes rather than a simple survey response.",
+    "simulatable": false
+  },
+  "4bab05e6a8a52b235f336f577217dc82": {
+    "tier": 3,
+    "reason": "This is a field welfare policy experiment with real behavioral and administrative outcomes such as employment, earnings, welfare receipt, and children's test scores. It also involves families interacting with a government program, so it is fundamentally out of scope for simple LLM role-play.",
+    "simulatable": false
+  },
+  "046b79991a7dce2a55a9501ef7054e1c": {
+    "tier": 3,
+    "reason": "This is a field experiment on SNAP enrollment with administrative outcomes like case determination, approval, reapplications, and longer-term participation. It involves real-world government program processing rather than a survey or vignette response.",
+    "simulatable": false
+  },
+  "10e6597520447c4be5525c14b27e7172": {
+    "tier": 2,
+    "reason": "The study is an online/text-based experiment, but it recruits Texas A&M students and the treatment\u2019s meaning depends on participants\u2019 own Facebook use and valuation. That requires some role-casting to the participant\u2019s real identity and social media behavior.",
+    "simulatable": true
+  },
+  "96bf0db124b20f922d57984daff61a2f": {
+    "tier": 3,
+    "reason": "This is a field experiment with real-world behavioral and administrative outcomes for at-risk youth, including education, employment, military enlistment, and arrests/convictions. It also involves a specific youth population that an LLM cannot meaningfully represent as actual participants.",
+    "simulatable": false
+  },
+  "2aaae46bdf0500abefe590a47c70645a": {
+    "tier": 3,
+    "reason": "This is a school-level field RCT where the intervention is delivered through schools/counselors and the primary outcomes are actual high school choice and enrollment behavior, not just survey responses. It also involves institutions acting as intermediaries, which is out of scope for simple respondent role-casting.",
+    "simulatable": false
+  },
+  "e9516e3acbf94e448eb6565b067c97b5": {
+    "tier": 3,
+    "reason": "This is a school-level field experiment with real behavioral/administrative outcomes, including standardized test scores and attendance. It requires institutions (schools) to be assigned to treatment, which is out of scope for an LLM respondent simulation.",
+    "simulatable": false
+  },
+  "85cbc2df8d064bf50a029919cc3b3efc": {
+    "tier": 3,
+    "reason": "This is a field experiment on welfare policy with real administrative outcomes such as earnings and welfare receipt. Replicating it would require modeling actual institutional behavior and observed records, not just survey responses.",
+    "simulatable": false
+  },
+  "55df1087bf4dd23f10595f85914d3e94": {
+    "tier": 3,
+    "reason": "This is a field experiment delivered through Facebook ads and video messages, with outcomes measured in real-world mobility/travel behavior rather than survey responses. The intervention also relies on video/audio content and platform targeting, which is outside simple respondent role-casting.",
+    "simulatable": false
+  },
+  "42129431033112bf6e480750c49c49d7": {
+    "tier": 3,
+    "reason": "This is a health intervention for patients with diabetes, with primary outcomes based on clinical biomarkers (HbA1c) and health care utilization rather than survey responses. It also involves a patient population that an LLM cannot meaningfully represent for real clinical behavior or outcomes.",
+    "simulatable": false
+  },
+  "e3cf710f348600be3c83f89cf41290e9": {
+    "tier": 3,
+    "reason": "The study includes a real quiz with status assignment and subsequent competitive behavior, so the outcome depends on actual performance rather than a simple survey/vignette response. It is not just a generic opinion or stated-preference task, making it out of scope for a text-only LLM simulation.",
+    "simulatable": false
+  },
+  "0549e1a9b6af77984fc8dffe0556b0a8": {
+    "tier": 3,
+    "reason": "This is a field experiment on real educational behavior with administrative outcomes like enrollment, credits earned, and degree/certificate attainment. It also involves students as a specific population and the intervention is a scholarship affecting actual performance, which is out of scope for generic LLM role-play.",
+    "simulatable": false
+  },
+  "d6dd26076c82bbf948f09e0d1cbd327b": {
+    "tier": 3,
+    "reason": "This is a field experiment with real administrative outcomes from community college students, including transcript-based credits earned, course-taking, credit accumulation, and persistence. The LLM cannot meaningfully replicate actual academic performance or enrollment behavior.",
+    "simulatable": false
+  },
+  "d0a18ee7bdf8873c713d9b578a26665a": {
+    "tier": 3,
+    "reason": "This is an expert forecasting survey, but the underlying study being forecast is a real-effort experiment with behavioral performance outcomes. The LLM would not be replicating the original participants\u2019 actual effort, so this is fundamentally out of scope for Tier 1/2 and fits Tier 3.",
+    "simulatable": false
+  },
+  "07bf5f84c20afa809c5b45d21bc3f010": {
+    "tier": 3,
+    "reason": "The intervention is delivered via a video presentation and involves real-world employee enrollment decisions with administrative participation outcomes. This is a field experiment on actual benefit and 401(k) participation, so it is fundamentally out of scope for an LLM simulation.",
+    "simulatable": false
+  },
+  "8ad4f3b345ea001b3b5be30c0181ff0d": {
+    "tier": 3,
+    "reason": "This is a field experiment in a real institution with the primary outcome being actual academic performance (GPA) from administrative records, not a survey response. The treatment also changes real squadron assignment within the Air Force Academy, so it is fundamentally out of scope for a generic LLM respondent.",
+    "simulatable": false
+  },
+  "28f92007472183e31832f6f452d2a59b": {
+    "tier": 3,
+    "reason": "The study measures real-world behavioral and administrative outcomes for families, including income, poverty status, program usage, and savings, rather than survey responses. This is a field RCT with outcomes that cannot be replicated by an LLM as a respondent.",
+    "simulatable": false
+  },
+  "23859313c5666cbbb2e02ab031ee95a2": {
+    "tier": 3,
+    "reason": "This is a resume audit field experiment with real employers and callback outcomes, not a survey or vignette. The outcome is an observed behavioral response in the labor market, so it is fundamentally out of scope for an LLM to replicate directly.",
+    "simulatable": false
+  },
+  "0dffe0a9ce0c8b5ba651e7b96e8b2731": {
+    "tier": 3,
+    "reason": "This is a field experiment with real administrative outcomes: SNAP applications and enrollment are observed after outreach, and the intervention involves helping households complete and submit actual benefit applications. The LLM cannot replicate the institutional processing or real-world take-up behavior.",
+    "simulatable": false
+  },
+  "fa7a944baefbf63f020e0defc6f3744b": {
+    "tier": 1,
+    "reason": "This is an online survey experiment where medical students answer belief and preference questions about residency programs as themselves. The treatment is text-based information provision, and the outcomes are stated beliefs and intended rank order, not real-world behavior.",
+    "simulatable": true
+  },
+  "fc4b9e92280f3c4cc149458fe96f901a": {
+    "tier": 3,
+    "reason": "This is a field experiment on a welfare policy with real behavioral and administrative outcomes such as employment, income, welfare receipt, hardship, and children's school performance. It is not a survey/vignette response task and would require modeling institutional policy effects rather than a generic respondent.",
+    "simulatable": false
+  },
+  "2809b06dc7ce9e6ff1ad2f32dc23f415": {
+    "tier": 3,
+    "reason": "The intervention targets schools and childcare centers as organizations, and the primary outcome is real-world immunization compliance rates at the school/center level rather than survey responses. This is fundamentally an institutional field experiment, so it is out of scope for simple LLM role casting.",
+    "simulatable": false
+  },
+  "bc7010d13df16dfef4cf99c4ff2c87a7": {
+    "tier": 1,
+    "reason": "This is an online survey/vignette experiment where respondents evaluate policy systems and express moral concern and preferences as themselves. It does not require acting as a firm, institution, or other non-individual entity, nor does it involve real-world behavioral outcomes.",
+    "simulatable": true
+  },
+  "f161663a57fbc9e5aaaa13cf6b275e19": {
+    "tier": 2,
+    "reason": "This is a survey/vignette study with stated intentions as outcomes, so it is broadly in-scope for an LLM. However, the treatment is targeted to specific demographic and identity-based subgroups (race/ethnicity, Trump voters/conservatives, religious participants, parents), so some role casting is needed.",
+    "simulatable": true
+  },
+  "8fb7b8d087aa5bb9fc80834bdcac1868": {
+    "tier": 3,
+    "reason": "This is a field experiment measuring real browsing and purchase behavior on Amazon and other e-commerce sites, with outcomes based on observed behavioral data rather than survey responses. It is therefore fundamentally out of scope for simple role-casting.",
+    "simulatable": false
+  },
+  "3c333a2c1a47b30843d5068c9462c8ab": {
+    "tier": 3,
+    "reason": "This is a field experiment with real behavioral outcome measured as voter turnout from administrative records, not a survey or vignette response. The intervention is delivered in the physical world via festivals and the key outcome is actual voting behavior, so it is out of scope for an LLM simulation.",
+    "simulatable": false
+  },
+  "05ba69815ad1b9d9274fe527a34167f2": {
+    "tier": 1,
+    "reason": "This is an online BDM-style survey/vignette experiment where participants state willingness to accept conditional payment and receive text-based information about their own predicted present bias. The main outcomes are stated preferences and self-reported volunteering intentions/choices, not institutional behavior or non-textual interaction.",
+    "simulatable": true
+  },
+  "8e478de3e77c34de827a7ddc69971a1b": {
+    "tier": 2,
+    "reason": "Participants are Medicare beneficiaries making a personal insurance choice, so the LLM would need to adopt the role of an older adult/patient with specific prescription needs and financial circumstances. The outcomes are survey-based choice and satisfaction measures rather than institutional or physical performance tasks.",
+    "simulatable": true
+  },
+  "80d4ce9822f6983ba61a151b21ad1f5f": {
+    "tier": 3,
+    "reason": "The study measures real financial behavior over a 42-month follow-up, including actual deposits, savings balances, debt, and other administrative/financial outcomes rather than just survey responses. Participants also interact with real banks and tax agencies, making this fundamentally a real-world behavioral field experiment.",
+    "simulatable": false
+  },
+  "a8470b4c213f758212eee10b7df4bff9": {
+    "tier": 2,
+    "reason": "The study targets low- and moderate-income, predominantly Spanish-speaking Hispanics, so the response context depends on participants adopting a specific demographic/lived-experience identity. Although much of the intervention is survey-based, the role-casting is needed to meaningfully simulate the intended participants.",
+    "simulatable": true
+  },
+  "ed986128dac6c6aeeb05cace746df610": {
+    "tier": 3,
+    "reason": "This is a field experiment with real-world behavioral and administrative outcomes for families, including school attendance, test scores, health care use, employment, and income. It is not a simple survey/vignette task and would require representing households and institutions in actual behavior, so it is out of scope for an LLM simulation.",
+    "simulatable": false
+  },
+  "7762192f3846b803cc1cd002c4b0e5d8": {
+    "tier": 3,
+    "reason": "This is a field experiment with real educational performance outcomes for probationary college students, including credits earned and GPA. Replicating it would require modeling actual student behavior and institutional outcomes rather than a simple survey response.",
+    "simulatable": false
+  },
+  "1a6e109c8a21664c6e5ccf33d86b6d4d": {
+    "tier": 1,
+    "reason": "This is an online survey/vignette-style fake news detection task where participants respond as themselves, with a text-based information treatment and belief updating. No special demographic or institutional role is required, and the outcomes are survey responses rather than real-world behavior.",
+    "simulatable": true
+  },
+  "4c37ab492fa1dbc1ea61b69b90c047dd": {
+    "tier": 3,
+    "reason": "This is a field intervention with child participants and primary outcomes are real academic test scores (Woodcock-Johnson and numeracy assessments), which are fundamentally out of scope for a generic LLM. The treatment is also delivered to parents in a real-world setting and the study involves classroom-level assignment.",
+    "simulatable": false
+  },
+  "1cd3640dbc8772845efb713756b80964": {
+    "tier": 3,
+    "reason": "This is a field experiment on real workers with actual hiring, paid data-entry performance, and post-experiment employment/earnings outcomes from administrative or market behavior. It requires real behavioral performance rather than a survey response.",
+    "simulatable": false
+  },
+  "138f495342e8b24deae3ea0b396c29e5": {
+    "tier": 3,
+    "reason": "The study requires participants to engage in real study effort on an online language-learning platform and to complete actual tests, with outcomes based on performance improvement and lessons completed. Because the key outcomes are real behavioral performance rather than just survey responses, this is out of scope for simple LLM role-playing.",
+    "simulatable": false
+  },
+  "2a404d42e513b8bc2ecbb882395f9b67": {
+    "tier": 1,
+    "reason": "This is an online judgment task where participants evaluate statements and choose among trust/fact-check/not trust. No special demographic role, institution, or real-world behavioral outcome is required, so a generic respondent can simulate it.",
+    "simulatable": true
+  },
+  "1b10153e66452e7e166ba31bd09ab3e3": {
+    "tier": 3,
+    "reason": "This is a field experiment in an educational setting with real behavioral/administrative outcomes such as course pass rates and persistence in college. The intervention also involves institutional actors (faculty and student services) rather than a simple self-report survey response.",
+    "simulatable": false
+  },
+  "f6ae895aaed3166125494b3815e37008": {
+    "tier": 3,
+    "reason": "This is a field experiment on real voting behavior with outcomes measured from administrative voting records, not a survey or vignette response. The LLM cannot meaningfully replicate actual turnout or ballot-return behavior.",
+    "simulatable": false
+  },
+  "22b1f4f5aa22010ae0fad7d8d7e17b2d": {
+    "tier": 3,
+    "reason": "This is a field experiment delivered through radio ads, and the outcome is real-world administrative birth records rather than survey responses. It is fundamentally out of scope for an LLM to replicate the behavioral and population-level effects.",
+    "simulatable": false
+  },
+  "8e1193eb131e9b5aac1b1379b78b4298": {
+    "tier": 1,
+    "reason": "This is an online experiment where participants respond as themselves in a real-effort task and subsequent tournament-entry survey decisions. Although it involves performance and feedback, it does not require adopting a special demographic or institutional role beyond being a participant.",
+    "simulatable": true
+  },
+  "4e001783902158dd6d0f10b5c4e0ece4": {
+    "tier": 3,
+    "reason": "This is a policy/healthcare field RCT where the intervention is a Medicare payment model applied to hospitals and the outcome is an administrative discharge behavior measure, not a survey response. It requires institutions as actors and is fundamentally out of scope for an LLM respondent.",
+    "simulatable": false
+  },
+  "51428f4c1f8c287979b2ed1acee4143d": {
+    "tier": 3,
+    "reason": "This is a school-based educational intervention with real behavioral and academic outcomes, including test scores, GPA, attendance, suspensions, and classroom instruction. It also involves institutions (schools) and students, making it fundamentally out of scope for simple LLM role casting.",
+    "simulatable": false
+  },
+  "41657de94957b61fee9658ece2489acb": {
+    "tier": 3,
+    "reason": "The outcome is real behavioral performance (cumulative GPA/academic test performance) rather than a survey response, and the study concerns actual college students in a field setting. This is fundamentally out of scope for a generic LLM respondent.",
+    "simulatable": false
+  },
+  "c99f2ddad34d006c83ca5dd124ca9523": {
+    "tier": 3,
+    "reason": "This is a field experiment with real grocery shopping behavior and observed subsidy use, not a survey or vignette response. The outcome depends on actual purchases and shopping trips, which are fundamentally out of scope for an LLM to replicate as a respondent.",
+    "simulatable": false
+  },
+  "6912da22824a64eceb58ddaa4b909a65": {
+    "tier": 3,
+    "reason": "This is a school-level field experiment with real educational performance and administrative outcomes, including course-taking, test scores, college enrollment, credits earned, and college math performance. It is not a survey/vignette task and requires institutions and actual behavior, so it is out of scope for simple LLM role-casting.",
+    "simulatable": false
+  },
+  "fcbd68c546ec7c13a8d48fd864071807": {
+    "tier": 3,
+    "reason": "The study targets parents of Head Start children, and the primary outcome is real behavioral performance: preschool attendance. Because it involves children and observed attendance records rather than a simple survey response, it is out of scope for low-fidelity LLM simulation.",
+    "simulatable": false
+  },
+  "9ebafa9f9a30b3f15b3ecc214453b0c7": {
+    "tier": 3,
+    "reason": "This is a real-effort experiment where the primary outcomes are actual task allocations and work performed over time, not just survey or vignette responses. It also involves subjects completing tasks under incentive-compatible conditions, which is outside a generic LLM respondent role.",
+    "simulatable": false
+  },
+  "91f2c1debae296f77867f67f9fba838c": {
+    "tier": 3,
+    "reason": "This is a field experiment in a real recruiting process for a firm, with outcomes including application, interview advancement, and hiring. Those are real behavioral and administrative outcomes, and the participants are interacting with an organization rather than responding in a survey or vignette.",
+    "simulatable": false
+  },
+  "3f84b8f9f64bec6bc7dc2e0da5349ce3": {
+    "tier": 3,
+    "reason": "This is a field experiment on welfare applicants/recipients with outcomes measured in employment, earnings, income, welfare receipt, and child well-being over time. The key outcomes are real-world administrative/behavioral outcomes rather than survey responses, so it is fundamentally out of scope for an LLM simulation.",
+    "simulatable": false
+  },
+  "2b478bd7efb52b6b2d07cd5c25b0bb06": {
+    "tier": 1,
+    "reason": "This is an online paired-profile conjoint survey where respondents make self-reported job attraction judgments as generic survey participants. No special lived experience, institutional role, or non-text behavioral outcome is required.",
+    "simulatable": true
+  },
+  "5fcfb0a420aba16c291052a10c222823": {
+    "tier": 2,
+    "reason": "The study is a survey experiment, but it specifically recruits federal employees and asks them to respond in their policymaker role, so some role-casting is needed for the responses to be meaningful. It does not involve real-world behavioral outcomes or non-text modalities.",
+    "simulatable": true
+  },
+  "ba954bab5d73891b0fed556a91f0ab5c": {
+    "tier": 2,
+    "reason": "Participants are acting as recruiters evaluating job candidates, so the task depends on adopting a specific professional role rather than answering as generic respondents. The outcome is a stated application score, which is survey-based, but role-casting is needed.",
+    "simulatable": true
+  },
+  "134774ccc12892a559ea77c7c87a3c52": {
+    "tier": 3,
+    "reason": "The study relies on real-world educational interventions with outcomes measured from public records years later, not survey responses. It also involves children and school-based treatment conditions, making it fundamentally out of scope for an LLM to replicate as a respondent.",
+    "simulatable": false
+  },
+  "5bbb4e57598e9f4ae606e0397904ab2e": {
+    "tier": 3,
+    "reason": "This is a field experiment with real-world household contact and outcomes like opening the door, survey completion, and lying about voting, rather than a simple self-report vignette. It also involves in-person delivery of flyers and observed behavioral responses, which is out of scope for a generic LLM respondent.",
+    "simulatable": false
+  },
+  "9fcfc4cca441401db5ad70470020881a": {
+    "tier": 3,
+    "reason": "This is a field experiment with real-world administrative outcomes (employment, earnings, income, welfare receipt) for TANF recipients, not a survey or vignette study. Replicating it would require actual program participation and observed records rather than LLM-generated responses.",
+    "simulatable": false
+  },
+  "76bc8e47e908b70611127091084072f2": {
+    "tier": 3,
+    "reason": "This study involves parents of young children, and the primary outcomes are children\u2019s cognitive and non-cognitive test results, which are real behavioral/assessment outcomes rather than survey responses. The intervention also depends on family participation in a program tied to children\u2019s development, making it out of scope for a generic LLM respondent.",
+    "simulatable": false
+  },
+  "7604a40cfca6af05b9278c405d5ecd1e": {
+    "tier": 3,
+    "reason": "This is a welfare-to-work field experiment with real-world behavioral and administrative outcomes such as employment, earnings, income, and public assistance receipt over five years. It is not a simple survey/vignette task and would require acting within an institutional policy context rather than as a generic respondent.",
+    "simulatable": false
+  },
+  "1c4613279b0ff01c5ae9007e7101fd0c": {
+    "tier": 1,
+    "reason": "This is a deliberative poll where participants answer policy attitude questions as ordinary citizens after receiving information and discussion. The outcomes are survey-based attitude changes, not real-world behavior or institutional action.",
+    "simulatable": true
+  },
+  "d9e21adb6d8a49a8e5982a89c6c82baa": {
+    "tier": 1,
+    "reason": "This is an online/email/text encouragement experiment where students respond as themselves to nudges about academic support and practice problems. It does not require acting as an institution, using a physical environment, or producing real-world outcomes beyond survey-like take-up behavior.",
+    "simulatable": true
+  },
+  "f8780c47459993a808e6077ab9676b7a": {
+    "tier": 3,
+    "reason": "This is a field study with child participants and a real-world banking intervention delivered in schools. It involves minors and actual financial behavior/access, which is out of scope for an LLM to replicate as a respondent.",
+    "simulatable": false
+  },
+  "a39ddb8ab226c30fdb37bdfc2f3b3c55": {
+    "tier": 1,
+    "reason": "This is a survey/vignette-style decision task where investors evaluate startups and report propensity to invest. It does not require physical behavior, institutional action, or non-textual interaction, so an LLM can be cast as a generic investor respondent.",
+    "simulatable": true
+  },
+  "ed0ba102cd3b62d076bfa39fdabea351": {
+    "tier": 1,
+    "reason": "This is a direct-mail fundraising experiment where recipients respond as themselves to a text-based solicitation and information about charity effectiveness. No special demographic role, institution, or non-survey behavioral setting is required beyond being a donor.",
+    "simulatable": true
+  },
+  "87cb7a419994f569c1ab863ce4e1a60b": {
+    "tier": 3,
+    "reason": "This is a field experiment with real administrative outcomes (UI weeks, employment) rather than survey responses. It also involves mandatory in-person meetings with caseworkers and affects actual labor-market behavior, which is out of scope for simple LLM role casting.",
+    "simulatable": false
+  },
+  "fe8252f50cd544d3ce2a227fe6110d5a": {
+    "tier": 2,
+    "reason": "Participants are specific individuals with depression and Medicaid coverage, and the intervention\u2019s meaning depends on their lived mental health status and treatment-seeking behavior. An LLM could approximate survey responses, but it would need role casting as a depressed Medicaid recipient rather than a generic respondent.",
+    "simulatable": true
+  },
+  "b021b5b74d6e6ef02fdb429d1f5c6934": {
+    "tier": 3,
+    "reason": "This is a field experiment with outcomes measured in administrative records: whether people file for a tax credit. The intervention is delivered by mail to zip codes, and the relevant behavior is actual filing rather than a survey response.",
+    "simulatable": false
+  },
+  "e8520e4da777d87bffa9fe8bafb9dd37": {
+    "tier": 3,
+    "reason": "This is a provider-level clinical decision support trial where participants act as medical professionals making real ordering decisions, and the outcomes are actual imaging orders/behavior rather than survey responses. It therefore requires heavy role casting and is outside the scope of a generic LLM respondent.",
+    "simulatable": false
+  },
+  "5a78ae7c4c81a624161939dd0ccfc568": {
+    "tier": 2,
+    "reason": "The study is a survey/email intervention for students, but it targets a specific identity and lived experience: current Economics Principles students and those who have completed the course. Replicating it with an LLM would require role-casting as a college student in that context, so it is not Tier 1.",
+    "simulatable": true
+  }
+}

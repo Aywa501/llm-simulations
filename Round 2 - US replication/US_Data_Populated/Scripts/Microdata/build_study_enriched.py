@@ -11,9 +11,9 @@ import pandas as pd
 import pyreadstat
 
 
-ROOT = Path(__file__).resolve().parent
+ROOT        = Path(__file__).resolve().parent          # Scripts/Microdata/
 DESIGN_PATH = ROOT / "design_specs_enriched.jsonl"
-OUTPUT_PATH = ROOT / "study_enriched_requested.jsonl"
+OUTPUT_PATH = ROOT.parents[1] / "Data" / "Microdata" / "study_enriched_requested.jsonl"
 
 SELECTED_IDS = [
     8, 13, 15, 16, 19, 21, 22, 23, 24, 26, 28, 29, 34, 36, 38, 41, 42, 43,
