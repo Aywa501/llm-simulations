@@ -1,0 +1,50 @@
+seq_id,study_label,sim_arm_id,sim_out_id,gt_arm_id,gt_out_id,llm_mean,llm_n,human_mean,human_n,comparable,note
+6,Kidney allocation (morality/efficiency),public_agency__out1,support,public_agency,out1,0.0,50,0.6552,174,True,
+6,Kidney allocation (morality/efficiency),public_agency__out2,support,public_agency,out2,1.0,50,0.7931,174,True,
+6,Kidney allocation (morality/efficiency),public_agency__out3,support,public_agency,out3,1.0,50,0.8506,174,True,
+6,Kidney allocation (morality/efficiency),public_agency__out4,support,public_agency,out4,1.0,50,0.8793,174,True,
+6,Kidney allocation (morality/efficiency),public_agency__out5,support,public_agency,out5,1.0,50,0.8793,174,True,
+6,Kidney allocation (morality/efficiency),private_old__out1,support,private_old,out1,0.0,50,0.4667,210,True,
+6,Kidney allocation (morality/efficiency),private_old__out2,support,private_old,out2,1.0,50,0.5619,210,True,
+6,Kidney allocation (morality/efficiency),private_old__out3,support,private_old,out3,1.0,50,0.6762,210,True,
+6,Kidney allocation (morality/efficiency),private_old__out4,support,private_old,out4,1.0,50,0.6905,210,True,
+6,Kidney allocation (morality/efficiency),private_old__out5,support,private_old,out5,1.0,50,0.7333,210,True,
+6,Kidney allocation (morality/efficiency),private_new__out1,support,private_new,out1,0.0,50,0.3602,186,True,
+6,Kidney allocation (morality/efficiency),private_new__out2,support,private_new,out2,1.0,50,0.4247,186,True,
+6,Kidney allocation (morality/efficiency),private_new__out3,support,private_new,out3,1.0,50,0.5645,186,True,
+6,Kidney allocation (morality/efficiency),private_new__out4,support,private_new,out4,1.0,50,0.6398,186,True,
+6,Kidney allocation (morality/efficiency),private_new__out5,support,private_new,out5,1.0,50,0.7258,186,True,
+20,Xenophobia & social desirability,E1_Ctrl_Private,belief_pct,E1_Ctrl_Private,out1,44.06,50,61.5413,327,True,
+20,Xenophobia & social desirability,E1_Ctrl_Public,belief_pct,E1_Ctrl_Public,out1,43.94,50,63.6734,297,True,
+20,Xenophobia & social desirability,E1_TreatProb_Public,belief_pct,E1_TreatProb_Public,out1,43.94,50,68.1273,110,True,
+20,Xenophobia & social desirability,E1_TreatProb_Private,belief_pct,E1_TreatProb_Private,out1,42.44,50,66.8091,110,True,
+20,Xenophobia & social desirability,E2_TrumpWin_Public,belief_pct,E2_TrumpWin_Public,out3,62.24,50,48.7781,374,True,
+20,Xenophobia & social desirability,E2_ClintonWin_Private,belief_pct,E2_ClintonWin_Private,out3,54.2,50,42.0765,379,True,
+20,Xenophobia & social desirability,E2_ClintonWin_Public,belief_pct,E2_ClintonWin_Public,out3,56.0,50,42.0522,402,True,
+20,Xenophobia & social desirability,E2_TrumpWin_Private,belief_pct,E2_TrumpWin_Private,out3,61.88,50,49.7573,412,True,
+28,Islamophobia & social desirability,A1,belief_pct,A1,out1,25.78,50,45.9457,92,True,
+28,Islamophobia & social desirability,A1,donation,A1,out2,0.0,50,0.4022,92,False,LLM safety refusal: always 0
+28,Islamophobia & social desirability,A2,belief_pct,A2,out1,22.96,50,43.1146,96,True,
+28,Islamophobia & social desirability,A2,donation,A2,out2,0.0,50,0.2917,96,False,LLM safety refusal: always 0
+28,Islamophobia & social desirability,A3,belief_pct,A3,out1,39.32,50,49.4796,98,True,
+28,Islamophobia & social desirability,A3,donation,A3,out2,0.0,50,0.3469,98,False,LLM safety refusal: always 0
+28,Islamophobia & social desirability,A4,belief_pct,A4,out1,42.52,50,54.8632,95,True,
+28,Islamophobia & social desirability,A4,donation,A4,out2,0.0,50,0.3684,95,False,LLM safety refusal: always 0
+28,Islamophobia & social desirability,A5,belief_pct,A5,out1,39.26,50,50.901,101,True,
+28,Islamophobia & social desirability,A5,donation,A5,out2,0.0,50,0.2871,101,False,LLM safety refusal: always 0
+28,Islamophobia & social desirability,A6,belief_pct,A6,out1,38.86,50,44.8152,92,True,
+28,Islamophobia & social desirability,A6,donation,A6,out2,0.0,50,0.3043,92,False,LLM safety refusal: always 0
+29,Legitimacy & social desirability,arm1,donation,arm1,out1,1.36,50,1.0196,142,True,
+29,Legitimacy & social desirability,arm2,donation,arm2,out1,0.33,50,0.6902,123,True,
+29,Legitimacy & social desirability,arm3,donation,arm3,out1,1.0,50,0.9206,131,True,
+29,Legitimacy & social desirability,arm4,donation,arm4,out1,1.45,50,0.854,136,True,
+46,Hiring discrimination attitudes,women_first_woman_discrimination,judgment,women_first_woman_discrimination,out1,78.84,50,13.2589,224,True,"Scale mismatch: GT ~1–13, LLM 0–100 — rank comparison only"
+46,Hiring discrimination attitudes,woman_first_man_discrimination,judgment,woman_first_man_discrimination,out1,46.4,50,9.0045,224,True,"Scale mismatch: GT ~1–13, LLM 0–100 — rank comparison only"
+46,Hiring discrimination attitudes,man_first_woman_discrimination,judgment,man_first_woman_discrimination,out1,76.84,50,8.0079,254,True,"Scale mismatch: GT ~1–13, LLM 0–100 — rank comparison only"
+46,Hiring discrimination attitudes,man_first_man_discrimination,judgment,man_first_man_discrimination,out1,50.9,50,1.4843,254,True,"Scale mismatch: GT ~1–13, LLM 0–100 — rank comparison only"
+52,Job attraction (community demographics),mostly_african_american,job_attraction,mostly_african_american,out1,1.0,50,0.4881,2194,True,LLM ceiling effect in prior run — monitor for improvement
+52,Job attraction (community demographics),mostly_hispanic,job_attraction,mostly_hispanic,out1,1.0,50,0.4697,2459,True,LLM ceiling effect in prior run — monitor for improvement
+52,Job attraction (community demographics),mostly_white,job_attraction,mostly_white,out1,0.88,50,0.4746,2497,True,LLM ceiling effect in prior run — monitor for improvement
+52,Job attraction (community demographics),multiracial,job_attraction,multiracial,out1,1.0,50,0.5884,1856,True,LLM ceiling effect in prior run — monitor for improvement
+53,Job attraction (performance bonus),has_bonus,job_attraction,weighted_has_bonus,out1_weighted,0.64,50,0.509,6691,True,GT = weighted avg across PSM subgroups
+53,Job attraction (performance bonus),no_bonus,job_attraction,weighted_no_bonus,out1_weighted,0.0,50,0.476,2315,True,GT = weighted avg across PSM subgroups

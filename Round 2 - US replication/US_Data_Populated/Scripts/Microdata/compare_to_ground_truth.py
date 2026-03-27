@@ -18,16 +18,23 @@ seq=52 : arm labels match, GT out1         — ceiling effect flagged
 seq=53 : arm labels don't match GT         — marked NOT_COMPARABLE
 """
 
-import csv, json
+import argparse, csv, json
 from collections import defaultdict
 from pathlib import Path
 from scipy import stats
 
 DATA_DIR = Path(__file__).resolve().parents[2] / "Data" / "Microdata"
-SIM_PATH = DATA_DIR / "simulation_raw.jsonl"
 GT_PATH  = DATA_DIR / "SORTED DATA - study_enriched_tier1and2_tagged.jsonl"
-OUT_CSV  = DATA_DIR / "comparison_table.csv"
-OUT_TXT  = DATA_DIR / "comparison_summary.txt"
+
+parser = argparse.ArgumentParser()
+parser.add_argument("--config", default="no_reasoning",
+                    help="Batch config name (e.g. no_reasoning, reasoning_low, reasoning_medium)")
+args = parser.parse_args()
+
+SIM_PATH = DATA_DIR / f"simulation_raw_{args.config}.jsonl"
+OUT_CSV  = DATA_DIR / f"comparison_table_{args.config}.csv"
+OUT_TXT  = DATA_DIR / f"comparison_summary_{args.config}.txt"
+print(f"Config: {args.config}  |  sim file: {SIM_PATH.name}")
 
 # ---------------------------------------------------------------------------
 # Study metadata for labelling
@@ -141,23 +148,49 @@ def get_comparable_pairs(sim_sums, gt):
         add(29, arm, "donation", arm, "out1")
 
     # ── seq=46 ─────────────────────────────────────────────────────────────
-    for arm in ["Control", "Same_Effort", "Same_Suffering",
-                "No_Discrimination", "All_Constant"]:
-        add(46, arm, "attitude", arm, "out1",
-            note="Arm label mismatch: sim arms differ from microdata arms",
-            comparable=False)
+    # Arms now match ground truth labels exactly.
+    # NOTE: ground truth "judgment" variable is on a different scale (~1–13)
+    # vs simulation 0–100. Comparison is valid for rank/direction only.
+    for arm in ["women_first_woman_discrimination", "woman_first_man_discrimination",
+                "man_first_woman_discrimination",   "man_first_man_discrimination"]:
+        add(46, arm, "judgment", arm, "out1",
+            note="Scale mismatch: GT ~1–13, LLM 0–100 — rank comparison only")
 
     # ── seq=52 ─────────────────────────────────────────────────────────────
     for arm in ["mostly_african_american", "mostly_hispanic",
                 "mostly_white", "multiracial"]:
         add(52, arm, "job_attraction", arm, "out1",
-            note="LLM ceiling effect: always 1.0")
+            note="LLM ceiling effect in prior run — monitor for improvement")
 
     # ── seq=53 ─────────────────────────────────────────────────────────────
-    for arm in ["bonus_large", "bonus_mod", "bonus_small", "no_bonus"]:
-        add(53, arm, "job_attraction", arm, "out1",
-            note="Arm label mismatch: sim arms differ from microdata arms",
-            comparable=False)
+    # Forced-choice redesign. GT values are weighted means across PSM subgroups:
+    #   has_bonus ≈ 0.509, no_bonus ≈ 0.476
+    # GT arms (psm_high/low × bonus/no_bonus) have no exact sim counterpart;
+    # use hardcoded weighted GT means injected as synthetic single-arm records.
+    GT_53 = {
+        "has_bonus": {"value": 0.509, "n": 6691},   # weighted avg psm*_bonus
+        "no_bonus":  {"value": 0.476, "n": 2315},   # weighted avg psm*_no_bonus
+    }
+    for arm_id, gt_entry in GT_53.items():
+        sim_key  = (53, arm_id, "job_attraction")
+        sim_vals = sim_sums.get(sim_key, [])
+        if not sim_vals:
+            continue
+        llm_mean = sum(sim_vals) / len(sim_vals)
+        rows.append({
+            "seq_id":      53,
+            "study_label": STUDY_LABELS[53],
+            "sim_arm_id":  arm_id,
+            "sim_out_id":  "job_attraction",
+            "gt_arm_id":   f"weighted_{arm_id}",
+            "gt_out_id":   "out1_weighted",
+            "llm_mean":    round(llm_mean, 4),
+            "llm_n":       len(sim_vals),
+            "human_mean":  round(gt_entry["value"], 4),
+            "human_n":     gt_entry["n"],
+            "comparable":  True,
+            "note":        "GT = weighted avg across PSM subgroups",
+        })
 
     return rows
 

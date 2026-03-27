@@ -2,20 +2,20 @@
 simulate_experiments.py
 
 Participant-mode LLM simulation for 7 studies (6 green + seq=46 yellow).
-Output: Data/Microdata/simulation_raw.jsonl
+Outputs per batch config: Data/Microdata/simulation_raw_{cfg}.jsonl
 
 Note: seq=44 (Expectation Formation) excluded — ground truth accuracy scores
 were computed from the actual experimental time series, which is not available.
 Synthetic data would produce incomparable accuracy metrics.
 
 Usage:
-    python simulate_experiments.py [--n N] [--mode async|batch]
-    python simulate_experiments.py --download BATCH_ID
+    python simulate_experiments.py --mode batch --config no_reasoning [--n 100]
+    python simulate_experiments.py --mode batch --config reasoning_low [--n 100]
+    python simulate_experiments.py --mode batch --config reasoning_medium [--n 100]
+    python simulate_experiments.py --all-batches [--n 100]   # submits all 3
 
-Modes:
-    async  (default) — real-time async API calls, progress bar
-    batch            — submits OpenAI Batch API job (50% cheaper, ~minutes–hours)
-                       prints batch_id on exit; use --download to retrieve results
+    python simulate_experiments.py --download BATCH_ID --config <cfg>
+    python simulate_experiments.py --mode async --config no_reasoning [--n 100]
 """
 
 import argparse, asyncio, io, json, re, time, uuid
@@ -25,8 +25,29 @@ from tqdm import tqdm
 from openai import AsyncOpenAI, OpenAI
 
 DATA_DIR = Path(__file__).resolve().parents[2] / "Data" / "Microdata"
-OUTPUT   = DATA_DIR / "simulation_raw.jsonl"
-MODEL    = "gpt-5.4-mini"
+MODEL    = "gpt-5.1"
+
+# ---------------------------------------------------------------------------
+# Batch configurations
+# ---------------------------------------------------------------------------
+
+BATCH_CONFIGS = {
+    "no_reasoning": {
+        "label":        "Batch 1 — no reasoning",
+        "model_params": {"temperature": 1, "top_p": 1},
+    },
+    "reasoning_low": {
+        "label":        "Batch 2 — reasoning low",
+        "model_params": {"reasoning_effort": "low"},
+    },
+    "reasoning_medium": {
+        "label":        "Batch 3 — reasoning medium",
+        "model_params": {"reasoning_effort": "medium"},
+    },
+}
+
+def output_path(cfg_name: str) -> Path:
+    return DATA_DIR / f"simulation_raw_{cfg_name}.jsonl"
 
 SYSTEM_PROMPT = (
     "You are a participant in an online survey. "
@@ -61,20 +82,20 @@ def parse_percent(text: str) -> float | None:
         m = re.search(r"[-+]?\d+\.?\d*", text.strip())
     return max(0.0, min(100.0, float(m.group(1) if m and m.lastindex else m.group()))) if m else None
 
-def parse_job_choice(text: str) -> dict | None:
-    # Returns {"job_pref": "A"|"B", "value": 0|1}  (1 = chose the listed-first job)
+def parse_choice_ab(text: str) -> float | None:
+    """Forced A/B choice. Returns 1.0 if A chosen (target job), 0.0 if B."""
     t = text.strip().upper()
-    if "JOB A" in t or t.startswith("A"):
-        return {"job_pref": "A", "value": 1.0}
-    if "JOB B" in t or t.startswith("B"):
-        return {"job_pref": "B", "value": 0.0}
+    if t.startswith("A") or "JOB A" in t: return 1.0
+    if t.startswith("B") or "JOB B" in t: return 0.0
+    if re.search(r'\bA\b', t): return 1.0
+    if re.search(r'\bB\b', t): return 0.0
     return None
 
 PARSERS = {
     "binary":      parse_binary,
     "dollar_0_3":  parse_dollar_0_3,
     "percent":     parse_percent,
-    "job_choice":  parse_job_choice,
+    "choice_ab":   parse_choice_ab,
 }
 
 # ---------------------------------------------------------------------------
@@ -82,59 +103,61 @@ PARSERS = {
 # ---------------------------------------------------------------------------
 
 # ── seq=46  Hiring Discrimination ─────────────────────────────────────────
-# 5 arms. Outcome: pro-women attitude score.
-# Ground truth (Qualtrics sample, discrimination-against-woman group):
-#   Control=6.0, Same_Effort=4.2, Same_Suffering=6.2,
-#   No_Discrimination=8.7, All_Constant=6.1
+# 4 arms (2×2): presentation order × direction of discrimination.
+# Matches ground truth arm labels exactly.
+# Ground truth (microdata "judgment" variable — NOTE: different scale from 0–100,
+#   values are ~1–13; comparison uses rank/direction not absolute values):
+#   women_first_woman_discrimination = 13.26  (woman presented first, woman discriminated)
+#   woman_first_man_discrimination   =  9.00  (woman presented first, man discriminated)
+#   man_first_woman_discrimination   =  8.01  (man presented first, woman discriminated)
+#   man_first_man_discrimination     =  1.48  (man presented first, man discriminated)
+
+_HIRING_QUESTION = (
+    "\n\nOn a scale from 0 to 100, how wrong was it for the manager to hire "
+    "the less qualified candidate? (0 = not wrong at all, 100 = completely wrong)\n"
+    "Reply with a single integer only."
+)
 
 STUDY_46 = {
     "seq_id": 46,
-    "title":  "Hiring Discrimination",
+    "title":  "Hiring Discrimination (2×2 order × direction)",
     "outcomes": [
-        {"id": "attitude", "response_format": "percent",
-         "question": (
-             "\nOn a scale from 0 to 100, how wrong was it for the manager to hire "
-             "the man? (0 = not wrong at all, 100 = completely wrong)\n"
-             "Reply with a single integer only."
-         )}
+        {"id": "judgment", "response_format": "percent",
+         "question": _HIRING_QUESTION}
     ],
     "preamble": (
         "Consider the following hypothetical scenario.\n\n"
         "A job is available in a company. A manager has narrowed down the applicants "
-        "to the two most qualified people: one man and one woman."
+        "to the two most qualified people."
     ),
     "arms": {
-        "Control": (
-            "\n\nTaking into account all characteristics, the manager knows that the "
-            "woman is slightly more qualified and hiring her would bring slightly "
-            "higher profits. After considering everything, the manager hires the man."
+        # Woman described first, woman discriminated against (manager hires man)
+        "women_first_woman_discrimination": (
+            " The two candidates are Sarah (a woman) and James (a man).\n\n"
+            "Taking into account all characteristics, the manager knows that Sarah "
+            "is slightly more qualified and hiring her would bring slightly higher "
+            "profits. After considering everything, the manager hires James."
         ),
-        "Same_Effort": (
-            "\n\nTaking into account all characteristics, the manager knows that the "
-            "woman is slightly more qualified. The manager hires the man.\n\n"
-            "Note: The man and the woman have worked equally hard in their career. "
-            "Both regularly studied on weekends while their friends were out partying."
+        # Woman described first, man discriminated against (manager hires woman)
+        "woman_first_man_discrimination": (
+            " The two candidates are Sarah (a woman) and James (a man).\n\n"
+            "Taking into account all characteristics, the manager knows that James "
+            "is slightly more qualified and hiring him would bring slightly higher "
+            "profits. After considering everything, the manager hires Sarah."
         ),
-        "Same_Suffering": (
-            "\n\nTaking into account all characteristics, the manager knows that the "
-            "woman is slightly more qualified. The manager hires the man.\n\n"
-            "Note: The man and the woman would suffer equally from not getting the "
-            "job. Both are currently unemployed with 4 weeks of savings, both would "
-            "find it equally hard to find another job, and neither supports a family."
+        # Man described first, woman discriminated against (manager hires man)
+        "man_first_woman_discrimination": (
+            " The two candidates are James (a man) and Sarah (a woman).\n\n"
+            "Taking into account all characteristics, the manager knows that Sarah "
+            "is slightly more qualified and hiring her would bring slightly higher "
+            "profits. After considering everything, the manager hires James."
         ),
-        "No_Discrimination": (
-            "\n\nTaking into account all characteristics, the manager knows that the "
-            "woman is slightly more qualified. The manager hires the man.\n\n"
-            "Note: The job is in an industry where there is no gender discrimination. "
-            "Studies have shown that neither men nor women face discrimination in "
-            "hiring or treatment by coworkers or supervisors in this industry."
-        ),
-        "All_Constant": (
-            "\n\nTaking into account all characteristics, the manager knows that the "
-            "woman is slightly more qualified. The manager hires the man.\n\n"
-            "Note: The man and the woman would suffer equally from not getting the "
-            "job, have worked equally hard in their careers, and the job is in an "
-            "industry with no gender discrimination."
+        # Man described first, man discriminated against (manager hires woman)
+        "man_first_man_discrimination": (
+            " The two candidates are James (a man) and Sarah (a woman).\n\n"
+            "Taking into account all characteristics, the manager knows that James "
+            "is slightly more qualified and hiring him would bring slightly higher "
+            "profits. After considering everything, the manager hires Sarah."
         ),
     },
 }
@@ -442,39 +465,52 @@ STUDY_52 = {
     "arms": _ARMS_52,
 }
 
-# ── seq=53  Job Characteristics Conjoint (Performance Bonus) ─────────────
-# Vary Performance bonuses only; all other attributes fixed.
-# Main treatment: bonus (any level) vs no bonus.
-# Note: PSM/efficacy subgroup analysis not replicated (requires pre-measured traits).
-# Mapping: no_bonus → average of psm_*_no_bonus arms; bonus → average of psm_*_bonus arms
-# Ground truth (PSM subgroup, no_bonus≈0.479, bonus≈0.507)
+# ── seq=53  Job Characteristics Conjoint (Performance Bonus) — forced choice
+# Two arms: target job has bonus vs target job has no bonus.
+# Response: A (chose target) = 1.0, B (chose alternative) = 0.0.
+# Ground truth (PSM subgroup, weighted across high/low PSM):
+#   has_bonus  ≈ 0.509  (psm_high_bonus=0.507 n=3450, psm_low_bonus=0.510 n=3241)
+#   no_bonus   ≈ 0.476  (psm_high_no_bonus=0.479 n=1164, psm_low_no_bonus=0.473 n=1151)
 
-_BONUS_LEVELS = {
-    "no_bonus":    "Fixed salary (no performance bonus)",
-    "bonus_small": "A small part of your potential pay (5%) is performance bonus",
-    "bonus_mod":   "A moderate part of your potential pay (10%) is performance bonus",
-    "bonus_large": "A large part of your potential pay (20%) is performance bonus",
-}
+_JOB_53_FIXED = (
+    "Job title: Community Active Worker\n"
+    "Program: Project Hope (city government community empowerment program)\n"
+    "Total pay: About average compared to similar jobs\n"
+    "Job performance evaluation: A supervisor evaluation of your work\n"
+    "Community involvement: Moderate participation\n"
+    "Community income: Average income neighborhood\n"
+    "Community demographics: Multiracial\n"
+    "Overtime work: Occasionally required\n"
+    "Key job task: Direct interaction with community residents\n"
+    "Performance bonuses: {bonus}"
+)
 
-_ARMS_53 = {
-    arm_id: _JOB_BASE.format(demo="Multiracial").replace(
-        "Fixed salary (no performance bonus)", bonus_text
-    )
-    for arm_id, bonus_text in _BONUS_LEVELS.items()
-}
+_BONUS_YES = "A moderate part of your potential pay (10%) is performance bonus"
+_BONUS_NO  = "Fixed salary (no performance bonus)"
 
 STUDY_53 = {
     "seq_id": 53,
-    "title":  "Job Characteristics Conjoint (Performance Bonus)",
+    "title":  "Job Characteristics Conjoint (Performance Bonus) — forced choice",
     "outcomes": [
-        {"id": "job_attraction", "response_format": "binary",
-         "question": "\n\nWould you choose this job? Reply YES or NO only."}
+        {"id": "job_attraction", "response_format": "choice_ab",
+         "question": "\n\nWhich job would you prefer? Reply A or B only."}
     ],
     "preamble": (
-        "You are evaluating a job opportunity at a city government. "
-        "Read the job profile below carefully.\n\n"
+        "You are choosing between two job opportunities at a city government. "
+        "The jobs are identical except where noted below.\n\n"
     ),
-    "arms": _ARMS_53,
+    "arms": {
+        # Target (Job A) has bonus; alternative (Job B) has no bonus
+        "has_bonus": (
+            "Job A:\n" + _JOB_53_FIXED.format(bonus=_BONUS_YES) + "\n\n"
+            "Job B:\n" + _JOB_53_FIXED.format(bonus=_BONUS_NO)
+        ),
+        # Target (Job A) has no bonus; alternative (Job B) has bonus
+        "no_bonus": (
+            "Job A:\n" + _JOB_53_FIXED.format(bonus=_BONUS_NO) + "\n\n"
+            "Job B:\n" + _JOB_53_FIXED.format(bonus=_BONUS_YES)
+        ),
+    },
 }
 
 # ---------------------------------------------------------------------------
@@ -511,13 +547,12 @@ def build_prompt(config: dict, arm_id: str, outcome: dict) -> str:
 # ---------------------------------------------------------------------------
 
 async def simulate_one(client: AsyncOpenAI, seq_id: int, arm_id: str,
-                        outcome: dict, prompt: str) -> dict:
+                        outcome: dict, prompt: str, model_params: dict) -> dict:
     pid = str(uuid.uuid4())
     try:
         r = await client.chat.completions.create(
             model=MODEL,
-            temperature=1,
-            reasoning_effort="none",
+            **model_params,
             messages=[
                 {"role": "system", "content": SYSTEM_PROMPT},
                 {"role": "user",   "content": prompt},
@@ -549,7 +584,7 @@ async def simulate_one(client: AsyncOpenAI, seq_id: int, arm_id: str,
         }
 
 
-async def run_study(client, config, n_per_arm, writer, pbar):
+async def run_study(client, config, n_per_arm, writer, pbar, model_params):
     seq_id   = config["seq_id"]
     outcomes = config["outcomes"]
     tasks    = []
@@ -557,7 +592,7 @@ async def run_study(client, config, n_per_arm, writer, pbar):
         for outcome in outcomes:
             prompt = build_prompt(config, arm_id, outcome)
             for _ in range(n_per_arm):
-                tasks.append(simulate_one(client, seq_id, arm_id, outcome, prompt))
+                tasks.append(simulate_one(client, seq_id, arm_id, outcome, prompt, model_params))
 
     for coro in asyncio.as_completed(tasks):
         rec = await coro
@@ -581,32 +616,34 @@ def print_summary(records: list[dict]):
 # Async mode
 # ---------------------------------------------------------------------------
 
-async def run_async(n_per_arm: int):
-    client = AsyncOpenAI()
-    total  = sum(len(c["arms"]) * len(c["outcomes"]) * n_per_arm
-                 for c in STUDY_CONFIGS.values())
-    print(f"Studies: {list(STUDY_CONFIGS)}  |  n_per_arm={n_per_arm}  |  total_calls={total}")
-    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+async def run_async(n_per_arm: int, cfg_name: str):
+    cfg          = BATCH_CONFIGS[cfg_name]
+    model_params = cfg["model_params"]
+    out          = output_path(cfg_name)
+    client       = AsyncOpenAI()
+    total        = sum(len(c["arms"]) * len(c["outcomes"]) * n_per_arm
+                       for c in STUDY_CONFIGS.values())
+    print(f"{cfg['label']}  |  studies={list(STUDY_CONFIGS)}  |  n={n_per_arm}  |  calls={total}")
+    out.parent.mkdir(parents=True, exist_ok=True)
 
-    records = []
-    with open(OUTPUT, "w") as f:
+    with open(out, "w") as f:
         with tqdm(total=total, unit="call") as pbar:
             for seq_id, config in STUDY_CONFIGS.items():
                 pbar.set_description(f"seq={seq_id}")
-                await run_study(client, config, n_per_arm, f, pbar)
+                await run_study(client, config, n_per_arm, f, pbar, model_params)
 
-    with open(OUTPUT) as f:
+    with open(out) as f:
         records = [json.loads(l) for l in f]
 
     print_summary(records)
-    print(f"Output → {OUTPUT}")
+    print(f"Output → {out}")
 
 
 # ---------------------------------------------------------------------------
 # Batch mode
 # ---------------------------------------------------------------------------
 
-def build_batch_requests(n_per_arm: int) -> list[dict]:
+def build_batch_requests(n_per_arm: int, model_params: dict) -> list[dict]:
     requests = []
     for seq_id, config in STUDY_CONFIGS.items():
         for arm_id in config["arms"]:
@@ -619,8 +656,7 @@ def build_batch_requests(n_per_arm: int) -> list[dict]:
                         "url": "/v1/chat/completions",
                         "body": {
                             "model": MODEL,
-                            "temperature": 1,
-                            "reasoning_effort": "none",
+                            **model_params,
                             "messages": [
                                 {"role": "system", "content": SYSTEM_PROMPT},
                                 {"role": "user",   "content": prompt},
@@ -630,50 +666,58 @@ def build_batch_requests(n_per_arm: int) -> list[dict]:
     return requests
 
 
-def submit_batch(n_per_arm: int) -> str:
-    client   = OpenAI()
-    requests = build_batch_requests(n_per_arm)
-    total    = len(requests)
-    print(f"Submitting batch: {total} requests …")
+def submit_batch(n_per_arm: int, cfg_name: str) -> str:
+    cfg          = BATCH_CONFIGS[cfg_name]
+    model_params = cfg["model_params"]
+    client       = OpenAI()
+    requests     = build_batch_requests(n_per_arm, model_params)
+    print(f"{cfg['label']}  |  {len(requests)} requests …")
 
-    content = "\n".join(json.dumps(r) for r in requests).encode()
+    content  = "\n".join(json.dumps(r) for r in requests).encode()
     file_obj = client.files.create(file=io.BytesIO(content), purpose="batch")
-    batch = client.batches.create(
+    batch    = client.batches.create(
         input_file_id=file_obj.id,
         endpoint="/v1/chat/completions",
         completion_window="24h",
     )
-    print(f"Batch submitted. ID: {batch.id}  status: {batch.status}")
-    print(f"Run with --download {batch.id} once complete.")
+    print(f"Submitted  cfg={cfg_name}  batch_id={batch.id}  status={batch.status}")
+    print(f"Download:  python simulate_experiments.py --download {batch.id} --config {cfg_name}")
     return batch.id
 
 
-def download_batch(batch_id: str):
+def download_batch(batch_id: str, cfg_name: str):
     client = OpenAI()
-    print(f"Checking batch {batch_id} …")
+    out    = output_path(cfg_name)
+    print(f"Checking batch {batch_id}  cfg={cfg_name} …")
     while True:
-        batch = client.batches.retrieve(batch_id)
+        batch  = client.batches.retrieve(batch_id)
         counts = batch.request_counts
-        print(f"  status={batch.status}  "
-              f"completed={counts.completed}/{counts.total}  failed={counts.failed}")
+        print(f"  status={batch.status}  completed={counts.completed}/{counts.total}  failed={counts.failed}")
         if batch.status == "completed":
             break
         if batch.status in ("failed", "expired", "cancelled"):
             raise RuntimeError(f"Batch {batch_id} ended with status: {batch.status}")
         time.sleep(30)
 
-    raw = client.files.content(batch.output_file_id).text
+    # If everything failed, output_file_id is None — read error file instead to diagnose
+    if batch.output_file_id is None:
+        if batch.error_file_id:
+            err_raw = client.files.content(batch.error_file_id).text
+            sample  = err_raw.splitlines()[:3]
+            for s in sample:
+                print("  ERROR SAMPLE:", s[:300])
+        raise RuntimeError(f"Batch {batch_id}: 0 successes, {counts.failed} failures. See error samples above.")
+
+    raw     = client.files.content(batch.output_file_id).text
     records = []
     for line in raw.splitlines():
         if not line.strip():
             continue
-        r = json.loads(line)
-        # custom_id = "{seq_id}__{arm_id}__{out_id}__{i}"
-        # arm_id may contain "__" (e.g. private_new__out1), so parse from both ends
+        r      = json.loads(line)
         parts  = r["custom_id"].split("__")
         seq_id = int(parts[0])
-        out_id = parts[-2]               # second-to-last is always outcome_id
-        arm_id = "__".join(parts[1:-2])  # everything between is arm_id
+        out_id = parts[-2]
+        arm_id = "__".join(parts[1:-2])
         config  = STUDY_CONFIGS[seq_id]
         outcome = next(o for o in config["outcomes"] if o["id"] == out_id)
 
@@ -688,15 +732,16 @@ def download_batch(batch_id: str):
             value  = raw_v["value"] if isinstance(raw_v, dict) else raw_v
             records.append({"seq_id": seq_id, "arm_id": arm_id, "outcome_id": out_id,
                              "pid": r["custom_id"], "response": text,
-                             "value": value, "parse_ok": value is not None})
+                             "value": value, "parse_ok": value is not None,
+                             "batch_cfg": cfg_name})
 
-    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
-    with open(OUTPUT, "w") as f:
+    out.parent.mkdir(parents=True, exist_ok=True)
+    with open(out, "w") as f:
         for rec in records:
             f.write(json.dumps(rec, ensure_ascii=False) + "\n")
 
     print_summary(records)
-    print(f"Output → {OUTPUT}")
+    print(f"Output → {out}")
 
 
 # ---------------------------------------------------------------------------
@@ -705,15 +750,22 @@ def download_batch(batch_id: str):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--n",        type=int, default=50, dest="n_per_arm")
-    parser.add_argument("--mode",     choices=["async", "batch"], default="async")
-    parser.add_argument("--download", metavar="BATCH_ID", default=None,
-                        help="Download and parse a completed batch job")
+    parser.add_argument("--n",           type=int, default=100, dest="n_per_arm")
+    parser.add_argument("--mode",        choices=["async", "batch"], default="batch")
+    parser.add_argument("--config",      choices=list(BATCH_CONFIGS), default="no_reasoning",
+                        help="Which batch config to use")
+    parser.add_argument("--all-batches", action="store_true",
+                        help="Submit all 3 batch configs in sequence")
+    parser.add_argument("--download",    metavar="BATCH_ID", default=None,
+                        help="Download and parse a completed batch job (requires --config)")
     args = parser.parse_args()
 
     if args.download:
-        download_batch(args.download)
+        download_batch(args.download, args.config)
+    elif args.all_batches:
+        for cfg_name in BATCH_CONFIGS:
+            submit_batch(args.n_per_arm, cfg_name)
     elif args.mode == "batch":
-        submit_batch(args.n_per_arm)
+        submit_batch(args.n_per_arm, args.config)
     else:
-        asyncio.run(run_async(args.n_per_arm))
+        asyncio.run(run_async(args.n_per_arm, args.config))

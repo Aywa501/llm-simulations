@@ -1,0 +1,20 @@
+Comparable arm×outcome pairs : 43
+Pearson  r = 0.691  (p=0.000)
+Spearman r = 0.822  (p=0.000)
+
+Per-study breakdown:
+  seq=6 Kidney allocation (morality/efficiency)             n=15  r=0.534  p=0.040
+  seq=20 Xenophobia & social desirability                    n=8  r=-0.828  p=0.011
+  seq=28 Islamophobia & social desirability                  n=6  r=0.757  p=0.082
+  seq=29 Legitimacy & social desirability                    n=4  r=0.790  p=0.210
+  seq=46 Hiring discrimination attitudes                     n=4  r=0.588  p=0.412
+  seq=52 Job attraction (community demographics)             n=4  r=0.364  p=0.636
+  seq=53 Job attraction (performance bonus)                  n=2  r=1.000  p=1.000
+
+Excluded / flagged:
+  seq=28 A1                                       LLM safety refusal: always 0
+  seq=28 A2                                       LLM safety refusal: always 0
+  seq=28 A3                                       LLM safety refusal: always 0
+  seq=28 A4                                       LLM safety refusal: always 0
+  seq=28 A5                                       LLM safety refusal: always 0
+  seq=28 A6                                       LLM safety refusal: always 0

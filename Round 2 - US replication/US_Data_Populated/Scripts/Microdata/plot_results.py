@@ -15,8 +15,7 @@ Usage:
     python plot_results.py
 """
 
-import csv
-import textwrap
+import argparse, csv, textwrap
 from collections import defaultdict
 from pathlib import Path
 
@@ -27,9 +26,16 @@ import matplotlib.patches as mpatches
 import numpy as np
 from scipy import stats
 
+parser = argparse.ArgumentParser()
+parser.add_argument("--config", default="no_reasoning",
+                    help="Batch config name (e.g. no_reasoning, reasoning_low, reasoning_medium)")
+args = parser.parse_args()
+
 DATA_DIR  = Path(__file__).resolve().parents[2] / "Data" / "Microdata"
 FIGS_DIR  = Path(__file__).resolve().parents[2] / "Figures"
-CSV_PATH  = DATA_DIR / "comparison_table.csv"
+CSV_PATH  = DATA_DIR / f"comparison_table_{args.config}.csv"
+SCATTER_OUT = FIGS_DIR / f"scatter_llm_vs_human_{args.config}.pdf"
+BARS_OUT    = FIGS_DIR / f"per_study_bars_{args.config}.pdf"
 
 FIGS_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -120,7 +126,7 @@ def plot_scatter(rows):
     ax.set_ylim(lo, hi)
     ax.set_aspect("equal")
 
-    out = FIGS_DIR / "scatter_llm_vs_human.pdf"
+    out = SCATTER_OUT
     fig.tight_layout()
     fig.savefig(out, bbox_inches="tight")
     plt.close(fig)
@@ -200,7 +206,7 @@ def plot_per_study(rows):
         ax.set_visible(False)
 
     fig.suptitle("Human vs LLM arm means by study", fontsize=14, y=1.01)
-    out = FIGS_DIR / "per_study_bars.pdf"
+    out = BARS_OUT
     fig.tight_layout()
     fig.savefig(out, bbox_inches="tight")
     plt.close(fig)
