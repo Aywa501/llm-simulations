@@ -1,0 +1,313 @@
+{
+  "19": {
+    "arms": {
+      "system_1": "public_agency_pays",
+      "system_2": "public_agency_pays",
+      "system_3": "recipient_pays",
+      "system_4": "recipient_pays",
+      "system_5": "public_agency_pays",
+      "system_6": "public_agency_pays",
+      "system_7": "recipient_pays",
+      "system_8": "recipient_pays"
+    },
+    "outcomes": {
+      "support_for_alternative_system": "favor_for_alternative_system",
+      "moral_concerns_module": null,
+      "confidence_in_answers": null,
+      "policy_consequentiality": null,
+      "probability_congress_legalizes_compensation": null,
+      "donation_choice": null
+    }
+  },
+  "96": {
+    "arms": {
+      "consumption_frame_charity_bequest": "consumption_frame",
+      "consumption_frame_children_bequest": "consumption_frame",
+      "investment_frame_charity_bequest": "investment_frame",
+      "investment_frame_children_bequest": "investment_frame"
+    },
+    "outcomes": {
+      "preferred_life_annuity": "percentage_of_individuals_who_preferred_a_life_ann"
+    }
+  },
+  "103": {
+    "arms": {},
+    "outcomes": {
+      "support_low_skilled_immigration_not_familiar": null,
+      "support_low_skilled_immigration_familiar": null,
+      "support_high_skilled_immigration_not_familiar": null,
+      "support_high_skilled_immigration_familiar": null,
+      "petition_intention_increase_h2b": "intention_to_sign_the_petitions",
+      "petition_intention_decrease_h2b": "intention_to_sign_the_petitions",
+      "followup_support_low_skilled": "attitudes_towards_low_skilled_immigrants",
+      "followup_support_high_skilled": "attitudes_towards_high_skilled_immigrants",
+      "followup_beliefs_about_labor_market_impact": null,
+      "beliefs_about_mariel_boatlift_low_skilled_wages": null,
+      "beliefs_about_mariel_boatlift_low_skilled_unemploy": null,
+      "beliefs_about_mariel_boatlift_high_skilled_wages": null,
+      "beliefs_about_mariel_boatlift_high_skilled_unemplo": null
+    }
+  },
+  "118": {
+    "arms": {
+      "ind_passive": null
+    },
+    "outcomes": {
+      "willingness_to_pay": "willingness_to_pay_wtp_for_the_vaccination_of_one_",
+      "belief_about_partner_wtp": null,
+      "diligence_check": null
+    }
+  },
+  "125": {
+    "arms": {
+      "pts_treatment": null,
+      "pts_treatment_1": null
+    },
+    "outcomes": {
+      "mood_short_form_item_1": null,
+      "mood_short_form_item_2": null,
+      "mood_short_form_item_3": null,
+      "mood_short_form_item_4": null,
+      "post_revelation_bonus_value_self": null,
+      "post_revelation_bonus_value_participant_x": null,
+      "screening_year": null,
+      "screening_statement_year": null
+    }
+  },
+  "131": {
+    "arms": {},
+    "outcomes": {
+      "donation_pov_donation_imd_donation_com": "donation_amount_out_of_a_100_lottery_payout",
+      "encourage": null,
+      "recip_improve": null,
+      "recip_impact": null,
+      "recip_ladder": null
+    }
+  },
+  "141": {
+    "arms": {
+      "same_effort": "mandiscr_1st_judgment",
+      "same_suffering": "mandiscr_2nd_judgment",
+      "no_discrimination": "womandiscr_1st_judgment",
+      "all_constant": "womandiscr_2nd_judgment"
+    },
+    "outcomes": {
+      "follow_up_clarification_of_judgments": "pro_women_attitude"
+    }
+  },
+  "143": {
+    "arms": {
+      "reference_value_small_0_1_sd": null,
+      "reference_value_large_0_3_sd": null,
+      "units_raw_units": null,
+      "units_standard_deviations": null,
+      "entry_text": null,
+      "entry_slider": null,
+      "slider_bounds_small_0_5_sd": null,
+      "slider_bounds_large_1_0_sd": null
+    },
+    "outcomes": {
+      "forecast_of_experimental_treatment_effect": "forecasts_of_experimental_results_for_three_studie",
+      "study_1_outcome_hiv_testing": "forecasts_of_experimental_results_for_three_studie",
+      "study_2_outcome_dropout_reversed": "forecasts_of_experimental_results_for_three_studie",
+      "study_2_outcome_business_participation": "forecasts_of_experimental_results_for_three_studie",
+      "study_2_outcome_test_scores": "forecasts_of_experimental_results_for_three_studie",
+      "study_3_outcome_food_consumption": "forecasts_of_experimental_results_for_three_studie",
+      "study_3_outcome_health_consumption": "forecasts_of_experimental_results_for_three_studie"
+    }
+  },
+  "145": {
+    "arms": {
+      "repayment_plan_1_repayment_plan_2_order": null,
+      "exempt_income": "20_000",
+      "percent_of_non_exempt_income": "5",
+      "years_until_loan_forgiveness": "15",
+      "10_year_repayment_plan_description": null,
+      "income_based_repayment_plan_description": null
+    },
+    "outcomes": {
+      "choose_income_based_repayment_plan_over_10_year_re": "the_proportion_of_respondents_who_choose_the_incom"
+    }
+  },
+  "150": {
+    "arms": {
+      "incentive_plus_teaching_joint": "incentive_plus_teaching"
+    },
+    "outcomes": {
+      "teaching_ineligible_test_score": null,
+      "newly_asked_test_score": null
+    }
+  },
+  "151": {
+    "arms": {
+      "honesty_treatment": "treatmentgroups",
+      "low_dishonesty_treatment": "treatmentgroups",
+      "high_dishonesty_treatment": "treatmentgroups",
+      "control_group": "controlgroup"
+    },
+    "outcomes": {
+      "matrix_puzzle": "no_of_matrix_reported_to_be_solved",
+      "cheap_talk_sender_receiver_game": null,
+      "modified_matrix_puzzle": "no_of_matrix_reported_to_be_solved",
+      "dictator_game_donation_to_charity": null,
+      "dictator_game_donation_to_researcher": null,
+      "subject_s_expectation": null,
+      "researcher_s_expectation": null
+    }
+  },
+  "152": {
+    "arms": {
+      "taste_based_discrimination_black_discriminatee_les": "tastes",
+      "taste_based_discrimination_black_discriminatee_mor": "tastes",
+      "taste_based_discrimination_white_discriminatee_les": "tastes",
+      "taste_based_discrimination_white_discriminatee_mor": "tastes",
+      "statistical_discrimination_black_discriminatee_les": "statistical",
+      "statistical_discrimination_black_discriminatee_mor": "statistical",
+      "statistical_discrimination_white_discriminatee_les": "statistical",
+      "statistical_discrimination_white_discriminatee_mor": "statistical"
+    },
+    "outcomes": {
+      "fairness_of_employer_s_hiring_decision": "fairness_of_the_incident_described_in_a_vignette",
+      "black_people_s_relative_economic_opportunities_bro": null
+    }
+  },
+  "159": {
+    "arms": {
+      "information_treatment": null,
+      "source_revealed_version": null,
+      "source_hidden_version": null
+    },
+    "outcomes": {
+      "news_accuracy_detection_task": null,
+      "prior_belief_score": null,
+      "mid_task_belief_score": null,
+      "posterior_belief_score": null,
+      "confidence_in_belief": null,
+      "general_ability_belief": null,
+      "average_american_ability_belief": null,
+      "budget_allocation": null
+    }
+  },
+  "160": {
+    "arms": {
+      "neutral_treatment": "neutral",
+      "unfair_treatment": "unfair",
+      "feedback_treatment": "feedback"
+    },
+    "outcomes": {
+      "stage_2_belief_elicitation_rank": null,
+      "post_stage_2_belief_elicitation_rank": null,
+      "risk_i": null,
+      "risk_ii": null,
+      "perception_men_better_at_the_task": null,
+      "experience_of_unfairness": null,
+      "perception_of_unfairness": null,
+      "competitive_attitude_i": null,
+      "competitive_attitude_ii": null,
+      "competitive_attitude_iii": null,
+      "competitive_attitude_iv": null,
+      "competitive_attitude_v": null
+    }
+  },
+  "162": {
+    "arms": {
+      "total_pay": null,
+      "performance_bonuses": null,
+      "job_performance_evaluation": null,
+      "current_community_involvement": null,
+      "community_income": null,
+      "community_demographics": null,
+      "overtime_work": null,
+      "key_job_task": null
+    },
+    "outcomes": {
+      "job_attraction_job_preference": "job_attraction"
+    }
+  },
+  "164": {
+    "arms": {},
+    "outcomes": {
+      "change_in_views": null
+    }
+  },
+  "169": {
+    "arms": {
+      "giving_to_one_of_many": "giving_to_one",
+      "giving_to_one_partner": "giving_to_one_x_partner",
+      "voting_on_redistribution": "voting_for_redistribution_in_the_small_group",
+      "decision_as_a_b_player_poor": null,
+      "dictator_game": null
+    },
+    "outcomes": {
+      "comprehension_check_number_of_players_in_group": null,
+      "comprehension_check_a_player_endowment": null,
+      "comprehension_check_b_player_endowment": null,
+      "comprehension_check_number_of_a_and_b_players": null,
+      "comprehension_check_role_understanding": null
+    }
+  },
+  "174": {
+    "arms": {
+      "g2_low_risks_for_children": null,
+      "g3_facts_on_peak_deaths": null,
+      "g5_analysis_of_low_school_risks": null,
+      "g6_pro_mask_study": null,
+      "g7_safe_travel_case_study": null,
+      "g8_high_hospitalizations": null,
+      "g9_jobless_rate": null
+    },
+    "outcomes": {
+      "confidence_in_safety_from_covid": "confidence_in_safety_from_covid_4_on_1_4_scale"
+    }
+  },
+  "176": {
+    "arms": {
+      "treatment": "treat"
+    },
+    "outcomes": {
+      "democratic_socialism_true_false_belief": null,
+      "prediction_accuracy_for_left_respondents": "prediction_errors",
+      "prediction_accuracy_for_right_respondents": "prediction_errors",
+      "prediction_accuracy_for_moderate_respondents": "prediction_errors"
+    }
+  },
+  "178": {
+    "arms": {
+      "high_inflation_treatment": null,
+      "low_inflation_treatment": null,
+      "affect_instruction": null,
+      "consequence_instruction": null,
+      "no_instruction": null
+    },
+    "outcomes": {
+      "attention_to_inflation": "attention_inflation",
+      "prior_inflation_expectation": "attention_inflation",
+      "inflation_uncertainty": "attention_inflation",
+      "posterior_inflation_expectation": "attention_inflation",
+      "posterior_unemployment_expectation": "attention_unemployment",
+      "posterior_interest_rate_expectation": "attention_interest_rate",
+      "personal_job_losing_probability": "attention_unemployment",
+      "job_finding_probability": "attention_unemployment",
+      "durable_goods_purchase": "attention_gdp_growth",
+      "non_durable_goods_consumption": "attention_gdp_growth",
+      "investment_allocation": "attention_interest_rate",
+      "followup_food_leisure_spending": "attention_gdp_growth",
+      "followup_durable_goods_spending": "attention_gdp_growth",
+      "followup_unemployment_expectation": "attention_unemployment",
+      "followup_interest_rate_expectation": "attention_interest_rate",
+      "followup_inflation_expectation": "attention_inflation",
+      "wave2_unemployment_expectation_revision": "attention_unemployment"
+    }
+  },
+  "183": {
+    "arms": {
+      "human_written_informed": "human_written",
+      "ai_written_informed": null,
+      "ai_written_uninformed": "uninformed"
+    },
+    "outcomes": {
+      "authorship_guess_attention_check_or_belief_elicita": null,
+      "trust_fact_check_choice": "trust"
+    }
+  }
+}

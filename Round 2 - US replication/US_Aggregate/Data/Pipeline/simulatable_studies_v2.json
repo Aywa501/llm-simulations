@@ -1,0 +1,2078 @@
+[
+  {
+    "seq_id": 19,
+    "preamble": "After informing participants that we would collect their anonymous opinions regarding alternative kidney procurement and distribution systems, we provided a description of several aspects related to the procurement and allocation of kidneys in the United States. The description outlined the nature of kidney failure; various types of kidney donations (i.e., deceased and living, directed and undirected donors); the living kidney donation process including information regarding the surgery and the associated risks for and recovery of the donor; and the features of the current procurement and distribution system, including the size of the kidney shortage and the prohibition of compensation to donors by the 1984 National Organ Transplant Act (NOTA).",
+    "treatment_variations": [
+      {
+        "arm_label": "System 1",
+        "arm_id": "public_agency_pays",
+        "text": "Cash; $30K; Public agency pays. In the cash systems, donors would receive a deposit to their bank account. In the “public agency pays” systems, donors would receive compensation from an agency coordinated by the US Department of Health and Human Services, and kidney allocation would follow priority rules based on medical urgency, blood and tissue match with the donor, time on the waiting list, age, and distance to the donor."
+      },
+      {
+        "arm_label": "System 3",
+        "arm_id": "recipient_pays",
+        "text": "Cash; $30K; Patient pays. In the cash systems, donors would receive a deposit to their bank account. In the “recipient pays” systems, donors would receive compensation directly from the recipient; we specified that a public agency, coordinated by the US Department of Health and Human Services, would regulate and oversee the process."
+      }
+    ],
+    "outcome_questions": [
+      {
+        "outcome_name": "Favor for alternative system",
+        "question_text": "After describing the alternative organ procurement system assigned to each respondent, we asked them to indicate whether they would support the proposed system or prefer to keep the current one. We did so under five scenarios, where each scenario asked the respondent to assume that the alternative system would result in a certain number of kidney transplants per year and the corresponding fraction of the annual demand for kidneys, ranging from 19,000 to 38,000.",
+        "response_format": "choice",
+        "scale_min": null,
+        "scale_max": null,
+        "response_instruction": "Reply with SUPPORT THE PROPOSED SYSTEM or KEEP THE CURRENT SYSTEM only."
+      },
+      {
+        "outcome_name": "moral_concerns_module",
+        "question_text": "Within each system, we further randomized participants with 50 percent probability to a module where we asked them to report their assessment of whether the system (i) benefits or exploits the donors, (ii) respects or limits individual autonomy, (iii) allows individuals to make fully informed choices or exerts undue influence, (iv) is fair or unfair to the patients, (v) is fair or unfair to the donors, and (vi) whether it promotes or violates human dignity. Respondents could choose any integer number on a slider in the [-10, 10] interval.",
+        "response_format": "integer",
+        "scale_min": -10,
+        "scale_max": 10,
+        "response_instruction": "Reply with a single integer from -10 to 10 only."
+      },
+      {
+        "outcome_name": "confidence_in_answers",
+        "question_text": "Immediately following the set of five Yes-No choices regarding the alternative organ procurement system, we asked respondents to rate how strongly they felt about the choices they had just made. They could choose one of four answers: “very confident” about my answers, “somewhat confident,” “somewhat unsure,” or “very unsure.”",
+        "response_format": "choice",
+        "scale_min": null,
+        "scale_max": null,
+        "response_instruction": "Reply with one of: VERY CONFIDENT, SOMEWHAT CONFIDENT, SOMEWHAT UNSURE, or VERY UNSURE."
+      },
+      {
+        "outcome_name": "policy_consequentiality",
+        "question_text": "To measure the extent to which participants cared about the topic and perceived their answers to have some chance of influencing policy, we asked them whether they believed that public authorities should take their answers into consideration, and whether they believed the authorities would take their answers into consideration.",
+        "response_format": "scale",
+        "scale_min": null,
+        "scale_max": null,
+        "response_instruction": "Reply with one of: NOT AT ALL, VERY LITTLE, LITTLE, SOMEWHAT, or VERY MUCH."
+      },
+      {
+        "outcome_name": "probability_congress_legalizes_compensation",
+        "question_text": "Finally, we asked respondents to express their beliefs about the probability that Congress would pass legislation allowing various types of organ donor compensation.",
+        "response_format": "percent",
+        "scale_min": 0,
+        "scale_max": 100,
+        "response_instruction": "Reply with a single percentage from 0 to 100 only."
+      },
+      {
+        "outcome_name": "donation_choice",
+        "question_text": "We offered all participants an extra $1 if they authorized us to make a $1 donation on their behalf to a foundation that supports the expansion of allowable forms of organ donor compensation.",
+        "response_format": "choice",
+        "scale_min": null,
+        "scale_max": null,
+        "response_instruction": "Reply YES to authorize the donation or NO to decline only."
+      }
+    ],
+    "results": [
+      {
+        "arm_label": "public agency pays",
+        "arm_id": "public_agency_pays",
+        "outcome_name": "Favor for alternative system",
+        "n": null,
+        "value": 64,
+        "sd": null,
+        "se": null
+      },
+      {
+        "arm_label": "recipient pays",
+        "arm_id": "recipient_pays",
+        "outcome_name": "Favor for alternative system",
+        "n": null,
+        "value": 49,
+        "sd": null,
+        "se": null
+      }
+    ]
+  },
+  {
+    "seq_id": 96,
+    "preamble": "In all arms of the survey, an introduction stated that both people receive $1,000 each month from Social Security, have “some savings,” and have already set aside money for their children.",
+    "treatment_variations": [
+      {
+        "arm_label": "consumption frame, charity bequest",
+        "arm_id": "consumption_frame",
+        "text": "The decisions were presented from a consumption frame, i.e. how much money each person could spend per month after purchasing that product. The remaining principal or payments could be donated to charity after death, except in the case of the life annuity."
+      },
+      {
+        "arm_label": "investment frame, charity bequest",
+        "arm_id": "investment_frame",
+        "text": "The decisions were presented from an investment frame, i.e. how much money each product earns per month. After death, the remainder could be donated to charity."
+      }
+    ],
+    "outcome_questions": [
+      {
+        "outcome_name": "percentage of individuals who preferred a life annuity to actuarially equivalent alternative options",
+        "question_text": "Who has made the better choice?",
+        "response_format": "choice",
+        "scale_min": null,
+        "scale_max": null,
+        "response_instruction": "Reply with the option indicating whether the life annuity or the alternative product is the better choice."
+      }
+    ],
+    "results": [
+      {
+        "arm_label": "consumption frame",
+        "arm_id": "consumption_frame",
+        "outcome_name": "percentage of individuals who preferred a life annuity to actuarially equivalent alternative options",
+        "n": null,
+        "value": 0.72,
+        "sd": null,
+        "se": null
+      },
+      {
+        "arm_label": "investment frame",
+        "arm_id": "investment_frame",
+        "outcome_name": "percentage of individuals who preferred a life annuity to actuarially equivalent alternative options",
+        "n": null,
+        "value": 0.21,
+        "sd": null,
+        "se": null
+      }
+    ]
+  },
+  {
+    "seq_id": 103,
+    "preamble": "In 1980, Cuba’s then President, Fidel Castro, suddenly announced that Cubans wishing to emigrate to the United States were free to do so. This led to an unexpected mass immigration to Miami, Florida, where most of the Cuban immigrants arrived by boat.\n\nWith the arrival of the new Cuban immigrants, Miami’s workforce grew by 55,000, or 8 percent, almost at once. The new immigrants were mostly low-skilled, which meant that the low-skilled workforce increased by 20 percent.\n\nThe large, unexpected addition of 55,000 new immigrants to the Miami workforce has allowed researchers to study the impact of immigration on the labor market. To do so, the researchers studied wage and unemployment changes in Miami after the mass immigration relative to other US cities that, because of geographic distance, were not affected by the mass immigration of Cubans.",
+    "treatment_variations": [
+      {
+        "arm_label": "Treatment",
+        "arm_id": "treatment",
+        "text": "The researchers who analyzed the short- and long-term effects of the mass immigration of Cubans to Miami concluded that, for both high-skilled and low-skilled workers, the mass immigration had virtually no effect on wages and virtually no effect on unemployment.\n\nAccording to the researchers, the mass immigration had virtually no effect on wages and unemployment because the new Cuban immigrants increased the overall demand for goods and services, which created more jobs."
+      },
+      {
+        "arm_label": "Control",
+        "arm_id": "control",
+        "text": "No information treatment; respondents proceeded directly from the belief elicitation questions to the outcome questions."
+      }
+    ],
+    "outcome_questions": [
+      {
+        "outcome_name": "beliefs_about_mariel_boatlift_low_skilled_wages",
+        "question_text": "In the five-year period after 1980, how do you think wages of low-skilled workers in Miami were affected by the mass immigration of Cubans?",
+        "response_format": "scale",
+        "scale_min": 1,
+        "scale_max": 5,
+        "response_instruction": "Reply with a single number from 1 to 5 only, where 1 = Strongly decrease and 5 = Strongly increase."
+      },
+      {
+        "outcome_name": "beliefs_about_mariel_boatlift_low_skilled_unemployment",
+        "question_text": "In the five-year period after 1980, how do you think unemployment among low-skilled workers in Miami was affected by the mass immigration of Cubans?",
+        "response_format": "scale",
+        "scale_min": 1,
+        "scale_max": 5,
+        "response_instruction": "Reply with a single number from 1 to 5 only, where 1 = Strongly increase and 5 = Strongly decrease."
+      },
+      {
+        "outcome_name": "beliefs_about_mariel_boatlift_high_skilled_wages",
+        "question_text": "In the five-year period after 1980, how do you think wages of high-skilled workers in Miami were affected by the mass immigration of Cubans?",
+        "response_format": "scale",
+        "scale_min": 1,
+        "scale_max": 5,
+        "response_instruction": "Reply with a single number from 1 to 5 only, where 1 = Strongly decrease and 5 = Strongly increase."
+      },
+      {
+        "outcome_name": "beliefs_about_mariel_boatlift_high_skilled_unemployment",
+        "question_text": "In the five-year period after 1980, how do you think unemployment among high-skilled workers in Miami was affected by the mass immigration of Cubans?",
+        "response_format": "scale",
+        "scale_min": 1,
+        "scale_max": 5,
+        "response_instruction": "Reply with a single number from 1 to 5 only, where 1 = Strongly increase and 5 = Strongly decrease."
+      },
+      {
+        "outcome_name": "support_low_skilled_immigration_not_familiar",
+        "question_text": "Immigrants to the US differ in terms of their professional skill levels as well as their familiarity with American values and traditions.\n\nDo you think the US should allow more or less low-skilled immigrants that are not familiar with American values and traditions to come and live here?",
+        "response_format": "scale",
+        "scale_min": 1,
+        "scale_max": 5,
+        "response_instruction": "Reply with a single number from 1 to 5 only, where 1 = Allow a lot less of these immigrants and 5 = Allow a lot more of these immigrants."
+      },
+      {
+        "outcome_name": "support_low_skilled_immigration_familiar",
+        "question_text": "Immigrants to the US differ in terms of their professional skill levels as well as their familiarity with American values and traditions.\n\nDo you think the US should allow more or less low-skilled immigrants that are highly familiar with American values and traditions to come and live here?",
+        "response_format": "scale",
+        "scale_min": 1,
+        "scale_max": 5,
+        "response_instruction": "Reply with a single number from 1 to 5 only, where 1 = Allow a lot less of these immigrants and 5 = Allow a lot more of these immigrants."
+      },
+      {
+        "outcome_name": "support_high_skilled_immigration_not_familiar",
+        "question_text": "Immigrants to the US differ in terms of their professional skill levels as well as their familiarity with American values and traditions.\n\nDo you think the US should allow more or less high-skilled immigrants that are not familiar with American values and traditions to come and live here?",
+        "response_format": "scale",
+        "scale_min": 1,
+        "scale_max": 5,
+        "response_instruction": "Reply with a single number from 1 to 5 only, where 1 = Allow a lot less of these immigrants and 5 = Allow a lot more of these immigrants."
+      },
+      {
+        "outcome_name": "support_high_skilled_immigration_familiar",
+        "question_text": "Immigrants to the US differ in terms of their professional skill levels as well as their familiarity with American values and traditions.\n\nDo you think the US should allow more or less high-skilled immigrants that are highly familiar with American values and traditions to come and live here?",
+        "response_format": "scale",
+        "scale_min": 1,
+        "scale_max": 5,
+        "response_instruction": "Reply with a single number from 1 to 5 only, where 1 = Allow a lot less of these immigrants and 5 = Allow a lot more of these immigrants."
+      },
+      {
+        "outcome_name": "Intention to sign the petitions",
+        "question_text": "Respondents were told they would be given the opportunity to sign one of two petitions related to the debate over whether Congress should change the annual cap on non-agricultural guest workers to the US, the H-2B visa program. The first petition suggests to increase the annual cap from 66,000 to 99,000.",
+        "response_format": "binary",
+        "scale_min": null,
+        "scale_max": null,
+        "response_instruction": "Reply YES if the respondent would sign the petition to increase the annual cap, otherwise reply NO."
+      },
+      {
+        "outcome_name": "Intention to sign the petitions",
+        "question_text": "Respondents were told they would be given the opportunity to sign one of two petitions related to the debate over whether Congress should change the annual cap on non-agricultural guest workers to the US, the H-2B visa program. The second petition suggests to decrease the annual cap from 66,000 to 33,000.",
+        "response_format": "binary",
+        "scale_min": null,
+        "scale_max": null,
+        "response_instruction": "Reply YES if the respondent would sign the petition to decrease the annual cap, otherwise reply NO."
+      },
+      {
+        "outcome_name": "Attitudes towards low-skilled immigrants",
+        "question_text": "In your view, should immigration of workers with little to no education be kept at its present level, increased, or decreased?",
+        "response_format": "scale",
+        "scale_min": 1,
+        "scale_max": 3,
+        "response_instruction": "Reply with a single number from 1 to 3 only, where 1 = decreased, 2 = kept at its present level, and 3 = increased."
+      },
+      {
+        "outcome_name": "Attitudes towards high-skilled immigrants",
+        "question_text": "In your view, should immigration of workers with a lot of education be kept at its present level, increased, or decreased?",
+        "response_format": "scale",
+        "scale_min": 1,
+        "scale_max": 3,
+        "response_instruction": "Reply with a single number from 1 to 3 only, where 1 = decreased, 2 = kept at its present level, and 3 = increased."
+      },
+      {
+        "outcome_name": "followup_beliefs_about_labor_market_impact",
+        "question_text": "Do you think increased immigration would hurt American workers?",
+        "response_format": "scale",
+        "scale_min": 1,
+        "scale_max": 5,
+        "response_instruction": "Reply with a single number from 1 to 5 only, where higher values indicate more optimistic views about the effect of immigration."
+      }
+    ],
+    "results": [
+      {
+        "arm_label": "Control",
+        "arm_id": "control",
+        "outcome_name": "Attitudes towards low-skilled immigrants",
+        "n": 3130,
+        "value": null,
+        "sd": null,
+        "se": null
+      },
+      {
+        "arm_label": "Treatment",
+        "arm_id": "treatment",
+        "outcome_name": "Attitudes towards low-skilled immigrants",
+        "n": 3130,
+        "value": 0.143,
+        "sd": null,
+        "se": 0.033
+      },
+      {
+        "arm_label": "Control",
+        "arm_id": "control",
+        "outcome_name": "Attitudes towards high-skilled immigrants",
+        "n": 3130,
+        "value": null,
+        "sd": null,
+        "se": null
+      },
+      {
+        "arm_label": "Treatment",
+        "arm_id": "treatment",
+        "outcome_name": "Attitudes towards high-skilled immigrants",
+        "n": 3130,
+        "value": 0.077,
+        "sd": null,
+        "se": 0.035
+      },
+      {
+        "arm_label": "Control",
+        "arm_id": "control",
+        "outcome_name": "Intention to sign the petitions",
+        "n": 3130,
+        "value": 0.286,
+        "sd": null,
+        "se": null
+      },
+      {
+        "arm_label": "Treatment",
+        "arm_id": "treatment",
+        "outcome_name": "Intention to sign the petitions",
+        "n": 3130,
+        "value": 0.334,
+        "sd": null,
+        "se": 0.017
+      },
+      {
+        "arm_label": "Control",
+        "arm_id": "control",
+        "outcome_name": "Actual signing of the petitions",
+        "n": 3130,
+        "value": 0.039,
+        "sd": null,
+        "se": null
+      },
+      {
+        "arm_label": "Treatment",
+        "arm_id": "treatment",
+        "outcome_name": "Actual signing of the petitions",
+        "n": 3130,
+        "value": 0.066,
+        "sd": null,
+        "se": 0.007
+      }
+    ]
+  },
+  {
+    "seq_id": 118,
+    "preamble": "Participants were informed about the matching mechanism and payment procedures used in the study (post-hoc matching with delayed payment after all decisions by all participants had been collected, donations to UNICEF were also made after the completion of data collection). Afterwards, they were required to correctly answer a comprehension question concerning these procedures. Participants were randomized into either IND, BIL, or assigned the passive role in IND. All decisions made, i.e., in both IND and BIL, also had a consequence for a third party (each decision either resulted in a donation of the amount needed for a complete measles vaccination of a child in need to UNICEF by the researchers or not, also see below).",
+    "treatment_variations": [
+      {
+        "arm_label": "IND-active",
+        "arm_id": "ind_active",
+        "text": "In IND, half of the participants were randomly allocated to the passive role. These participants were informed about the decision that the active participants would be making. They were then asked to make a hypothetical decision in the role of an active participant, but were informed upfront that this decision would have no monetary (or other) consequences.\n\nThe active participants received an endowment of $2.50. Then, they were asked to indicate the maximum amount that they are willing to pay (WTP) out of this endowment in order for a child in need to receive full vaccination against measles. We used the BDM method (Becker et al., 1964) to elicit this WTP, i.e., if a randomly drawn ‘price’, between $0.00 and $2.50, for the vaccination was smaller than a participant’s WTP, the amount needed for the vaccination was donated to UNICEF by the researchers and the participant received their endowment minus that price. Else, the participant received their full endowment, but no vaccination was donated. Payoff consequences for passive participants were exactly the same as for their respective matched active decision maker."
+      },
+      {
+        "arm_label": "IND-passive",
+        "arm_id": "ind_passive",
+        "text": "In IND, half of the participants were randomly allocated to the passive role. These participants were informed about the decision that the active participants would be making. They were then asked to make a hypothetical decision in the role of an active participant, but were informed upfront that this decision would have no monetary (or other) consequences."
+      },
+      {
+        "arm_label": "BIL",
+        "arm_id": "bil",
+        "text": "In BIL, the two randomly matched active decision makers made exactly the same decision as the active participants in IND. However, the donation to UNICEF was made only if both participants’ WTPs were greater than or equal to the randomly drawn price for the vaccination."
+      }
+    ],
+    "outcome_questions": [
+      {
+        "outcome_name": "Willingness to pay (WTP) for the vaccination of one child against measles",
+        "question_text": "Then, they were asked to indicate the maximum amount that they are willing to pay (WTP) out of this endowment in order for a child in need to receive full vaccination against measles.",
+        "response_format": "dollar",
+        "scale_min": 0,
+        "scale_max": 2.5,
+        "response_instruction": "Reply with a single dollar amount between 0.00 and 2.50 only."
+      },
+      {
+        "outcome_name": "belief_about_partner_wtp",
+        "question_text": "After the decision stage, we elicited all participants’ beliefs about the WTP of their matched partners. I.e., we asked participants to estimate how much their respectively matched other participant was (or ‘would have been’ for matched passive partners) willing to pay for the measles vaccination.",
+        "response_format": "dollar",
+        "scale_min": 0,
+        "scale_max": 2.5,
+        "response_instruction": "Reply with a single dollar amount between 0.00 and 2.50 only."
+      },
+      {
+        "outcome_name": "diligence_check",
+        "question_text": "Participants had to copy, letter by letter, a meaningless string of characters backwards and in all uppercase letters.",
+        "response_format": "other",
+        "scale_min": null,
+        "scale_max": null,
+        "response_instruction": "Reply with the reversed string in all uppercase letters only."
+      }
+    ],
+    "results": [
+      {
+        "arm_label": "IND-active",
+        "arm_id": "ind_active",
+        "outcome_name": "Willingness to pay (WTP) for the vaccination of one child against measles",
+        "n": 119,
+        "value": 0.99,
+        "sd": 0.84,
+        "se": null
+      },
+      {
+        "arm_label": "BIL",
+        "arm_id": "bil",
+        "outcome_name": "Willingness to pay (WTP) for the vaccination of one child against measles",
+        "n": 120,
+        "value": 1.0,
+        "sd": 0.82,
+        "se": null
+      }
+    ]
+  },
+  {
+    "seq_id": 131,
+    "preamble": "Section 0 - Intro\nOn the next page, you will be asked to read about a nonprofit organization in Nairobi, Kenya, East Africa. It is very important for the study that you read the nonprofit information in full, as you will be asked questions about it. Is that something you are willing to do? Please indicate your commitment below.\n(1. I can commit to carefully reading about the nonprofit. 2. I cannot commit to carefully reading about the nonprofit.)\nRespondents are randomly assigned to receive one of the following frames",
+    "treatment_variations": [
+      {
+        "arm_label": "frame_pov",
+        "arm_id": "frame_pov",
+        "text": "The goal of the Poverty Alleviation Organization is to alleviate poverty and reduce financial hardship among the poor. This organization believes that people living in poverty should be given income support to help them meet their basic needs. This organization aims to help promote a decent standard of living among the poor and help them deal with emergencies. Thus, the Poverty Alleviation Organization gives financial assistance to people to help them make ends meet. For example, with the financial assistance, people might be able to struggle less to afford basic needs, like paying off debts, paying rent, and buying clothes and food. Towards that mission, this nonprofit gives one-time transfers of financial assistance to people in urban slums in Nairobi, Kenya, East Africa. They give each recipient $4 USD (about two days wages) in cash. These program recipients are people who live on less than $2 per day, and half of recipients have no savings."
+      },
+      {
+        "arm_label": "frame_ind",
+        "arm_id": "frame_ind",
+        "text": "The goal of the Individual Empowerment Organization is to promote individuals' potential to create a better future for themselves. The organization believes that individuals are wise and know best how to help themselves become self-reliant if they have the financial resources to do so. This organization aims to empower individuals to pursue their personal interests and create their own path to independence. Thus, the Individual Empowerment Organization gives financial resources to individuals to enable them to invest in their personal goals. For example, people might use their unique talents to start a self-run business, invest in job training courses, or create art. Towards that mission, this nonprofit gives one-time transfers of financial resources to people in urban slums in Nairobi, Kenya, East Africa. They give each recipient $4 USD (about two days wages) in cash. These program recipients are people who live on less than $2 per day, and half of recipients have no savings."
+      },
+      {
+        "arm_label": "frame.com",
+        "arm_id": "frame_com",
+        "text": "The goal of the Community Empowerment Organization is to enable people to help promote better futures for those they care about and want to support most. The organization believes that people know best how to support each other and grow together if they have financial resources to do so. This organization aims to empower people to improve their own lives and those of the people and communities they care about most. Thus, the Community Empowerment Organization gives financial resources to community members to enable them to contribute positively to the lives of people important to them. For example, when people can invest in themselves, they are better able to expand employment opportunities for others, provide valuable services to their community, or teach others, including children, useful skills and knowledge. Towards that mission, this nonprofit gives one-time transfers of financial resources to people in urban slums in Nairobi, Kenya, East Africa. They give each recipient $4 USD (about two days wages) in cash. These program recipients are people who live on less than $2 per day, and half of recipients have no savings."
+      }
+    ],
+    "outcome_questions": [
+      {
+        "outcome_name": "Donation (Amount out of a $100 lottery payout)",
+        "question_text": "As a result of participating in this study, you may also receive a bonus of $100. One in two hundred participants will be randomly selected for this bonus. We are giving people the opportunity to donate, in advance, part of that $100 to the [ORGANIZATION NAME]. Their mission statement is copied below for your reference. If you are selected for the $100, how much would you like to donate to this organization versus keep for yourself? (Note the amounts must sum to 100)\n(1. Keep ___ for yourself. 2.Donate ___ to the [ORGANIZATION NAME].)",
+        "response_format": "dollar",
+        "scale_min": 0,
+        "scale_max": 100,
+        "response_instruction": "Reply with two dollar amounts that sum to 100: the amount kept for yourself and the amount donated to the organization."
+      },
+      {
+        "outcome_name": "encourage",
+        "question_text": "To what extent would you be likely to encourage your friends to donate to the [ORGANIZATION NAME]?\n(1. Not at all likely to encourage. 2. Slightly likely to encourage. 3. Somewhat likely to encourage. 4. Very likely to encourage. 5. Extremely likely to encourage.)\nReminder of the mission statement: [ORGANIZATION MESSAGE]",
+        "response_format": "scale",
+        "scale_min": 1,
+        "scale_max": 5,
+        "response_instruction": "Reply with a single integer from 1 to 5 only."
+      },
+      {
+        "outcome_name": "recip.improve",
+        "question_text": "To what extent will $4 improve the life of a recipient of the [ORGANIZATION NAME]?\n(1. An enormous amount 2. A great deal 3. A lot 4. A moderate amount 5. Somewhat 6. Very little 7. Not at all)",
+        "response_format": "scale",
+        "scale_min": 1,
+        "scale_max": 7,
+        "response_instruction": "Reply with a single integer from 1 to 7 only."
+      },
+      {
+        "outcome_name": "recip.impact",
+        "question_text": "To what extent do you think that recipients of the [ORGANIZATION NAME] need financial assistance from others?\n(1. An enormous amount 2. A great deal 3. A lot 4. A moderate amount 5. Somewhat 6. Very little 7. Not at all)",
+        "response_format": "scale",
+        "scale_min": 1,
+        "scale_max": 7,
+        "response_instruction": "Reply with a single integer from 1 to 7 only."
+      },
+      {
+        "outcome_name": "recip.ladder",
+        "question_text": "Think of this ladder as representing where people stand globally. At the top of the ladder are the people who are the best off globally -- those who have the most money, the most education and the most respected jobs. At the bottom of the ladder are the people who are the worst off globally -- those who have the least money, least education, and the least respected jobs or no job. The higher up you are on this ladder, the closer you are to the people at the very top; the lower you are, the closer you are to people at the very bottom. Where would you place recipients of the [ORGANIZATION NAME] on this ladder? Use the slider to indicate where on the ladder you think recipients stand, relative to other people in the world.\n(1. Bottom of the ladder to 10. Top of the ladder)",
+        "response_format": "scale",
+        "scale_min": 1,
+        "scale_max": 10,
+        "response_instruction": "Reply with a single integer from 1 to 10 only."
+      }
+    ],
+    "results": [
+      {
+        "arm_label": "frame_pov",
+        "arm_id": "frame_pov",
+        "outcome_name": "Donation (Amount out of a $100 lottery payout)",
+        "n": null,
+        "value": null,
+        "sd": null,
+        "se": null
+      },
+      {
+        "arm_label": "frame_ind",
+        "arm_id": "frame_ind",
+        "outcome_name": "Donation (Amount out of a $100 lottery payout)",
+        "n": null,
+        "value": null,
+        "sd": null,
+        "se": null
+      },
+      {
+        "arm_label": "frame.com",
+        "arm_id": "frame_com",
+        "outcome_name": "Donation (Amount out of a $100 lottery payout)",
+        "n": null,
+        "value": null,
+        "sd": null,
+        "se": null
+      }
+    ]
+  },
+  {
+    "seq_id": 141,
+    "preamble": "In the first part of the survey, both Qualtrics and Mturk respondents were asked to judge discrimination in two scenarios (“Base questions”). These scenarios consist of situations in which a manager has to decide between giving the job to a man or a woman. In one scenario, the manager discriminates against the woman and in the other scenario the manager discriminates against the man. More specifically, the discrimination-against-the-woman scenario states that: “Taking into account all characteristics of the two applicants (qualifications, experience, personality, etc.), the manager knows that the woman is slightly more qualified and hiring her would bring slightly higher profits for the company. After considering everything, the manager hires the man.” The discrimination-against-the-man scenario was identical except for the man being slightly more qualified and the manager hiring the woman. The order of those two scenarios was randomly assigned. For each scenario, respondents were asked to judge the manager’s decision on a scale that ranges from 0 “very morally wrong” to 100 “very morally right.”",
+    "treatment_variations": [
+      {
+        "arm_label": "Same effort",
+        "arm_id": "mandiscr_1st_judgment",
+        "text": "The man and the woman have worked equally hard in their career. For example, both regularly studied on the weekends while their friends were out partying."
+      },
+      {
+        "arm_label": "Same suffering",
+        "arm_id": "mandiscr_2nd_judgment",
+        "text": "The man and the woman would suffer equally much from not getting the job. For example, both are currently unemployed, but have enough savings so that they could go without getting a paycheck for another 4 weeks. Also, both would find it equally hard to get a new job. Neither of them has to support a family."
+      },
+      {
+        "arm_label": "No discrimination",
+        "arm_id": "womandiscr_1st_judgment",
+        "text": "The job is in an industry where there is no gender discrimination. A number of studies have convincingly shown that in this industry neither men nor women face discrimination in hiring decisions, nor do they face any other unfair treatment by coworkers or supervisors because of their gender."
+      },
+      {
+        "arm_label": "All constant",
+        "arm_id": "womandiscr_2nd_judgment",
+        "text": "The man and the woman would suffer equally much from not getting the job, the man and the woman have worked equally hard in their career, and the job is in an industry with no gender discrimination."
+      }
+    ],
+    "outcome_questions": [
+      {
+        "outcome_name": "pro-women attitude",
+        "question_text": "For each scenario, respondents were asked to judge the manager’s decision on a scale that ranges from 0 “very morally wrong” to 100 “very morally right.”",
+        "response_format": "scale",
+        "scale_min": 0,
+        "scale_max": 100,
+        "response_instruction": "Reply with a single integer from 0 to 100 only."
+      },
+      {
+        "outcome_name": "pro-women attitude",
+        "question_text": "You’re evaluations of the manager’s decisions in these two scenarios suggest that: You find it worse (from a moral perspective) if a manager hires a less qualified man over a more qualified woman (compared to the other way around). / No, I find both equally bad (or good). / No, I find it worse if the manager hires a less qualified woman over a more qualified man.",
+        "response_format": "choice",
+        "scale_min": null,
+        "scale_max": null,
+        "response_instruction": "Reply with the option that best matches the respondent’s view."
+      }
+    ],
+    "results": [
+      {
+        "arm_label": "Womandiscr. (1st judgment)",
+        "arm_id": "womandiscr_1st_judgment",
+        "outcome_name": "pro-women attitude",
+        "n": null,
+        "value": 13.3,
+        "sd": null,
+        "se": null
+      },
+      {
+        "arm_label": "Mandiscr. (1st judgment)",
+        "arm_id": "mandiscr_1st_judgment",
+        "outcome_name": "pro-women attitude",
+        "n": null,
+        "value": 1.5,
+        "sd": null,
+        "se": null
+      },
+      {
+        "arm_label": "Womandiscr. (2nd judgment)",
+        "arm_id": "womandiscr_2nd_judgment",
+        "outcome_name": "pro-women attitude",
+        "n": null,
+        "value": 8.0,
+        "sd": null,
+        "se": null
+      },
+      {
+        "arm_label": "Mandiscr. (2nd judgment)",
+        "arm_id": "mandiscr_2nd_judgment",
+        "outcome_name": "pro-women attitude",
+        "n": null,
+        "value": 9.0,
+        "sd": null,
+        "se": null
+      }
+    ]
+  },
+  {
+    "seq_id": 145,
+    "preamble": "The survey asked students to imagine they have graduated from MSU with $30,000 in student loan debt and are charged a 5% interest rate. They are also asked to assume that they are not allowed to change repayment plans and that they can pause payments if they attend graduate or professional school. Students are then shown a table with two different repayment plans labeled repayment plan 1 and repayment plan 2 with one plan being the 10-year repayment plan and the other being an income-based repayment plan. The plan that is repayment plan 1 is randomized for each respondent.",
+    "treatment_variations": [
+      {
+        "arm_label": "Exempt income",
+        "arm_id": "20_000",
+        "text": "X (exempt income) is randomly chosen to either be 20,000 or 30,000."
+      },
+      {
+        "arm_label": "Percent of non-exempt income",
+        "arm_id": "5",
+        "text": "Y (percent of non-exempt income) is randomly chosen to be either 5 or 10."
+      },
+      {
+        "arm_label": "Years until loan forgiveness",
+        "arm_id": "15",
+        "text": "Z (years until loan forgiveness) is randomly chosen to be either 15 or 20."
+      }
+    ],
+    "outcome_questions": [
+      {
+        "outcome_name": "The proportion of respondents who choose the income based repayment plan over the 10 year repayment plan",
+        "question_text": "Students are asked to choose between repayment plan 1 and repayment plan 2, where one is the 10-year repayment plan and the other is the income-based repayment plan.",
+        "response_format": "choice",
+        "scale_min": null,
+        "scale_max": null,
+        "response_instruction": "Reply with which plan the respondent would choose: the 10-year repayment plan or the income-based repayment plan."
+      }
+    ],
+    "results": [
+      {
+        "arm_label": "5%",
+        "arm_id": "5",
+        "outcome_name": "The proportion of respondents who choose the income based repayment plan over the 10 year repayment plan",
+        "n": 85,
+        "value": null,
+        "sd": null,
+        "se": null
+      },
+      {
+        "arm_label": "10%",
+        "arm_id": "10",
+        "outcome_name": "The proportion of respondents who choose the income based repayment plan over the 10 year repayment plan",
+        "n": 84,
+        "value": null,
+        "sd": null,
+        "se": null
+      },
+      {
+        "arm_label": "$20,000",
+        "arm_id": "20_000",
+        "outcome_name": "The proportion of respondents who choose the income based repayment plan over the 10 year repayment plan",
+        "n": 88,
+        "value": null,
+        "sd": null,
+        "se": null
+      },
+      {
+        "arm_label": "$30,000",
+        "arm_id": "30_000",
+        "outcome_name": "The proportion of respondents who choose the income based repayment plan over the 10 year repayment plan",
+        "n": 81,
+        "value": null,
+        "sd": null,
+        "se": null
+      },
+      {
+        "arm_label": "15",
+        "arm_id": "15",
+        "outcome_name": "The proportion of respondents who choose the income based repayment plan over the 10 year repayment plan",
+        "n": 85,
+        "value": null,
+        "sd": null,
+        "se": null
+      },
+      {
+        "arm_label": "20",
+        "arm_id": "20",
+        "outcome_name": "The proportion of respondents who choose the income based repayment plan over the 10 year repayment plan",
+        "n": 84,
+        "value": null,
+        "sd": null,
+        "se": null
+      }
+    ]
+  },
+  {
+    "seq_id": 150,
+    "preamble": "At baseline, after questioning: “We plan to call you for another follow-up phone survey in about two or three weeks. During this survey, we will ask you many of the same questions that we asked you today, and some new questions. This survey will also be confidential. For responding to this additional survey, you will receive 50Mts. Additionally, we will offer you 5Mts for every correct response you give us in our next phone survey to reward your knowledge of coronavirus! This reward will apply to the same questions that we asked you today and new questions about coronavirus symptoms, prevention, how it spreads, who is most at risk, and actions taken by the government of Mozambique. If you answer all of the questions correctly, you could earn up to 200Mts in addition to your 50Mts participation fee in our next survey!”",
+    "treatment_variations": [
+      {
+        "arm_label": "Incentive",
+        "arm_id": "incentive",
+        "text": "At endline, before questioning, just after consent: \"As you were told in the previous survey, we will offer you 5Mts for every correct response you give us today to reward your knowledge of coronavirus! This reward will apply to the same questions that we asked you in the previous survey and new questions about coronavirus symptoms, prevention, how it spreads, who is most at risk, and actions taken by the government of Mozambique. If you answer all of the questions correctly, you could earn up to 200Mts in addition to your 50Mts participation fee!\" At endline, after questioning, just prior to payment: \"In our previous survey, we offered you 5Mts for every correct response you gave us today to reward your knowledge of coronavirus. Today you correctly answered XX out of 40 coronavirus knowledge questions. Therefore, today you will receive an additional XX Mts in addition to your 50 Mts participation gift!\""
+      },
+      {
+        "arm_label": "Teaching",
+        "arm_id": "teaching",
+        "text": "“Now, I want to provide you some feedback on your responses from today’s survey on questions about actions that prevent the spread of coronavirus.\n• Respondents are randomly given tailored feedback to their response to COVID-19 prevention questions. We inform them of a subset of their correct responses and correct a subset of their incorrect responses. The script for each action is as follows: For “ <insert action>”, you chose 〈insert respondents choice〉. Your answer is 〈insert respondents choice〉. The correct answer is 〈insert pre-specified correct choice: YES or NO〉. This action 〈insert pre-specified correct choice: WILL or WILL NOT 〉prevent spreading coronavirus to yourself and others.”\n• Respondents are randomly given tailored feedback to their response to COVID-19 general knowledge questions. We inform them of a subset of their correct responses and correct a subset of their incorrect responses. The script for each question is as follows: “For “ <insert question>”, you chose <insert respondents choice>but the correct answer is 〈insert pre-specified correct answer〉. 〈insert pre-specified correct answer statement〉.”\nFor the 6 general knowledge and 6 government action questions asked in Round 2, feedback was given for all incorrect answers. For the 8 preventive action questions asked in Round 2, feedback was given for roughly half of all correct answers and half of all incorrect answers. This was done to test the efficacy of positive feedback versus negative feedback, which is currently under analysis and not discussed in this paper."
+      },
+      {
+        "arm_label": "Incentive plus Teaching (Joint)",
+        "arm_id": "incentive_plus_teaching",
+        "text": "This is a combination of the Incentive and Teaching treatments. Both scripts are read to the respondent. The Incentive script is always read first, before the Teaching script."
+      }
+    ],
+    "outcome_questions": [
+      {
+        "outcome_name": "Overall test score",
+        "question_text": "In Round 3, respondents were asked all 40 knowledge questions from the pre-specified question pool: 12 on general knowledge, 16 on preventive action, and 12 on government policy. The Overall Test Score is the share of these 40 knowledge questions answered correctly by a respondent.",
+        "response_format": "proportion",
+        "scale_min": 0,
+        "scale_max": 1,
+        "response_instruction": "Reply with a single proportion between 0 and 1 representing the share correct."
+      },
+      {
+        "outcome_name": "Teaching-Eligible test score",
+        "question_text": "The Teaching-Eligible Test Score is the share of these 20 knowledge questions (also asked in Round 2) answered correctly by a respondent in Round 3.",
+        "response_format": "proportion",
+        "scale_min": 0,
+        "scale_max": 1,
+        "response_instruction": "Reply with a single proportion between 0 and 1 representing the share correct."
+      },
+      {
+        "outcome_name": "Teaching-Ineligible test score",
+        "question_text": "The Teaching-Ineligible test score is the share of correct answers to the other 20 questions NOT asked at baseline and hence NOT eligible for the Teaching intervention.",
+        "response_format": "proportion",
+        "scale_min": 0,
+        "scale_max": 1,
+        "response_instruction": "Reply with a single proportion between 0 and 1 representing the share correct."
+      },
+      {
+        "outcome_name": "Newly-asked test score",
+        "question_text": "the share of correct answers to endline knowledge questions that were NOT randomly asked of the respondent at either pre-baseline or baseline",
+        "response_format": "proportion",
+        "scale_min": 0,
+        "scale_max": 1,
+        "response_instruction": "Reply with a single proportion between 0 and 1 representing the share correct."
+      }
+    ],
+    "results": [
+      {
+        "arm_label": "Control",
+        "arm_id": "control",
+        "outcome_name": "Overall test score",
+        "n": 847,
+        "value": 0.781,
+        "sd": 0.108,
+        "se": null
+      },
+      {
+        "arm_label": "Incentive",
+        "arm_id": "incentive",
+        "outcome_name": "Overall test score",
+        "n": null,
+        "value": 0.02,
+        "sd": null,
+        "se": 0.0054
+      },
+      {
+        "arm_label": "Teaching",
+        "arm_id": "teaching",
+        "outcome_name": "Overall test score",
+        "n": null,
+        "value": 0.016,
+        "sd": null,
+        "se": 0.0055
+      },
+      {
+        "arm_label": "Incentive plus Teaching",
+        "arm_id": "incentive_plus_teaching",
+        "outcome_name": "Overall test score",
+        "n": null,
+        "value": 0.0496,
+        "sd": null,
+        "se": 0.0055
+      },
+      {
+        "arm_label": "Control",
+        "arm_id": "control",
+        "outcome_name": "Teaching-Eligible test score",
+        "n": 847,
+        "value": 0.784,
+        "sd": 0.123,
+        "se": null
+      },
+      {
+        "arm_label": "Incentive",
+        "arm_id": "incentive",
+        "outcome_name": "Teaching-Eligible test score",
+        "n": null,
+        "value": 0.0156,
+        "sd": null,
+        "se": 0.006
+      },
+      {
+        "arm_label": "Teaching",
+        "arm_id": "teaching",
+        "outcome_name": "Teaching-Eligible test score",
+        "n": null,
+        "value": 0.0288,
+        "sd": null,
+        "se": 0.0064
+      },
+      {
+        "arm_label": "Incentive plus Teaching",
+        "arm_id": "incentive_plus_teaching",
+        "outcome_name": "Teaching-Eligible test score",
+        "n": null,
+        "value": 0.0581,
+        "sd": null,
+        "se": 0.006
+      }
+    ]
+  },
+  {
+    "seq_id": 151,
+    "preamble": "You have been invited to take part in a research study run by researchers at the University of Warwick. Please read the following statements carefully and answer the question below.\n\nOur commitments and privacy policy:\nWe never deceive participants. For example, if we inform you that another participant is making a choice on which you can then react, this is indeed the case. We keep our promises made to participants. For example, if we promise a certain payment, participants will indeed receive it. In the event that we are responsible for a mistake that is to the disadvantage of participants, we will inform and compensate the respective participants. We design, conduct and report our research in accordance with recognized scientific standards and ethical principles.\n\nWe adhere to the terms of our privacy policy as stated below:\nThe data in the participants’ database will only be used for the purpose of the study. There is no link between the personal data in the participants’ database and the data collected during a study. The generated anonymous data will be used for analysis. The end product will be publicly available. Your participation in this study is purely voluntary, and you may withdraw your participation or your data at any time without any penalty to you. Please note that the software (Qualtrics) automatically notes the time you spent on each question and this data will be made available to researchers for analysis.\n\nIf you would like to make a complaint about the way you have been dealt with during the study or any possible harm you might have suffered please address your complaint to the person below, who is a senior University of Warwick official entirely independent of this study: Head of Research Governance, Research Impact Services, University House, University of Warwick, Coventry CV4 8UW, Tel: 024 76 522746, Email: researchgovernance@warwick.ac.uk\n\nIf you are happy to proceed please tick the “I agree” button below to continue.",
+    "treatment_variations": [
+      {
+        "arm_label": "Honesty Treatment",
+        "arm_id": "treatmentgroups",
+        "text": "For your first task we would like to ask you to write about a real life event. Please think about an event in your own life (preferably in the last 12 months) in which you decided to be completely honest. We would like to ask you to write about this event below."
+      },
+      {
+        "arm_label": "Control Group",
+        "arm_id": "controlgroup",
+        "text": "No writing task; subjects in the control group move directly from stage 1 to stage 3."
+      }
+    ],
+    "outcome_questions": [
+      {
+        "outcome_name": "No of matrix reported to be solved",
+        "question_text": "In the next page, you will be a given an image that consists of 20 matrices. Your task is to find two numbers that add up to 10 in these matrices. The potential bonus you can make in this task is $0.10 ($0.30) per correct answer. You will have 5 minutes to complete this task. Once you press the button to continue, your time will start. You will see a timer on top of your screen. Once your time is over, you will be directed to the next page where you need to report how many pairs of numbers you had found. Once you are ready please press the button to proceed to the matrix task. Please write how many pairs of numbers you had found that sum up to 10.",
+        "response_format": "integer",
+        "scale_min": 0,
+        "scale_max": null,
+        "response_instruction": "Reply with a single integer giving the number of pairs found."
+      },
+      {
+        "outcome_name": "Cheap Talk Sender Receiver Game",
+        "question_text": "In this task, you are asked to imagine yourself in the following situation: You are matched with another MTurk worker. Neither of you will ever know the identity of the other. Two possible monetary payments are available to you and your counterpart and are described as “Option A” or “Option B”. The choice rests with the other MTurk worker who will have to choose either Option A or Option B and this will determine how much money you make and how much they will make. However, the only information your counterpart will have about the money that can be made is information sent by you in a message. That is, he or she will not know the monetary payments associated with each choice. You are the only one who knows about the monetary payments associated with each option. The potential bonus payments for this task depend upon the actual amounts specified in the two options: option A and option B and what is selected by the other MTurk worker. You need to decide which message to send to your counterpart. Which message would you send if the two payment options were: Option A: $1 to you and $1.2 to the other player. Option B: $1.2 to you and $1 to the other player. i) Message 1: “Option A will earn you more money than Option B” ii) Message 2: “Option B will earn you more money than Option A”",
+        "response_format": "choice",
+        "scale_min": null,
+        "scale_max": null,
+        "response_instruction": "Reply with Message 1 or Message 2 only."
+      },
+      {
+        "outcome_name": "No of matrix reported to be solved",
+        "question_text": "As in the wave 1 version of the task, subjects were asked to report the number of pairs that they found in the matrix puzzle which add up to 10. The only difference from the wave 1 task was the payment scheme. While in the wave 1, participants were paid for each matrix they reportedly solved, in the modified version, they were paid a lump-sum amount only if they were in the top 50% of the distribution. The lump-sum amount was decided based on the difference between the average payment that participants in the top 50% of the distribution received and the average payment that participants in the bottom 50% received in wave 1 of the experiment. This added a competitive element to the matrix puzzle game but maintained the same average payment in expectation by applying a mean-preserving spread by awarding a bonus only to those in the top half of the distribution. As in the wave 1 task, the experiment included two versions of this task with low or high material incentives allowing us to check whether our results were responsive to a change in the incentive payments. The lump-sum payments were set to be $0.72 in the low incentive task and $2.13 in the high incentive task.",
+        "response_format": "integer",
+        "scale_min": 0,
+        "scale_max": null,
+        "response_instruction": "Reply with a single integer giving the number of pairs found."
+      },
+      {
+        "outcome_name": "Dictator Game Donation to Charity",
+        "question_text": "The dishonesty tasks were followed by two dictator games designed to elicit subjects’ preferences for altruism. They were asked to indicate what percentage of their actual bonus from this experiment they would like to donate to Macmillan Cancer Support.",
+        "response_format": "percent",
+        "scale_min": 0,
+        "scale_max": 100,
+        "response_instruction": "Reply with a single percentage from 0 to 100."
+      },
+      {
+        "outcome_name": "Dictator Game Donation to Researcher",
+        "question_text": "The dishonesty tasks were followed by two dictator games designed to elicit subjects’ preferences for altruism. They were asked to indicate what percentage of their actual bonus from this experiment they would like to donate to the researchers of this experiment to be used for research purposes.",
+        "response_format": "percent",
+        "scale_min": 0,
+        "scale_max": 100,
+        "response_instruction": "Reply with a single percentage from 0 to 100."
+      },
+      {
+        "outcome_name": "Subject's Expectation",
+        "question_text": "First, subjects were asked to report how likely is might be for a person who did something dishonest to behave more honestly in the future.",
+        "response_format": "scale",
+        "scale_min": 0,
+        "scale_max": 100,
+        "response_instruction": "Reply with a single number on the percentage scale used in the study."
+      },
+      {
+        "outcome_name": "Researcher's Expectation",
+        "question_text": "Then, they were asked to indicate the percentage chance that the experimenter expected them to behave honestly in the various tasks.",
+        "response_format": "scale",
+        "scale_min": 0,
+        "scale_max": 100,
+        "response_instruction": "Reply with a single number on the percentage scale used in the study."
+      }
+    ],
+    "results": [
+      {
+        "arm_label": "ControlGroup",
+        "arm_id": "controlgroup",
+        "outcome_name": "No of matrix reported to be solved",
+        "n": null,
+        "value": 5.746,
+        "sd": null,
+        "se": null
+      },
+      {
+        "arm_label": "TreatmentGroups",
+        "arm_id": "treatmentgroups",
+        "outcome_name": "No of matrix reported to be solved",
+        "n": null,
+        "value": 5.03,
+        "sd": null,
+        "se": null
+      },
+      {
+        "arm_label": "ControlGroup",
+        "arm_id": "controlgroup",
+        "outcome_name": "No of matrix reported to be solved",
+        "n": null,
+        "value": 7.881,
+        "sd": null,
+        "se": null
+      },
+      {
+        "arm_label": "TreatmentGroups",
+        "arm_id": "treatmentgroups",
+        "outcome_name": "No of matrix reported to be solved",
+        "n": null,
+        "value": 5.438,
+        "sd": null,
+        "se": null
+      }
+    ]
+  },
+  {
+    "seq_id": 152,
+    "preamble": "Before starting our survey, all our subjects were informed that they will be exposed to four scenarios, with the proviso that “Some of these scenarios may seem realistic to you; others may seem unrealistic.” We also told subjects that only very limited information about each scenario will be provided. Nevertheless, subjects were asked to “please give us your reaction to [the scenarios] if they were to happen, based on the information that has been provided”. The goal of these statements was to clarify that we want respondents to assess the fairness of the hypothetical interactions (and not their realism or their likelihood of occurring).",
+    "treatment_variations": [
+      {
+        "arm_label": "Taste-based discrimination, Black discriminatee, less justifiable",
+        "arm_id": "tastes",
+        "text": "Michael, who is White, is about to hire his first customer representative for his business after a few years of carrying that role alongside his managerial duties. He has interacted with a number of Black people during his education and work experience. While all of his interactions with Black people have been polite and professional, he just didn’t enjoy interacting with them.\n\nFor his new hire, Michael has to choose between two applicants whose resumes, interviews and references are all of equal quality, one of whom is Black and one who is White. Michael decides to hire the White worker in order to avoid interacting with a Black employee."
+      },
+      {
+        "arm_label": "Statistical discrimination, Black discriminatee, less justifiable",
+        "arm_id": "statistical",
+        "text": "Less justifiable statistical discrimination was based on low-quality information (hearsay from a single, uninformed source) about relative group productivity."
+      }
+    ],
+    "outcome_questions": [
+      {
+        "outcome_name": "fairness of the incident described in a vignette",
+        "question_text": "After each scenario, the respondent is asked to “indicate the extent to which you thought that Michael’s hiring decision was fair” on a seven-point scale, where 1 was “very unfair”, 4 was “neither fair nor unfair”, and 7 was “very fair”.",
+        "response_format": "scale",
+        "scale_min": 1,
+        "scale_max": 7,
+        "response_instruction": "Reply with a single integer from 1 to 7 only, where 1 = very unfair and 7 = very fair."
+      },
+      {
+        "outcome_name": "Black people’s relative economic opportunities (BRO)",
+        "question_text": "Please consider the following question without referring to any of the previous survey items, and then select the rating that best corresponds to your answer:\nAll in all, in the United States, how would you compare the economic opportunities available to Black and White people? Black people have:\nMuch less / Less / A Little Less / Roughly equal / A little more / More / Much More opportunity than White people.",
+        "response_format": "scale",
+        "scale_min": 1,
+        "scale_max": 7,
+        "response_instruction": "Reply with a single choice on the 7-point scale from Much less opportunity to Much more opportunity."
+      }
+    ],
+    "results": [
+      {
+        "arm_label": "Tastes",
+        "arm_id": "tastes",
+        "outcome_name": "fairness of the incident described in a vignette",
+        "n": null,
+        "value": null,
+        "sd": null,
+        "se": null
+      },
+      {
+        "arm_label": "Statistical",
+        "arm_id": "statistical",
+        "outcome_name": "fairness of the incident described in a vignette",
+        "n": null,
+        "value": null,
+        "sd": null,
+        "se": null
+      },
+      {
+        "arm_label": "less justifiable",
+        "arm_id": "less_justifiable",
+        "outcome_name": "fairness of the incident described in a vignette",
+        "n": null,
+        "value": null,
+        "sd": null,
+        "se": null
+      },
+      {
+        "arm_label": "more justifiable",
+        "arm_id": "more_justifiable",
+        "outcome_name": "fairness of the incident described in a vignette",
+        "n": null,
+        "value": null,
+        "sd": null,
+        "se": null
+      }
+    ]
+  },
+  {
+    "seq_id": 159,
+    "preamble": "After clicking on the survey link, participants are presented a consent form providing information about the nature and research purposes of the survey. In particular, they are informed that they are taking part in an academic research survey and they are explained that participation is entirely anonymous and voluntary. After the first demographic questions, we implement a simple but widely used attention check in order to screen out participants leading to potentially low quality observations.",
+    "treatment_variations": [
+      {
+        "arm_label": "Control group",
+        "arm_id": "control_group",
+        "text": "Subjects carry out a fake news detection task and we estimate prior and posterior beliefs about their ability to discern true and false news in the task. In the control group, subjects carry out a fake news detection task and we estimate prior and posterior beliefs about their ability to discern true and false news in the task."
+      }
+    ],
+    "outcome_questions": [
+      {
+        "outcome_name": "news_accuracy_detection_task",
+        "question_text": "To the best of your knowledge, is the information in the above news item accurate?",
+        "response_format": "binary",
+        "scale_min": null,
+        "scale_max": null,
+        "response_instruction": "Reply with YES if the news item is accurate and NO if it is not accurate."
+      },
+      {
+        "outcome_name": "prior_belief_score",
+        "question_text": "How many points do you think you will score?",
+        "response_format": "integer",
+        "scale_min": 0,
+        "scale_max": 10,
+        "response_instruction": "Reply with a single integer from 0 to 10 only."
+      },
+      {
+        "outcome_name": "mid_task_belief_score",
+        "question_text": "You have seen 10 news items. How many points do you think you scored?",
+        "response_format": "integer",
+        "scale_min": 0,
+        "scale_max": 10,
+        "response_instruction": "Reply with a single integer from 0 to 10 only."
+      },
+      {
+        "outcome_name": "posterior_belief_score",
+        "question_text": "You have seen another set of 10 news items. How many points do you think you scored?",
+        "response_format": "integer",
+        "scale_min": 0,
+        "scale_max": 10,
+        "response_instruction": "Reply with a single integer from 0 to 10 only."
+      },
+      {
+        "outcome_name": "confidence_in_belief",
+        "question_text": "For each of the three questions above, we also elicit subjects’ confidence in their beliefs by asking them how sure they are about their answers, from “Very unsure” to “Very sure”.",
+        "response_format": "scale",
+        "scale_min": 1,
+        "scale_max": 5,
+        "response_instruction": "Reply with one number on the 1 to 5 scale, where 1 means Very unsure and 5 means Very sure."
+      },
+      {
+        "outcome_name": "general_ability_belief",
+        "question_text": "In your opinion, how good is your ability to identify news or information that misrepresents reality or is even false?",
+        "response_format": "scale",
+        "scale_min": 1,
+        "scale_max": 5,
+        "response_instruction": "Reply with one number on the 1 to 5 scale, where 1 means very bad and 5 means very good."
+      },
+      {
+        "outcome_name": "average_american_ability_belief",
+        "question_text": "In your opinion, how good is the average American’s ability to identify misinformation?",
+        "response_format": "scale",
+        "scale_min": 1,
+        "scale_max": 5,
+        "response_instruction": "Reply with one number on the 1 to 5 scale, where 1 means very bad and 5 means very good."
+      },
+      {
+        "outcome_name": "budget_allocation",
+        "question_text": "We provide subjects with a hypothetical 1000$ budget that they can freely allocate to consumption goods, a health insurance or an insurance contract that covers against the risk of being harmed by made-up news and information, i.e. a misinformation insurance.",
+        "response_format": "dollar",
+        "scale_min": 0,
+        "scale_max": 1000,
+        "response_instruction": "Reply with dollar amounts allocated to each option, ensuring the total sums to 1000."
+      }
+    ],
+    "results": [
+      {
+        "arm_label": "Control group",
+        "arm_id": "control_group",
+        "outcome_name": "Error in beliefs (POE)",
+        "n": null,
+        "value": 2.09,
+        "sd": null,
+        "se": null
+      },
+      {
+        "arm_label": "S",
+        "arm_id": "s",
+        "outcome_name": "Error in beliefs (POE)",
+        "n": null,
+        "value": 1.887,
+        "sd": null,
+        "se": 0.0613
+      }
+    ]
+  },
+  {
+    "seq_id": 160,
+    "preamble": "Stage 1: Piece Rate\n• Solve tables for 90 seconds with Piece Rate incentives (£0.15 per table)\n• Feedback: “You scored ... correct answers.”\n\nStage 2: Tournament\n• Prior belief elicitation: tournament rank in Stage 2 (£0.50-£0.02 guessing error)\n• Solve tables for 90 seconds with Tournament incentives (£0.30 per table for winners, 0 for losers)\n• Feedback: “You scored ... correct answers. You won/lost in the tournament in Stage 2.”\n• Neutral/Unfair Treatment.– Posterior belief elicitation: tournament rank in Stage 2 (£0.50-£0.02 guessing error)\n\nStage 3: Choice\n• Choose between Piece Rate and Tournament incentives\n• Solve tables for 90 seconds under chosen incentive\n• Feedback: “You scored ... correct answers.” (if piece rate was chosen).\n• Feedback: “You scored ... correct answers. You won/lost in the tournament in Stage 3” (if tournament was chosen).\n\nQuestionnaire\n• Demographics + preferences for risk, competition, and fairness",
+    "treatment_variations": [
+      {
+        "arm_label": "Neutral Treatment",
+        "arm_id": "neutral",
+        "text": "In Stage 2, participants were told that they would receive £0.30 per table if their score exceeded the score of a random opponent who had already completed the task, and zero otherwise. Ties were broken randomly. The opponent’s score was randomly selected from the score distribution of participants in Apicella et al. (2017). The best performer wins, ties broken randomly."
+      },
+      {
+        "arm_label": "Unfair Treatment",
+        "arm_id": "unfair",
+        "text": "Participants were informed that there was a 75% chance that the best performer would win the tournament. In the remaining 25% of cases, the inferior performer would win instead. This change only applied to Stage 2. In Stage 3, the tournament (if chosen) was still a fair (neutral) tournament, where the best performer always won. Prior to Stage 3, participants in all treatments were explicitly informed that the best performer would always win in the tournament (if chosen)."
+      },
+      {
+        "arm_label": "Feedback Treatment",
+        "arm_id": "feedback",
+        "text": "This treatment is identical to the Unfair Treatment, except that participants received two additional items of feedback at the end of Stage 2. First, participants were informed about their true rank in Stage 2 relative to the comparison sample of 100 participants. In case of ties, participants were assigned their expected rank. Second, participants were told whether their score was higher than their opponent’s and whether they deservedly (75% of the time) or undeservedly (25% of the time) won or lost the tournament. The belief elicitation task at the end of Stage 2 was removed because participants knew their exact rank."
+      }
+    ],
+    "outcome_questions": [
+      {
+        "outcome_name": "Tournament Entry (Stage 3)",
+        "question_text": "Stage 3: Choice — Choose between Piece Rate and Tournament incentives",
+        "response_format": "choice",
+        "scale_min": null,
+        "scale_max": null,
+        "response_instruction": "Reply with one choice only: Piece Rate or Tournament."
+      },
+      {
+        "outcome_name": "Stage 2 belief elicitation (rank)",
+        "question_text": "Prior belief elicitation: tournament rank in Stage 2 (£0.50-£0.02 guessing error)",
+        "response_format": "integer",
+        "scale_min": 1,
+        "scale_max": 100,
+        "response_instruction": "Reply with a single integer rank from 1 to 100 only."
+      },
+      {
+        "outcome_name": "Post-Stage-2 belief elicitation (rank)",
+        "question_text": "Posterior belief elicitation: tournament rank in Stage 2 (£0.50-£0.02 guessing error)",
+        "response_format": "integer",
+        "scale_min": 1,
+        "scale_max": 100,
+        "response_instruction": "Reply with a single integer rank from 1 to 100 only."
+      },
+      {
+        "outcome_name": "Risk I",
+        "question_text": "How do you see yourself: Are you generally a person who is willing to take risks, or do you try to avoid taking risks?",
+        "response_format": "scale",
+        "scale_min": 0,
+        "scale_max": 10,
+        "response_instruction": "Reply with one number from 0 to 10 only."
+      },
+      {
+        "outcome_name": "Risk II",
+        "question_text": "Please indicate the degree to which you agree or disagree with this statement: “My friends would say that I’m a risk taker.”",
+        "response_format": "scale",
+        "scale_min": 0,
+        "scale_max": 4,
+        "response_instruction": "Reply with one number from 0 to 4 only."
+      },
+      {
+        "outcome_name": "Perception men better at the task",
+        "question_text": "Do you think men or women generally do better in the “counting zeros” task?",
+        "response_format": "scale",
+        "scale_min": 0,
+        "scale_max": 10,
+        "response_instruction": "Reply with one number from 0 to 10 only."
+      },
+      {
+        "outcome_name": "Experience of unfairness",
+        "question_text": "Have you ever experienced discrimination against you at work (or in the job search) because of, for example, your country of origin, language, cultural group, ethnicity, gender, or family situation?",
+        "response_format": "scale",
+        "scale_min": 0,
+        "scale_max": 4,
+        "response_instruction": "Reply with one number from 0 to 4 only."
+      },
+      {
+        "outcome_name": "Perception of unfairness",
+        "question_text": "Imagine that someone else experiences discrimination at work (or in the job search) because of, for example, her/his country of origin, language, cultural group, ethnicity, gender, or family situation. How disappointed would you be?",
+        "response_format": "scale",
+        "scale_min": 0,
+        "scale_max": 4,
+        "response_instruction": "Reply with one number from 0 to 4 only."
+      },
+      {
+        "outcome_name": "Competitive attitude I",
+        "question_text": "How competitive do you consider yourself to be?",
+        "response_format": "scale",
+        "scale_min": 0,
+        "scale_max": 10,
+        "response_instruction": "Reply with one number from 0 to 10 only."
+      },
+      {
+        "outcome_name": "Competitive attitude II",
+        "question_text": "Competitiveness is defined as having a strong desire to win or be the best at something. Based on this definition, please answer the questions below. To which degree do you think the following statement describes you? “Competition brings the best out of me.”",
+        "response_format": "scale",
+        "scale_min": 0,
+        "scale_max": 4,
+        "response_instruction": "Reply with one number from 0 to 4 only."
+      },
+      {
+        "outcome_name": "Competitive attitude III",
+        "question_text": "Competitiveness is defined as having a strong desire to win or be the best at something. Based on this definition, please answer the questions below. Do you feel that winning or losing matters to you?",
+        "response_format": "scale",
+        "scale_min": 0,
+        "scale_max": 4,
+        "response_instruction": "Reply with one number from 0 to 4 only."
+      },
+      {
+        "outcome_name": "Competitive attitude IV",
+        "question_text": "Competitiveness is defined as having a strong desire to win or be the best at something. Based on this definition, please answer the questions below. Would you like to be more competitive?",
+        "response_format": "scale",
+        "scale_min": 0,
+        "scale_max": 4,
+        "response_instruction": "Reply with one number from 0 to 4 only."
+      },
+      {
+        "outcome_name": "Competitive attitude V",
+        "question_text": "Competitiveness is defined as having a strong desire to win or be the best at something. Based on this definition, please answer the questions below. Would you like to win or be the best at something?",
+        "response_format": "scale",
+        "scale_min": 0,
+        "scale_max": 4,
+        "response_instruction": "Reply with one number from 0 to 4 only."
+      }
+    ],
+    "results": [
+      {
+        "arm_label": "Neutral",
+        "arm_id": "neutral",
+        "outcome_name": "Tournament Entry (Stage 3)",
+        "n": 716,
+        "value": 0.181,
+        "sd": null,
+        "se": null
+      },
+      {
+        "arm_label": "Unfair",
+        "arm_id": "unfair",
+        "outcome_name": "Tournament Entry (Stage 3)",
+        "n": 684,
+        "value": 0.344,
+        "sd": null,
+        "se": null
+      },
+      {
+        "arm_label": "Feedback",
+        "arm_id": "feedback",
+        "outcome_name": "Tournament Entry (Stage 3)",
+        "n": 686,
+        "value": 0.24,
+        "sd": null,
+        "se": null
+      }
+    ]
+  },
+  {
+    "seq_id": 164,
+    "preamble": "Respondents who took the survey first saw a participant information statement (PIS) and consent form, which instructed them that they would be asked to answer a number of question and be given the opportunity to listen to audio recordings (without specifying the substance of these recordings). The first survey questions asked respondents to rank, on a 0-to-10 slider scale, their agreement with the human rights and behavioral etiquette statements selected from the previous study phase, as well as their views on the three policies (immigration, abortion and gun laws). The subsequent part of the survey informed participants that they would have the opportunity to listen to recordings from people who have views that differed from theirs on the three policies. Participants were explicitly reminded that they could choose to listen to none, all, or only some of these files. The message also reminded respondents to make sure their volume or headphones were on.",
+    "treatment_variations": [
+      {
+        "arm_label": "Control",
+        "arm_id": "control",
+        "text": "The control group only saw a blank page asking them to click a button to continue to the next page."
+      },
+      {
+        "arm_label": "T1/etiq",
+        "arm_id": "t1_etiq",
+        "text": "A page reminding them of the etiquette questions they were just asked, and were told: “We asked these exact same questions to the people who recorded the audio files you will be shown in the next pages and each of them had a rate of agreement above 9 out of 10.”. We then showed them again the full list of etiquette rules as an additional reminder."
+      },
+      {
+        "arm_label": "T2/values",
+        "arm_id": "t2_values",
+        "text": "An almost identical page reminding them of the human rights questions they just replied to, and informing them that the people who recorded the audio files they were about to be shown had a rate of agreement above 9 out of 10 on those statements."
+      }
+    ],
+    "outcome_questions": [
+      {
+        "outcome_name": "Willingness to engage",
+        "question_text": "Participants were given the opportunity to listen to recordings from people who have views that differed from theirs on the three policies, and were explicitly reminded that they could choose to listen to none, all, or only some of these files. Willingness to engage was measured as the number of recordings listened to (0, 1, 2 or 3) and as the percentage of recordings listened to, measured as the time spent on the pages with the audio recordings divided by the total time length of the recordings.",
+        "response_format": "integer",
+        "scale_min": 0,
+        "scale_max": 3,
+        "response_instruction": "Reply with a single integer from 0 to 3 only."
+      },
+      {
+        "outcome_name": "Percentage total audios length listened to",
+        "question_text": "While we used a hidden timer to track how many seconds respondents spent on each page with an audio file, we also wanted to collect self-reported levels of engagement. Following the three pages displaying each of the recordings, respondents were asked to report, for each policy, (a) whether they listened to all, some, or none of the audio file.",
+        "response_format": "proportion",
+        "scale_min": 0,
+        "scale_max": 1,
+        "response_instruction": "Reply with a single proportion from 0 to 1 only."
+      },
+      {
+        "outcome_name": "Change in views",
+        "question_text": "Following the three pages displaying each of the recordings, respondents were asked to report, for each policy, whether listening to the recordings changed their views about that policy (conditional on listening to it). If the respondent stated their views changed on a policy, they were asked again the same policy view question as at the beginning of the survey; if they said their views didn’t change, they were asked to explain why. The question asked: “Please indicate why your views on (policy) have not changed: (i) I already knew and considered the arguments presented, (ii) I didn’t find the arguments convincing, (iii) other (free text)”",
+        "response_format": "choice",
+        "scale_min": null,
+        "scale_max": null,
+        "response_instruction": "Reply by selecting the appropriate option from the listed choices only."
+      }
+    ],
+    "results": [
+      {
+        "arm_label": "Control",
+        "arm_id": "control",
+        "outcome_name": "Willingness to engage",
+        "n": 842,
+        "value": 0.925,
+        "sd": null,
+        "se": 0.0217
+      },
+      {
+        "arm_label": "T1/etiq",
+        "arm_id": "t1_etiq",
+        "outcome_name": "Willingness to engage",
+        "n": 827,
+        "value": 0.00709,
+        "sd": null,
+        "se": 0.0308
+      },
+      {
+        "arm_label": "T2/values",
+        "arm_id": "t2_values",
+        "outcome_name": "Willingness to engage",
+        "n": 838,
+        "value": -0.00517,
+        "sd": null,
+        "se": 0.0308
+      },
+      {
+        "arm_label": "Control",
+        "arm_id": "control",
+        "outcome_name": "Percentage total audios length listened to",
+        "n": 842,
+        "value": 1.068,
+        "sd": null,
+        "se": 0.025
+      },
+      {
+        "arm_label": "T1/etiq",
+        "arm_id": "t1_etiq",
+        "outcome_name": "Percentage total audios length listened to",
+        "n": 827,
+        "value": 0.012,
+        "sd": null,
+        "se": 0.0335
+      },
+      {
+        "arm_label": "T2/values",
+        "arm_id": "t2_values",
+        "outcome_name": "Percentage total audios length listened to",
+        "n": 838,
+        "value": 0.00136,
+        "sd": null,
+        "se": 0.0333
+      }
+    ]
+  },
+  {
+    "seq_id": 169,
+    "preamble": "Introduction/welcome and role description shown before the decision tasks; participants were told they were in a group of either 4 or 200, that they would be assigned a hypothetical role as A-player (rich) or B-player (poor), and that for the first 9 decisions they should decide in the role of an A-player. The experiment used the strategy method and did not initially reveal whether the participant was A or B.",
+    "treatment_variations": [
+      {
+        "arm_label": "Giving to Many",
+        "arm_id": "giving_to_many",
+        "text": "Do you want to spend X of your 350 cents to increase each B-player’s payoff by Y cents? (Y = 50 in small groups; Y = 1 in large groups.)"
+      },
+      {
+        "arm_label": "Giving to One of Many",
+        "arm_id": "giving_to_one",
+        "text": "Do you want to spend X of your 350 cents to increase a random one of the B-players’ payoff by 100 cents? The computer will make sure that no B-player can get more than 100 cents."
+      },
+      {
+        "arm_label": "Giving to One Partner",
+        "arm_id": "giving_to_one_x_partner",
+        "text": "Do you want to spend X of your 350 cents to increase your paired B player’s payoff by 100 cents?"
+      },
+      {
+        "arm_label": "Voting on Redistribution",
+        "arm_id": "voting_for_redistribution_in_the_small_group",
+        "text": "Do you want to vote for or against each of the B-players getting 100 cents at a cost of X to each of the A-players?"
+      }
+    ],
+    "outcome_questions": [
+      {
+        "outcome_name": "prosocial choice",
+        "question_text": "Do you want to spend X of your 350 cents to increase each B-player’s payoff by Y cents? / Do you want to spend X of your 350 cents to increase a random one of the B-players’ payoff by 100 cents? / Do you want to spend X of your 350 cents to increase your paired B player’s payoff by 100 cents? / Do you want to vote for or against each of the B-players getting 100 cents at a cost of X to each of the A-players?",
+        "response_format": "choice",
+        "scale_min": null,
+        "scale_max": null,
+        "response_instruction": "Reply with the participant’s choice to give/vote for redistribution versus not give/vote against it."
+      },
+      {
+        "outcome_name": "comprehension check: number of players in group",
+        "question_text": "How many players are there in your group?",
+        "response_format": "integer",
+        "scale_min": null,
+        "scale_max": null,
+        "response_instruction": "Reply with a single integer only."
+      },
+      {
+        "outcome_name": "comprehension check: A-player endowment",
+        "question_text": "How much money do the A players start with?",
+        "response_format": "integer",
+        "scale_min": null,
+        "scale_max": null,
+        "response_instruction": "Reply with a single integer amount in cents only."
+      },
+      {
+        "outcome_name": "comprehension check: B-player endowment",
+        "question_text": "How much money do the B players start with?",
+        "response_format": "integer",
+        "scale_min": null,
+        "scale_max": null,
+        "response_instruction": "Reply with a single integer amount in cents only."
+      },
+      {
+        "outcome_name": "comprehension check: number of A and B players",
+        "question_text": "How many A players and B players are there?",
+        "response_format": "integer",
+        "scale_min": null,
+        "scale_max": null,
+        "response_instruction": "Reply with the counts as instructed in the survey, using integers only."
+      },
+      {
+        "outcome_name": "comprehension check: role understanding",
+        "question_text": "Do you understand that for the first 9 decisions you should decide in the role of an A player?",
+        "response_format": "binary",
+        "scale_min": null,
+        "scale_max": null,
+        "response_instruction": "Reply YES or NO only."
+      }
+    ],
+    "results": [
+      {
+        "arm_label": "voting for redistribution in the small group",
+        "arm_id": "voting_for_redistribution_in_the_small_group",
+        "outcome_name": "prosocial choice",
+        "n": 1307,
+        "value": null,
+        "sd": null,
+        "se": null
+      },
+      {
+        "arm_label": "Giving to many",
+        "arm_id": "giving_to_many",
+        "outcome_name": "prosocial choice",
+        "n": 1307,
+        "value": null,
+        "sd": null,
+        "se": null
+      },
+      {
+        "arm_label": "Giving to one",
+        "arm_id": "giving_to_one",
+        "outcome_name": "prosocial choice",
+        "n": 1307,
+        "value": null,
+        "sd": null,
+        "se": null
+      },
+      {
+        "arm_label": "Giving to one x Partner",
+        "arm_id": "giving_to_one_x_partner",
+        "outcome_name": "prosocial choice",
+        "n": 1307,
+        "value": null,
+        "sd": null,
+        "se": null
+      },
+      {
+        "arm_label": "Large x Vote redistribution",
+        "arm_id": "large_x_vote_redistribution",
+        "outcome_name": "prosocial choice",
+        "n": 1307,
+        "value": -0.019,
+        "sd": null,
+        "se": 0.017
+      },
+      {
+        "arm_label": "Large x Giving to many",
+        "arm_id": "large_x_giving_to_many",
+        "outcome_name": "prosocial choice",
+        "n": 1307,
+        "value": -0.357,
+        "sd": null,
+        "se": 0.016
+      },
+      {
+        "arm_label": "Large x Giving to one",
+        "arm_id": "large_x_giving_to_one",
+        "outcome_name": "prosocial choice",
+        "n": 1307,
+        "value": -0.165,
+        "sd": null,
+        "se": 0.018
+      },
+      {
+        "arm_label": "Large x Giving to one x Partner",
+        "arm_id": "large_x_giving_to_one_x_partner",
+        "outcome_name": "prosocial choice",
+        "n": 1307,
+        "value": 0.143,
+        "sd": null,
+        "se": 0.019
+      }
+    ]
+  },
+  {
+    "seq_id": 174,
+    "preamble": "Respondents were randomly assigned to one of nine brief text-based information segments related to the dynamics of the pandemic and the safety of various behaviors. The segments were described as akin to news or information that respondents may have seen as media headlines, shared social media content, or summary messages from radio or television segments. The research team purposely chose segments that conveyed more or less alarming information, while requiring the segment to be accurate, fact-based, and objectively stated.",
+    "treatment_variations": [
+      {
+        "arm_label": "G1. AAP recommendation",
+        "arm_id": "g1_aap_recommendation",
+        "text": "The American Academy of Pediatrics (AAP) strongly advocates that all policy considerations for the coming school year should start with a goal of having students physically present in school. The importance of in-person learning is well-documented, and there is already evidence of the negative impacts on children because of school closures in the spring of 2020."
+      },
+      {
+        "arm_label": "G2. Low risks for children",
+        "arm_id": "g2_low_risks_for_children",
+        "text": "As of October 31, 2020, the Centers for Disease Control (CDC) reports that there have been 192 deaths from the coronavirus for U.S. children aged 14 and younger, which accounts for 0.09% of all deaths from the virus."
+      },
+      {
+        "arm_label": "G3. Facts on peak deaths",
+        "arm_id": "g3_facts_on_peak_deaths",
+        "text": "According to data from the Centers for Disease Control (CDC), 2,715 Americans died per day from the coronavirus in the seven-day period ending April 22. Since then, the most deaths over a seven day period occurred on August 10, averaging 1,154 per day. The week ending November 10th saw 957 deaths per day."
+      },
+      {
+        "arm_label": "G4. Record high cases",
+        "arm_id": "g4_record_high_cases",
+        "text": "November 13th saw a daily record for number of new confirmed coronavirus cases in the United States at 171,376."
+      },
+      {
+        "arm_label": "G5. Analysis of low school risks",
+        "arm_id": "g5_analysis_of_low_school_risks",
+        "text": "Economist Emily Oster of Brown University has analyzed coronavirus data from a large number of schools and counties across the country. As of early October, the number of confirmed cases per day was 7 for every 100,000 students and 14 for every 100,000 teachers. These numbers are similar to rates in the neighboring county. Dr. Oster's analysis suggests that schools are not major sources of COVID-19 spread."
+      },
+      {
+        "arm_label": "G6. Pro-mask study",
+        "arm_id": "g6_pro_mask_study",
+        "text": "In Missouri, two coronavirus-infected hair stylists saw 139 clients. None of the clients developed symptoms, and of the 67 tested, all tested negative for the coronavirus. Both stylists and clients wore masks throughout the encounter. CDC officials concluded that masks prevented the spread of the virus."
+      },
+      {
+        "arm_label": "G7. Safe travel case study",
+        "arm_id": "g7_safe_travel_case_study",
+        "text": "In a flight from Italy to South Korea in April, 6 passengers unknowingly had the coronavirus, but they infected only one of 299 passengers—a woman who likely used a bathroom after an infected person, according to a report from South Korea’s Centers for Disease Control. All passengers were wearing masks."
+      },
+      {
+        "arm_label": "G8. High hospitalizations",
+        "arm_id": "g8_high_hospitalizations",
+        "text": "There are currently 77,000 Americans in the hospital with the coronavirus. That is higher than the previous peak of 60,000 hospitalizations in April."
+      },
+      {
+        "arm_label": "G9. Jobless rate",
+        "arm_id": "g9_jobless_rate",
+        "text": "According to the U.S. Bureau of Labor Statistics, the unemployment rate in October is 6.9%."
+      }
+    ],
+    "outcome_questions": [
+      {
+        "outcome_name": "Providing in-person schooling for K-12 students",
+        "question_text": "Support or lack thereof for providing in-person schooling for K-12 students.",
+        "response_format": "binary",
+        "scale_min": 0,
+        "scale_max": 1,
+        "response_instruction": "Reply YES if supportive and NO if not supportive."
+      },
+      {
+        "outcome_name": "Providing in-person schooling for college students",
+        "question_text": "Support or lack thereof for providing in-person schooling for college students.",
+        "response_format": "binary",
+        "scale_min": 0,
+        "scale_max": 1,
+        "response_instruction": "Reply YES if supportive and NO if not supportive."
+      },
+      {
+        "outcome_name": "Allowing indoor dining at restaurants",
+        "question_text": "Support or lack thereof for allowing indoor dining at restaurants.",
+        "response_format": "binary",
+        "scale_min": 0,
+        "scale_max": 1,
+        "response_instruction": "Reply YES if supportive and NO if not supportive."
+      },
+      {
+        "outcome_name": "Allowing indoor seating at bars",
+        "question_text": "Support or lack thereof for allowing indoor seating at bars.",
+        "response_format": "binary",
+        "scale_min": 0,
+        "scale_max": 1,
+        "response_instruction": "Reply YES if supportive and NO if not supportive."
+      },
+      {
+        "outcome_name": "Requiring people to wear masks in indoor public spaces",
+        "question_text": "Support or lack thereof for requiring people to wear masks in indoor public spaces.",
+        "response_format": "binary",
+        "scale_min": 0,
+        "scale_max": 1,
+        "response_instruction": "Reply YES if supportive and NO if not supportive."
+      },
+      {
+        "outcome_name": "Requiring workers to wear mask",
+        "question_text": "Support or lack thereof for requiring workers to wear mask.",
+        "response_format": "binary",
+        "scale_min": 0,
+        "scale_max": 1,
+        "response_instruction": "Reply YES if supportive and NO if not supportive."
+      },
+      {
+        "outcome_name": "Requiring non-essential businesses to close in-person operations",
+        "question_text": "Support or lack thereof for requiring non-essential businesses to close in-person operations.",
+        "response_format": "binary",
+        "scale_min": 0,
+        "scale_max": 1,
+        "response_instruction": "Reply YES if supportive and NO if not supportive."
+      },
+      {
+        "outcome_name": "Prohibiting large indoor social gatherings",
+        "question_text": "Support or lack thereof for prohibiting large indoor social gatherings.",
+        "response_format": "binary",
+        "scale_min": 0,
+        "scale_max": 1,
+        "response_instruction": "Reply YES if supportive and NO if not supportive."
+      },
+      {
+        "outcome_name": "Eat at a restaurant",
+        "question_text": "How likely are you to eat at a restaurant in the next 30 days?",
+        "response_format": "scale",
+        "scale_min": 1,
+        "scale_max": 4,
+        "response_instruction": "Reply with a single number from 1 to 4 only, where higher means more likely."
+      },
+      {
+        "outcome_name": "Book a flight for personal travel",
+        "question_text": "How likely are you to book a flight for personal travel in the next 30 days?",
+        "response_format": "scale",
+        "scale_min": 1,
+        "scale_max": 4,
+        "response_instruction": "Reply with a single number from 1 to 4 only, where higher means more likely."
+      },
+      {
+        "outcome_name": "Book a flight for business travel",
+        "question_text": "How likely are you to book a flight for business travel in the next 30 days?",
+        "response_format": "scale",
+        "scale_min": 1,
+        "scale_max": 4,
+        "response_instruction": "Reply with a single number from 1 to 4 only, where higher means more likely."
+      },
+      {
+        "outcome_name": "Book a hotel room or vacation rental",
+        "question_text": "How likely are you to book a hotel room or vacation rental in the next 30 days?",
+        "response_format": "scale",
+        "scale_min": 1,
+        "scale_max": 4,
+        "response_instruction": "Reply with a single number from 1 to 4 only, where higher means more likely."
+      },
+      {
+        "outcome_name": "Believe the coronavirus is under control in your state",
+        "question_text": "Do you believe the coronavirus is under control in your state?",
+        "response_format": "binary",
+        "scale_min": 0,
+        "scale_max": 1,
+        "response_instruction": "Reply YES or NO only."
+      },
+      {
+        "outcome_name": "Confidence in safety from COVID (4 on 1-4 scale)",
+        "question_text": "How confident are you that you can protect yourself from COVID-19 infection while out in public?",
+        "response_format": "scale",
+        "scale_min": 1,
+        "scale_max": 4,
+        "response_instruction": "Reply with a single number from 1 to 4 only, where higher means more confident."
+      },
+      {
+        "outcome_name": "Agree to be vaccinated in Spring 2021 with COVID vaccine",
+        "question_text": "Would you agree to be vaccinated in Spring 2021 with a COVID vaccine?",
+        "response_format": "binary",
+        "scale_min": 0,
+        "scale_max": 1,
+        "response_instruction": "Reply YES if you would agree and NO if you would not agree or do not know."
+      }
+    ],
+    "results": [
+      {
+        "arm_label": "G1. AAP recommendation",
+        "arm_id": "g1_aap_recommendation",
+        "outcome_name": "Providing in-person schooling for K-12 students",
+        "n": null,
+        "value": 66.2,
+        "sd": null,
+        "se": null
+      },
+      {
+        "arm_label": "G4. Record high cases",
+        "arm_id": "g4_record_high_cases",
+        "outcome_name": "Providing in-person schooling for K-12 students",
+        "n": null,
+        "value": 50.5,
+        "sd": null,
+        "se": null
+      },
+      {
+        "arm_label": "G1. AAP recommendation",
+        "arm_id": "g1_aap_recommendation",
+        "outcome_name": "Providing in-person schooling for college students",
+        "n": null,
+        "value": 60.3,
+        "sd": null,
+        "se": null
+      },
+      {
+        "arm_label": "G4. Record high cases",
+        "arm_id": "g4_record_high_cases",
+        "outcome_name": "Providing in-person schooling for college students",
+        "n": null,
+        "value": 47.6,
+        "sd": null,
+        "se": null
+      },
+      {
+        "arm_label": "G1. AAP recommendation",
+        "arm_id": "g1_aap_recommendation",
+        "outcome_name": "Allowing indoor dining at restaurants",
+        "n": null,
+        "value": 51.2,
+        "sd": null,
+        "se": null
+      },
+      {
+        "arm_label": "G4. Record high cases",
+        "arm_id": "g4_record_high_cases",
+        "outcome_name": "Allowing indoor dining at restaurants",
+        "n": null,
+        "value": 43.8,
+        "sd": null,
+        "se": null
+      },
+      {
+        "arm_label": "G1. AAP recommendation",
+        "arm_id": "g1_aap_recommendation",
+        "outcome_name": "Allowing indoor seating at bars",
+        "n": null,
+        "value": 44.0,
+        "sd": null,
+        "se": null
+      },
+      {
+        "arm_label": "G4. Record high cases",
+        "arm_id": "g4_record_high_cases",
+        "outcome_name": "Allowing indoor seating at bars",
+        "n": null,
+        "value": 34.8,
+        "sd": null,
+        "se": null
+      },
+      {
+        "arm_label": "G1. AAP recommendation",
+        "arm_id": "g1_aap_recommendation",
+        "outcome_name": "Requiring people to wear masks in indoor public spaces",
+        "n": null,
+        "value": 84.4,
+        "sd": null,
+        "se": null
+      },
+      {
+        "arm_label": "G4. Record high cases",
+        "arm_id": "g4_record_high_cases",
+        "outcome_name": "Requiring people to wear masks in indoor public spaces",
+        "n": null,
+        "value": 86.1,
+        "sd": null,
+        "se": null
+      },
+      {
+        "arm_label": "G1. AAP recommendation",
+        "arm_id": "g1_aap_recommendation",
+        "outcome_name": "Requiring workers to wear mask",
+        "n": null,
+        "value": 85.2,
+        "sd": null,
+        "se": null
+      },
+      {
+        "arm_label": "G4. Record high cases",
+        "arm_id": "g4_record_high_cases",
+        "outcome_name": "Requiring workers to wear mask",
+        "n": null,
+        "value": 84.7,
+        "sd": null,
+        "se": null
+      },
+      {
+        "arm_label": "G1. AAP recommendation",
+        "arm_id": "g1_aap_recommendation",
+        "outcome_name": "Requiring non-essential businesses to close in-person operations",
+        "n": null,
+        "value": 47.9,
+        "sd": null,
+        "se": null
+      },
+      {
+        "arm_label": "G4. Record high cases",
+        "arm_id": "g4_record_high_cases",
+        "outcome_name": "Requiring non-essential businesses to close in-person operations",
+        "n": null,
+        "value": 55.1,
+        "sd": null,
+        "se": null
+      },
+      {
+        "arm_label": "G1. AAP recommendation",
+        "arm_id": "g1_aap_recommendation",
+        "outcome_name": "Prohibiting large indoor social gatherings",
+        "n": null,
+        "value": 74.5,
+        "sd": null,
+        "se": null
+      },
+      {
+        "arm_label": "G4. Record high cases",
+        "arm_id": "g4_record_high_cases",
+        "outcome_name": "Prohibiting large indoor social gatherings",
+        "n": null,
+        "value": 72.3,
+        "sd": null,
+        "se": null
+      },
+      {
+        "arm_label": "G1. AAP recommendation",
+        "arm_id": "g1_aap_recommendation",
+        "outcome_name": "Eat at a restaurant",
+        "n": null,
+        "value": 51.0,
+        "sd": null,
+        "se": null
+      },
+      {
+        "arm_label": "G4. Record high cases",
+        "arm_id": "g4_record_high_cases",
+        "outcome_name": "Eat at a restaurant",
+        "n": null,
+        "value": 39.5,
+        "sd": null,
+        "se": null
+      },
+      {
+        "arm_label": "G1. AAP recommendation",
+        "arm_id": "g1_aap_recommendation",
+        "outcome_name": "Book a flight for personal travel",
+        "n": null,
+        "value": 25.2,
+        "sd": null,
+        "se": null
+      },
+      {
+        "arm_label": "G4. Record high cases",
+        "arm_id": "g4_record_high_cases",
+        "outcome_name": "Book a flight for personal travel",
+        "n": null,
+        "value": 18.5,
+        "sd": null,
+        "se": null
+      },
+      {
+        "arm_label": "G1. AAP recommendation",
+        "arm_id": "g1_aap_recommendation",
+        "outcome_name": "Book a flight for business travel",
+        "n": null,
+        "value": 18.4,
+        "sd": null,
+        "se": null
+      },
+      {
+        "arm_label": "G4. Record high cases",
+        "arm_id": "g4_record_high_cases",
+        "outcome_name": "Book a flight for business travel",
+        "n": null,
+        "value": 13.6,
+        "sd": null,
+        "se": null
+      },
+      {
+        "arm_label": "G1. AAP recommendation",
+        "arm_id": "g1_aap_recommendation",
+        "outcome_name": "Book a hotel room or vacation rental",
+        "n": null,
+        "value": 28.2,
+        "sd": null,
+        "se": null
+      },
+      {
+        "arm_label": "G4. Record high cases",
+        "arm_id": "g4_record_high_cases",
+        "outcome_name": "Book a hotel room or vacation rental",
+        "n": null,
+        "value": 24.1,
+        "sd": null,
+        "se": null
+      },
+      {
+        "arm_label": "G1. AAP recommendation",
+        "arm_id": "g1_aap_recommendation",
+        "outcome_name": "Believe the coronavirus is under control in your state",
+        "n": null,
+        "value": 26.7,
+        "sd": null,
+        "se": null
+      },
+      {
+        "arm_label": "G4. Record high cases",
+        "arm_id": "g4_record_high_cases",
+        "outcome_name": "Believe the coronavirus is under control in your state",
+        "n": null,
+        "value": 25.8,
+        "sd": null,
+        "se": null
+      },
+      {
+        "arm_label": "G1. AAP recommendation",
+        "arm_id": "g1_aap_recommendation",
+        "outcome_name": "Confidence in safety from COVID (4 on 1-4 scale)",
+        "n": null,
+        "value": 24.0,
+        "sd": null,
+        "se": null
+      },
+      {
+        "arm_label": "G4. Record high cases",
+        "arm_id": "g4_record_high_cases",
+        "outcome_name": "Confidence in safety from COVID (4 on 1-4 scale)",
+        "n": null,
+        "value": 23.1,
+        "sd": null,
+        "se": null
+      },
+      {
+        "arm_label": "G1. AAP recommendation",
+        "arm_id": "g1_aap_recommendation",
+        "outcome_name": "Agree to be vaccinated in Spring 2021 with COVID vaccine",
+        "n": null,
+        "value": 51.8,
+        "sd": null,
+        "se": null
+      },
+      {
+        "arm_label": "G4. Record high cases",
+        "arm_id": "g4_record_high_cases",
+        "outcome_name": "Agree to be vaccinated in Spring 2021 with COVID vaccine",
+        "n": null,
+        "value": 55.0,
+        "sd": null,
+        "se": null
+      }
+    ]
+  },
+  {
+    "seq_id": 176,
+    "preamble": "Hello!\nThe survey is estimated to take approximately 10 minutes. You will be paid $0.50 USD upon successful submission. Your HIT should be submitted within 30 minutes after starting. Please keep in mind that your HIT may be denied if you fail to answer the attention question(s) correctly, so please read all instructions carefully.\nThank you!\n\nConsent Form\nThis study is part of a research study conducted by Rohen Shah at the University of Chicago. The purpose of the research is to understand human judgment and politico-linguistic opinions.\nProcedures\nIn this study, you will be asked questions about your opinions on the intersection of language and politics.\nParticipant Requirements\nParticipation in this study is limited to individuals age 18 and older.\nRisks\nThe risks and discomfort associated with participation in this study are no greater than those ordinarily encountered in daily life or during mild physical activity, such as when surfing the Internet.\nBenefits\nThere may be no personal benefit from your participation in the study but the knowledge received may be of value to humanity.\nCompensation & Costs\nYou will receive the payment as advertised on MTURK (0.50$). There will be no cost to you if you participate in this study.\nConfidentiality\nBy participating in this research, you understand and agree that the University of Chicago may be required to disclose your consent form, data and other personally identifiable information as required by law, regulation, subpoena or court order. Otherwise, your confidentiality will be maintained in the following manner: The researchers will take the following steps to protect participants’ identities during this study: (1) Each participant will be assigned a number; (2) The researchers will record any data collected during the study by number, not by name; (3) Any original data files will be stored in a secured location accessed only by authorized researchers. (4) IP addresses will be deleted before any data is analyzed.\nRight to Ask Questions & Contact Information\nIf you have any questions about this study, you should feel free to ask them by contacting Rohen Shah at shahr@uchicago.edu. If you have questions later, desire additional information, or wish to withdraw your participation please send an email to shahr@uchicago.edu.\nThis study is approved by the University of Chicago’s Social & Behavioral Sciences Institutional Review Board (IRB21-1311). If you have any questions about your rights as a participant in this research, feel you have been harmed, or wish to discuss other study-related concerns with someone who is not part of the research team, you can contact the University of Chicago Social & Behavioral Sciences Institutional Review Board (IRB) Office by phone at (773) 702-2915, or by email at sbs-irb@uchicago.edu.\nVoluntary Participation\nYour participation in this research is voluntary. You may discontinue participation at any time during the research activity.\nPlease select both of the following if you wish to continue.\nI have read and understand the information above.\nI want to participate in this research and continue with the study.\n\nWhat is your MTurk Worker ID?",
+    "treatment_variations": [
+      {
+        "arm_label": "Control",
+        "arm_id": "control",
+        "text": "As a part of this survey, you will be asked 6 True or False questions for statements relating to certain commonly used words. Then, you will be asked to predict whether others think those statements are true or false."
+      },
+      {
+        "arm_label": "Treatment",
+        "arm_id": "treat",
+        "text": "As a part of this survey, you will be asked 6 True or False questions for statements relating to certain commonly used words. Then, you will be asked to predict whether others think those statements are true or false.\nThe top 5% of survey respondents (those whose predictions are most accurate) will receive a bonus payment of $10 on August 28th, 2021. This bonus payment will be made directly to you on MTurk. This survey will be conducted with a sample of U.S. residents between the ages of 18 and 65 during the month of August 2021 on MTurk."
+      }
+    ],
+    "outcome_questions": [
+      {
+        "outcome_name": "Democratic Socialism true/false belief",
+        "question_text": "Think about the phrase “Democratic Socialism” and how you define it. In your opinion, is the following statement about Democratic Socialism True or False?\nIn a Democratic Socialist country, there can only be one brand of pizza (by definition).",
+        "response_format": "binary",
+        "scale_min": null,
+        "scale_max": null,
+        "response_instruction": "Reply with TRUE or FALSE only."
+      },
+      {
+        "outcome_name": "Prediction Errors",
+        "question_text": "What percentage of survey respondents who identify as politically \"LEFT\" do you predict will answer True vs. False? (Total MUST equal 100)",
+        "response_format": "percent",
+        "scale_min": 0,
+        "scale_max": 100,
+        "response_instruction": "Reply with two percentages for True and False that sum to 100."
+      },
+      {
+        "outcome_name": "Prediction Errors",
+        "question_text": "What percentage of survey respondents who identify as politically \"RIGHT\" do you predict will answer True vs. False? (Total MUST equal 100)",
+        "response_format": "percent",
+        "scale_min": 0,
+        "scale_max": 100,
+        "response_instruction": "Reply with two percentages for True and False that sum to 100."
+      },
+      {
+        "outcome_name": "Prediction Errors",
+        "question_text": "What percentage of survey respondents who identify as politically \"MODERATE\" do you predict will answer True vs. False? (Total MUST equal 100)",
+        "response_format": "percent",
+        "scale_min": 0,
+        "scale_max": 100,
+        "response_instruction": "Reply with two percentages for True and False that sum to 100."
+      }
+    ],
+    "results": [
+      {
+        "arm_label": "Treat",
+        "arm_id": "treat",
+        "outcome_name": "Prediction Errors",
+        "n": 735,
+        "value": null,
+        "sd": null,
+        "se": 2.799
+      },
+      {
+        "arm_label": "Control",
+        "arm_id": "control",
+        "outcome_name": "Prediction Errors",
+        "n": 735,
+        "value": null,
+        "sd": null,
+        "se": null
+      }
+    ]
+  },
+  {
+    "seq_id": 183,
+    "preamble": "Participants answered questions after reading a 5-sentence paragraph. Two types of paragraphs were used: human-written and AI-generated. The human-written text came from an entry in Encyclopedia Britannica that discusses the history of statistics and probability. The AI-written text was generated by prompting ChatGPT to replicate the style, sentence count, and word count of the human-written paragraph without altering factual content. Participants were randomly assigned to one of the treatments.",
+    "treatment_variations": [
+      {
+        "arm_label": "Human-written (informed)",
+        "arm_id": "human_written",
+        "text": "Participants were explicitly informed that the paragraph they reviewed was written by a human."
+      },
+      {
+        "arm_label": "Human-written (uninformed)",
+        "arm_id": "human_written_uninformed",
+        "text": "Participants were not informed about the authorship of the paragraph they reviewed."
+      },
+      {
+        "arm_label": "AI-written (uninformed)",
+        "arm_id": "uninformed",
+        "text": "Participants were not informed about the authorship of the paragraph they reviewed."
+      }
+    ],
+    "outcome_questions": [
+      {
+        "outcome_name": "authorship_guess / attention check or belief elicitation",
+        "question_text": "Participants indicated whether they thought the paragraph was written by a human or AI, with an incentive for being correct.",
+        "response_format": "choice",
+        "scale_min": null,
+        "scale_max": null,
+        "response_instruction": "Reply with one choice only: human or AI."
+      },
+      {
+        "outcome_name": "Trust",
+        "question_text": "Participants could earn money for correctly guessing whether the paragraph contained any factual errors. They could pick from three responses: 1. There are not any factual errors in this paragraph 2. I would like to purchase a fact-check (cost: $0.20) 3. There are factual errors in this paragraph",
+        "response_format": "choice",
+        "scale_min": null,
+        "scale_max": null,
+        "response_instruction": "Reply with exactly one of the three options: no factual errors, purchase a fact-check, or factual errors."
+      }
+    ],
+    "results": [
+      {
+        "arm_label": "Human-written",
+        "arm_id": "human_written",
+        "outcome_name": "Trust",
+        "n": 312,
+        "value": 0.329,
+        "sd": 0.223,
+        "se": null
+      },
+      {
+        "arm_label": "Uninformed",
+        "arm_id": "uninformed",
+        "outcome_name": "Trust",
+        "n": 188,
+        "value": 0.141,
+        "sd": 0.252,
+        "se": null
+      },
+      {
+        "arm_label": "Human-written ×Uninformed",
+        "arm_id": "human_written_uninformed",
+        "outcome_name": "Trust",
+        "n": 188,
+        "value": -0.132,
+        "sd": 0.359,
+        "se": null
+      },
+      {
+        "arm_label": "Believed human authorship",
+        "arm_id": "believed_human_authorship",
+        "outcome_name": "Trust",
+        "n": 188,
+        "value": 1.105,
+        "sd": 0.301,
+        "se": null
+      },
+      {
+        "arm_label": "Paragraph B",
+        "arm_id": "paragraph_b",
+        "outcome_name": "Trust",
+        "n": 500,
+        "value": -0.33,
+        "sd": 0.222,
+        "se": null
+      }
+    ]
+  }
+]

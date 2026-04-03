@@ -1,0 +1,524 @@
+seq_id,study_label,arm_id,outcome_id,llm_mean,llm_n,human_mean,human_n,comparable,note
+19,Morality-Efficiency Tradeoffs: An Experimental Study,system_1,moral_concerns_module,6.4,50,,,False,outcome not found in GT extraction
+19,Morality-Efficiency Tradeoffs: An Experimental Study,system_1,probability_congress_legalizes_compensation,71.4,50,,,False,outcome not found in GT extraction
+19,Morality-Efficiency Tradeoffs: An Experimental Study,system_2,moral_concerns_module,6.58,50,,,False,outcome not found in GT extraction
+19,Morality-Efficiency Tradeoffs: An Experimental Study,system_2,probability_congress_legalizes_compensation,73.32,50,,,False,outcome not found in GT extraction
+19,Morality-Efficiency Tradeoffs: An Experimental Study,system_3,moral_concerns_module,0.88,50,,,False,outcome not found in GT extraction
+19,Morality-Efficiency Tradeoffs: An Experimental Study,system_3,probability_congress_legalizes_compensation,58.76,50,,,False,outcome not found in GT extraction
+19,Morality-Efficiency Tradeoffs: An Experimental Study,system_4,moral_concerns_module,0.26,50,,,False,outcome not found in GT extraction
+19,Morality-Efficiency Tradeoffs: An Experimental Study,system_4,probability_congress_legalizes_compensation,60.2,50,,,False,outcome not found in GT extraction
+19,Morality-Efficiency Tradeoffs: An Experimental Study,system_5,moral_concerns_module,7.06,50,,,False,outcome not found in GT extraction
+19,Morality-Efficiency Tradeoffs: An Experimental Study,system_5,probability_congress_legalizes_compensation,74.56,50,,,False,outcome not found in GT extraction
+19,Morality-Efficiency Tradeoffs: An Experimental Study,system_6,moral_concerns_module,7.32,50,,,False,outcome not found in GT extraction
+19,Morality-Efficiency Tradeoffs: An Experimental Study,system_6,probability_congress_legalizes_compensation,76.56,50,,,False,outcome not found in GT extraction
+19,Morality-Efficiency Tradeoffs: An Experimental Study,system_7,moral_concerns_module,5.26,50,,,False,outcome not found in GT extraction
+19,Morality-Efficiency Tradeoffs: An Experimental Study,system_7,probability_congress_legalizes_compensation,69.48,50,,,False,outcome not found in GT extraction
+19,Morality-Efficiency Tradeoffs: An Experimental Study,system_8,moral_concerns_module,5.56,50,,,False,outcome not found in GT extraction
+19,Morality-Efficiency Tradeoffs: An Experimental Study,system_8,probability_congress_legalizes_compensation,69.78,50,,,False,outcome not found in GT extraction
+96,Why Don’t People Insure Late-Life Consumption?  A Framing Explanation of the Under-Annuitization Puzzle,consumption_frame_charity_bequest,preferred_life_annuity,1.0,30,,,False,arm not found in GT extraction
+96,Why Don’t People Insure Late-Life Consumption?  A Framing Explanation of the Under-Annuitization Puzzle,consumption_frame_children_bequest,preferred_life_annuity,1.0,48,,,False,arm not found in GT extraction
+96,Why Don’t People Insure Late-Life Consumption?  A Framing Explanation of the Under-Annuitization Puzzle,investment_frame_charity_bequest,preferred_life_annuity,1.0,46,,,False,arm not found in GT extraction
+96,Why Don’t People Insure Late-Life Consumption?  A Framing Explanation of the Under-Annuitization Puzzle,investment_frame_children_bequest,preferred_life_annuity,1.0,36,,,False,arm not found in GT extraction
+103,Beliefs about the Labor Market Impact of Immigration,control,beliefs_about_mariel_boatlift_high_skilled_unemplo,1.9,50,,,False,outcome not found in GT extraction
+103,Beliefs about the Labor Market Impact of Immigration,control,beliefs_about_mariel_boatlift_high_skilled_wages,2.9,50,,,False,outcome not found in GT extraction
+103,Beliefs about the Labor Market Impact of Immigration,control,beliefs_about_mariel_boatlift_low_skilled_unemploy,1.86,50,,,False,outcome not found in GT extraction
+103,Beliefs about the Labor Market Impact of Immigration,control,beliefs_about_mariel_boatlift_low_skilled_wages,2.64,50,,,False,outcome not found in GT extraction
+103,Beliefs about the Labor Market Impact of Immigration,control,followup_beliefs_about_labor_market_impact,3.94,50,,,False,outcome not found in GT extraction
+103,Beliefs about the Labor Market Impact of Immigration,control,followup_support_high_skilled,1.04,50,,,False,outcome not found in GT extraction
+103,Beliefs about the Labor Market Impact of Immigration,control,followup_support_low_skilled,1.04,50,,,False,outcome not found in GT extraction
+103,Beliefs about the Labor Market Impact of Immigration,control,petition_intention_decrease_h2b,0.0,50,,,False,outcome not found in GT extraction
+103,Beliefs about the Labor Market Impact of Immigration,control,petition_intention_increase_h2b,0.82,50,,,False,outcome not found in GT extraction
+103,Beliefs about the Labor Market Impact of Immigration,control,support_high_skilled_immigration_familiar,3.98,50,,,False,outcome not found in GT extraction
+103,Beliefs about the Labor Market Impact of Immigration,control,support_high_skilled_immigration_not_familiar,3.96,50,,,False,outcome not found in GT extraction
+103,Beliefs about the Labor Market Impact of Immigration,control,support_low_skilled_immigration_familiar,4.0,50,,,False,outcome not found in GT extraction
+103,Beliefs about the Labor Market Impact of Immigration,control,support_low_skilled_immigration_not_familiar,3.96,50,,,False,outcome not found in GT extraction
+103,Beliefs about the Labor Market Impact of Immigration,treatment,beliefs_about_mariel_boatlift_high_skilled_unemplo,3.66,50,,,False,outcome not found in GT extraction
+103,Beliefs about the Labor Market Impact of Immigration,treatment,beliefs_about_mariel_boatlift_high_skilled_wages,4.3,50,,,False,outcome not found in GT extraction
+103,Beliefs about the Labor Market Impact of Immigration,treatment,beliefs_about_mariel_boatlift_low_skilled_unemploy,3.24,50,,,False,outcome not found in GT extraction
+103,Beliefs about the Labor Market Impact of Immigration,treatment,beliefs_about_mariel_boatlift_low_skilled_wages,4.14,50,,,False,outcome not found in GT extraction
+103,Beliefs about the Labor Market Impact of Immigration,treatment,followup_beliefs_about_labor_market_impact,4.46,50,,,False,outcome not found in GT extraction
+103,Beliefs about the Labor Market Impact of Immigration,treatment,followup_support_high_skilled,2.66,50,,,False,outcome not found in GT extraction
+103,Beliefs about the Labor Market Impact of Immigration,treatment,followup_support_low_skilled,2.6,50,,,False,outcome not found in GT extraction
+103,Beliefs about the Labor Market Impact of Immigration,treatment,petition_intention_decrease_h2b,0.0,50,,,False,outcome not found in GT extraction
+103,Beliefs about the Labor Market Impact of Immigration,treatment,petition_intention_increase_h2b,1.0,50,,,False,outcome not found in GT extraction
+103,Beliefs about the Labor Market Impact of Immigration,treatment,support_high_skilled_immigration_familiar,4.98,50,0.077,3130,True,"fuzzy_outcome_match:attitudes_towards_high_skilled_immigrants(sim=support_high_skilled_immigration_familiar,score=0.61)"
+103,Beliefs about the Labor Market Impact of Immigration,treatment,support_high_skilled_immigration_not_familiar,4.98,50,,,False,outcome not found in GT extraction
+103,Beliefs about the Labor Market Impact of Immigration,treatment,support_low_skilled_immigration_familiar,4.98,50,0.143,3130,True,"fuzzy_outcome_match:attitudes_towards_low_skilled_immigrants(sim=support_low_skilled_immigration_familiar,score=0.60)"
+103,Beliefs about the Labor Market Impact of Immigration,treatment,support_low_skilled_immigration_not_familiar,4.94,50,,,False,outcome not found in GT extraction
+118,Sharing Responsibility for the Good,bil,belief_about_partner_wtp,1.5,50,,,False,outcome not found in GT extraction
+118,Sharing Responsibility for the Good,bil,willingness_to_pay,1.48,50,,,False,outcome not found in GT extraction
+118,Sharing Responsibility for the Good,ind_active,belief_about_partner_wtp,2.455,50,,,False,outcome not found in GT extraction
+118,Sharing Responsibility for the Good,ind_active,diligence_check,1055.9,40,,,False,outcome not found in GT extraction
+118,Sharing Responsibility for the Good,ind_active,willingness_to_pay,2.455,50,,,False,outcome not found in GT extraction
+118,Sharing Responsibility for the Good,ind_passive,belief_about_partner_wtp,1.335,50,,,False,outcome not found in GT extraction
+118,Sharing Responsibility for the Good,ind_passive,diligence_check,4.0,1,,,False,outcome not found in GT extraction
+118,Sharing Responsibility for the Good,ind_passive,willingness_to_pay,1.38,50,,,False,outcome not found in GT extraction
+125,An Experimental Approach to Relative Income and Happiness,pts_treatment,mood_short_form_item_1,3.9,50,,,False,outcome not found in GT extraction
+125,An Experimental Approach to Relative Income and Happiness,pts_treatment,mood_short_form_item_2,3.94,50,,,False,outcome not found in GT extraction
+125,An Experimental Approach to Relative Income and Happiness,pts_treatment,mood_short_form_item_3,3.84,50,,,False,outcome not found in GT extraction
+125,An Experimental Approach to Relative Income and Happiness,pts_treatment,mood_short_form_item_4,3.92,50,,,False,outcome not found in GT extraction
+125,An Experimental Approach to Relative Income and Happiness,pts_treatment,post_revelation_bonus_value_participant_x,7.04,50,,,False,outcome not found in GT extraction
+125,An Experimental Approach to Relative Income and Happiness,pts_treatment,post_revelation_bonus_value_self,6.56,50,,,False,outcome not found in GT extraction
+125,An Experimental Approach to Relative Income and Happiness,pts_treatment,screening_statement_year,3.86,50,,,False,outcome not found in GT extraction
+125,An Experimental Approach to Relative Income and Happiness,pts_treatment_1,mood_short_form_item_1,3.3,50,,,False,outcome not found in GT extraction
+125,An Experimental Approach to Relative Income and Happiness,pts_treatment_1,mood_short_form_item_2,3.16,50,,,False,outcome not found in GT extraction
+125,An Experimental Approach to Relative Income and Happiness,pts_treatment_1,mood_short_form_item_3,3.32,50,,,False,outcome not found in GT extraction
+125,An Experimental Approach to Relative Income and Happiness,pts_treatment_1,mood_short_form_item_4,3.24,50,,,False,outcome not found in GT extraction
+125,An Experimental Approach to Relative Income and Happiness,pts_treatment_1,post_revelation_bonus_value_participant_x,6.08,50,,,False,outcome not found in GT extraction
+125,An Experimental Approach to Relative Income and Happiness,pts_treatment_1,post_revelation_bonus_value_self,6.56,50,,,False,outcome not found in GT extraction
+125,An Experimental Approach to Relative Income and Happiness,pts_treatment_1,screening_statement_year,3.28,50,,,False,outcome not found in GT extraction
+131,Cash transfer narratives and charitable giving,frame_com,donation_pov_donation_imd_donation_com,53.8,50,,,False,outcome not found in GT extraction
+131,Cash transfer narratives and charitable giving,frame_com,encourage,1.0,50,,,False,outcome not found in GT extraction
+131,Cash transfer narratives and charitable giving,frame_com,recip_impact,2.2,50,,,False,outcome not found in GT extraction
+131,Cash transfer narratives and charitable giving,frame_com,recip_improve,1.72,50,,,False,outcome not found in GT extraction
+131,Cash transfer narratives and charitable giving,frame_com,recip_ladder,7.18,50,,,False,outcome not found in GT extraction
+131,Cash transfer narratives and charitable giving,frame_ind,donation_pov_donation_imd_donation_com,50.0,50,,,False,outcome not found in GT extraction
+131,Cash transfer narratives and charitable giving,frame_ind,encourage,1.0,50,,,False,outcome not found in GT extraction
+131,Cash transfer narratives and charitable giving,frame_ind,recip_impact,1.48,50,,,False,outcome not found in GT extraction
+131,Cash transfer narratives and charitable giving,frame_ind,recip_improve,1.48,50,,,False,outcome not found in GT extraction
+131,Cash transfer narratives and charitable giving,frame_ind,recip_ladder,2.74,50,,,False,outcome not found in GT extraction
+131,Cash transfer narratives and charitable giving,frame_pov,donation_pov_donation_imd_donation_com,48.4,50,,,False,outcome not found in GT extraction
+131,Cash transfer narratives and charitable giving,frame_pov,encourage,1.0,50,,,False,outcome not found in GT extraction
+131,Cash transfer narratives and charitable giving,frame_pov,recip_impact,1.36,50,,,False,outcome not found in GT extraction
+131,Cash transfer narratives and charitable giving,frame_pov,recip_improve,1.82,50,,,False,outcome not found in GT extraction
+131,Cash transfer narratives and charitable giving,frame_pov,recip_ladder,8.48,50,,,False,outcome not found in GT extraction
+141,Attitudes towards hiring decisions,all_constant,pro_women_attitude,8.2,50,,,False,arm not found in GT extraction
+141,Attitudes towards hiring decisions,no_discrimination,pro_women_attitude,10.1,50,,,False,arm not found in GT extraction
+141,Attitudes towards hiring decisions,same_effort,pro_women_attitude,9.2,50,,,False,arm not found in GT extraction
+141,Attitudes towards hiring decisions,same_suffering,pro_women_attitude,3.9,50,,,False,arm not found in GT extraction
+143,Forecasting the Results of Experiments: Piloting an Elicitation Strategy,entry_slider,forecast_of_experimental_treatment_effect,0.0,50,,,False,outcome not found in GT extraction
+143,Forecasting the Results of Experiments: Piloting an Elicitation Strategy,entry_slider,study_1_outcome_hiv_testing,0.0478,50,,,False,outcome not found in GT extraction
+143,Forecasting the Results of Experiments: Piloting an Elicitation Strategy,entry_slider,study_2_outcome_business_participation,3.96,50,,,False,outcome not found in GT extraction
+143,Forecasting the Results of Experiments: Piloting an Elicitation Strategy,entry_slider,study_2_outcome_dropout_reversed,0.293,50,,,False,outcome not found in GT extraction
+143,Forecasting the Results of Experiments: Piloting an Elicitation Strategy,entry_slider,study_2_outcome_test_scores,1.76,50,,,False,outcome not found in GT extraction
+143,Forecasting the Results of Experiments: Piloting an Elicitation Strategy,entry_slider,study_3_outcome_food_consumption,4.36,50,,,False,outcome not found in GT extraction
+143,Forecasting the Results of Experiments: Piloting an Elicitation Strategy,entry_slider,study_3_outcome_health_consumption,3.68,50,,,False,outcome not found in GT extraction
+143,Forecasting the Results of Experiments: Piloting an Elicitation Strategy,entry_text,forecast_of_experimental_treatment_effect,0.0,50,,,False,outcome not found in GT extraction
+143,Forecasting the Results of Experiments: Piloting an Elicitation Strategy,entry_text,study_1_outcome_hiv_testing,0.0488,50,,,False,outcome not found in GT extraction
+143,Forecasting the Results of Experiments: Piloting an Elicitation Strategy,entry_text,study_2_outcome_business_participation,4.17,50,,,False,outcome not found in GT extraction
+143,Forecasting the Results of Experiments: Piloting an Elicitation Strategy,entry_text,study_2_outcome_dropout_reversed,0.267,50,,,False,outcome not found in GT extraction
+143,Forecasting the Results of Experiments: Piloting an Elicitation Strategy,entry_text,study_2_outcome_test_scores,2.48,50,,,False,outcome not found in GT extraction
+143,Forecasting the Results of Experiments: Piloting an Elicitation Strategy,entry_text,study_3_outcome_food_consumption,3.48,50,,,False,outcome not found in GT extraction
+143,Forecasting the Results of Experiments: Piloting an Elicitation Strategy,entry_text,study_3_outcome_health_consumption,2.92,50,,,False,outcome not found in GT extraction
+143,Forecasting the Results of Experiments: Piloting an Elicitation Strategy,reference_value_large_0_3_sd,forecast_of_experimental_treatment_effect,0.0,50,,,False,outcome not found in GT extraction
+143,Forecasting the Results of Experiments: Piloting an Elicitation Strategy,reference_value_large_0_3_sd,study_1_outcome_hiv_testing,0.273,50,,,False,outcome not found in GT extraction
+143,Forecasting the Results of Experiments: Piloting an Elicitation Strategy,reference_value_large_0_3_sd,study_2_outcome_business_participation,0.227,50,,,False,outcome not found in GT extraction
+143,Forecasting the Results of Experiments: Piloting an Elicitation Strategy,reference_value_large_0_3_sd,study_2_outcome_dropout_reversed,0.212,50,,,False,outcome not found in GT extraction
+143,Forecasting the Results of Experiments: Piloting an Elicitation Strategy,reference_value_large_0_3_sd,study_2_outcome_test_scores,0.0,50,,,False,outcome not found in GT extraction
+143,Forecasting the Results of Experiments: Piloting an Elicitation Strategy,reference_value_large_0_3_sd,study_3_outcome_food_consumption,0.0,50,,,False,outcome not found in GT extraction
+143,Forecasting the Results of Experiments: Piloting an Elicitation Strategy,reference_value_large_0_3_sd,study_3_outcome_health_consumption,0.0,50,,,False,outcome not found in GT extraction
+143,Forecasting the Results of Experiments: Piloting an Elicitation Strategy,reference_value_small_0_1_sd,forecast_of_experimental_treatment_effect,0.0,50,,,False,outcome not found in GT extraction
+143,Forecasting the Results of Experiments: Piloting an Elicitation Strategy,reference_value_small_0_1_sd,study_1_outcome_hiv_testing,0.18,50,,,False,outcome not found in GT extraction
+143,Forecasting the Results of Experiments: Piloting an Elicitation Strategy,reference_value_small_0_1_sd,study_2_outcome_business_participation,0.1358,50,,,False,outcome not found in GT extraction
+143,Forecasting the Results of Experiments: Piloting an Elicitation Strategy,reference_value_small_0_1_sd,study_2_outcome_dropout_reversed,0.114,50,,,False,outcome not found in GT extraction
+143,Forecasting the Results of Experiments: Piloting an Elicitation Strategy,reference_value_small_0_1_sd,study_2_outcome_test_scores,0.0,50,,,False,outcome not found in GT extraction
+143,Forecasting the Results of Experiments: Piloting an Elicitation Strategy,reference_value_small_0_1_sd,study_3_outcome_food_consumption,0.0,50,,,False,outcome not found in GT extraction
+143,Forecasting the Results of Experiments: Piloting an Elicitation Strategy,reference_value_small_0_1_sd,study_3_outcome_health_consumption,0.0,50,,,False,outcome not found in GT extraction
+143,Forecasting the Results of Experiments: Piloting an Elicitation Strategy,slider_bounds_large_1_0_sd,forecast_of_experimental_treatment_effect,0.0,50,,,False,outcome not found in GT extraction
+143,Forecasting the Results of Experiments: Piloting an Elicitation Strategy,slider_bounds_large_1_0_sd,study_1_outcome_hiv_testing,0.1153,50,,,False,outcome not found in GT extraction
+143,Forecasting the Results of Experiments: Piloting an Elicitation Strategy,slider_bounds_large_1_0_sd,study_2_outcome_business_participation,0.175,50,,,False,outcome not found in GT extraction
+143,Forecasting the Results of Experiments: Piloting an Elicitation Strategy,slider_bounds_large_1_0_sd,study_2_outcome_dropout_reversed,0.126,50,,,False,outcome not found in GT extraction
+143,Forecasting the Results of Experiments: Piloting an Elicitation Strategy,slider_bounds_large_1_0_sd,study_2_outcome_test_scores,0.0,50,,,False,outcome not found in GT extraction
+143,Forecasting the Results of Experiments: Piloting an Elicitation Strategy,slider_bounds_large_1_0_sd,study_3_outcome_food_consumption,0.0,50,,,False,outcome not found in GT extraction
+143,Forecasting the Results of Experiments: Piloting an Elicitation Strategy,slider_bounds_large_1_0_sd,study_3_outcome_health_consumption,0.0,50,,,False,outcome not found in GT extraction
+143,Forecasting the Results of Experiments: Piloting an Elicitation Strategy,slider_bounds_small_0_5_sd,forecast_of_experimental_treatment_effect,0.0,50,,,False,outcome not found in GT extraction
+143,Forecasting the Results of Experiments: Piloting an Elicitation Strategy,slider_bounds_small_0_5_sd,study_1_outcome_hiv_testing,0.035,50,,,False,outcome not found in GT extraction
+143,Forecasting the Results of Experiments: Piloting an Elicitation Strategy,slider_bounds_small_0_5_sd,study_2_outcome_business_participation,1.88,50,,,False,outcome not found in GT extraction
+143,Forecasting the Results of Experiments: Piloting an Elicitation Strategy,slider_bounds_small_0_5_sd,study_2_outcome_dropout_reversed,0.145,50,,,False,outcome not found in GT extraction
+143,Forecasting the Results of Experiments: Piloting an Elicitation Strategy,slider_bounds_small_0_5_sd,study_2_outcome_test_scores,0.0,50,,,False,outcome not found in GT extraction
+143,Forecasting the Results of Experiments: Piloting an Elicitation Strategy,slider_bounds_small_0_5_sd,study_3_outcome_food_consumption,0.34,50,,,False,outcome not found in GT extraction
+143,Forecasting the Results of Experiments: Piloting an Elicitation Strategy,slider_bounds_small_0_5_sd,study_3_outcome_health_consumption,1.38,50,,,False,outcome not found in GT extraction
+143,Forecasting the Results of Experiments: Piloting an Elicitation Strategy,units_raw_units,forecast_of_experimental_treatment_effect,0.0,50,,,False,outcome not found in GT extraction
+143,Forecasting the Results of Experiments: Piloting an Elicitation Strategy,units_raw_units,study_1_outcome_hiv_testing,0.0492,50,,,False,outcome not found in GT extraction
+143,Forecasting the Results of Experiments: Piloting an Elicitation Strategy,units_raw_units,study_2_outcome_business_participation,4.62,50,,,False,outcome not found in GT extraction
+143,Forecasting the Results of Experiments: Piloting an Elicitation Strategy,units_raw_units,study_2_outcome_dropout_reversed,0.268,50,,,False,outcome not found in GT extraction
+143,Forecasting the Results of Experiments: Piloting an Elicitation Strategy,units_raw_units,study_2_outcome_test_scores,3.96,50,,,False,outcome not found in GT extraction
+143,Forecasting the Results of Experiments: Piloting an Elicitation Strategy,units_raw_units,study_3_outcome_food_consumption,2.5,50,,,False,outcome not found in GT extraction
+143,Forecasting the Results of Experiments: Piloting an Elicitation Strategy,units_raw_units,study_3_outcome_health_consumption,4.16,50,,,False,outcome not found in GT extraction
+143,Forecasting the Results of Experiments: Piloting an Elicitation Strategy,units_standard_deviations,forecast_of_experimental_treatment_effect,0.0,50,,,False,outcome not found in GT extraction
+143,Forecasting the Results of Experiments: Piloting an Elicitation Strategy,units_standard_deviations,study_1_outcome_hiv_testing,0.172,50,,,False,outcome not found in GT extraction
+143,Forecasting the Results of Experiments: Piloting an Elicitation Strategy,units_standard_deviations,study_2_outcome_business_participation,0.125,50,,,False,outcome not found in GT extraction
+143,Forecasting the Results of Experiments: Piloting an Elicitation Strategy,units_standard_deviations,study_2_outcome_dropout_reversed,0.112,50,,,False,outcome not found in GT extraction
+143,Forecasting the Results of Experiments: Piloting an Elicitation Strategy,units_standard_deviations,study_2_outcome_test_scores,0.0,50,,,False,outcome not found in GT extraction
+143,Forecasting the Results of Experiments: Piloting an Elicitation Strategy,units_standard_deviations,study_3_outcome_food_consumption,0.0,50,,,False,outcome not found in GT extraction
+143,Forecasting the Results of Experiments: Piloting an Elicitation Strategy,units_standard_deviations,study_3_outcome_health_consumption,0.0,50,,,False,outcome not found in GT extraction
+150,"Combatting COVID-19: Measuring and Changing Beliefs, Knowledge and Behaviors",incentive,newly_asked_test_score,0.752,50,0.02,414,True,"fuzzy_outcome_match:overall_test_score(sim=newly_asked_test_score,score=0.65)"
+150,"Combatting COVID-19: Measuring and Changing Beliefs, Knowledge and Behaviors",incentive,overall_test_score,0.746,50,0.02,414,True,
+150,"Combatting COVID-19: Measuring and Changing Beliefs, Knowledge and Behaviors",incentive,teaching_eligible_test_score,0.7546,50,0.0156,414,True,
+150,"Combatting COVID-19: Measuring and Changing Beliefs, Knowledge and Behaviors",incentive,teaching_ineligible_test_score,0.749,50,0.0156,414,True,"fuzzy_outcome_match:teaching_eligible_test_score(sim=teaching_ineligible_test_score,score=0.97)"
+150,"Combatting COVID-19: Measuring and Changing Beliefs, Knowledge and Behaviors",incentive_plus_teaching_joint,newly_asked_test_score,0.8036,50,,,False,outcome not found in GT extraction
+150,"Combatting COVID-19: Measuring and Changing Beliefs, Knowledge and Behaviors",incentive_plus_teaching_joint,overall_test_score,0.795,50,,,False,arm not found in GT extraction
+150,"Combatting COVID-19: Measuring and Changing Beliefs, Knowledge and Behaviors",incentive_plus_teaching_joint,teaching_eligible_test_score,0.796,50,,,False,arm not found in GT extraction
+150,"Combatting COVID-19: Measuring and Changing Beliefs, Knowledge and Behaviors",incentive_plus_teaching_joint,teaching_ineligible_test_score,0.794,50,,,False,outcome not found in GT extraction
+150,"Combatting COVID-19: Measuring and Changing Beliefs, Knowledge and Behaviors",teaching,newly_asked_test_score,0.638,50,0.016,418,True,"fuzzy_outcome_match:overall_test_score(sim=newly_asked_test_score,score=0.65)"
+150,"Combatting COVID-19: Measuring and Changing Beliefs, Knowledge and Behaviors",teaching,overall_test_score,0.671,50,0.016,418,True,
+150,"Combatting COVID-19: Measuring and Changing Beliefs, Knowledge and Behaviors",teaching,teaching_eligible_test_score,0.665,50,0.0288,418,True,
+150,"Combatting COVID-19: Measuring and Changing Beliefs, Knowledge and Behaviors",teaching,teaching_ineligible_test_score,0.652,50,0.0288,418,True,"fuzzy_outcome_match:teaching_eligible_test_score(sim=teaching_ineligible_test_score,score=0.97)"
+151,The Effect of Self-awareness on Dishonesty (Wave 2),control_group,dictator_game_donation_to_charity,100.0,50,,,False,outcome not found in GT extraction
+151,The Effect of Self-awareness on Dishonesty (Wave 2),control_group,dictator_game_donation_to_researcher,100.0,50,,,False,outcome not found in GT extraction
+151,The Effect of Self-awareness on Dishonesty (Wave 2),control_group,matrix_puzzle,0.28,50,,,False,outcome not found in GT extraction
+151,The Effect of Self-awareness on Dishonesty (Wave 2),control_group,modified_matrix_puzzle,0.18,50,,,False,outcome not found in GT extraction
+151,The Effect of Self-awareness on Dishonesty (Wave 2),control_group,researcher_s_expectation,100.0,50,,,False,outcome not found in GT extraction
+151,The Effect of Self-awareness on Dishonesty (Wave 2),control_group,subject_s_expectation,100.0,50,,,False,outcome not found in GT extraction
+151,The Effect of Self-awareness on Dishonesty (Wave 2),high_dishonesty_treatment,dictator_game_donation_to_charity,32.24,50,,,False,outcome not found in GT extraction
+151,The Effect of Self-awareness on Dishonesty (Wave 2),high_dishonesty_treatment,dictator_game_donation_to_researcher,33.14,50,,,False,outcome not found in GT extraction
+151,The Effect of Self-awareness on Dishonesty (Wave 2),high_dishonesty_treatment,matrix_puzzle,0.0,50,,,False,outcome not found in GT extraction
+151,The Effect of Self-awareness on Dishonesty (Wave 2),high_dishonesty_treatment,modified_matrix_puzzle,0.0,50,,,False,outcome not found in GT extraction
+151,The Effect of Self-awareness on Dishonesty (Wave 2),high_dishonesty_treatment,researcher_s_expectation,47.14,50,,,False,outcome not found in GT extraction
+151,The Effect of Self-awareness on Dishonesty (Wave 2),high_dishonesty_treatment,subject_s_expectation,50.44,50,,,False,outcome not found in GT extraction
+151,The Effect of Self-awareness on Dishonesty (Wave 2),honesty_treatment,dictator_game_donation_to_charity,86.56,50,,,False,outcome not found in GT extraction
+151,The Effect of Self-awareness on Dishonesty (Wave 2),honesty_treatment,dictator_game_donation_to_researcher,86.42,50,,,False,outcome not found in GT extraction
+151,The Effect of Self-awareness on Dishonesty (Wave 2),honesty_treatment,matrix_puzzle,0.0,50,,,False,outcome not found in GT extraction
+151,The Effect of Self-awareness on Dishonesty (Wave 2),honesty_treatment,modified_matrix_puzzle,0.0,50,,,False,outcome not found in GT extraction
+151,The Effect of Self-awareness on Dishonesty (Wave 2),honesty_treatment,researcher_s_expectation,93.38,50,,,False,outcome not found in GT extraction
+151,The Effect of Self-awareness on Dishonesty (Wave 2),honesty_treatment,subject_s_expectation,96.38,50,,,False,outcome not found in GT extraction
+151,The Effect of Self-awareness on Dishonesty (Wave 2),low_dishonesty_treatment,dictator_game_donation_to_charity,47.0,50,,,False,outcome not found in GT extraction
+151,The Effect of Self-awareness on Dishonesty (Wave 2),low_dishonesty_treatment,dictator_game_donation_to_researcher,45.4,50,,,False,outcome not found in GT extraction
+151,The Effect of Self-awareness on Dishonesty (Wave 2),low_dishonesty_treatment,matrix_puzzle,0.0,50,,,False,outcome not found in GT extraction
+151,The Effect of Self-awareness on Dishonesty (Wave 2),low_dishonesty_treatment,modified_matrix_puzzle,0.0,50,,,False,outcome not found in GT extraction
+151,The Effect of Self-awareness on Dishonesty (Wave 2),low_dishonesty_treatment,researcher_s_expectation,73.32,50,,,False,outcome not found in GT extraction
+151,The Effect of Self-awareness on Dishonesty (Wave 2),low_dishonesty_treatment,subject_s_expectation,70.5,50,,,False,outcome not found in GT extraction
+152,When is Discrimination Unfair?,statistical_discrimination_black_discriminatee_les,black_people_s_relative_economic_opportunities_bro,2.7,50,,,False,outcome not found in GT extraction
+152,When is Discrimination Unfair?,statistical_discrimination_black_discriminatee_les,fairness_of_employer_s_hiring_decision,1.44,50,,,False,outcome not found in GT extraction
+152,When is Discrimination Unfair?,statistical_discrimination_black_discriminatee_mor,black_people_s_relative_economic_opportunities_bro,4.5,50,,,False,outcome not found in GT extraction
+152,When is Discrimination Unfair?,statistical_discrimination_black_discriminatee_mor,fairness_of_employer_s_hiring_decision,3.92,50,,,False,outcome not found in GT extraction
+152,When is Discrimination Unfair?,statistical_discrimination_white_discriminatee_les,black_people_s_relative_economic_opportunities_bro,4.0,50,,,False,outcome not found in GT extraction
+152,When is Discrimination Unfair?,statistical_discrimination_white_discriminatee_les,fairness_of_employer_s_hiring_decision,3.86,50,,,False,outcome not found in GT extraction
+152,When is Discrimination Unfair?,statistical_discrimination_white_discriminatee_mor,black_people_s_relative_economic_opportunities_bro,4.0,50,,,False,outcome not found in GT extraction
+152,When is Discrimination Unfair?,statistical_discrimination_white_discriminatee_mor,fairness_of_employer_s_hiring_decision,3.96,50,,,False,outcome not found in GT extraction
+152,When is Discrimination Unfair?,taste_based_discrimination_black_discriminatee_les,black_people_s_relative_economic_opportunities_bro,1.0,50,,,False,outcome not found in GT extraction
+152,When is Discrimination Unfair?,taste_based_discrimination_black_discriminatee_les,fairness_of_employer_s_hiring_decision,1.0,50,,,False,outcome not found in GT extraction
+152,When is Discrimination Unfair?,taste_based_discrimination_black_discriminatee_mor,black_people_s_relative_economic_opportunities_bro,1.04,50,,,False,outcome not found in GT extraction
+152,When is Discrimination Unfair?,taste_based_discrimination_black_discriminatee_mor,fairness_of_employer_s_hiring_decision,1.0,50,,,False,outcome not found in GT extraction
+152,When is Discrimination Unfair?,taste_based_discrimination_white_discriminatee_les,black_people_s_relative_economic_opportunities_bro,4.0,50,,,False,outcome not found in GT extraction
+152,When is Discrimination Unfair?,taste_based_discrimination_white_discriminatee_les,fairness_of_employer_s_hiring_decision,3.9184,49,,,False,outcome not found in GT extraction
+152,When is Discrimination Unfair?,taste_based_discrimination_white_discriminatee_mor,black_people_s_relative_economic_opportunities_bro,4.0,50,,,False,outcome not found in GT extraction
+152,When is Discrimination Unfair?,taste_based_discrimination_white_discriminatee_mor,fairness_of_employer_s_hiring_decision,3.96,50,,,False,outcome not found in GT extraction
+159,"Fake News: Susceptibility, Awareness and Solutions",control_group,average_american_ability_belief,3.62,50,,,False,outcome not found in GT extraction
+159,"Fake News: Susceptibility, Awareness and Solutions",control_group,budget_allocation,710.0,50,,,False,outcome not found in GT extraction
+159,"Fake News: Susceptibility, Awareness and Solutions",control_group,confidence_in_belief,3.92,50,,,False,outcome not found in GT extraction
+159,"Fake News: Susceptibility, Awareness and Solutions",control_group,general_ability_belief,3.58,50,,,False,outcome not found in GT extraction
+159,"Fake News: Susceptibility, Awareness and Solutions",control_group,mid_task_belief_score,5.98,50,,,False,outcome not found in GT extraction
+159,"Fake News: Susceptibility, Awareness and Solutions",control_group,news_accuracy_detection_task,0.9,50,,,False,outcome not found in GT extraction
+159,"Fake News: Susceptibility, Awareness and Solutions",control_group,posterior_belief_score,6.24,50,2.09,1206,True,"fuzzy_outcome_match:error_in_beliefs_poe(sim=posterior_belief_score,score=0.67)"
+159,"Fake News: Susceptibility, Awareness and Solutions",control_group,prior_belief_score,6.34,50,2.09,1206,True,"fuzzy_outcome_match:error_in_beliefs_poe(sim=prior_belief_score,score=0.68)"
+159,"Fake News: Susceptibility, Awareness and Solutions",information_treatment,average_american_ability_belief,4.0,50,,,False,outcome not found in GT extraction
+159,"Fake News: Susceptibility, Awareness and Solutions",information_treatment,budget_allocation,483.0,50,,,False,outcome not found in GT extraction
+159,"Fake News: Susceptibility, Awareness and Solutions",information_treatment,confidence_in_belief,4.0,50,,,False,outcome not found in GT extraction
+159,"Fake News: Susceptibility, Awareness and Solutions",information_treatment,general_ability_belief,4.0,50,,,False,outcome not found in GT extraction
+159,"Fake News: Susceptibility, Awareness and Solutions",information_treatment,mid_task_belief_score,7.0,50,,,False,outcome not found in GT extraction
+159,"Fake News: Susceptibility, Awareness and Solutions",information_treatment,news_accuracy_detection_task,0.9,50,,,False,outcome not found in GT extraction
+159,"Fake News: Susceptibility, Awareness and Solutions",information_treatment,posterior_belief_score,7.12,50,,,False,outcome not found in GT extraction
+159,"Fake News: Susceptibility, Awareness and Solutions",information_treatment,prior_belief_score,7.02,50,,,False,outcome not found in GT extraction
+159,"Fake News: Susceptibility, Awareness and Solutions",source_hidden_version,average_american_ability_belief,4.0,50,,,False,outcome not found in GT extraction
+159,"Fake News: Susceptibility, Awareness and Solutions",source_hidden_version,budget_allocation,359.0,50,,,False,outcome not found in GT extraction
+159,"Fake News: Susceptibility, Awareness and Solutions",source_hidden_version,confidence_in_belief,4.4,50,,,False,outcome not found in GT extraction
+159,"Fake News: Susceptibility, Awareness and Solutions",source_hidden_version,general_ability_belief,4.0,50,,,False,outcome not found in GT extraction
+159,"Fake News: Susceptibility, Awareness and Solutions",source_hidden_version,mid_task_belief_score,7.12,50,,,False,outcome not found in GT extraction
+159,"Fake News: Susceptibility, Awareness and Solutions",source_hidden_version,news_accuracy_detection_task,1.0,50,,,False,outcome not found in GT extraction
+159,"Fake News: Susceptibility, Awareness and Solutions",source_hidden_version,posterior_belief_score,7.04,50,,,False,outcome not found in GT extraction
+159,"Fake News: Susceptibility, Awareness and Solutions",source_hidden_version,prior_belief_score,7.08,50,,,False,outcome not found in GT extraction
+159,"Fake News: Susceptibility, Awareness and Solutions",source_revealed_version,average_american_ability_belief,4.04,50,,,False,outcome not found in GT extraction
+159,"Fake News: Susceptibility, Awareness and Solutions",source_revealed_version,budget_allocation,328.0,50,,,False,outcome not found in GT extraction
+159,"Fake News: Susceptibility, Awareness and Solutions",source_revealed_version,confidence_in_belief,4.9,50,,,False,outcome not found in GT extraction
+159,"Fake News: Susceptibility, Awareness and Solutions",source_revealed_version,general_ability_belief,4.04,50,,,False,outcome not found in GT extraction
+159,"Fake News: Susceptibility, Awareness and Solutions",source_revealed_version,mid_task_belief_score,7.66,50,,,False,outcome not found in GT extraction
+159,"Fake News: Susceptibility, Awareness and Solutions",source_revealed_version,news_accuracy_detection_task,1.0,50,,,False,outcome not found in GT extraction
+159,"Fake News: Susceptibility, Awareness and Solutions",source_revealed_version,posterior_belief_score,7.62,50,,,False,outcome not found in GT extraction
+159,"Fake News: Susceptibility, Awareness and Solutions",source_revealed_version,prior_belief_score,7.84,50,,,False,outcome not found in GT extraction
+160,"The effect of losing a competition: the role of gender, unfairness and feedback",feedback_treatment,competitive_attitude_i,7.06,50,,,False,outcome not found in GT extraction
+160,"The effect of losing a competition: the role of gender, unfairness and feedback",feedback_treatment,competitive_attitude_ii,2.6,50,,,False,outcome not found in GT extraction
+160,"The effect of losing a competition: the role of gender, unfairness and feedback",feedback_treatment,competitive_attitude_iii,2.52,50,,,False,outcome not found in GT extraction
+160,"The effect of losing a competition: the role of gender, unfairness and feedback",feedback_treatment,competitive_attitude_iv,2.54,50,,,False,outcome not found in GT extraction
+160,"The effect of losing a competition: the role of gender, unfairness and feedback",feedback_treatment,competitive_attitude_v,2.6,50,,,False,outcome not found in GT extraction
+160,"The effect of losing a competition: the role of gender, unfairness and feedback",feedback_treatment,experience_of_unfairness,2.62,50,,,False,outcome not found in GT extraction
+160,"The effect of losing a competition: the role of gender, unfairness and feedback",feedback_treatment,perception_men_better_at_the_task,7.0,50,,,False,outcome not found in GT extraction
+160,"The effect of losing a competition: the role of gender, unfairness and feedback",feedback_treatment,perception_of_unfairness,2.42,50,,,False,outcome not found in GT extraction
+160,"The effect of losing a competition: the role of gender, unfairness and feedback",feedback_treatment,post_stage_2_belief_elicitation_rank,38.3,50,,,False,outcome not found in GT extraction
+160,"The effect of losing a competition: the role of gender, unfairness and feedback",feedback_treatment,risk_i,6.98,50,,,False,outcome not found in GT extraction
+160,"The effect of losing a competition: the role of gender, unfairness and feedback",feedback_treatment,risk_ii,2.54,50,,,False,outcome not found in GT extraction
+160,"The effect of losing a competition: the role of gender, unfairness and feedback",feedback_treatment,stage_2_belief_elicitation_rank,39.8,50,,,False,outcome not found in GT extraction
+160,"The effect of losing a competition: the role of gender, unfairness and feedback",neutral_treatment,competitive_attitude_i,7.02,50,,,False,outcome not found in GT extraction
+160,"The effect of losing a competition: the role of gender, unfairness and feedback",neutral_treatment,competitive_attitude_ii,2.84,50,,,False,outcome not found in GT extraction
+160,"The effect of losing a competition: the role of gender, unfairness and feedback",neutral_treatment,competitive_attitude_iii,2.8,50,,,False,outcome not found in GT extraction
+160,"The effect of losing a competition: the role of gender, unfairness and feedback",neutral_treatment,competitive_attitude_iv,2.88,50,,,False,outcome not found in GT extraction
+160,"The effect of losing a competition: the role of gender, unfairness and feedback",neutral_treatment,competitive_attitude_v,2.86,50,,,False,outcome not found in GT extraction
+160,"The effect of losing a competition: the role of gender, unfairness and feedback",neutral_treatment,experience_of_unfairness,2.72,50,,,False,outcome not found in GT extraction
+160,"The effect of losing a competition: the role of gender, unfairness and feedback",neutral_treatment,perception_men_better_at_the_task,7.02,50,,,False,outcome not found in GT extraction
+160,"The effect of losing a competition: the role of gender, unfairness and feedback",neutral_treatment,perception_of_unfairness,2.78,50,,,False,outcome not found in GT extraction
+160,"The effect of losing a competition: the role of gender, unfairness and feedback",neutral_treatment,post_stage_2_belief_elicitation_rank,50.28,50,,,False,outcome not found in GT extraction
+160,"The effect of losing a competition: the role of gender, unfairness and feedback",neutral_treatment,risk_i,6.92,50,,,False,outcome not found in GT extraction
+160,"The effect of losing a competition: the role of gender, unfairness and feedback",neutral_treatment,risk_ii,2.8,50,,,False,outcome not found in GT extraction
+160,"The effect of losing a competition: the role of gender, unfairness and feedback",neutral_treatment,stage_2_belief_elicitation_rank,50.06,50,,,False,outcome not found in GT extraction
+160,"The effect of losing a competition: the role of gender, unfairness and feedback",unfair_treatment,competitive_attitude_i,7.02,50,,,False,outcome not found in GT extraction
+160,"The effect of losing a competition: the role of gender, unfairness and feedback",unfair_treatment,competitive_attitude_ii,2.76,50,,,False,outcome not found in GT extraction
+160,"The effect of losing a competition: the role of gender, unfairness and feedback",unfair_treatment,competitive_attitude_iii,2.76,50,,,False,outcome not found in GT extraction
+160,"The effect of losing a competition: the role of gender, unfairness and feedback",unfair_treatment,competitive_attitude_iv,2.66,50,,,False,outcome not found in GT extraction
+160,"The effect of losing a competition: the role of gender, unfairness and feedback",unfair_treatment,competitive_attitude_v,2.74,50,,,False,outcome not found in GT extraction
+160,"The effect of losing a competition: the role of gender, unfairness and feedback",unfair_treatment,experience_of_unfairness,2.88,50,,,False,outcome not found in GT extraction
+160,"The effect of losing a competition: the role of gender, unfairness and feedback",unfair_treatment,perception_men_better_at_the_task,7.0,50,,,False,outcome not found in GT extraction
+160,"The effect of losing a competition: the role of gender, unfairness and feedback",unfair_treatment,perception_of_unfairness,2.74,50,,,False,outcome not found in GT extraction
+160,"The effect of losing a competition: the role of gender, unfairness and feedback",unfair_treatment,post_stage_2_belief_elicitation_rank,54.52,50,,,False,outcome not found in GT extraction
+160,"The effect of losing a competition: the role of gender, unfairness and feedback",unfair_treatment,risk_i,7.0,50,,,False,outcome not found in GT extraction
+160,"The effect of losing a competition: the role of gender, unfairness and feedback",unfair_treatment,risk_ii,2.7,50,,,False,outcome not found in GT extraction
+160,"The effect of losing a competition: the role of gender, unfairness and feedback",unfair_treatment,stage_2_belief_elicitation_rank,58.26,50,,,False,outcome not found in GT extraction
+162,Job Characteristics and Attraction to Public Sector Employment: The Moderating Effects of Public Service Motivation and Self-Efficacy,community_demographics,job_attraction_job_preference,1.0,50,,,False,outcome not found in GT extraction
+162,Job Characteristics and Attraction to Public Sector Employment: The Moderating Effects of Public Service Motivation and Self-Efficacy,community_income,job_attraction_job_preference,1.0,50,,,False,outcome not found in GT extraction
+162,Job Characteristics and Attraction to Public Sector Employment: The Moderating Effects of Public Service Motivation and Self-Efficacy,current_community_involvement,job_attraction_job_preference,0.98,50,,,False,outcome not found in GT extraction
+162,Job Characteristics and Attraction to Public Sector Employment: The Moderating Effects of Public Service Motivation and Self-Efficacy,job_performance_evaluation,job_attraction_job_preference,0.98,50,,,False,outcome not found in GT extraction
+162,Job Characteristics and Attraction to Public Sector Employment: The Moderating Effects of Public Service Motivation and Self-Efficacy,key_job_task,job_attraction_job_preference,0.96,50,,,False,outcome not found in GT extraction
+162,Job Characteristics and Attraction to Public Sector Employment: The Moderating Effects of Public Service Motivation and Self-Efficacy,overtime_work,job_attraction_job_preference,0.04,50,,,False,outcome not found in GT extraction
+162,Job Characteristics and Attraction to Public Sector Employment: The Moderating Effects of Public Service Motivation and Self-Efficacy,performance_bonuses,job_attraction_job_preference,1.0,50,,,False,outcome not found in GT extraction
+162,Job Characteristics and Attraction to Public Sector Employment: The Moderating Effects of Public Service Motivation and Self-Efficacy,total_pay,job_attraction_job_preference,1.0,50,,,False,outcome not found in GT extraction
+164,Polarization and openness to others ,control,percentage_total_audios_length_listened_to,0.6824,50,1.068,842,True,
+164,Polarization and openness to others ,control,willingness_to_engage,1.98,50,0.925,842,True,
+164,Polarization and openness to others ,t1_etiq,percentage_total_audios_length_listened_to,0.82,50,0.012,827,True,
+164,Polarization and openness to others ,t1_etiq,willingness_to_engage,2.12,50,0.0071,827,True,
+164,Polarization and openness to others ,t2_values,percentage_total_audios_length_listened_to,0.7664,50,0.0014,838,True,
+164,Polarization and openness to others ,t2_values,willingness_to_engage,2.0,50,-0.0052,838,True,
+169,Preferences for Giving Versus Preferences for Redistribution,decision_as_a_b_player_poor,comprehension_check_a_player_endowment,98.0,50,,,False,outcome not found in GT extraction
+169,Preferences for Giving Versus Preferences for Redistribution,decision_as_a_b_player_poor,comprehension_check_b_player_endowment,100.0,50,,,False,outcome not found in GT extraction
+169,Preferences for Giving Versus Preferences for Redistribution,decision_as_a_b_player_poor,comprehension_check_number_of_a_and_b_players,0.94,50,,,False,outcome not found in GT extraction
+169,Preferences for Giving Versus Preferences for Redistribution,decision_as_a_b_player_poor,comprehension_check_number_of_players_in_group,0.98,50,,,False,outcome not found in GT extraction
+169,Preferences for Giving Versus Preferences for Redistribution,decision_as_a_b_player_poor,comprehension_check_role_understanding,0.98,50,,,False,outcome not found in GT extraction
+169,Preferences for Giving Versus Preferences for Redistribution,dictator_game,comprehension_check_a_player_endowment,50.0,50,,,False,outcome not found in GT extraction
+169,Preferences for Giving Versus Preferences for Redistribution,dictator_game,comprehension_check_b_player_endowment,50.0,50,,,False,outcome not found in GT extraction
+169,Preferences for Giving Versus Preferences for Redistribution,dictator_game,comprehension_check_number_of_a_and_b_players,55.0,50,,,False,outcome not found in GT extraction
+169,Preferences for Giving Versus Preferences for Redistribution,dictator_game,comprehension_check_number_of_players_in_group,50.0,50,,,False,outcome not found in GT extraction
+169,Preferences for Giving Versus Preferences for Redistribution,dictator_game,comprehension_check_role_understanding,1.0,50,,,False,outcome not found in GT extraction
+169,Preferences for Giving Versus Preferences for Redistribution,dictator_game,prosocial_choice,1.0,2,,,False,arm not found in GT extraction
+169,Preferences for Giving Versus Preferences for Redistribution,giving_to_many,comprehension_check_a_player_endowment,34.5,50,,,False,outcome not found in GT extraction
+169,Preferences for Giving Versus Preferences for Redistribution,giving_to_many,comprehension_check_b_player_endowment,37.0,50,,,False,outcome not found in GT extraction
+169,Preferences for Giving Versus Preferences for Redistribution,giving_to_many,comprehension_check_number_of_a_and_b_players,7.0,50,,,False,outcome not found in GT extraction
+169,Preferences for Giving Versus Preferences for Redistribution,giving_to_many,comprehension_check_number_of_players_in_group,3.5,50,,,False,outcome not found in GT extraction
+169,Preferences for Giving Versus Preferences for Redistribution,giving_to_many,comprehension_check_role_understanding,0.96,50,,,False,outcome not found in GT extraction
+169,Preferences for Giving Versus Preferences for Redistribution,giving_to_one_of_many,comprehension_check_a_player_endowment,18.0,50,,,False,outcome not found in GT extraction
+169,Preferences for Giving Versus Preferences for Redistribution,giving_to_one_of_many,comprehension_check_b_player_endowment,12.0,50,,,False,outcome not found in GT extraction
+169,Preferences for Giving Versus Preferences for Redistribution,giving_to_one_of_many,comprehension_check_number_of_a_and_b_players,7.0,50,,,False,outcome not found in GT extraction
+169,Preferences for Giving Versus Preferences for Redistribution,giving_to_one_of_many,comprehension_check_number_of_players_in_group,0.0,50,,,False,outcome not found in GT extraction
+169,Preferences for Giving Versus Preferences for Redistribution,giving_to_one_of_many,comprehension_check_role_understanding,0.98,50,,,False,outcome not found in GT extraction
+169,Preferences for Giving Versus Preferences for Redistribution,giving_to_one_partner,comprehension_check_a_player_endowment,40.0,50,,,False,outcome not found in GT extraction
+169,Preferences for Giving Versus Preferences for Redistribution,giving_to_one_partner,comprehension_check_b_player_endowment,37.0,50,,,False,outcome not found in GT extraction
+169,Preferences for Giving Versus Preferences for Redistribution,giving_to_one_partner,comprehension_check_number_of_a_and_b_players,0.0,50,,,False,outcome not found in GT extraction
+169,Preferences for Giving Versus Preferences for Redistribution,giving_to_one_partner,comprehension_check_number_of_players_in_group,5.0,50,,,False,outcome not found in GT extraction
+169,Preferences for Giving Versus Preferences for Redistribution,giving_to_one_partner,comprehension_check_role_understanding,1.0,50,,,False,outcome not found in GT extraction
+169,Preferences for Giving Versus Preferences for Redistribution,voting_on_redistribution,comprehension_check_a_player_endowment,34.0,50,,,False,outcome not found in GT extraction
+169,Preferences for Giving Versus Preferences for Redistribution,voting_on_redistribution,comprehension_check_b_player_endowment,31.0,50,,,False,outcome not found in GT extraction
+169,Preferences for Giving Versus Preferences for Redistribution,voting_on_redistribution,comprehension_check_number_of_a_and_b_players,0.0,50,,,False,outcome not found in GT extraction
+169,Preferences for Giving Versus Preferences for Redistribution,voting_on_redistribution,comprehension_check_number_of_players_in_group,0.7,50,,,False,outcome not found in GT extraction
+169,Preferences for Giving Versus Preferences for Redistribution,voting_on_redistribution,comprehension_check_role_understanding,1.0,50,,,False,outcome not found in GT extraction
+169,Preferences for Giving Versus Preferences for Redistribution,voting_on_redistribution,prosocial_choice,1.0,10,,,False,arm not found in GT extraction
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g1_aap_recommendation,agree_to_be_vaccinated_in_spring_2021_with_covid_v,1.0,50,51.8,554,True,
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g1_aap_recommendation,allowing_indoor_dining_at_restaurants,1.0,50,51.2,554,True,
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g1_aap_recommendation,allowing_indoor_seating_at_bars,1.0,50,44.0,554,True,
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g1_aap_recommendation,believe_the_coronavirus_is_under_control_in_your_s,1.0,50,26.7,554,True,
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g1_aap_recommendation,book_a_flight_for_business_travel,3.8,50,18.4,554,True,
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g1_aap_recommendation,book_a_flight_for_personal_travel,3.8,50,25.2,554,True,
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g1_aap_recommendation,book_a_hotel_room_or_vacation_rental,3.78,50,28.2,554,True,
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g1_aap_recommendation,confidence_in_safety_from_covid,3.66,50,24.0,554,True,
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g1_aap_recommendation,eat_at_a_restaurant,3.74,50,51.0,554,True,
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g1_aap_recommendation,prohibiting_large_indoor_social_gatherings,1.0,50,74.5,554,True,
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g1_aap_recommendation,providing_in_person_schooling_for_college_students,1.0,50,60.3,554,True,
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g1_aap_recommendation,providing_in_person_schooling_for_k_12_students,1.0,50,66.2,554,True,
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g1_aap_recommendation,requiring_non_essential_businesses_to_close_in_per,1.0,50,47.9,554,True,
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g1_aap_recommendation,requiring_people_to_wear_masks_in_indoor_public_sp,1.0,50,84.4,554,True,
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g1_aap_recommendation,requiring_workers_to_wear_mask,1.0,50,85.2,554,True,
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g2_low_risks_for_children,agree_to_be_vaccinated_in_spring_2021_with_covid_v,1.0,50,,,False,arm not found in GT extraction
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g2_low_risks_for_children,allowing_indoor_dining_at_restaurants,1.0,50,,,False,arm not found in GT extraction
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g2_low_risks_for_children,allowing_indoor_seating_at_bars,1.0,50,,,False,arm not found in GT extraction
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g2_low_risks_for_children,believe_the_coronavirus_is_under_control_in_your_s,1.0,50,,,False,arm not found in GT extraction
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g2_low_risks_for_children,book_a_flight_for_business_travel,2.12,50,,,False,arm not found in GT extraction
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g2_low_risks_for_children,book_a_flight_for_personal_travel,2.1,50,,,False,arm not found in GT extraction
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g2_low_risks_for_children,book_a_hotel_room_or_vacation_rental,2.08,50,,,False,arm not found in GT extraction
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g2_low_risks_for_children,confidence_in_safety_from_covid,3.0,50,,,False,arm not found in GT extraction
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g2_low_risks_for_children,eat_at_a_restaurant,2.08,50,,,False,arm not found in GT extraction
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g2_low_risks_for_children,prohibiting_large_indoor_social_gatherings,1.0,50,,,False,arm not found in GT extraction
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g2_low_risks_for_children,providing_in_person_schooling_for_college_students,1.0,50,,,False,arm not found in GT extraction
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g2_low_risks_for_children,providing_in_person_schooling_for_k_12_students,1.0,50,,,False,arm not found in GT extraction
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g2_low_risks_for_children,requiring_non_essential_businesses_to_close_in_per,1.0,50,,,False,arm not found in GT extraction
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g2_low_risks_for_children,requiring_people_to_wear_masks_in_indoor_public_sp,1.0,50,,,False,arm not found in GT extraction
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g2_low_risks_for_children,requiring_workers_to_wear_mask,1.0,50,,,False,arm not found in GT extraction
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g3_facts_on_peak_deaths,agree_to_be_vaccinated_in_spring_2021_with_covid_v,1.0,50,,,False,arm not found in GT extraction
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g3_facts_on_peak_deaths,allowing_indoor_dining_at_restaurants,1.0,50,,,False,arm not found in GT extraction
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g3_facts_on_peak_deaths,allowing_indoor_seating_at_bars,1.0,50,,,False,arm not found in GT extraction
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g3_facts_on_peak_deaths,believe_the_coronavirus_is_under_control_in_your_s,1.0,50,,,False,arm not found in GT extraction
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g3_facts_on_peak_deaths,book_a_flight_for_business_travel,2.78,50,,,False,arm not found in GT extraction
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g3_facts_on_peak_deaths,book_a_flight_for_personal_travel,2.8,50,,,False,arm not found in GT extraction
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g3_facts_on_peak_deaths,book_a_hotel_room_or_vacation_rental,2.78,50,,,False,arm not found in GT extraction
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g3_facts_on_peak_deaths,confidence_in_safety_from_covid,3.0,50,,,False,arm not found in GT extraction
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g3_facts_on_peak_deaths,eat_at_a_restaurant,2.8,50,,,False,arm not found in GT extraction
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g3_facts_on_peak_deaths,prohibiting_large_indoor_social_gatherings,1.0,50,,,False,arm not found in GT extraction
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g3_facts_on_peak_deaths,providing_in_person_schooling_for_college_students,1.0,50,,,False,arm not found in GT extraction
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g3_facts_on_peak_deaths,providing_in_person_schooling_for_k_12_students,1.0,50,,,False,arm not found in GT extraction
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g3_facts_on_peak_deaths,requiring_non_essential_businesses_to_close_in_per,1.0,50,,,False,arm not found in GT extraction
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g3_facts_on_peak_deaths,requiring_people_to_wear_masks_in_indoor_public_sp,1.0,50,,,False,arm not found in GT extraction
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g3_facts_on_peak_deaths,requiring_workers_to_wear_mask,1.0,50,,,False,arm not found in GT extraction
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g4_record_high_cases,agree_to_be_vaccinated_in_spring_2021_with_covid_v,1.0,50,55.0,554,True,
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g4_record_high_cases,allowing_indoor_dining_at_restaurants,1.0,50,43.8,554,True,
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g4_record_high_cases,allowing_indoor_seating_at_bars,1.0,50,34.8,554,True,
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g4_record_high_cases,believe_the_coronavirus_is_under_control_in_your_s,1.0,50,25.8,554,True,
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g4_record_high_cases,book_a_flight_for_business_travel,2.98,50,13.6,554,True,
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g4_record_high_cases,book_a_flight_for_personal_travel,2.94,50,18.5,554,True,
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g4_record_high_cases,book_a_hotel_room_or_vacation_rental,2.94,50,24.1,554,True,
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g4_record_high_cases,confidence_in_safety_from_covid,3.16,50,23.1,554,True,
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g4_record_high_cases,eat_at_a_restaurant,2.96,50,39.5,554,True,
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g4_record_high_cases,prohibiting_large_indoor_social_gatherings,1.0,50,72.3,554,True,
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g4_record_high_cases,providing_in_person_schooling_for_college_students,1.0,50,47.6,554,True,
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g4_record_high_cases,providing_in_person_schooling_for_k_12_students,1.0,50,50.5,554,True,
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g4_record_high_cases,requiring_non_essential_businesses_to_close_in_per,1.0,50,55.1,554,True,
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g4_record_high_cases,requiring_people_to_wear_masks_in_indoor_public_sp,1.0,50,86.1,554,True,
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g4_record_high_cases,requiring_workers_to_wear_mask,1.0,50,84.7,554,True,
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g5_analysis_of_low_school_risks,agree_to_be_vaccinated_in_spring_2021_with_covid_v,1.0,50,,,False,arm not found in GT extraction
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g5_analysis_of_low_school_risks,allowing_indoor_dining_at_restaurants,1.0,50,,,False,arm not found in GT extraction
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g5_analysis_of_low_school_risks,allowing_indoor_seating_at_bars,1.0,50,,,False,arm not found in GT extraction
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g5_analysis_of_low_school_risks,believe_the_coronavirus_is_under_control_in_your_s,1.0,50,,,False,arm not found in GT extraction
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g5_analysis_of_low_school_risks,book_a_flight_for_business_travel,3.0,50,,,False,arm not found in GT extraction
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g5_analysis_of_low_school_risks,book_a_flight_for_personal_travel,3.04,50,,,False,arm not found in GT extraction
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g5_analysis_of_low_school_risks,book_a_hotel_room_or_vacation_rental,3.02,50,,,False,arm not found in GT extraction
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g5_analysis_of_low_school_risks,confidence_in_safety_from_covid,3.14,50,,,False,arm not found in GT extraction
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g5_analysis_of_low_school_risks,eat_at_a_restaurant,3.02,50,,,False,arm not found in GT extraction
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g5_analysis_of_low_school_risks,prohibiting_large_indoor_social_gatherings,1.0,50,,,False,arm not found in GT extraction
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g5_analysis_of_low_school_risks,providing_in_person_schooling_for_college_students,1.0,50,,,False,arm not found in GT extraction
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g5_analysis_of_low_school_risks,providing_in_person_schooling_for_k_12_students,1.0,50,,,False,arm not found in GT extraction
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g5_analysis_of_low_school_risks,requiring_non_essential_businesses_to_close_in_per,1.0,50,,,False,arm not found in GT extraction
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g5_analysis_of_low_school_risks,requiring_people_to_wear_masks_in_indoor_public_sp,1.0,50,,,False,arm not found in GT extraction
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g5_analysis_of_low_school_risks,requiring_workers_to_wear_mask,1.0,50,,,False,arm not found in GT extraction
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g6_pro_mask_study,agree_to_be_vaccinated_in_spring_2021_with_covid_v,1.0,50,,,False,arm not found in GT extraction
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g6_pro_mask_study,allowing_indoor_dining_at_restaurants,1.0,50,,,False,arm not found in GT extraction
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g6_pro_mask_study,allowing_indoor_seating_at_bars,1.0,50,,,False,arm not found in GT extraction
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g6_pro_mask_study,believe_the_coronavirus_is_under_control_in_your_s,1.0,50,,,False,arm not found in GT extraction
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g6_pro_mask_study,book_a_flight_for_business_travel,3.94,50,,,False,arm not found in GT extraction
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g6_pro_mask_study,book_a_flight_for_personal_travel,3.96,50,,,False,arm not found in GT extraction
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g6_pro_mask_study,book_a_hotel_room_or_vacation_rental,3.98,50,,,False,arm not found in GT extraction
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g6_pro_mask_study,confidence_in_safety_from_covid,4.0,50,,,False,arm not found in GT extraction
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g6_pro_mask_study,eat_at_a_restaurant,3.96,50,,,False,arm not found in GT extraction
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g6_pro_mask_study,prohibiting_large_indoor_social_gatherings,1.0,50,,,False,arm not found in GT extraction
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g6_pro_mask_study,providing_in_person_schooling_for_college_students,1.0,50,,,False,arm not found in GT extraction
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g6_pro_mask_study,providing_in_person_schooling_for_k_12_students,1.0,50,,,False,arm not found in GT extraction
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g6_pro_mask_study,requiring_non_essential_businesses_to_close_in_per,1.0,50,,,False,arm not found in GT extraction
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g6_pro_mask_study,requiring_people_to_wear_masks_in_indoor_public_sp,1.0,50,,,False,arm not found in GT extraction
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g6_pro_mask_study,requiring_workers_to_wear_mask,1.0,50,,,False,arm not found in GT extraction
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g7_safe_travel_case_study,agree_to_be_vaccinated_in_spring_2021_with_covid_v,1.0,50,,,False,arm not found in GT extraction
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g7_safe_travel_case_study,allowing_indoor_dining_at_restaurants,1.0,50,,,False,arm not found in GT extraction
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g7_safe_travel_case_study,allowing_indoor_seating_at_bars,1.0,50,,,False,arm not found in GT extraction
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g7_safe_travel_case_study,believe_the_coronavirus_is_under_control_in_your_s,1.0,50,,,False,arm not found in GT extraction
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g7_safe_travel_case_study,book_a_flight_for_business_travel,2.9,50,,,False,arm not found in GT extraction
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g7_safe_travel_case_study,book_a_flight_for_personal_travel,2.88,50,,,False,arm not found in GT extraction
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g7_safe_travel_case_study,book_a_hotel_room_or_vacation_rental,2.84,50,,,False,arm not found in GT extraction
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g7_safe_travel_case_study,confidence_in_safety_from_covid,3.12,50,,,False,arm not found in GT extraction
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g7_safe_travel_case_study,eat_at_a_restaurant,2.84,50,,,False,arm not found in GT extraction
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g7_safe_travel_case_study,prohibiting_large_indoor_social_gatherings,1.0,50,,,False,arm not found in GT extraction
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g7_safe_travel_case_study,providing_in_person_schooling_for_college_students,1.0,50,,,False,arm not found in GT extraction
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g7_safe_travel_case_study,providing_in_person_schooling_for_k_12_students,1.0,50,,,False,arm not found in GT extraction
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g7_safe_travel_case_study,requiring_non_essential_businesses_to_close_in_per,1.0,50,,,False,arm not found in GT extraction
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g7_safe_travel_case_study,requiring_people_to_wear_masks_in_indoor_public_sp,1.0,50,,,False,arm not found in GT extraction
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g7_safe_travel_case_study,requiring_workers_to_wear_mask,1.0,50,,,False,arm not found in GT extraction
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g8_high_hospitalizations,agree_to_be_vaccinated_in_spring_2021_with_covid_v,1.0,50,,,False,arm not found in GT extraction
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g8_high_hospitalizations,allowing_indoor_dining_at_restaurants,1.0,50,,,False,arm not found in GT extraction
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g8_high_hospitalizations,allowing_indoor_seating_at_bars,1.0,50,,,False,arm not found in GT extraction
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g8_high_hospitalizations,believe_the_coronavirus_is_under_control_in_your_s,1.0,50,,,False,arm not found in GT extraction
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g8_high_hospitalizations,book_a_flight_for_business_travel,3.0,50,,,False,arm not found in GT extraction
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g8_high_hospitalizations,book_a_flight_for_personal_travel,2.96,50,,,False,arm not found in GT extraction
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g8_high_hospitalizations,book_a_hotel_room_or_vacation_rental,3.0,50,,,False,arm not found in GT extraction
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g8_high_hospitalizations,confidence_in_safety_from_covid,2.76,50,,,False,arm not found in GT extraction
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g8_high_hospitalizations,eat_at_a_restaurant,2.98,50,,,False,arm not found in GT extraction
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g8_high_hospitalizations,prohibiting_large_indoor_social_gatherings,1.0,50,,,False,arm not found in GT extraction
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g8_high_hospitalizations,providing_in_person_schooling_for_college_students,1.0,50,,,False,arm not found in GT extraction
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g8_high_hospitalizations,providing_in_person_schooling_for_k_12_students,1.0,50,,,False,arm not found in GT extraction
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g8_high_hospitalizations,requiring_non_essential_businesses_to_close_in_per,1.0,50,,,False,arm not found in GT extraction
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g8_high_hospitalizations,requiring_people_to_wear_masks_in_indoor_public_sp,1.0,50,,,False,arm not found in GT extraction
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g8_high_hospitalizations,requiring_workers_to_wear_mask,1.0,50,,,False,arm not found in GT extraction
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g9_jobless_rate,agree_to_be_vaccinated_in_spring_2021_with_covid_v,1.0,50,,,False,arm not found in GT extraction
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g9_jobless_rate,allowing_indoor_dining_at_restaurants,1.0,50,,,False,arm not found in GT extraction
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g9_jobless_rate,allowing_indoor_seating_at_bars,1.0,50,,,False,arm not found in GT extraction
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g9_jobless_rate,believe_the_coronavirus_is_under_control_in_your_s,1.0,50,,,False,arm not found in GT extraction
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g9_jobless_rate,book_a_flight_for_business_travel,2.62,50,,,False,arm not found in GT extraction
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g9_jobless_rate,book_a_flight_for_personal_travel,2.58,50,,,False,arm not found in GT extraction
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g9_jobless_rate,book_a_hotel_room_or_vacation_rental,2.44,50,,,False,arm not found in GT extraction
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g9_jobless_rate,confidence_in_safety_from_covid,3.92,50,,,False,arm not found in GT extraction
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g9_jobless_rate,eat_at_a_restaurant,2.46,50,,,False,arm not found in GT extraction
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g9_jobless_rate,prohibiting_large_indoor_social_gatherings,1.0,50,,,False,arm not found in GT extraction
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g9_jobless_rate,providing_in_person_schooling_for_college_students,1.0,50,,,False,arm not found in GT extraction
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g9_jobless_rate,providing_in_person_schooling_for_k_12_students,1.0,50,,,False,arm not found in GT extraction
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g9_jobless_rate,requiring_non_essential_businesses_to_close_in_per,1.0,50,,,False,arm not found in GT extraction
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g9_jobless_rate,requiring_people_to_wear_masks_in_indoor_public_sp,1.0,50,,,False,arm not found in GT extraction
+174,Effects of COVID information on Consumer Behavior and Policy Preferences,g9_jobless_rate,requiring_workers_to_wear_mask,1.0,50,,,False,arm not found in GT extraction
+176,A Word is Worth A Thousand Words: Biased Beliefs about Political Language Use,control,prediction_accuracy_for_left_respondents,50.2,50,,,False,outcome not found in GT extraction
+176,A Word is Worth A Thousand Words: Biased Beliefs about Political Language Use,control,prediction_accuracy_for_moderate_respondents,50.4,50,,,False,outcome not found in GT extraction
+176,A Word is Worth A Thousand Words: Biased Beliefs about Political Language Use,control,prediction_accuracy_for_right_respondents,50.4,50,,,False,outcome not found in GT extraction
+176,A Word is Worth A Thousand Words: Biased Beliefs about Political Language Use,treatment,prediction_accuracy_for_left_respondents,50.0,50,,,False,outcome not found in GT extraction
+176,A Word is Worth A Thousand Words: Biased Beliefs about Political Language Use,treatment,prediction_accuracy_for_moderate_respondents,50.0,50,,,False,outcome not found in GT extraction
+176,A Word is Worth A Thousand Words: Biased Beliefs about Political Language Use,treatment,prediction_accuracy_for_right_respondents,50.0,50,,,False,outcome not found in GT extraction
+178,"Rational inattention, macroeconomic expectation, and consumption-investment behavior",affect_instruction,followup_food_leisure_spending,1.0,1,,,False,outcome not found in GT extraction
+178,"Rational inattention, macroeconomic expectation, and consumption-investment behavior",affect_instruction,followup_inflation_expectation,3.78,50,,,False,outcome not found in GT extraction
+178,"Rational inattention, macroeconomic expectation, and consumption-investment behavior",affect_instruction,followup_interest_rate_expectation,4.32,50,,,False,outcome not found in GT extraction
+178,"Rational inattention, macroeconomic expectation, and consumption-investment behavior",affect_instruction,followup_unemployment_expectation,6.16,50,,,False,outcome not found in GT extraction
+178,"Rational inattention, macroeconomic expectation, and consumption-investment behavior",affect_instruction,inflation_uncertainty,5.0,50,,,False,outcome not found in GT extraction
+178,"Rational inattention, macroeconomic expectation, and consumption-investment behavior",affect_instruction,investment_allocation,525.0,50,,,False,outcome not found in GT extraction
+178,"Rational inattention, macroeconomic expectation, and consumption-investment behavior",affect_instruction,job_finding_probability,73.54,50,,,False,outcome not found in GT extraction
+178,"Rational inattention, macroeconomic expectation, and consumption-investment behavior",affect_instruction,non_durable_goods_consumption,1.0,1,,,False,outcome not found in GT extraction
+178,"Rational inattention, macroeconomic expectation, and consumption-investment behavior",affect_instruction,personal_job_losing_probability,73.38,50,,,False,outcome not found in GT extraction
+178,"Rational inattention, macroeconomic expectation, and consumption-investment behavior",affect_instruction,posterior_inflation_expectation,3.42,50,,,False,outcome not found in GT extraction
+178,"Rational inattention, macroeconomic expectation, and consumption-investment behavior",affect_instruction,posterior_interest_rate_expectation,4.3,50,,,False,outcome not found in GT extraction
+178,"Rational inattention, macroeconomic expectation, and consumption-investment behavior",affect_instruction,posterior_unemployment_expectation,6.176,50,,,False,outcome not found in GT extraction
+178,"Rational inattention, macroeconomic expectation, and consumption-investment behavior",affect_instruction,prior_inflation_expectation,3.78,50,,,False,outcome not found in GT extraction
+178,"Rational inattention, macroeconomic expectation, and consumption-investment behavior",affect_instruction,wave2_unemployment_expectation_revision,6.94,50,,,False,outcome not found in GT extraction
+178,"Rational inattention, macroeconomic expectation, and consumption-investment behavior",consequence_instruction,durable_goods_purchase,0.0,1,,,False,outcome not found in GT extraction
+178,"Rational inattention, macroeconomic expectation, and consumption-investment behavior",consequence_instruction,followup_inflation_expectation,3.49,50,,,False,outcome not found in GT extraction
+178,"Rational inattention, macroeconomic expectation, and consumption-investment behavior",consequence_instruction,followup_interest_rate_expectation,4.02,50,,,False,outcome not found in GT extraction
+178,"Rational inattention, macroeconomic expectation, and consumption-investment behavior",consequence_instruction,followup_unemployment_expectation,5.924,50,,,False,outcome not found in GT extraction
+178,"Rational inattention, macroeconomic expectation, and consumption-investment behavior",consequence_instruction,inflation_uncertainty,4.84,50,,,False,outcome not found in GT extraction
+178,"Rational inattention, macroeconomic expectation, and consumption-investment behavior",consequence_instruction,investment_allocation,538.0,50,,,False,outcome not found in GT extraction
+178,"Rational inattention, macroeconomic expectation, and consumption-investment behavior",consequence_instruction,job_finding_probability,80.64,50,,,False,outcome not found in GT extraction
+178,"Rational inattention, macroeconomic expectation, and consumption-investment behavior",consequence_instruction,personal_job_losing_probability,81.24,50,,,False,outcome not found in GT extraction
+178,"Rational inattention, macroeconomic expectation, and consumption-investment behavior",consequence_instruction,posterior_inflation_expectation,3.15,50,,,False,outcome not found in GT extraction
+178,"Rational inattention, macroeconomic expectation, and consumption-investment behavior",consequence_instruction,posterior_interest_rate_expectation,4.05,50,,,False,outcome not found in GT extraction
+178,"Rational inattention, macroeconomic expectation, and consumption-investment behavior",consequence_instruction,posterior_unemployment_expectation,5.698,50,,,False,outcome not found in GT extraction
+178,"Rational inattention, macroeconomic expectation, and consumption-investment behavior",consequence_instruction,prior_inflation_expectation,3.65,50,,,False,outcome not found in GT extraction
+178,"Rational inattention, macroeconomic expectation, and consumption-investment behavior",consequence_instruction,wave2_unemployment_expectation_revision,6.85,50,,,False,outcome not found in GT extraction
+178,"Rational inattention, macroeconomic expectation, and consumption-investment behavior",high_inflation_treatment,durable_goods_purchase,0.0,50,,,False,outcome not found in GT extraction
+178,"Rational inattention, macroeconomic expectation, and consumption-investment behavior",high_inflation_treatment,followup_inflation_expectation,9.0,50,,,False,outcome not found in GT extraction
+178,"Rational inattention, macroeconomic expectation, and consumption-investment behavior",high_inflation_treatment,followup_interest_rate_expectation,9.0,50,,,False,outcome not found in GT extraction
+178,"Rational inattention, macroeconomic expectation, and consumption-investment behavior",high_inflation_treatment,followup_unemployment_expectation,5.62,50,,,False,outcome not found in GT extraction
+178,"Rational inattention, macroeconomic expectation, and consumption-investment behavior",high_inflation_treatment,inflation_uncertainty,5.44,50,,,False,outcome not found in GT extraction
+178,"Rational inattention, macroeconomic expectation, and consumption-investment behavior",high_inflation_treatment,investment_allocation,464.0,50,,,False,outcome not found in GT extraction
+178,"Rational inattention, macroeconomic expectation, and consumption-investment behavior",high_inflation_treatment,job_finding_probability,74.22,50,,,False,outcome not found in GT extraction
+178,"Rational inattention, macroeconomic expectation, and consumption-investment behavior",high_inflation_treatment,personal_job_losing_probability,70.98,50,,,False,outcome not found in GT extraction
+178,"Rational inattention, macroeconomic expectation, and consumption-investment behavior",high_inflation_treatment,posterior_inflation_expectation,9.0,50,,,False,outcome not found in GT extraction
+178,"Rational inattention, macroeconomic expectation, and consumption-investment behavior",high_inflation_treatment,posterior_interest_rate_expectation,9.0,50,,,False,outcome not found in GT extraction
+178,"Rational inattention, macroeconomic expectation, and consumption-investment behavior",high_inflation_treatment,posterior_unemployment_expectation,6.18,50,,,False,outcome not found in GT extraction
+178,"Rational inattention, macroeconomic expectation, and consumption-investment behavior",high_inflation_treatment,prior_inflation_expectation,9.0,50,,,False,outcome not found in GT extraction
+178,"Rational inattention, macroeconomic expectation, and consumption-investment behavior",high_inflation_treatment,wave2_unemployment_expectation_revision,9.0,50,,,False,outcome not found in GT extraction
+178,"Rational inattention, macroeconomic expectation, and consumption-investment behavior",low_inflation_treatment,durable_goods_purchase,0.0,5,,,False,outcome not found in GT extraction
+178,"Rational inattention, macroeconomic expectation, and consumption-investment behavior",low_inflation_treatment,followup_food_leisure_spending,1.0,2,,,False,outcome not found in GT extraction
+178,"Rational inattention, macroeconomic expectation, and consumption-investment behavior",low_inflation_treatment,followup_inflation_expectation,0.8,50,,,False,outcome not found in GT extraction
+178,"Rational inattention, macroeconomic expectation, and consumption-investment behavior",low_inflation_treatment,followup_interest_rate_expectation,0.8,50,,,False,outcome not found in GT extraction
+178,"Rational inattention, macroeconomic expectation, and consumption-investment behavior",low_inflation_treatment,followup_unemployment_expectation,4.634,50,,,False,outcome not found in GT extraction
+178,"Rational inattention, macroeconomic expectation, and consumption-investment behavior",low_inflation_treatment,inflation_uncertainty,4.08,50,,,False,outcome not found in GT extraction
+178,"Rational inattention, macroeconomic expectation, and consumption-investment behavior",low_inflation_treatment,investment_allocation,532.0,50,,,False,outcome not found in GT extraction
+178,"Rational inattention, macroeconomic expectation, and consumption-investment behavior",low_inflation_treatment,job_finding_probability,71.2,50,,,False,outcome not found in GT extraction
+178,"Rational inattention, macroeconomic expectation, and consumption-investment behavior",low_inflation_treatment,personal_job_losing_probability,69.8,50,,,False,outcome not found in GT extraction
+178,"Rational inattention, macroeconomic expectation, and consumption-investment behavior",low_inflation_treatment,posterior_inflation_expectation,0.8,50,,,False,outcome not found in GT extraction
+178,"Rational inattention, macroeconomic expectation, and consumption-investment behavior",low_inflation_treatment,posterior_interest_rate_expectation,0.8,50,,,False,outcome not found in GT extraction
+178,"Rational inattention, macroeconomic expectation, and consumption-investment behavior",low_inflation_treatment,posterior_unemployment_expectation,4.73,50,,,False,outcome not found in GT extraction
+178,"Rational inattention, macroeconomic expectation, and consumption-investment behavior",low_inflation_treatment,prior_inflation_expectation,0.8,50,,,False,outcome not found in GT extraction
+178,"Rational inattention, macroeconomic expectation, and consumption-investment behavior",low_inflation_treatment,wave2_unemployment_expectation_revision,0.8,50,,,False,outcome not found in GT extraction
+178,"Rational inattention, macroeconomic expectation, and consumption-investment behavior",no_instruction,durable_goods_purchase,0.0,1,,,False,outcome not found in GT extraction
+178,"Rational inattention, macroeconomic expectation, and consumption-investment behavior",no_instruction,followup_inflation_expectation,3.06,50,,,False,outcome not found in GT extraction
+178,"Rational inattention, macroeconomic expectation, and consumption-investment behavior",no_instruction,followup_interest_rate_expectation,3.8,50,,,False,outcome not found in GT extraction
+178,"Rational inattention, macroeconomic expectation, and consumption-investment behavior",no_instruction,followup_unemployment_expectation,5.38,50,,,False,outcome not found in GT extraction
+178,"Rational inattention, macroeconomic expectation, and consumption-investment behavior",no_instruction,inflation_uncertainty,4.68,50,,,False,outcome not found in GT extraction
+178,"Rational inattention, macroeconomic expectation, and consumption-investment behavior",no_instruction,investment_allocation,529.0,50,,,False,outcome not found in GT extraction
+178,"Rational inattention, macroeconomic expectation, and consumption-investment behavior",no_instruction,job_finding_probability,76.04,50,,,False,outcome not found in GT extraction
+178,"Rational inattention, macroeconomic expectation, and consumption-investment behavior",no_instruction,personal_job_losing_probability,74.86,50,,,False,outcome not found in GT extraction
+178,"Rational inattention, macroeconomic expectation, and consumption-investment behavior",no_instruction,posterior_inflation_expectation,3.07,50,,,False,outcome not found in GT extraction
+178,"Rational inattention, macroeconomic expectation, and consumption-investment behavior",no_instruction,posterior_interest_rate_expectation,3.94,50,,,False,outcome not found in GT extraction
+178,"Rational inattention, macroeconomic expectation, and consumption-investment behavior",no_instruction,posterior_unemployment_expectation,5.094,50,,,False,outcome not found in GT extraction
+178,"Rational inattention, macroeconomic expectation, and consumption-investment behavior",no_instruction,prior_inflation_expectation,3.06,50,,,False,outcome not found in GT extraction
+178,"Rational inattention, macroeconomic expectation, and consumption-investment behavior",no_instruction,wave2_unemployment_expectation_revision,6.1,50,,,False,outcome not found in GT extraction
+183,Do People Trust ChatGPT to Write Accurate Statements?,ai_written_informed,authorship_guess_attention_check_or_belief_elicita,1.0,21,,,False,outcome not found in GT extraction
+183,Do People Trust ChatGPT to Write Accurate Statements?,ai_written_informed,trust_fact_check_choice,1.0,2,,,False,outcome not found in GT extraction
+183,Do People Trust ChatGPT to Write Accurate Statements?,ai_written_uninformed,authorship_guess_attention_check_or_belief_elicita,1.0,5,,,False,outcome not found in GT extraction
+183,Do People Trust ChatGPT to Write Accurate Statements?,human_written_informed,authorship_guess_attention_check_or_belief_elicita,1.0,33,,,False,outcome not found in GT extraction
+183,Do People Trust ChatGPT to Write Accurate Statements?,human_written_informed,trust_fact_check_choice,1.0,6,,,False,outcome not found in GT extraction
+183,Do People Trust ChatGPT to Write Accurate Statements?,human_written_uninformed,authorship_guess_attention_check_or_belief_elicita,1.0,3,,,False,outcome not found in GT extraction

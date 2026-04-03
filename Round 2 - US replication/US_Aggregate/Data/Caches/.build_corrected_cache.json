@@ -1,0 +1,2363 @@
+{
+  "118__ind_passive": [
+    {
+      "arm_id": "ind_passive",
+      "arm_label": "IND-passive",
+      "found": true,
+      "outcomes": [
+        {
+          "outcome_name": "willingness_to_pay",
+          "n_analyzed": 119,
+          "metric": "mean",
+          "value": 1.19,
+          "sd": 0.89,
+          "se": null,
+          "evidence": "Table 1\nDescriptive statistics, overall and broken down by treatment(-role). Note that WTPs in IND-passive are hypothetical.\n...\nVariable Total IND-active IND-passive BIL\n...\nMean WTP (SD) 1.06 (0.85) 0.99 (0.84) 1.19 (0.89) 1.00 (0.82)"
+        },
+        {
+          "outcome_name": "belief_about_partner_wtp",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "Beliefs. Fig. 2 plots the distributions of all beliefs about the matched participant\u2019s WTP we elicited and the respectively stated own WTP. Pairwise Wilcoxon\u2013Mann\u2013Whitney- and t-tests indicate no significant differences between any of these distributions (all p-values > 0.10), i.e., our participants\u2019 beliefs were not systematically biased up- or downwards (Ziegler et al., 2021)."
+        },
+        {
+          "outcome_name": "diligence_check",
+          "n_analyzed": 358,
+          "metric": "proportion",
+          "value": 0.77,
+          "sd": null,
+          "se": null,
+          "evidence": "Step 1: Diligence check. In order to exclude participants who were not following our experimental instructions carefully, the survey began with a diligence check. Participants had to copy, letter by letter, a meaningless string of characters backwards and in all uppercase letters. Based on the results of previous studies, we expected about 25% of participants to fail this test (in fact we had 23% such cases). These participants were blocked from further participation in the study.\n...\nEventually, i.e., after exclusions due to failure to pass the diligence test, we have 358 participants in our sample. Table 1 shows descriptive statistics."
+        }
+      ]
+    }
+  ],
+  "125__pts_treatment_pts_treatment_1": [
+    {
+      "arm_id": "pts_treatment",
+      "arm_label": "pts$ treatment",
+      "found": false,
+      "outcomes": [
+        {
+          "outcome_name": "Mood Short Form item 1",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "The paper reports MSF scores and changes by the 8 cells (LL, LH, HL, HH in pts and pts$ treatments) and sometimes by treatment (pts vs pts$) in aggregate, but does not provide separate numerical results for individual MSF items by treatment arm alone."
+        },
+        {
+          "outcome_name": "Mood Short Form item 2",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "Only the total MSF score (sum of the four items) is reported in tables (e.g., Table 4) and regressions; no item-level means or SDs by pts$ treatment are given."
+        },
+        {
+          "outcome_name": "Mood Short Form item 3",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "The description of the MSF notes that scores are calculated by summing the four responses with reverse-coding for items 3 and 4, and all analyses use this summed score; item 3 is never reported separately by treatment."
+        },
+        {
+          "outcome_name": "Mood Short Form item 4",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "Similarly, item 4 (\"At this moment I feel 'edgy' or irritable.\") is only used as part of the summed MSF score; no separate descriptive statistics by pts$ treatment are provided."
+        },
+        {
+          "outcome_name": "Post-revelation bonus value self",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "The screening question \"Please indicate the value of the bonus you will receive\" is described in Sect. 3.2.3, but no table or summary statistics by treatment (pts$ vs pts) are reported for this item."
+        },
+        {
+          "outcome_name": "Post-revelation bonus value Participant X",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "The analogous screening item for Participant X's bonus is also only described procedurally; the paper does not present proportions correct or means by pts$ treatment."
+        },
+        {
+          "outcome_name": "Screening year",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "The paper states that 2 subjects did not indicate that the year was \"2017\" but does not break this down by pts vs pts$ treatment, so no arm-specific result is available."
+        },
+        {
+          "outcome_name": "Screening statement year",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "The paper notes that 9 subjects did not \"Disagree\" or \"Strongly Disagree\" that the current year was 2025, but again this is not reported separately for the pts$ treatment arm."
+        }
+      ]
+    },
+    {
+      "arm_id": "pts_treatment_1",
+      "arm_label": "pts treatment",
+      "found": false,
+      "outcomes": [
+        {
+          "outcome_name": "Mood Short Form item 1",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "MSF results are reported as total scores (pre, post, and change) by the 8 LL/LH/HL/HH-by-treatment cells (e.g., Table 4) and in regressions; there are no separate item-level statistics for the pts treatment alone."
+        },
+        {
+          "outcome_name": "Mood Short Form item 2",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "The paper never reports means or SDs for individual MSF items by arm; only the summed MSF score is analyzed, so item 2 has no separate numerical result for the pts treatment."
+        },
+        {
+          "outcome_name": "Mood Short Form item 3",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "Item 3 is included in the MSF scale, but all reported outcomes use the total MSF score; no descriptive or regression results are given for item 3 by pts treatment."
+        },
+        {
+          "outcome_name": "Mood Short Form item 4",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "No table or text provides separate statistics for item 4 by pts treatment; it is only part of the summed MSF outcome."
+        },
+        {
+          "outcome_name": "Post-revelation bonus value self",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "Although the self bonus-value question is used as a screening item, the only numerical information given is the total number of subjects failing any screening item; there is no breakdown of responses by pts treatment."
+        },
+        {
+          "outcome_name": "Post-revelation bonus value Participant X",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "The paper reports that 56 (64) subjects in the pts-treatment indicated the incorrect payment for themselves (Participant X), but does not provide proportions or other statistics specific to the pts arm beyond these aggregate counts, and not in the format requested (mean/SD)."
+        },
+        {
+          "outcome_name": "Screening year",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "The count of 2 subjects answering the year question incorrectly is given for the full sample; there is no separate count or rate for the pts treatment arm."
+        },
+        {
+          "outcome_name": "Screening statement year",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "The 9 subjects failing the 'year is 2025' screening item are reported in aggregate; the paper does not disaggregate this by pts vs pts$ treatment."
+        }
+      ]
+    }
+  ],
+  "143__reference_value_small_0_1_sd_reference_value_large_0_3_sd_units_raw_units_units_standard_deviations_entry_text_entry_slider_slider_bounds_small_0_5_sd_slider_bounds_large_1_0_sd": [
+    {
+      "arm_id": "reference_value_small_0_1_sd",
+      "arm_label": "Reference value: small (0.1 SD)",
+      "found": false,
+      "outcomes": [
+        {
+          "outcome_name": "Forecast of experimental treatment effect",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "The paper reports only pooled results by elicitation feature (e.g., Table 2, Panel A: 'Small 0.1 SD 0.16 (0.18) (0.01) 50 393'), not broken down by specific study outcomes or treatment arms. No separate numerical results are given for the 0.1 SD reference value by outcome."
+        },
+        {
+          "outcome_name": "Study 1 outcome: HIV testing",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "Table 1, Panel B reports forecasts for HIV testing only in aggregate across all elicitation conditions: 'HIV testing 0.23 (0.18) (0.02) 73 73'. There is no split by reference value (0.1 vs 0.3 SD)."
+        },
+        {
+          "outcome_name": "Study 2 outcome: dropout reversed",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "Table 1, Panel C reports 'Dropout reversed 0.02 (0.13) (0.01) 85 85' as a single line. The paper does not provide separate statistics by reference value condition."
+        },
+        {
+          "outcome_name": "Study 2 outcome: business participation",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "For business participation, Table 1, Panel C shows 'Business participation 0.12 (0.12) (0.01) 85 85' only in aggregate. No breakdown by the 0.1 SD reference example is reported."
+        },
+        {
+          "outcome_name": "Study 2 outcome: test scores",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "Entrepreneurship test scores are summarized in Table 1, Panel C: 'Test scores 0.29 (0.34) (0.04) 85 85'. There is no disaggregation by reference value condition."
+        },
+        {
+          "outcome_name": "Study 3 outcome: food consumption",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "Table 1, Panel D reports forecasts for food consumption by treatment arm (T1, T2, T3) but not by elicitation features such as the 0.1 SD reference example. No such split appears elsewhere in the text."
+        },
+        {
+          "outcome_name": "Study 3 outcome: health consumption",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "Health consumption forecasts are given in Table 1, Panel D for T1, T2, T3 only, with no further breakdown by reference value condition."
+        }
+      ]
+    },
+    {
+      "arm_id": "reference_value_large_0_3_sd",
+      "arm_label": "Reference value: large (0.3 SD)",
+      "found": false,
+      "outcomes": [
+        {
+          "outcome_name": "Forecast of experimental treatment effect",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "Table 2, Panel A compares reference conditions pooled across all studies: 'Small 0.1 SD 0.16 (0.18) (0.01) 50 393' and 'Large 0.3 SD 0.17 (0.21) (0.02) 56 379'. These are not broken down by specific study outcomes or treatment arms, so no arm-level results are available."
+        },
+        {
+          "outcome_name": "Study 1 outcome: HIV testing",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "HIV testing forecasts are only reported in Table 1, Panel B as a single aggregate line. The paper does not show HIV testing forecasts separately for the 0.3 SD reference example."
+        },
+        {
+          "outcome_name": "Study 2 outcome: dropout reversed",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "Dropout reversed is summarized once in Table 1, Panel C. No table or text provides separate means for the large (0.3 SD) reference condition."
+        },
+        {
+          "outcome_name": "Study 2 outcome: business participation",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "Business participation forecasts are reported only in aggregate in Table 1, Panel C. There is no disaggregation by reference value (0.1 vs 0.3 SD)."
+        },
+        {
+          "outcome_name": "Study 2 outcome: test scores",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "Entrepreneurship test score forecasts appear only as a single row in Table 1, Panel C. The paper does not split these by the large reference value condition."
+        },
+        {
+          "outcome_name": "Study 3 outcome: food consumption",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "Food consumption forecasts by treatment arm are in Table 1, Panel D, but there is no further breakdown by reference value condition in any table or figure."
+        },
+        {
+          "outcome_name": "Study 3 outcome: health consumption",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "Health consumption forecasts are reported in Table 1, Panel D only by intervention arm (T1, T2, T3). No separate statistics are given for the 0.3 SD reference example."
+        }
+      ]
+    },
+    {
+      "arm_id": "units_raw_units",
+      "arm_label": "Units: raw units",
+      "found": false,
+      "outcomes": [
+        {
+          "outcome_name": "Forecast of experimental treatment effect",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "Table 2, Panel B reports pooled forecasts by units: 'Raw units 0.16 (0.21) (0.01) 52 332' and 'Standard deviations 0.17 (0.18) (0.02) 54 440'. These are averages across all studies and outcomes, not arm-specific results."
+        },
+        {
+          "outcome_name": "Study 1 outcome: HIV testing",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "The HIV testing row in Table 1, Panel B is not split by whether forecasts were elicited in raw units or standard deviations. No such breakdown appears elsewhere."
+        },
+        {
+          "outcome_name": "Study 2 outcome: dropout reversed",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "Dropout reversed forecasts are only given as a single mean and SD in Table 1, Panel C. The units randomization is only summarized in aggregate in Table 2, Panel B."
+        },
+        {
+          "outcome_name": "Study 2 outcome: business participation",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "Business participation forecasts are not broken out by units condition; only overall means are shown in Table 1, Panel C."
+        },
+        {
+          "outcome_name": "Study 2 outcome: test scores",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "Test score forecasts are reported once in Table 1, Panel C. The paper does not provide separate statistics for those who answered in raw units."
+        },
+        {
+          "outcome_name": "Study 3 outcome: food consumption",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "Food consumption forecasts by treatment arm (T1, T2, T3) in Table 1, Panel D are not further split by units condition. Table 2, Panel B only gives pooled results across all outcomes."
+        },
+        {
+          "outcome_name": "Study 3 outcome: health consumption",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "Health consumption forecasts are summarized in Table 1, Panel D without any breakdown by whether forecasts were elicited in raw units or SDs."
+        }
+      ]
+    },
+    {
+      "arm_id": "units_standard_deviations",
+      "arm_label": "Units: standard deviations",
+      "found": false,
+      "outcomes": [
+        {
+          "outcome_name": "Forecast of experimental treatment effect",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "Table 2, Panel B: 'Standard deviations 0.17 (0.18) (0.02) 54 440' summarizes forecasts in SD units across all studies and outcomes. No outcome- or arm-specific statistics are reported for this condition."
+        },
+        {
+          "outcome_name": "Study 1 outcome: HIV testing",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "HIV testing forecasts in Table 1, Panel B are not separated by units condition. The text notes, 'Second, there is no difference in forecasts elicited in raw units ... or standard deviations,' but does not provide per-outcome numbers."
+        },
+        {
+          "outcome_name": "Study 2 outcome: dropout reversed",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "Dropout reversed forecasts are only given as a single aggregate row in Table 1, Panel C. No split by SD-units condition is shown."
+        },
+        {
+          "outcome_name": "Study 2 outcome: business participation",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "Business participation forecasts are not disaggregated by units condition anywhere in the paper; only overall means are reported."
+        },
+        {
+          "outcome_name": "Study 2 outcome: test scores",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "The entrepreneurship test score row in Table 1, Panel C is not split by whether forecasts were elicited in SD units."
+        },
+        {
+          "outcome_name": "Study 3 outcome: food consumption",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "Food consumption forecasts by treatment arm in Table 1, Panel D are not further broken down by units condition; Table 2, Panel B only provides pooled comparisons."
+        },
+        {
+          "outcome_name": "Study 3 outcome: health consumption",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "Health consumption forecasts are reported only by intervention arm in Table 1, Panel D, with no separate statistics for the SD-units elicitation condition."
+        }
+      ]
+    },
+    {
+      "arm_id": "entry_text",
+      "arm_label": "Entry: text",
+      "found": false,
+      "outcomes": [
+        {
+          "outcome_name": "Forecast of experimental treatment effect",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "Table 2, Panel C reports pooled results by entry mode: 'Text 0.16 (0.25) (0.02) 36 266' and 'Slider 0.17 (0.16) (0.01) 70 506'. These are averages across all studies and outcomes, not arm-specific forecasts."
+        },
+        {
+          "outcome_name": "Study 1 outcome: HIV testing",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "HIV testing forecasts in Table 1, Panel B are not split by text vs slider entry. The discussion notes that 'the average forecasts are comparable when using slider bars and text entry' but does not provide per-outcome numbers."
+        },
+        {
+          "outcome_name": "Study 2 outcome: dropout reversed",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "Dropout reversed forecasts are only given as a single row in Table 1, Panel C. No breakdown by text entry condition is reported."
+        },
+        {
+          "outcome_name": "Study 2 outcome: business participation",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "Business participation forecasts are not disaggregated by entry mode in any table or figure; only overall means are shown."
+        },
+        {
+          "outcome_name": "Study 2 outcome: test scores",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "Test score forecasts appear only as an aggregate row in Table 1, Panel C. The text does not provide separate statistics for text-entry respondents."
+        },
+        {
+          "outcome_name": "Study 3 outcome: food consumption",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "Food consumption forecasts by treatment arm in Table 1, Panel D are not further split by text vs slider entry. Table 2, Panel C only gives pooled comparisons."
+        },
+        {
+          "outcome_name": "Study 3 outcome: health consumption",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "Health consumption forecasts are summarized in Table 1, Panel D without any breakdown by entry mode."
+        }
+      ]
+    },
+    {
+      "arm_id": "entry_slider",
+      "arm_label": "Entry: slider",
+      "found": false,
+      "outcomes": [
+        {
+          "outcome_name": "Forecast of experimental treatment effect",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "Table 2, Panel C: 'Slider 0.17 (0.16) (0.01) 70 506' summarizes all slider-based forecasts across studies and outcomes. No outcome-specific or arm-specific slider results are reported."
+        },
+        {
+          "outcome_name": "Study 1 outcome: HIV testing",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "The HIV testing row in Table 1, Panel B is not split by entry mode. The paper only notes that average forecasts are comparable between slider and text entry overall."
+        },
+        {
+          "outcome_name": "Study 2 outcome: dropout reversed",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "Dropout reversed forecasts are reported once in Table 1, Panel C. There is no separate line for slider-entry respondents."
+        },
+        {
+          "outcome_name": "Study 2 outcome: business participation",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "Business participation forecasts are not broken down by slider vs text entry in any table or figure."
+        },
+        {
+          "outcome_name": "Study 2 outcome: test scores",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "Entrepreneurship test score forecasts are only given in aggregate in Table 1, Panel C, with no split by entry mode."
+        },
+        {
+          "outcome_name": "Study 3 outcome: food consumption",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "Food consumption forecasts by treatment arm in Table 1, Panel D are not further disaggregated by slider vs text entry. Slider results are only summarized in Table 2, Panel C across all outcomes."
+        },
+        {
+          "outcome_name": "Study 3 outcome: health consumption",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "Health consumption forecasts are reported only by intervention arm in Table 1, Panel D, with no breakdown by entry mode."
+        }
+      ]
+    },
+    {
+      "arm_id": "slider_bounds_small_0_5_sd",
+      "arm_label": "Slider bounds: small (0.5 SD)",
+      "found": false,
+      "outcomes": [
+        {
+          "outcome_name": "Forecast of experimental treatment effect",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "Table 2, Panel D reports pooled slider-bound results: 'Small 0.5 SD 0.12 (0.12) (0.01) 33 241' and 'Large (1.0 SD) 0.21 (0.18) (0.02) 37 265'. These are averages across all studies and outcomes, not per-outcome arm-level results."
+        },
+        {
+          "outcome_name": "Study 1 outcome: HIV testing",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "HIV testing forecasts in Table 1, Panel B are not split by slider bounds. Figure 1 and Table 2, Panel D discuss the effect of slider bounds only in aggregate."
+        },
+        {
+          "outcome_name": "Study 2 outcome: dropout reversed",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "Dropout reversed forecasts are only given as a single row in Table 1, Panel C. No table or figure provides separate statistics for the 0.5 SD slider-bound condition."
+        },
+        {
+          "outcome_name": "Study 2 outcome: business participation",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "Business participation forecasts are not disaggregated by slider bounds; only overall means are shown in Table 1, Panel C."
+        },
+        {
+          "outcome_name": "Study 2 outcome: test scores",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "Test score forecasts appear only as an aggregate row in Table 1, Panel C. The slider-bounds comparison in Table 2, Panel D is not broken down by outcome."
+        },
+        {
+          "outcome_name": "Study 3 outcome: food consumption",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "Food consumption forecasts by treatment arm in Table 1, Panel D are not further split by slider bounds. Figure 1 shows CDFs of forecasts by slider bounds but pools across studies and outcomes."
+        },
+        {
+          "outcome_name": "Study 3 outcome: health consumption",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "Health consumption forecasts are summarized in Table 1, Panel D without any breakdown by small vs large slider bounds."
+        }
+      ]
+    },
+    {
+      "arm_id": "slider_bounds_large_1_0_sd",
+      "arm_label": "Slider bounds: large (1.0 SD)",
+      "found": false,
+      "outcomes": [
+        {
+          "outcome_name": "Forecast of experimental treatment effect",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "Table 2, Panel D: 'Large (1.0 SD) 0.21 (0.18) (0.02) 37 265' gives the pooled mean forecast for the wide slider condition across all studies and outcomes. No per-outcome arm-level statistics are provided."
+        },
+        {
+          "outcome_name": "Study 1 outcome: HIV testing",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "HIV testing forecasts in Table 1, Panel B are not split by slider bounds. The text notes that 'when the slider has a wider range (\u00b11.0 standard deviation), the elicited forecasts are larger' but does not provide outcome-specific numbers."
+        },
+        {
+          "outcome_name": "Study 2 outcome: dropout reversed",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "Dropout reversed forecasts are only reported as a single aggregate mean in Table 1, Panel C. No separate statistics are given for the 1.0 SD slider-bound condition."
+        },
+        {
+          "outcome_name": "Study 2 outcome: business participation",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "Business participation forecasts are not disaggregated by slider bounds in any table or figure; only overall means are shown."
+        },
+        {
+          "outcome_name": "Study 2 outcome: test scores",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "Entrepreneurship test score forecasts appear only as an aggregate row in Table 1, Panel C. The wide-slider condition is only summarized in Table 2, Panel D across all outcomes."
+        },
+        {
+          "outcome_name": "Study 3 outcome: food consumption",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "Food consumption forecasts by treatment arm in Table 1, Panel D are not further split by slider bounds. Figure 1 shows that 'the entire distribution is shifted to the right when wider slider bounds are presented' but does not give numeric outcome-specific means."
+        },
+        {
+          "outcome_name": "Study 3 outcome: health consumption",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "Health consumption forecasts are summarized in Table 1, Panel D without any breakdown by large (1.0 SD) slider bounds."
+        }
+      ]
+    }
+  ],
+  "145__repayment_plan_1_repayment_plan_2_order_10_year_repayment_plan_description_income_based_repayment_plan_description": [
+    {
+      "arm_id": "repayment_plan_1_repayment_plan_2_order",
+      "arm_label": "Repayment plan 1 / Repayment plan 2 order",
+      "found": false,
+      "outcomes": [
+        {
+          "outcome_name": "Choose income-based repayment plan over 10-year repayment plan",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "The paper notes that \"The plan that is repayment plan 1 is randomized for each respondent.\" and that there are \"a total of 16 tables i.e. treatments that a respondent could get.\" However, all reported results are aggregated over the eight combinations of income-based plan parameters (5%, 10%, $20,000, $30,000, 15, 20) and do not break out outcomes by the randomized order of repayment plan 1 vs. repayment plan 2."
+        }
+      ]
+    },
+    {
+      "arm_id": "10_year_repayment_plan_description",
+      "arm_label": "10-year repayment plan description",
+      "found": false,
+      "outcomes": [
+        {
+          "outcome_name": "Choose income-based repayment plan over 10-year repayment plan",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "The 10-year repayment plan is described as: \"The 10-year plan is described as follows: 'Payments are set such that both the principal and the interest are paid off after 10 years'.\" The paper reports only the proportion choosing the income-based plan by the randomized income-based plan parameters (percent of income, exempt income, years until forgiveness) and by their combinations (e.g., \"5% $20K 15Y\"), not by the description of the 10-year plan itself as a separate treatment arm."
+        }
+      ]
+    },
+    {
+      "arm_id": "income_based_repayment_plan_description",
+      "arm_label": "Income-based repayment plan description",
+      "found": false,
+      "outcomes": [
+        {
+          "outcome_name": "Choose income-based repayment plan over 10-year repayment plan",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "The income-based plan is described as: \"The income-based repayment plan is described as follows: 'Payments are based on your total income last year. If you made less than $X you pay nothing. If you made more than $X a year your monthly payment is equal to Y% of your income above $X divided by 12. Any money that is still owed after Z years will be forgiven.' X (exempt income) is randomly chosen to either be 20,000 or 30,000. Y (percent of non-exempt income) is randomly chosen to be either 5 or 10. Z (years until loan forgiveness) is randomly chosen to be either 15 or 20.\" All numerical results are reported by these parameter values and their combinations (e.g., \"5% $20K 15Y\"), not by the generic description of the income-based plan as a distinct arm."
+        }
+      ]
+    }
+  ],
+  "159__information_treatment_source_revealed_version_source_hidden_version": [
+    {
+      "arm_id": "information_treatment",
+      "arm_label": "Information treatment",
+      "found": false,
+      "outcomes": [
+        {
+          "outcome_name": "news_accuracy_detection_task",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "In the provided text, results are reported only as comparisons between treated and control groups (e.g., treatment effects on errors in beliefs and updating), not as arm-specific means or distributions for the information treatment group alone."
+        },
+        {
+          "outcome_name": "prior_belief_score",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "The paper describes how prior beliefs are elicited (\"How many points do you think you will score?\"), but the excerpt only reports aggregate patterns and regression coefficients, not separate descriptive statistics for the information treatment arm."
+        },
+        {
+          "outcome_name": "mid_task_belief_score",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "Mid-task beliefs are used to construct errors and updating and enter regressions (e.g., MTE, mid-task belief), but no standalone mean or distribution is reported for the treated group separately from control in the provided text."
+        },
+        {
+          "outcome_name": "posterior_belief_score",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "Posterior beliefs are analyzed via the error in posterior beliefs (POE) and updating, with treatment effects reported (e.g., \"treated subjects\u2019 posterior beliefs are, on average, 9.57% closer\"), but no arm-specific posterior belief level (mean score) is given."
+        },
+        {
+          "outcome_name": "confidence_in_belief",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "Confidence is described as being elicited (\"we also elicit subjects\u2019 confidence in their beliefs\"), but the excerpt does not report any numerical statistics by treatment arm for confidence levels."
+        },
+        {
+          "outcome_name": "general_ability_belief",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "The paper reports overall distributions (e.g., \"Before the beginning of the news-accuracy detection task, 82.64% of subjects feel good or very good\"), but does not split these general ability beliefs by information treatment vs control in the provided text."
+        },
+        {
+          "outcome_name": "average_american_ability_belief",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "Similarly, beliefs about the average American\u2019s ability are discussed in aggregate (\"only 37.61% ... think that also the other Americans are good or very good\"), without separate statistics for the information treatment arm."
+        },
+        {
+          "outcome_name": "budget_allocation",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "Budget allocation outcomes (e.g., prior average shares to consumption, health insurance, misinformation insurance) are reported for the full sample and via regressions using the treatment dummy, but no descriptive means are given separately for the information treatment arm."
+        }
+      ]
+    },
+    {
+      "arm_id": "source_revealed_version",
+      "arm_label": "Source revealed version",
+      "found": false,
+      "outcomes": [
+        {
+          "outcome_name": "news_accuracy_detection_task",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "The design states: \"half of our respondents are randomly allocated to versions of the news items that display the source of the news.\" Later it notes: \"Finally, the revelation of the sources of the headlines does not significantly affect the overall score in the task.\" However, no arm-specific mean score or N is reported for the source-revealed group."
+        },
+        {
+          "outcome_name": "prior_belief_score",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "The paper does not present prior belief scores separately for the source-revealed vs source-hidden subgroups; only the information-treatment vs control comparisons are analyzed numerically."
+        },
+        {
+          "outcome_name": "mid_task_belief_score",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "No table or regression in the provided text reports mid-task beliefs by whether the source was revealed; the source manipulation is only mentioned as not affecting the overall score."
+        },
+        {
+          "outcome_name": "posterior_belief_score",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "Posterior beliefs are discussed only in relation to the information treatment; there are no separate statistics for the source-revealed subgroup."
+        },
+        {
+          "outcome_name": "confidence_in_belief",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "The excerpt does not report any confidence measures split by source-revealed vs source-hidden conditions."
+        },
+        {
+          "outcome_name": "general_ability_belief",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "General ability beliefs are not broken out by the source-revealed manipulation in the provided text."
+        },
+        {
+          "outcome_name": "average_american_ability_belief",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "No numerical results are given for beliefs about the average American\u2019s ability by source-revealed vs source-hidden arms."
+        },
+        {
+          "outcome_name": "budget_allocation",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "Budget allocation outcomes are analyzed with respect to the information treatment and belief updating; the source-revealed vs source-hidden split is not used to report separate budget statistics."
+        }
+      ]
+    },
+    {
+      "arm_id": "source_hidden_version",
+      "arm_label": "Source hidden version",
+      "found": false,
+      "outcomes": [
+        {
+          "outcome_name": "news_accuracy_detection_task",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "The paper notes that \"half of our respondents are randomly allocated to versions of the news items that display the source of the news\" (implying the other half see source-hidden items) and that \"the revelation of the sources of the headlines does not significantly affect the overall score in the task.\" No separate mean score is reported for the source-hidden group."
+        },
+        {
+          "outcome_name": "prior_belief_score",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "There are no arm-specific descriptive statistics for prior beliefs by source-hidden vs source-revealed conditions in the provided text."
+        },
+        {
+          "outcome_name": "mid_task_belief_score",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "Mid-task beliefs are discussed only in aggregate and in relation to the information treatment; no separate values are given for the source-hidden subgroup."
+        },
+        {
+          "outcome_name": "posterior_belief_score",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "Posterior beliefs are not reported separately for the source-hidden arm; only treatment vs control (information treatment) contrasts are quantified."
+        },
+        {
+          "outcome_name": "confidence_in_belief",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "No numerical confidence results are broken out by whether the news source was hidden."
+        },
+        {
+          "outcome_name": "general_ability_belief",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "The text does not provide separate general ability belief statistics for respondents in the source-hidden condition."
+        },
+        {
+          "outcome_name": "average_american_ability_belief",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "Beliefs about the average American\u2019s ability are only reported for the full sample, not by source-hidden vs source-revealed arms."
+        },
+        {
+          "outcome_name": "budget_allocation",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "The budget allocation outcomes are not stratified by the source-hidden manipulation in the reported results; only overall and information-treatment-related effects are quantified."
+        }
+      ]
+    }
+  ],
+  "162__total_pay_performance_bonuses_job_performance_evaluation_current_community_involvement_community_income_community_demographics_overtime_work_key_job_task": [
+    {
+      "arm_id": "total_pay",
+      "arm_label": "Total pay",
+      "found": false,
+      "outcomes": [
+        {
+          "outcome_name": "job attraction / job preference",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "The paper reports only marginal means and AMCEs for pooled levels of the total pay attribute (e.g., \u201cabout average or slightly above average salary\u201d vs. \u201cslightly below average salary\u201d) and does not provide numerical results (means, proportions, Ns, SDs/SEs) for each specific level of the Total pay arm separately."
+        }
+      ]
+    },
+    {
+      "arm_id": "performance_bonuses",
+      "arm_label": "Performance bonuses",
+      "found": false,
+      "outcomes": [
+        {
+          "outcome_name": "job attraction / job preference",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "For the performance bonuses attribute, the analysis pools levels into \u201cjob involving performance bonuses\u201d versus \u201cfixed-pay job\u201d and presents marginal means and AMCEs only at this aggregated contrast; no numerical results are reported for each of the four specific bonus levels (20%, 10%, 5%, none) separately."
+        }
+      ]
+    },
+    {
+      "arm_id": "job_performance_evaluation",
+      "arm_label": "Job performance evaluation",
+      "found": false,
+      "outcomes": [
+        {
+          "outcome_name": "job attraction / job preference",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "The paper states that respondents prefer \u201cperformance evaluation based on subjective supervisor perception rather than objective goal-based measures,\u201d and Figure 3 shows marginal means for pooled categories, but it does not provide separate numerical outcome values for each of the four specific evaluation modes listed in the Job performance evaluation attribute."
+        }
+      ]
+    },
+    {
+      "arm_id": "current_community_involvement",
+      "arm_label": "Current community involvement",
+      "found": false,
+      "outcomes": [
+        {
+          "outcome_name": "job attraction / job preference",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "The results section notes that \u201cthe level of current community involvement in the program does not appear to have a significant effect on job attractiveness,\u201d and Figure 3 presents only overall marginal means; no numerical estimates are broken out by each specific level (frequent, moderate, rare) of Current community involvement."
+        }
+      ]
+    },
+    {
+      "arm_id": "community_income",
+      "arm_label": "Community income",
+      "found": false,
+      "outcomes": [
+        {
+          "outcome_name": "job attraction / job preference",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "Community income is analyzed in terms of contrasts such as \u201caverage/high-income community (compared to low income)\u201d and via pooled binary indicators in the conjoint models (e.g., Figure 3, Figure 4), but the paper does not report separate numerical outcome values for each of the three specific income levels (high, average, low)."
+        }
+      ]
+    },
+    {
+      "arm_id": "community_demographics",
+      "arm_label": "Community demographics",
+      "found": false,
+      "outcomes": [
+        {
+          "outcome_name": "job attraction / job preference",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "The paper reports that \u201crespondents are more likely to choose a job that targets a mostly non-white community (compared to a mostly white community)\u201d and that higher-PSM respondents prefer jobs serving mostly non-white clients, but these effects are shown only as pooled contrasts in marginal means/AMCEs; no numerical results are given for each of the four specific demographic compositions (mostly white, mostly African American, mostly Hispanic, multiracial)."
+        }
+      ]
+    },
+    {
+      "arm_id": "overtime_work",
+      "arm_label": "Overtime work",
+      "found": false,
+      "outcomes": [
+        {
+          "outcome_name": "job attraction / job preference",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "Overtime work is summarized as \u201ca job that requires overtime work occasionally or frequently is found less desirable than a job that never requires overtime work,\u201d with effects shown in Figure 3 and Figure 4 using pooled binary indicators; the article does not provide separate numerical outcome statistics for each specific overtime frequency level (frequently, occasionally, never)."
+        }
+      ]
+    },
+    {
+      "arm_id": "key_job_task",
+      "arm_label": "Key job task",
+      "found": false,
+      "outcomes": [
+        {
+          "outcome_name": "job attraction / job preference",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "The authors discuss that \u201cwe find no significant difference in reported job preference between an analytic job and a job that demands interaction with community or organizational members,\u201d and later that lower-PSM respondents respond more positively to an analytical job; however, these are based on pooled binary codings of task types, and no numerical results are reported separately for each of the four specific key job tasks listed in the attribute."
+        }
+      ]
+    }
+  ],
+  "169__decision_as_a_b_player_poor_dictator_game": [
+    {
+      "arm_id": "decision_as_a_b_player_poor",
+      "arm_label": "Decision as a B-player (poor)",
+      "found": false,
+      "outcomes": [
+        {
+          "outcome_name": "prosocial choice",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "The paper describes this decision (\u201cThe poor players could vote to decrease the rich players payoffs by 100 cents, without any benefit to themselves\u2026\u201d) but does not report treatment\u2011specific statistics by group size or any other arm; only one aggregate figure is given: \u201conly 11.5 percent of poor participants wanted to decrease the payoffs of rich participants at no cost to themselves.\u201d"
+        },
+        {
+          "outcome_name": "comprehension check: number of players in group",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "Comprehension questions are listed (\u201cThe first question asked how many players there are in the participant\u2019s group.\u201d) but no numerical results (e.g., pass rates by arm) are reported for this specific decision or arm."
+        },
+        {
+          "outcome_name": "comprehension check: A-player endowment",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "The paper notes: \u201cThe second and third questions asked how much money the A players and B players start with, respectively.\u201d No arm\u2011specific performance statistics are reported."
+        },
+        {
+          "outcome_name": "comprehension check: B-player endowment",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "Same comprehension questions are described, but no numerical outcomes by this arm are provided anywhere in the text, tables, or figures."
+        },
+        {
+          "outcome_name": "comprehension check: number of A and B players",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "The fourth comprehension question is described (\u201cThe fourth question asked how many A players and B players there are.\u201d) but no statistics are broken out by the B\u2011player decision arm."
+        },
+        {
+          "outcome_name": "comprehension check: role understanding",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "The fifth comprehension question is described (\u201cThe fifth question asked participants to verify that they understood that for the first 9 decisions you should decide in the role of an A player.\u201d) but no arm\u2011specific results are reported."
+        }
+      ]
+    },
+    {
+      "arm_id": "dictator_game",
+      "arm_label": "Dictator Game",
+      "found": false,
+      "outcomes": [
+        {
+          "outcome_name": "prosocial choice",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "The dictator game is described (\u201cIn the very last decision, participants took part in a standard dictator game\u2026\u201d) and later used only for sample splits (e.g., \u201cparticipants who later gave a positive amount in a dictator game\u201d), but no numerical summary (mean transfer, proportion giving >0, etc.) is reported in tables or figures."
+        },
+        {
+          "outcome_name": "comprehension check: number of players in group",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "Comprehension checks pertain to the main A/B\u2011player group task; they are not reported separately for the dictator game arm, and no dictator\u2011specific comprehension statistics are given."
+        },
+        {
+          "outcome_name": "comprehension check: A-player endowment",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "The dictator game uses a different structure (100 cents to allocate between self and partner) and the paper does not report any comprehension\u2011check performance specific to this arm."
+        },
+        {
+          "outcome_name": "comprehension check: B-player endowment",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "No numerical results are provided that link comprehension of B\u2011player endowments to behavior in the dictator game; comprehension checks are only summarized globally (e.g., \u201c92.5 percent of participants\u2026correctly answered all five comprehension checks\u201d)."
+        },
+        {
+          "outcome_name": "comprehension check: number of A and B players",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "The paper does not break out comprehension performance by the dictator game condition; all such checks refer to the earlier group task and are not arm\u2011specific."
+        },
+        {
+          "outcome_name": "comprehension check: role understanding",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "Role\u2011understanding comprehension is only discussed in aggregate (\u201cwe limit analysis to the 92.5 percent of participants who correctly answered all five comprehension checks\u201d) and never tied numerically to the dictator game arm."
+        }
+      ]
+    }
+  ],
+  "174__g2_low_risks_for_children_g3_facts_on_peak_deaths_g5_analysis_of_low_school_risks_g6_pro_mask_study_g7_safe_travel_case_study_g8_high_hospitalizations_g9_jobless_rate": [
+    {
+      "arm_id": "g2_low_risks_for_children",
+      "arm_label": "G2. Low risks for children",
+      "found": true,
+      "outcomes": [
+        {
+          "outcome_name": "Providing in-person schooling for K-12 students",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": 0.615,
+          "sd": null,
+          "se": null,
+          "evidence": "Supplemental Table 1. Mean outcomes by experimental group: \"Providing in-person schooling for K-12 students 66.2% 61.5% 56.4% 50.5% 64.4% 60.6% 60.1% 56.1% 61.4%\" (second column corresponds to G2. Low risks for children, 61.5%)."
+        },
+        {
+          "outcome_name": "Providing in-person schooling for college students",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": 0.578,
+          "sd": null,
+          "se": null,
+          "evidence": "Supplemental Table 1: \"Providing in-person schooling for college students 60.3% 57.8% 55.6% 47.6% 56.7% 55.0% 56.5% 51.6% 56.9%\" (G2 = 57.8%)."
+        },
+        {
+          "outcome_name": "Allowing indoor dining at restaurants",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": 0.494,
+          "sd": null,
+          "se": null,
+          "evidence": "Supplemental Table 1: \"Allowing indoor dining at restaurants 51.2% 49.4% 50.3% 43.8% 47.7% 51.0% 50.3% 45.8% 51.4%\" (G2 = 49.4%)."
+        },
+        {
+          "outcome_name": "Allowing indoor seating at bars",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": 0.394,
+          "sd": null,
+          "se": null,
+          "evidence": "Supplemental Table 1: \"Allowing indoor seating at bars 44.0% 39.4% 44.6% 34.8% 40.9% 41.0% 41.5% 39.7% 39.3%\" (G2 = 39.4%)."
+        },
+        {
+          "outcome_name": "Requiring people to wear masks in indoor public spaces",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": 0.857,
+          "sd": null,
+          "se": null,
+          "evidence": "Supplemental Table 1: \"Requiring people to wear masks in indoor public spaces 84.4% 85.7% 84.8% 86.1% 84.2% 82.3% 84.4% 85.7% 84.8%\" (G2 = 85.7%)."
+        },
+        {
+          "outcome_name": "Requiring workers to wear mask",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": 0.871,
+          "sd": null,
+          "se": null,
+          "evidence": "Supplemental Table 1: \"Requiring workers to wear mask 85.2% 87.1% 86.7% 84.7% 85.5% 85.5% 86.9% 87.7% 86.1%\" (G2 = 87.1%)."
+        },
+        {
+          "outcome_name": "Requiring non-essential businesses to close in-person operations",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": 0.542,
+          "sd": null,
+          "se": null,
+          "evidence": "Supplemental Table 1: \"Requiring non-essential businesses to close in-person operations 47.9% 54.2% 51.8% 55.1% 51.5% 48.4% 51.4% 57.1% 51.7%\" (G2 = 54.2%)."
+        },
+        {
+          "outcome_name": "Prohibiting large indoor social gatherings",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": 0.785,
+          "sd": null,
+          "se": null,
+          "evidence": "Supplemental Table 1: \"Prohibiting large indoor social gatherings 74.5% 78.5% 73.5% 72.3% 74.6% 74.1% 75.2% 78.7% 73.6%\" (G2 = 78.5%)."
+        },
+        {
+          "outcome_name": "Eat at a restaurant",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": 0.443,
+          "sd": null,
+          "se": null,
+          "evidence": "Supplemental Table 1: \"Eat at a restaurant 51.0% 44.3% 46.7% 39.5% 50.5% 42.9% 45.5% 43.8% 47.0%\" (G2 = 44.3%)."
+        },
+        {
+          "outcome_name": "Book a flight for personal travel",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": 0.198,
+          "sd": null,
+          "se": null,
+          "evidence": "Supplemental Table 1: \"Book a flight for personal travel 25.2% 19.8% 23.0% 18.5% 25.3% 23.4% 24.9% 21.6% 24.3%\" (G2 = 19.8%)."
+        },
+        {
+          "outcome_name": "Book a flight for business travel",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": 0.149,
+          "sd": null,
+          "se": null,
+          "evidence": "Supplemental Table 1: \"Book a flight for business travel 18.4% 14.9% 17.8% 13.6% 16.2% 15.9% 17.4% 16.4% 19.0%\" (G2 = 14.9%)."
+        },
+        {
+          "outcome_name": "Book a hotel room or vacation rental",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": 0.234,
+          "sd": null,
+          "se": null,
+          "evidence": "Supplemental Table 1: \"Book a hotel room or vacation rental 28.2% 23.4% 28.4% 24.1% 27.4% 25.3% 28.9% 24.4% 30.4%\" (G2 = 23.4%)."
+        },
+        {
+          "outcome_name": "Believe the coronavirus is under control in your state",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": 0.258,
+          "sd": null,
+          "se": null,
+          "evidence": "Supplemental Table 1: \"Believe the coronavirus is under control in your state 26.7% 25.8% 24.5% 25.8% 20.6% 25.0% 24.7% 22.1% 26.3%\" (G2 = 25.8%)."
+        },
+        {
+          "outcome_name": "Confidence in safety from COVID",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": 0.208,
+          "sd": null,
+          "se": null,
+          "evidence": "Supplemental Table 1: \"Confidence in safety from COVID (4 on 1-4 scale) 24.0% 20.8% 22.9% 23.1% 20.7% 20.9% 18.3% 23.4% 24.3%\" (G2 = 20.8%)."
+        },
+        {
+          "outcome_name": "Agree to be vaccinated in Spring 2021 with COVID vaccine",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": 0.532,
+          "sd": null,
+          "se": null,
+          "evidence": "Supplemental Table 1: \"Agree to be vaccinated in Spring 2021 with COVID vaccine 51.8% 53.2% 52.5% 55.0% 50.4% 49.1% 51.4% 51.3% 55.5%\" (G2 = 53.2%)."
+        }
+      ]
+    },
+    {
+      "arm_id": "g3_facts_on_peak_deaths",
+      "arm_label": "G3. Facts on peak deaths",
+      "found": true,
+      "outcomes": [
+        {
+          "outcome_name": "Providing in-person schooling for K-12 students",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": 0.564,
+          "sd": null,
+          "se": null,
+          "evidence": "Supplemental Table 1: row \"Providing in-person schooling for K-12 students\" shows third entry 56.4% for G3. Facts on peak deaths."
+        },
+        {
+          "outcome_name": "Providing in-person schooling for college students",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": 0.556,
+          "sd": null,
+          "se": null,
+          "evidence": "Supplemental Table 1: \"Providing in-person schooling for college students 60.3% 57.8% 55.6% 47.6% ...\" (G3 = 55.6%)."
+        },
+        {
+          "outcome_name": "Allowing indoor dining at restaurants",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": 0.503,
+          "sd": null,
+          "se": null,
+          "evidence": "Supplemental Table 1: \"Allowing indoor dining at restaurants 51.2% 49.4% 50.3% 43.8% ...\" (G3 = 50.3%)."
+        },
+        {
+          "outcome_name": "Allowing indoor seating at bars",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": 0.446,
+          "sd": null,
+          "se": null,
+          "evidence": "Supplemental Table 1: \"Allowing indoor seating at bars 44.0% 39.4% 44.6% 34.8% ...\" (G3 = 44.6%)."
+        },
+        {
+          "outcome_name": "Requiring people to wear masks in indoor public spaces",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": 0.848,
+          "sd": null,
+          "se": null,
+          "evidence": "Supplemental Table 1: \"Requiring people to wear masks in indoor public spaces 84.4% 85.7% 84.8% 86.1% ...\" (G3 = 84.8%)."
+        },
+        {
+          "outcome_name": "Requiring workers to wear mask",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": 0.867,
+          "sd": null,
+          "se": null,
+          "evidence": "Supplemental Table 1: \"Requiring workers to wear mask 85.2% 87.1% 86.7% 84.7% ...\" (G3 = 86.7%)."
+        },
+        {
+          "outcome_name": "Requiring non-essential businesses to close in-person operations",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": 0.518,
+          "sd": null,
+          "se": null,
+          "evidence": "Supplemental Table 1: \"Requiring non-essential businesses to close in-person operations 47.9% 54.2% 51.8% 55.1% ...\" (G3 = 51.8%)."
+        },
+        {
+          "outcome_name": "Prohibiting large indoor social gatherings",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": 0.735,
+          "sd": null,
+          "se": null,
+          "evidence": "Supplemental Table 1: \"Prohibiting large indoor social gatherings 74.5% 78.5% 73.5% 72.3% ...\" (G3 = 73.5%)."
+        },
+        {
+          "outcome_name": "Eat at a restaurant",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": 0.467,
+          "sd": null,
+          "se": null,
+          "evidence": "Supplemental Table 1: \"Eat at a restaurant 51.0% 44.3% 46.7% 39.5% ...\" (G3 = 46.7%)."
+        },
+        {
+          "outcome_name": "Book a flight for personal travel",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": 0.23,
+          "sd": null,
+          "se": null,
+          "evidence": "Supplemental Table 1: \"Book a flight for personal travel 25.2% 19.8% 23.0% 18.5% ...\" (G3 = 23.0%)."
+        },
+        {
+          "outcome_name": "Book a flight for business travel",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": 0.178,
+          "sd": null,
+          "se": null,
+          "evidence": "Supplemental Table 1: \"Book a flight for business travel 18.4% 14.9% 17.8% 13.6% ...\" (G3 = 17.8%)."
+        },
+        {
+          "outcome_name": "Book a hotel room or vacation rental",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": 0.284,
+          "sd": null,
+          "se": null,
+          "evidence": "Supplemental Table 1: \"Book a hotel room or vacation rental 28.2% 23.4% 28.4% 24.1% ...\" (G3 = 28.4%)."
+        },
+        {
+          "outcome_name": "Believe the coronavirus is under control in your state",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": 0.245,
+          "sd": null,
+          "se": null,
+          "evidence": "Supplemental Table 1: \"Believe the coronavirus is under control in your state 26.7% 25.8% 24.5% 25.8% ...\" (G3 = 24.5%)."
+        },
+        {
+          "outcome_name": "Confidence in safety from COVID",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": 0.229,
+          "sd": null,
+          "se": null,
+          "evidence": "Supplemental Table 1: \"Confidence in safety from COVID (4 on 1-4 scale) 24.0% 20.8% 22.9% 23.1% ...\" (G3 = 22.9%)."
+        },
+        {
+          "outcome_name": "Agree to be vaccinated in Spring 2021 with COVID vaccine",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": 0.525,
+          "sd": null,
+          "se": null,
+          "evidence": "Supplemental Table 1: \"Agree to be vaccinated in Spring 2021 with COVID vaccine 51.8% 53.2% 52.5% 55.0% ...\" (G3 = 52.5%)."
+        }
+      ]
+    },
+    {
+      "arm_id": "g5_analysis_of_low_school_risks",
+      "arm_label": "G5. Analysis of low school risks",
+      "found": true,
+      "outcomes": [
+        {
+          "outcome_name": "Providing in-person schooling for K-12 students",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": 0.644,
+          "sd": null,
+          "se": null,
+          "evidence": "Supplemental Table 1: \"Providing in-person schooling for K-12 students 66.2% 61.5% 56.4% 50.5% 64.4% 60.6% 60.1% 56.1% 61.4%\" (G5 = 64.4%)."
+        },
+        {
+          "outcome_name": "Providing in-person schooling for college students",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": 0.567,
+          "sd": null,
+          "se": null,
+          "evidence": "Supplemental Table 1: \"Providing in-person schooling for college students ... 56.7% ...\" (fifth entry G5 = 56.7%)."
+        },
+        {
+          "outcome_name": "Allowing indoor dining at restaurants",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": 0.477,
+          "sd": null,
+          "se": null,
+          "evidence": "Supplemental Table 1: \"Allowing indoor dining at restaurants ... 47.7% ...\" (G5)."
+        },
+        {
+          "outcome_name": "Allowing indoor seating at bars",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": 0.409,
+          "sd": null,
+          "se": null,
+          "evidence": "Supplemental Table 1: \"Allowing indoor seating at bars ... 40.9% ...\" (G5)."
+        },
+        {
+          "outcome_name": "Requiring people to wear masks in indoor public spaces",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": 0.842,
+          "sd": null,
+          "se": null,
+          "evidence": "Supplemental Table 1: \"Requiring people to wear masks in indoor public spaces ... 84.2% ...\" (G5)."
+        },
+        {
+          "outcome_name": "Requiring workers to wear mask",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": 0.855,
+          "sd": null,
+          "se": null,
+          "evidence": "Supplemental Table 1: \"Requiring workers to wear mask ... 85.5% ...\" (G5)."
+        },
+        {
+          "outcome_name": "Requiring non-essential businesses to close in-person operations",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": 0.515,
+          "sd": null,
+          "se": null,
+          "evidence": "Supplemental Table 1: \"Requiring non-essential businesses to close in-person operations ... 51.5% ...\" (G5)."
+        },
+        {
+          "outcome_name": "Prohibiting large indoor social gatherings",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": 0.746,
+          "sd": null,
+          "se": null,
+          "evidence": "Supplemental Table 1: \"Prohibiting large indoor social gatherings ... 74.6% ...\" (G5)."
+        },
+        {
+          "outcome_name": "Eat at a restaurant",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": 0.505,
+          "sd": null,
+          "se": null,
+          "evidence": "Supplemental Table 1: \"Eat at a restaurant ... 50.5% ...\" (G5)."
+        },
+        {
+          "outcome_name": "Book a flight for personal travel",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": 0.253,
+          "sd": null,
+          "se": null,
+          "evidence": "Supplemental Table 1: \"Book a flight for personal travel ... 25.3% ...\" (G5)."
+        },
+        {
+          "outcome_name": "Book a flight for business travel",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": 0.162,
+          "sd": null,
+          "se": null,
+          "evidence": "Supplemental Table 1: \"Book a flight for business travel ... 16.2% ...\" (G5)."
+        },
+        {
+          "outcome_name": "Book a hotel room or vacation rental",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": 0.274,
+          "sd": null,
+          "se": null,
+          "evidence": "Supplemental Table 1: \"Book a hotel room or vacation rental ... 27.4% ...\" (G5)."
+        },
+        {
+          "outcome_name": "Believe the coronavirus is under control in your state",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": 0.206,
+          "sd": null,
+          "se": null,
+          "evidence": "Supplemental Table 1: \"Believe the coronavirus is under control in your state ... 20.6% ...\" (G5)."
+        },
+        {
+          "outcome_name": "Confidence in safety from COVID",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": 0.207,
+          "sd": null,
+          "se": null,
+          "evidence": "Supplemental Table 1: \"Confidence in safety from COVID (4 on 1-4 scale) ... 20.7% ...\" (G5)."
+        },
+        {
+          "outcome_name": "Agree to be vaccinated in Spring 2021 with COVID vaccine",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": 0.504,
+          "sd": null,
+          "se": null,
+          "evidence": "Supplemental Table 1: \"Agree to be vaccinated in Spring 2021 with COVID vaccine ... 50.4% ...\" (G5)."
+        }
+      ]
+    },
+    {
+      "arm_id": "g6_pro_mask_study",
+      "arm_label": "G6. Pro-mask study",
+      "found": true,
+      "outcomes": [
+        {
+          "outcome_name": "Providing in-person schooling for K-12 students",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": 0.606,
+          "sd": null,
+          "se": null,
+          "evidence": "Supplemental Table 1: row \"Providing in-person schooling for K-12 students\" sixth entry 60.6% for G6. Pro-mask study."
+        },
+        {
+          "outcome_name": "Providing in-person schooling for college students",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": 0.55,
+          "sd": null,
+          "se": null,
+          "evidence": "Supplemental Table 1: \"Providing in-person schooling for college students ... 55.0% ...\" (G6)."
+        },
+        {
+          "outcome_name": "Allowing indoor dining at restaurants",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": 0.51,
+          "sd": null,
+          "se": null,
+          "evidence": "Supplemental Table 1: \"Allowing indoor dining at restaurants ... 51.0% ...\" (G6)."
+        },
+        {
+          "outcome_name": "Allowing indoor seating at bars",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": 0.41,
+          "sd": null,
+          "se": null,
+          "evidence": "Supplemental Table 1: \"Allowing indoor seating at bars ... 41.0% ...\" (G6)."
+        },
+        {
+          "outcome_name": "Requiring people to wear masks in indoor public spaces",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": 0.823,
+          "sd": null,
+          "se": null,
+          "evidence": "Supplemental Table 1: \"Requiring people to wear masks in indoor public spaces ... 82.3% ...\" (G6)."
+        },
+        {
+          "outcome_name": "Requiring workers to wear mask",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": 0.855,
+          "sd": null,
+          "se": null,
+          "evidence": "Supplemental Table 1: \"Requiring workers to wear mask ... 85.5% ...\" (G6)."
+        },
+        {
+          "outcome_name": "Requiring non-essential businesses to close in-person operations",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": 0.484,
+          "sd": null,
+          "se": null,
+          "evidence": "Supplemental Table 1: \"Requiring non-essential businesses to close in-person operations ... 48.4% ...\" (G6)."
+        },
+        {
+          "outcome_name": "Prohibiting large indoor social gatherings",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": 0.741,
+          "sd": null,
+          "se": null,
+          "evidence": "Supplemental Table 1: \"Prohibiting large indoor social gatherings ... 74.1% ...\" (G6)."
+        },
+        {
+          "outcome_name": "Eat at a restaurant",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": 0.429,
+          "sd": null,
+          "se": null,
+          "evidence": "Supplemental Table 1: \"Eat at a restaurant ... 42.9% ...\" (G6)."
+        },
+        {
+          "outcome_name": "Book a flight for personal travel",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": 0.234,
+          "sd": null,
+          "se": null,
+          "evidence": "Supplemental Table 1: \"Book a flight for personal travel ... 23.4% ...\" (G6)."
+        },
+        {
+          "outcome_name": "Book a flight for business travel",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": 0.159,
+          "sd": null,
+          "se": null,
+          "evidence": "Supplemental Table 1: \"Book a flight for business travel ... 15.9% ...\" (G6)."
+        },
+        {
+          "outcome_name": "Book a hotel room or vacation rental",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": 0.253,
+          "sd": null,
+          "se": null,
+          "evidence": "Supplemental Table 1: \"Book a hotel room or vacation rental ... 25.3% ...\" (G6)."
+        },
+        {
+          "outcome_name": "Believe the coronavirus is under control in your state",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": 0.25,
+          "sd": null,
+          "se": null,
+          "evidence": "Supplemental Table 1: \"Believe the coronavirus is under control in your state ... 25.0% ...\" (G6)."
+        },
+        {
+          "outcome_name": "Confidence in safety from COVID",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": 0.209,
+          "sd": null,
+          "se": null,
+          "evidence": "Supplemental Table 1: \"Confidence in safety from COVID (4 on 1-4 scale) ... 20.9% ...\" (G6)."
+        },
+        {
+          "outcome_name": "Agree to be vaccinated in Spring 2021 with COVID vaccine",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": 0.491,
+          "sd": null,
+          "se": null,
+          "evidence": "Supplemental Table 1: \"Agree to be vaccinated in Spring 2021 with COVID vaccine ... 49.1% ...\" (G6)."
+        }
+      ]
+    },
+    {
+      "arm_id": "g7_safe_travel_case_study",
+      "arm_label": "G7. Safe travel case study",
+      "found": true,
+      "outcomes": [
+        {
+          "outcome_name": "Providing in-person schooling for K-12 students",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": 0.601,
+          "sd": null,
+          "se": null,
+          "evidence": "Supplemental Table 1: row \"Providing in-person schooling for K-12 students\" seventh entry 60.1% for G7. Safe travel case study."
+        },
+        {
+          "outcome_name": "Providing in-person schooling for college students",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": 0.565,
+          "sd": null,
+          "se": null,
+          "evidence": "Supplemental Table 1: \"Providing in-person schooling for college students ... 56.5% ...\" (G7)."
+        },
+        {
+          "outcome_name": "Allowing indoor dining at restaurants",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": 0.503,
+          "sd": null,
+          "se": null,
+          "evidence": "Supplemental Table 1: \"Allowing indoor dining at restaurants ... 50.3% ...\" (G7)."
+        },
+        {
+          "outcome_name": "Allowing indoor seating at bars",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": 0.415,
+          "sd": null,
+          "se": null,
+          "evidence": "Supplemental Table 1: \"Allowing indoor seating at bars ... 41.5% ...\" (G7)."
+        },
+        {
+          "outcome_name": "Requiring people to wear masks in indoor public spaces",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": 0.844,
+          "sd": null,
+          "se": null,
+          "evidence": "Supplemental Table 1: \"Requiring people to wear masks in indoor public spaces ... 84.4% ...\" (G7)."
+        },
+        {
+          "outcome_name": "Requiring workers to wear mask",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": 0.869,
+          "sd": null,
+          "se": null,
+          "evidence": "Supplemental Table 1: \"Requiring workers to wear mask ... 86.9% ...\" (G7)."
+        },
+        {
+          "outcome_name": "Requiring non-essential businesses to close in-person operations",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": 0.514,
+          "sd": null,
+          "se": null,
+          "evidence": "Supplemental Table 1: \"Requiring non-essential businesses to close in-person operations ... 51.4% ...\" (G7)."
+        },
+        {
+          "outcome_name": "Prohibiting large indoor social gatherings",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": 0.752,
+          "sd": null,
+          "se": null,
+          "evidence": "Supplemental Table 1: \"Prohibiting large indoor social gatherings ... 75.2% ...\" (G7)."
+        },
+        {
+          "outcome_name": "Eat at a restaurant",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": 0.455,
+          "sd": null,
+          "se": null,
+          "evidence": "Supplemental Table 1: \"Eat at a restaurant ... 45.5% ...\" (G7)."
+        },
+        {
+          "outcome_name": "Book a flight for personal travel",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": 0.249,
+          "sd": null,
+          "se": null,
+          "evidence": "Supplemental Table 1: \"Book a flight for personal travel ... 24.9% ...\" (G7)."
+        },
+        {
+          "outcome_name": "Book a flight for business travel",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": 0.174,
+          "sd": null,
+          "se": null,
+          "evidence": "Supplemental Table 1: \"Book a flight for business travel ... 17.4% ...\" (G7)."
+        },
+        {
+          "outcome_name": "Book a hotel room or vacation rental",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": 0.289,
+          "sd": null,
+          "se": null,
+          "evidence": "Supplemental Table 1: \"Book a hotel room or vacation rental ... 28.9% ...\" (G7)."
+        },
+        {
+          "outcome_name": "Believe the coronavirus is under control in your state",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": 0.247,
+          "sd": null,
+          "se": null,
+          "evidence": "Supplemental Table 1: \"Believe the coronavirus is under control in your state ... 24.7% ...\" (G7)."
+        },
+        {
+          "outcome_name": "Confidence in safety from COVID",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": 0.183,
+          "sd": null,
+          "se": null,
+          "evidence": "Supplemental Table 1: \"Confidence in safety from COVID (4 on 1-4 scale) ... 18.3% ...\" (G7)."
+        },
+        {
+          "outcome_name": "Agree to be vaccinated in Spring 2021 with COVID vaccine",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": 0.514,
+          "sd": null,
+          "se": null,
+          "evidence": "Supplemental Table 1: \"Agree to be vaccinated in Spring 2021 with COVID vaccine ... 51.4% ...\" (G7)."
+        }
+      ]
+    },
+    {
+      "arm_id": "g8_high_hospitalizations",
+      "arm_label": "G8. High hospitalizations",
+      "found": true,
+      "outcomes": [
+        {
+          "outcome_name": "Providing in-person schooling for K-12 students",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": 0.561,
+          "sd": null,
+          "se": null,
+          "evidence": "Supplemental Table 1: row \"Providing in-person schooling for K-12 students\" eighth entry 56.1% for G8. High hospitalizations."
+        },
+        {
+          "outcome_name": "Providing in-person schooling for college students",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": 0.516,
+          "sd": null,
+          "se": null,
+          "evidence": "Supplemental Table 1: \"Providing in-person schooling for college students ... 51.6% ...\" (G8)."
+        },
+        {
+          "outcome_name": "Allowing indoor dining at restaurants",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": 0.458,
+          "sd": null,
+          "se": null,
+          "evidence": "Supplemental Table 1: \"Allowing indoor dining at restaurants ... 45.8% ...\" (G8)."
+        },
+        {
+          "outcome_name": "Allowing indoor seating at bars",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": 0.397,
+          "sd": null,
+          "se": null,
+          "evidence": "Supplemental Table 1: \"Allowing indoor seating at bars ... 39.7% ...\" (G8)."
+        },
+        {
+          "outcome_name": "Requiring people to wear masks in indoor public spaces",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": 0.857,
+          "sd": null,
+          "se": null,
+          "evidence": "Supplemental Table 1: \"Requiring people to wear masks in indoor public spaces ... 85.7% ...\" (G8)."
+        },
+        {
+          "outcome_name": "Requiring workers to wear mask",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": 0.877,
+          "sd": null,
+          "se": null,
+          "evidence": "Supplemental Table 1: \"Requiring workers to wear mask ... 87.7% ...\" (G8)."
+        },
+        {
+          "outcome_name": "Requiring non-essential businesses to close in-person operations",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": 0.571,
+          "sd": null,
+          "se": null,
+          "evidence": "Supplemental Table 1: \"Requiring non-essential businesses to close in-person operations ... 57.1% ...\" (G8)."
+        },
+        {
+          "outcome_name": "Prohibiting large indoor social gatherings",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": 0.787,
+          "sd": null,
+          "se": null,
+          "evidence": "Supplemental Table 1: \"Prohibiting large indoor social gatherings ... 78.7% ...\" (G8)."
+        },
+        {
+          "outcome_name": "Eat at a restaurant",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": 0.438,
+          "sd": null,
+          "se": null,
+          "evidence": "Supplemental Table 1: \"Eat at a restaurant ... 43.8% ...\" (G8)."
+        },
+        {
+          "outcome_name": "Book a flight for personal travel",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": 0.216,
+          "sd": null,
+          "se": null,
+          "evidence": "Supplemental Table 1: \"Book a flight for personal travel ... 21.6% ...\" (G8)."
+        },
+        {
+          "outcome_name": "Book a flight for business travel",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": 0.164,
+          "sd": null,
+          "se": null,
+          "evidence": "Supplemental Table 1: \"Book a flight for business travel ... 16.4% ...\" (G8)."
+        },
+        {
+          "outcome_name": "Book a hotel room or vacation rental",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": 0.244,
+          "sd": null,
+          "se": null,
+          "evidence": "Supplemental Table 1: \"Book a hotel room or vacation rental ... 24.4% ...\" (G8)."
+        },
+        {
+          "outcome_name": "Believe the coronavirus is under control in your state",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": 0.221,
+          "sd": null,
+          "se": null,
+          "evidence": "Supplemental Table 1: \"Believe the coronavirus is under control in your state ... 22.1% ...\" (G8)."
+        },
+        {
+          "outcome_name": "Confidence in safety from COVID",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": 0.234,
+          "sd": null,
+          "se": null,
+          "evidence": "Supplemental Table 1: \"Confidence in safety from COVID (4 on 1-4 scale) ... 23.4% ...\" (G8)."
+        },
+        {
+          "outcome_name": "Agree to be vaccinated in Spring 2021 with COVID vaccine",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": 0.513,
+          "sd": null,
+          "se": null,
+          "evidence": "Supplemental Table 1: \"Agree to be vaccinated in Spring 2021 with COVID vaccine ... 51.3% ...\" (G8)."
+        }
+      ]
+    },
+    {
+      "arm_id": "g9_jobless_rate",
+      "arm_label": "G9. Jobless rate",
+      "found": true,
+      "outcomes": [
+        {
+          "outcome_name": "Providing in-person schooling for K-12 students",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": 0.614,
+          "sd": null,
+          "se": null,
+          "evidence": "Supplemental Table 1: row \"Providing in-person schooling for K-12 students\" ninth entry 61.4% for G9. Jobless rate."
+        },
+        {
+          "outcome_name": "Providing in-person schooling for college students",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": 0.569,
+          "sd": null,
+          "se": null,
+          "evidence": "Supplemental Table 1: \"Providing in-person schooling for college students ... 56.9%\" (G9)."
+        },
+        {
+          "outcome_name": "Allowing indoor dining at restaurants",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": 0.514,
+          "sd": null,
+          "se": null,
+          "evidence": "Supplemental Table 1: \"Allowing indoor dining at restaurants ... 51.4%\" (G9)."
+        },
+        {
+          "outcome_name": "Allowing indoor seating at bars",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": 0.393,
+          "sd": null,
+          "se": null,
+          "evidence": "Supplemental Table 1: \"Allowing indoor seating at bars ... 39.3%\" (G9)."
+        },
+        {
+          "outcome_name": "Requiring people to wear masks in indoor public spaces",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": 0.848,
+          "sd": null,
+          "se": null,
+          "evidence": "Supplemental Table 1: \"Requiring people to wear masks in indoor public spaces ... 84.8%\" (G9)."
+        },
+        {
+          "outcome_name": "Requiring workers to wear mask",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": 0.861,
+          "sd": null,
+          "se": null,
+          "evidence": "Supplemental Table 1: \"Requiring workers to wear mask ... 86.1%\" (G9)."
+        },
+        {
+          "outcome_name": "Requiring non-essential businesses to close in-person operations",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": 0.517,
+          "sd": null,
+          "se": null,
+          "evidence": "Supplemental Table 1: \"Requiring non-essential businesses to close in-person operations ... 51.7%\" (G9)."
+        },
+        {
+          "outcome_name": "Prohibiting large indoor social gatherings",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": 0.736,
+          "sd": null,
+          "se": null,
+          "evidence": "Supplemental Table 1: \"Prohibiting large indoor social gatherings ... 73.6%\" (G9)."
+        },
+        {
+          "outcome_name": "Eat at a restaurant",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": 0.47,
+          "sd": null,
+          "se": null,
+          "evidence": "Supplemental Table 1: \"Eat at a restaurant ... 47.0%\" (G9)."
+        },
+        {
+          "outcome_name": "Book a flight for personal travel",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": 0.243,
+          "sd": null,
+          "se": null,
+          "evidence": "Supplemental Table 1: \"Book a flight for personal travel ... 24.3%\" (G9)."
+        },
+        {
+          "outcome_name": "Book a flight for business travel",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": 0.19,
+          "sd": null,
+          "se": null,
+          "evidence": "Supplemental Table 1: \"Book a flight for business travel ... 19.0%\" (G9)."
+        },
+        {
+          "outcome_name": "Book a hotel room or vacation rental",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": 0.304,
+          "sd": null,
+          "se": null,
+          "evidence": "Supplemental Table 1: \"Book a hotel room or vacation rental ... 30.4%\" (G9)."
+        },
+        {
+          "outcome_name": "Believe the coronavirus is under control in your state",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": 0.263,
+          "sd": null,
+          "se": null,
+          "evidence": "Supplemental Table 1: \"Believe the coronavirus is under control in your state ... 26.3%\" (G9)."
+        },
+        {
+          "outcome_name": "Confidence in safety from COVID",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": 0.243,
+          "sd": null,
+          "se": null,
+          "evidence": "Supplemental Table 1: \"Confidence in safety from COVID (4 on 1-4 scale) ... 24.3%\" (G9)."
+        },
+        {
+          "outcome_name": "Agree to be vaccinated in Spring 2021 with COVID vaccine",
+          "n_analyzed": null,
+          "metric": "proportion",
+          "value": 0.555,
+          "sd": null,
+          "se": null,
+          "evidence": "Supplemental Table 1: \"Agree to be vaccinated in Spring 2021 with COVID vaccine ... 55.5%\" (G9)."
+        }
+      ]
+    }
+  ],
+  "178__high_inflation_treatment_low_inflation_treatment_affect_instruction_consequence_instruction_no_instruction": [
+    {
+      "arm_id": "high_inflation_treatment",
+      "arm_label": "high inflation treatment",
+      "found": false,
+      "outcomes": [],
+      "evidence": "The paper reports results only by treatment contrast (\"high\" vs \"low\" inflation information) and by attention subgroups, not as separate numerical summaries for the high inflation treatment arm alone. No table or figure provides arm-specific means, Ns, or dispersions for the listed outcomes."
+    },
+    {
+      "arm_id": "low_inflation_treatment",
+      "arm_label": "low inflation treatment",
+      "found": false,
+      "outcomes": [],
+      "evidence": "Similarly, the low inflation information group is only used as part of the randomized contrast and as an instrument in regressions. The paper does not report standalone descriptive statistics or outcome means for the low inflation treatment arm."
+    },
+    {
+      "arm_id": "affect_instruction",
+      "arm_label": "Affect instruction",
+      "found": false,
+      "outcomes": [],
+      "evidence": "In the second survey, the affect instruction is used to form groups (\"Affect (Group1)\", \"Affect (Group4)\") in regressions (Tables 7 and 8), but only regression coefficients relative to the no-instruction group are reported. No arm-specific means, Ns, or SDs for the listed outcomes are provided for the affect instruction arm."
+    },
+    {
+      "arm_id": "consequence_instruction",
+      "arm_label": "Consequence instruction",
+      "found": false,
+      "outcomes": [],
+      "evidence": "The consequence instruction groups (\"Consequence (Group2)\", \"Consequence (Group5)\") appear in Tables 7 and 8 only as regression indicators with coefficients for unemployment expectation revision and time spent. The paper does not report raw outcome means or dispersions by this arm for any of the specified outcomes."
+    },
+    {
+      "arm_id": "no_instruction",
+      "arm_label": "No instruction",
+      "found": false,
+      "outcomes": [],
+      "evidence": "The no-instruction (NI) groups are used as baselines in regressions (e.g., Table 7: \"NI group 2.297***\" and \"5.248***\" for unemployment expectation revision; Table 8 for time spent), but these are regression intercepts, not reported as arm-level descriptive statistics for the outcomes listed in the request. No table provides NI-group-specific means, Ns, or SDs for those outcomes."
+    }
+  ],
+  "183__ai_written_informed": [
+    {
+      "arm_id": "ai_written_informed",
+      "arm_label": "AI-written (informed)",
+      "found": false,
+      "outcomes": [
+        {
+          "outcome_name": "authorship_guess / attention check or belief elicitation",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "The paper describes that in the informed treatments, participants were told the authorship and the authorship question served as an attention check, but no numerical results (e.g., proportions correct) are reported separately for the AI-written (informed) arm."
+        },
+        {
+          "outcome_name": "trust / fact-check choice",
+          "n_analyzed": null,
+          "metric": null,
+          "value": null,
+          "sd": null,
+          "se": null,
+          "evidence": "Results are reported either pooled across informed treatments or via regression coefficients (e.g., Table 4, Fig. 2a), but there are no arm-specific numerical statistics (such as the distribution of trust choices) given separately for the AI-written (informed) condition."
+        }
+      ]
+    }
+  ]
+}
