@@ -28,7 +28,7 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 DATA_DIR   = SCRIPT_DIR.parents[1] / "Data"
 
 # Default GT file is the clean aligned extraction; fall back to old file if needed.
-_DEFAULT_GT = "study_gt_v2.jsonl"
+_DEFAULT_GT = "study_enriched_aggregate.jsonl"
 
 MAPPING_PATH = DATA_DIR / "id_mapping.json"
 
@@ -45,7 +45,7 @@ args = parser.parse_args()
 
 ENRICHED = DATA_DIR / "Ground_Truth" / args.gt_file
 
-SIM_PATH = DATA_DIR / f"aggregate_simulation_raw_{args.config}.jsonl"
+SIM_PATH = DATA_DIR / "Simulation" / f"aggregate_simulation_raw_{args.config}.jsonl"
 OUT_CSV  = DATA_DIR / "Results" / f"aggregate_comparison_table_{args.config}.csv"
 OUT_TXT  = DATA_DIR / "Results" / f"aggregate_comparison_summary_{args.config}.txt"
 (DATA_DIR / "Results").mkdir(exist_ok=True)
@@ -88,7 +88,7 @@ def _slug_similarity(a: str, b: str) -> float:
 
 def _best_outcome_match(sim_outcome_id: str,
                         gt_outcome_ids: list[str],
-                        threshold: float = 0.60) -> tuple[str | None, float]:
+                        threshold: float = 0.35) -> tuple[str | None, float]:
     """Return the best-matching GT outcome slug and its similarity score,
     or (None, 0) if nothing clears the threshold."""
     best_slug, best_score = None, 0.0

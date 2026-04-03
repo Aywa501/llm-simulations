@@ -68,13 +68,69 @@ SYSTEM_PROMPT = (
 # Response parsers
 # ---------------------------------------------------------------------------
 
-def parse_binary(text: str) -> float | None:
+def universal_categorical_parse(text: str) -> float | None:
     t = text.strip().upper()
+    
+    # 1. Custom Semantic Mappings (Specific failure captures)
+    if "MESSAGE 1" in t: return 1.0
+    if "MESSAGE 2" in t: return 0.0
+    if "INCREASE" in t: return 1.0
+    if "DECREASE" in t: return 0.0
+    if "NEITHER" in t: return 0.5
+    if "INFLATION" in t: return 1.0
+    if "UNEMPLOYMENT" in t: return 0.0
+    if "FOR" in t.split() or "FOR." in t: return 1.0
+    if "AGAINST" in t.split() or "AGAINST." in t: return 0.0
+    
+    # Confidence / certainty labels (study 159 scale responses)
+    if "VERY SURE" in t: return 1.0
+    if "VERY UNSURE" in t: return 0.0
+    if t == "SURE" or "SURE." in t: return 0.75
+    if t == "UNSURE" or "UNSURE." in t: return 0.25
+    
+    # Engagement / extent labels (study 164 willingness_to_engage)
+    if t == "ALL" or t.startswith("ALL "): return 1.0
+    if t == "NONE" or t.startswith("NONE "): return 0.0
+    if "SOME" in t.split() or "SOME." in t: return 0.5
+    if "DON'T KNOW" in t or "DO NOT KNOW" in t: return 0.5
+    
+    # Reason views did not change (study 164)
+    if "ALREADY KNEW" in t or "ALREADY CONSIDERED" in t: return 1.0
+    if "DIDN'T FIND" in t or "NOT CONVINCING" in t or "UNCONVINCING" in t: return 0.0
+    if t == "OTHER" or t.startswith("OTHER"): return 0.5
+    
+    # Macro variable names (study 178 free-text topic choice)
+    if "INTEREST" in t: return 0.5
+    if "PRICE" in t: return 1.0
+    if "CONSUMPTION" in t: return 0.5
+    if "EMPLOYMENT" in t or "LABOR" in t or "LABOUR" in t: return 0.0
+    if "INCOME" in t or "WEALTH" in t: return 0.5
+    if "STOCK" in t or "HOUSING" in t: return 0.5
+    # Single-letter multiple-choice (C, D, E etc.)
+    if t in ("C", "D", "E", "F", "G"): return 0.5
+    
+    # 2. Exact Affirmatives / Negatives
     if t.startswith("YES"): return 1.0
     if t.startswith("NO"):  return 0.0
     if re.search(r'\bYES\b', t): return 1.0
     if re.search(r'\bNO\b',  t): return 0.0
+    
+    # 3. Broader Policy Matrices & A/B Flags
+    positive = r'\b(SUPPORT|FAVOR|AGREE|TRUE|ACCEPT|APPROVE|WILLING|1|A|OPTION A|JOB A)\b'
+    negative = r'\b(OPPOSE|PREFER THE CURRENT|DISAGREE|FALSE|REJECT|DISAPPROVE|UNWILLING|0|B|OPTION B|JOB B)\b'
+    
+    if re.search(positive, t): return 1.0
+    if re.search(negative, t): return 0.0
+    
+    # 4. Numeric fallback — if the text is just a bare number, return it
+    m = re.search(r'^[-+]?\d+\.?\d*$', t)
+    if m:
+        return float(m.group())
+    
     return None
+
+def parse_binary(text: str) -> float | None:
+    return universal_categorical_parse(text)
 
 def parse_percent(text: str) -> float | None:
     m = re.search(r"(\d+\.?\d*)\s*%", text)
@@ -100,20 +156,24 @@ def parse_integer(text: str) -> float | None:
     return float(int(m.group())) if m else None
 
 def parse_choice_ab(text: str) -> float | None:
-    t = text.strip().upper()
-    if t.startswith("A") or "JOB A" in t or "OPTION A" in t: return 1.0
-    if t.startswith("B") or "JOB B" in t or "OPTION B" in t: return 0.0
-    if re.search(r'\bA\b', t): return 1.0
-    if re.search(r'\bB\b', t): return 0.0
-    return None
+    val = universal_categorical_parse(text)
+    if val is not None:
+        return val
+    # numeric fallback for responses like '5', '7'
+    m = re.search(r'[-+]?\d+', text.strip())
+    return float(int(m.group())) if m else None
 
 def make_scale_parser(lo: float, hi: float):
-    """Return a parser clamped to [lo, hi]."""
+    """Return a parser clamped to [lo, hi]. Falls back to verbal labels."""
     def parser(text: str) -> float | None:
         m = re.search(r"[-+]?\d+\.?\d*", text.strip())
-        if not m:
-            return None
-        return max(lo, min(hi, float(m.group())))
+        if m:
+            return max(lo, min(hi, float(m.group())))
+        # Verbal confidence / certainty fallback mapped to the scale
+        val = universal_categorical_parse(text)
+        if val is not None:
+            return lo + val * (hi - lo)
+        return None
     return parser
 
 FIXED_PARSERS = {
@@ -123,6 +183,7 @@ FIXED_PARSERS = {
     "integer":    parse_integer,
     "choice":     parse_choice_ab,
     "choice_ab":  parse_choice_ab,
+    "other":      universal_categorical_parse,
     # dollar handled via scale parser at load time
 }
 
@@ -132,8 +193,13 @@ def resolve_parser(fmt: str, scale_min=None, scale_max=None):
         return FIXED_PARSERS[fmt]
     if fmt in ("scale", "dollar") and scale_min is not None and scale_max is not None:
         return make_scale_parser(float(scale_min), float(scale_max))
-    # generic numeric fallback
-    return parse_integer
+    # For scale without bounds, or unknown format: try categorical then numeric
+    def _flexible_parser(text: str) -> float | None:
+        val = universal_categorical_parse(text)
+        if val is not None:
+            return val
+        return parse_integer(text)
+    return _flexible_parser
 
 # ---------------------------------------------------------------------------
 # Load study configs from simulatable_studies.json
@@ -442,6 +508,9 @@ def download_batch(batch_id: str, cfg_name: str, study_configs: dict):
         parts  = r["custom_id"].split("__")
         seq_id = int(parts[0])
         out_id = parts[-2]
+        # Strip any appended duplicates so we map completely transparently
+        import re
+        out_id = re.sub(r"_dup\d+$", "", out_id)
         arm_id = "__".join(parts[1:-2])
 
         if r.get("error"):

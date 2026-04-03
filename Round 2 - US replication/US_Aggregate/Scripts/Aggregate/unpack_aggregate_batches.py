@@ -27,7 +27,7 @@ from simulate_aggregate import (
 )
 
 DATA_DIR     = SCRIPT_DIR.parents[1] / "Data"
-DEFAULT_INDIR = DATA_DIR / "Batch_Output"
+DEFAULT_INDIR = DATA_DIR / "Simulation" / "Batch_Output"
 
 # ---------------------------------------------------------------------------
 # Argument parsing
@@ -46,7 +46,7 @@ parser.add_argument(
 args = parser.parse_args()
 
 INPUT_DIR = Path(args.input_dir) if args.input_dir else DEFAULT_INDIR
-OUT_PATH  = DATA_DIR / f"aggregate_simulation_raw_{args.config}.jsonl"
+OUT_PATH  = DATA_DIR / "Simulation" / f"aggregate_simulation_raw_{args.config}.jsonl"
 
 # ---------------------------------------------------------------------------
 # Build outcome lookup: (seq_id, arm_id, outcome_id) -> outcome config
@@ -59,7 +59,12 @@ outcome_lookup: dict[tuple, dict] = {}
 for seq_id, config in study_configs.items():
     for outcome in config["outcomes"]:
         for arm_id in config["arms"]:
-            outcome_lookup[(seq_id, arm_id, outcome["id"])] = outcome
+            # Normalize: strip trailing underscores from slugs so they match
+            # the values extracted from custom_ids (where __ splitting can
+            # absorb trailing _ characters).
+            norm_arm = arm_id.strip("_")
+            norm_out = outcome["id"].strip("_")
+            outcome_lookup[(seq_id, norm_arm, norm_out)] = outcome
 
 # ---------------------------------------------------------------------------
 # Find batch output files
@@ -92,7 +97,13 @@ for batch_file in batch_files:
         parts  = r["custom_id"].split("__")
         seq_id = int(parts[0])
         out_id = parts[-2]          # second-to-last
+        # Strip any deduplication suffix so we perfectly mirror the lookup dictionary natively
+        import re
+        out_id = re.sub(r"_dup\d+$", "", out_id)
+        # Strip leading/trailing underscores that arise from triple-underscore splits
+        out_id = out_id.strip("_") or out_id
         arm_id = "__".join(parts[1:-2])  # everything between seq_id and out_id
+        arm_id = arm_id.strip("_") or arm_id  # normalize to match lookup keys
 
         if r.get("error"):
             records.append({
