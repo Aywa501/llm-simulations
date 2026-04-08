@@ -22,6 +22,7 @@ import argparse, csv, json
 from collections import defaultdict
 from difflib import SequenceMatcher
 from pathlib import Path
+import numpy as np
 from scipy import stats
 
 SCRIPT_DIR = Path(__file__).resolve().parent
@@ -275,6 +276,39 @@ def build_rows(sim_sums, gt, labels, gt_outcome_ids) -> list[dict]:
 
     return rows
 
+
+def add_normalized_columns(rows: list[dict]) -> list[dict]:
+    """Add human_norm / llm_norm (within-study z-score) to comparable rows.
+
+    For each study, z-scores its human_mean and llm_mean vectors independently
+    so that cross-study scale differences do not dominate the aggregate
+    correlation.  Rows with n < 2 comparable pairs, or where either vector has
+    zero variance, receive None so they are excluded from normalized stats.
+    """
+    # Initialize columns on every row
+    for r in rows:
+        r["human_norm"] = None
+        r["llm_norm"]   = None
+
+    # Group indices of comparable rows by study
+    by_study: dict[int, list[int]] = defaultdict(list)
+    for i, r in enumerate(rows):
+        if r["comparable"] and r["human_mean"] is not None and r["llm_mean"] is not None:
+            by_study[r["seq_id"]].append(i)
+
+    for seq_id, indices in by_study.items():
+        h = np.array([rows[i]["human_mean"] for i in indices], dtype=float)
+        l = np.array([rows[i]["llm_mean"]   for i in indices], dtype=float)
+        if len(h) >= 2 and h.std() > 0 and l.std() > 0:
+            h_z = (h - h.mean()) / h.std()
+            l_z = (l - l.mean()) / l.std()
+            for j, i in enumerate(indices):
+                rows[i]["human_norm"] = round(float(h_z[j]), 4)
+                rows[i]["llm_norm"]   = round(float(l_z[j]), 4)
+
+    return rows
+
+
 # ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
@@ -283,11 +317,12 @@ def main():
     sim_sums                  = load_sim(SIM_PATH)
     gt, labels, gt_outcome_ids = load_gt(ENRICHED)
     rows                      = build_rows(sim_sums, gt, labels, gt_outcome_ids)
+    rows                      = add_normalized_columns(rows)
 
     # Write CSV
     fieldnames = ["seq_id", "study_label", "arm_id", "outcome_id",
                   "llm_mean", "llm_n", "human_mean", "human_n",
-                  "comparable", "note"]
+                  "comparable", "note", "human_norm", "llm_norm"]
     with open(OUT_CSV, "w", newline="") as f:
         w = csv.DictWriter(f, fieldnames=fieldnames)
         w.writeheader()
@@ -332,6 +367,40 @@ def main():
                 lines.append(
                     f"  seq={seq_id:>3}  {label:<55}  n={len(h)}  (too few for r)"
                 )
+
+        # ---- Normalized statistics ----------------------------------------
+        norm_human = [r["human_norm"] for r in comp if r["human_norm"] is not None]
+        norm_llm   = [r["llm_norm"]   for r in comp if r["llm_norm"]   is not None]
+
+        # Per-study (r, n) for Fisher z-transform
+        per_study_r_n: list[tuple[float, int]] = []
+        for seq_id_s, study_rows_s in sorted(by_study.items()):
+            h_s = [r["human_mean"] for r in study_rows_s]
+            l_s = [r["llm_mean"]   for r in study_rows_s]
+            if len(h_s) >= 2 and np.std(h_s) > 0 and np.std(l_s) > 0:
+                rr_s, _ = stats.pearsonr(h_s, l_s)
+                per_study_r_n.append((rr_s, len(h_s)))
+
+        lines += ["", "Normalized statistics (within-study z-scored):"]
+        if len(norm_human) >= 3:
+            r_norm, p_norm = stats.pearsonr(norm_human, norm_llm)
+            lines.append(
+                f"  Pooled normalized Pearson  r = {r_norm:.3f}  "
+                f"(p={p_norm:.3f})  n={len(norm_human)} pairs"
+            )
+        else:
+            lines.append("  Too few normalized pairs for pooled correlation.")
+
+        if per_study_r_n:
+            z_arr   = np.array([np.arctanh(np.clip(r, -0.9999, 0.9999))
+                                for r, _n in per_study_r_n])
+            w_arr   = np.array([_n for _, _n in per_study_r_n], dtype=float)
+            r_fish  = float(np.tanh(np.average(z_arr, weights=w_arr)))
+            lines.append(
+                f"  Fisher z-transform weighted r = {r_fish:.3f}  "
+                f"({len(per_study_r_n)} studies contributing)"
+            )
+        # ------------------------------------------------------------------
 
         lines += ["", "Excluded / flagged:"]
         for r in rows:

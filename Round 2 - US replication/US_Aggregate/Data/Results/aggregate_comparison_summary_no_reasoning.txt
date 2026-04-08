@@ -1,22 +1,26 @@
 Config: no_reasoning
-Comparable arm×outcome pairs : 192
-Pearson  r = 0.716  (p=0.000)
-Spearman r = 0.007  (p=0.922)
+Comparable arm×outcome pairs : 193
+Pearson  r = 0.561  (p=0.000)
+Spearman r = -0.047  (p=0.515)
 
 Per-study breakdown:
   seq= 19  Morality-Efficiency Tradeoffs: An Experimental Study     n=2  r=nan  p=nan
   seq=103  Beliefs about the Labor Market Impact of Immigration     n=8  r=-0.064  p=0.880
   seq=118  Sharing Responsibility for the Good                      n=6  r=0.011  p=0.983
-  seq=141  Attitudes towards hiring decisions                       n=5  r=0.867  p=0.057
+  seq=141  Attitudes towards hiring decisions                       n=6  r=-0.033  p=0.950
   seq=150  Combatting COVID-19: Measuring and Changing Beliefs, Kn  n=4  r=0.690  p=0.310
   seq=151  The Effect of Self-awareness on Dishonesty (Wave 2)      n=10  r=-0.655  p=0.040
   seq=159  Fake News: Susceptibility, Awareness and Solutions       n=8  r=-0.021  p=0.961
   seq=162  Job Characteristics and Attraction to Public Sector Emp  n=8  r=0.402  p=0.323
-  seq=164  Polarization and openness to others                      n=15  r=-0.407  p=0.132
+  seq=164  Polarization and openness to others                      n=15  r=-0.413  p=0.126
   seq=169  Preferences for Giving Versus Preferences for Redistrib  n=8  r=-0.712  p=0.048
   seq=174  Effects of COVID information on Consumer Behavior and P  n=105  r=-0.660  p=0.000
   seq=176  A Word is Worth A Thousand Words: Biased Beliefs about   n=3  r=0.994  p=0.071
   seq=178  Rational inattention, macroeconomic expectation, and co  n=10  r=-0.592  p=0.072
+
+Normalized statistics (within-study z-scored):
+  Pooled normalized Pearson  r = -0.448  (p=0.000)  n=191 pairs
+  Fisher z-transform weighted r = -0.468  (12 studies contributing)
 
 Excluded / flagged:
   seq= 19  100k_cash_agency_pays                     degree_of_favor_for_alternative_regulatory_regimes  outcome not found in GT extraction
@@ -96,12 +100,11 @@ Excluded / flagged:
   seq=141  man_discr_1st_judgment                    pro_women_attitude_after_reflection  outcome not found in GT extraction
   seq=141  man_discr_2nd_judgment                    pro_women_attitude    outcome not found in GT extraction
   seq=141  man_discr_2nd_judgment                    pro_women_attitude_after_reflection  outcome not found in GT extraction
+  seq=141  mturk_sample                              pro_women_attitude    outcome not found in GT extraction
   seq=141  mturk_sample                              pro_women_attitude_after_reflection  outcome not found in GT extraction
-  seq=141  neutral                                   pro_women_attitude    outcome not found in GT extraction
   seq=141  no_discrimination                         pro_women_attitude    outcome not found in GT extraction
   seq=141  no_discrimination                         pro_women_attitude_after_reflection  outcome not found in GT extraction
-  seq=141  pro_men                                   pro_women_attitude    outcome not found in GT extraction
-  seq=141  pro_women                                 pro_women_attitude    outcome not found in GT extraction
+  seq=141  qualtrics_sample                          pro_women_attitude    outcome not found in GT extraction
   seq=141  qualtrics_sample                          pro_women_attitude_after_reflection  outcome not found in GT extraction
   seq=141  same_effort                               pro_women_attitude    outcome not found in GT extraction
   seq=141  same_effort                               pro_women_attitude_after_reflection  outcome not found in GT extraction
