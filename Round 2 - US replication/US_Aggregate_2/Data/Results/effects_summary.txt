@@ -1,0 +1,72 @@
+── ALL ROWS ──
+Sound-only       : False
+Normalize        : False
+Drop one-sided   : False
+GT file          : study_data.jsonl
+Contrasts (total)      : 83
+Contrasts (comparable) : 81
+Studies with data      : 17
+
+Pearson  r     = +0.513  (p=0.000)
+Spearman r     = +0.279  (p=0.012)
+RMSE           = 5.3220
+Sign accuracy  = 68.3%  (43/63 non-zero contrasts)
+
+Per-study breakdown:
+  seq= 19  Paying for Kidneys? A Randomized Survey and Choice Expe  n= 2  (too few / no variance)  sign=nan%
+  seq=103  Labor Market Concerns and Support for Immigration        n= 2  r=-1.000  p=1.000  sign=100%
+  seq=118  Sharing responsibility for the good                      n= 2  (too few / no variance)  sign=nan%
+  seq=119  Insurance demand experiments: Comparing crowdworking to  n= 1  (too few / no variance)  sign=100%
+  seq=125  The Relative Income Effect: An Experiment                n= 7  r=+0.847  p=0.016  sign=71%
+  seq=131  Cash transfer narratives and charitable giving           n= 2  r=+1.000  p=1.000  sign=50%
+  seq=141  People Judge Discrimination Against Women More Harshly   n= 1  (too few / no variance)  sign=100%
+  seq=143  Forecasting the Results of Experiments                   n= 1  (too few / no variance)  sign=nan%
+  seq=151  The Effect of Self-Awareness and Competition on Dishone  n=18  r=+0.057  p=0.822  sign=88%
+  seq=152  Statistical Fairness Discrimination                      n= 2  (too few / no variance)  sign=100%
+  seq=159  The Ability to Distill the Truth                         n= 2  r=-1.000  p=1.000  sign=50%
+  seq=162  Which Job Attributes Attract Individuals High in Public  n= 9  r=-0.708  p=0.033  sign=38%
+  seq=169  Preferences for Giving Versus Preferences for Redistrib  n= 4  (too few / no variance)  sign=nan%
+  seq=174  COVID-19 Information Treatments Shift Related Policy Pr  n= 9  r=+0.841  p=0.005  sign=100%
+  seq=176  A Word is Worth A Thousand Words: Biased Beliefs about   n=15  r=-0.135  p=0.633  sign=40%
+  seq=178  Attention, expectation updating, and subjective models   n= 3  r=+0.999  p=0.021  sign=100%
+  seq=183  Do people trust humans more than ChatGPT?                n= 1  (too few / no variance)  sign=nan%
+
+Fisher z-transform weighted r = +0.195  (9 studies contributing)
+
+Not comparable (2 rows):
+  seq=178  high_inflation                       durable_goods                   llm control mean missing
+  seq=178  high_inflation                       non_durable_goods               llm control mean missing
+
+
+── DROP ONE-SIDED ──
+Sound-only       : False
+Normalize        : False
+Drop one-sided   : False
+GT file          : study_data.jsonl
+Contrasts (total)      : 51
+Contrasts (comparable) : 49
+Studies with data      : 11
+
+Pearson  r     = +0.521  (p=0.000)
+Spearman r     = +0.179  (p=0.219)
+RMSE           = 6.8215
+Sign accuracy  = 67.3%  (33/49 non-zero contrasts)
+
+Per-study breakdown:
+  seq=103  Labor Market Concerns and Support for Immigration        n= 1  (too few / no variance)  sign=100%
+  seq=119  Insurance demand experiments: Comparing crowdworking to  n= 1  (too few / no variance)  sign=100%
+  seq=125  The Relative Income Effect: An Experiment                n= 7  r=+0.847  p=0.016  sign=71%
+  seq=131  Cash transfer narratives and charitable giving           n= 2  r=+1.000  p=1.000  sign=50%
+  seq=141  People Judge Discrimination Against Women More Harshly   n= 1  (too few / no variance)  sign=100%
+  seq=151  The Effect of Self-Awareness and Competition on Dishone  n=12  r=-0.774  p=0.003  sign=83%
+  seq=152  Statistical Fairness Discrimination                      n= 2  (too few / no variance)  sign=100%
+  seq=159  The Ability to Distill the Truth                         n= 2  r=-1.000  p=1.000  sign=50%
+  seq=162  Which Job Attributes Attract Individuals High in Public  n= 3  r=+0.423  p=0.722  sign=67%
+  seq=176  A Word is Worth A Thousand Words: Biased Beliefs about   n=15  r=-0.135  p=0.633  sign=40%
+  seq=178  Attention, expectation updating, and subjective models   n= 3  r=+0.999  p=0.021  sign=100%
+
+Fisher z-transform weighted r = +0.180  (7 studies contributing)
+
+Not comparable (2 rows):
+  seq=178  high_inflation                       durable_goods                   llm control mean missing
+  seq=178  high_inflation                       non_durable_goods               llm control mean missing

@@ -1,0 +1,9 @@
+Config      : no_reasoning
+Sound-only  : False
+GT file     : study_data.jsonl
+Contrasts (total)      : 163
+Contrasts (comparable) : 0
+Studies with data      : 0
+
+Too few comparable contrasts for correlation statistics.
+Run 01_extract_study_data.py to improve GT coverage.

@@ -38,13 +38,16 @@ FIGS_DIR   = SCRIPT_DIR.parent / "Figures"
 FIGS_DIR.mkdir(parents=True, exist_ok=True)
 
 parser = argparse.ArgumentParser()
-parser.add_argument("--config",     default="no_reasoning")
 parser.add_argument("--sound-only", action="store_true",
                     help="Exclude studies with known data-quality issues")
+parser.add_argument("--normalize", action="store_true",
+                    help="Divide effects by (scale_max - scale_min) before "
+                         "plotting; rows with unknown scale bounds are excluded")
 args = parser.parse_args()
 
-CSV_PATH = DATA_DIR / "Results" / f"effects_table_{args.config}.csv"
-OUT_PDF  = FIGS_DIR / f"effects_{args.config}.pdf"
+CSV_PATH    = DATA_DIR / "Results" / "effects_table.csv"
+OUT_PDF_ALL = FIGS_DIR / "effects.pdf"
+OUT_PDF_NOS = FIGS_DIR / "effects_drop_one_sided.pdf"
 
 # Studies excluded under --sound-only:
 #   151 — visual matrix-puzzle (LLM cannot see the image)
@@ -79,18 +82,45 @@ def load_effects() -> list[dict]:
     rows = []
     with open(CSV_PATH, newline="") as f:
         for r in csv.DictReader(f):
-            r["seq_id"]    = int(r["seq_id"])
+            r["seq_id"]     = int(r["seq_id"])
             r["comparable"] = r["comparable"] == "True"
+            r["one_sided"]  = r.get("one_sided", "False") == "True"
             for k in ("gt_delta", "llm_effect"):
                 r[k] = float(r[k]) if r.get(k) not in (None, "", "None") else None
+            for k in ("scale_min", "scale_max"):
+                v = r.get(k)
+                r[k] = float(v) if v not in (None, "", "None") else None
             rows.append(r)
     return rows
+
+
+def apply_normalization(rows: list[dict]) -> list[dict]:
+    """Divide gt_delta and llm_effect by (scale_max - scale_min).
+    Rows where the range is unknown or zero are marked not comparable."""
+    out = []
+    excluded = 0
+    for r in rows:
+        r = dict(r)
+        smin, smax = r.get("scale_min"), r.get("scale_max")
+        rng = (smax - smin) if (smin is not None and smax is not None) else None
+        if rng and rng != 0:
+            if r["gt_delta"] is not None:
+                r["gt_delta"] = round(r["gt_delta"] / rng, 6)
+            if r["llm_effect"] is not None:
+                r["llm_effect"] = round(r["llm_effect"] / rng, 6)
+        else:
+            r["comparable"] = False
+            excluded += 1
+        out.append(r)
+    if excluded:
+        print(f"Normalization: {excluded} rows excluded (unknown scale range)")
+    return out
 
 # ---------------------------------------------------------------------------
 # Plot
 # ---------------------------------------------------------------------------
 
-def plot_effects(rows: list[dict], palette: dict):
+def plot_effects(rows: list[dict], palette: dict, out_pdf: Path, subtitle: str = ""):
     comp = [r for r in rows
             if r["comparable"]
             and r["gt_delta"]   is not None
@@ -164,10 +194,11 @@ def plot_effects(rows: list[dict], palette: dict):
     ax_sc.plot(x_fit, m * x_fit + b, color="#333", lw=1.2, alpha=0.6,
                label=f"OLS fit  r={r_all:.2f}, p={p_all:.3f}")
 
-    ax_sc.set_xlabel("GT treatment effect  (Δ = treatment − control)", fontsize=11)
-    ax_sc.set_ylabel("LLM predicted effect  (Δ = treatment − control)", fontsize=11)
+    norm_sfx = "  [normalized to scale range]" if args.normalize else ""
+    ax_sc.set_xlabel(f"GT treatment effect  (Δ = treatment − control){norm_sfx}", fontsize=11)
+    ax_sc.set_ylabel(f"LLM predicted effect  (Δ = treatment − control){norm_sfx}", fontsize=11)
     ax_sc.set_title(
-        f"LLM-predicted vs observed treatment effects — {args.config}\n"
+        f"LLM-predicted vs observed treatment effects — gpt-4.1\n"
         f"n={len(comp)} contrasts  |  sign accuracy = {sign_acc:.0%}",
         fontsize=10,
     )
@@ -235,13 +266,15 @@ def plot_effects(rows: list[dict], palette: dict):
         )
 
     sound_note = "  (sound studies only)" if args.sound_only else ""
+    norm_note  = "  [normalized]" if args.normalize else ""
+    sub_note   = f"  [{subtitle}]" if subtitle else ""
     fig.suptitle(
-        f"LLM vs Ground Truth — Treatment Effects  ({args.config}){sound_note}",
+        f"LLM vs Ground Truth — Treatment Effects  (gpt-4.1){sound_note}{norm_note}{sub_note}",
         fontsize=12, fontweight="bold",
     )
-    fig.savefig(OUT_PDF, bbox_inches="tight")
+    fig.savefig(out_pdf, bbox_inches="tight")
     plt.close(fig)
-    print(f"Saved → {OUT_PDF}")
+    print(f"Saved → {out_pdf}")
     print(f"  Pearson r={r_all:.3f}  p={p_all:.3f}  "
           f"sign accuracy={sign_acc:.0%}  n={len(comp)}")
 
@@ -261,7 +294,18 @@ if __name__ == "__main__":
                        if r["seq_id"] in UNSOUND_STUDIES})
         print(f"Sound filter: excluded {excl}  ({before - len(rows)} rows removed)")
 
+    if args.normalize:
+        rows = apply_normalization(rows)
+
     seq_ids = sorted({r["seq_id"] for r in rows})
     palette = build_palette(seq_ids)
     print(f"Loaded {len(rows)} rows from {CSV_PATH.name}  ({len(seq_ids)} studies)")
-    plot_effects(rows, palette)
+
+    # Full plot
+    plot_effects(rows, palette, OUT_PDF_ALL)
+
+    # Drop-one-sided plot
+    rows_nos = [r for r in rows if not r["one_sided"]]
+    n_dropped = len(rows) - len(rows_nos)
+    print(f"One-sided filter: {n_dropped} rows dropped")
+    plot_effects(rows_nos, palette, OUT_PDF_NOS, subtitle="drop one-sided")

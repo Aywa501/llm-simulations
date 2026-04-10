@@ -98,7 +98,7 @@ def universal_categorical_parse(text: str) -> float | None:
     if re.search(r'\bNO\b',  t): return 0.0
 
     positive = r'\b(SUPPORT|FAVOR|AGREE|TRUE|ACCEPT|APPROVE|WILLING|1|A|OPTION A|JOB A)\b'
-    negative = r'\b(OPPOSE|PREFER THE CURRENT|DISAGREE|FALSE|REJECT|DISAPPROVE|UNWILLING|0|B|OPTION B|JOB B)\b'
+    negative = r'\b(OPPOSE|PREFER THE CURRENT|KEEP THE CURRENT|DISAGREE|FALSE|REJECT|DISAPPROVE|UNWILLING|0|B|OPTION B|JOB B)\b'
     if re.search(positive, t): return 1.0
     if re.search(negative, t): return 0.0
 
