@@ -34,12 +34,14 @@ parser = argparse.ArgumentParser()
 parser.add_argument("--config", default="no_reasoning")
 args = parser.parse_args()
 
-CSV_PATH          = DATA_DIR / "Results" / f"aggregate_comparison_table_{args.config}.csv"
-SCATTER_OUT       = FIGS_DIR / f"aggregate_scatter_{args.config}.pdf"
-BARS_OUT          = FIGS_DIR / f"aggregate_per_study_bars_{args.config}.pdf"
-COMBINED_OUT      = FIGS_DIR / f"aggregate_combined_{args.config}.pdf"
-COMBINED_FILT_OUT = FIGS_DIR / f"aggregate_combined_no_collapsed_{args.config}.pdf"
+CSV_PATH           = DATA_DIR / "Results" / f"aggregate_comparison_table_{args.config}.csv"
+EFFECTS_CSV_PATH   = DATA_DIR / "Results" / f"aggregate_effects_table_{args.config}.csv"
+SCATTER_OUT        = FIGS_DIR / f"aggregate_scatter_{args.config}.pdf"
+BARS_OUT           = FIGS_DIR / f"aggregate_per_study_bars_{args.config}.pdf"
+COMBINED_OUT       = FIGS_DIR / f"aggregate_combined_{args.config}.pdf"
+COMBINED_FILT_OUT  = FIGS_DIR / f"aggregate_combined_no_collapsed_{args.config}.pdf"
 COMBINED_SOUND_OUT = FIGS_DIR / f"aggregate_combined_sound_{args.config}.pdf"
+EFFECTS_OUT        = FIGS_DIR / f"aggregate_effects_{args.config}.pdf"
 FIGS_DIR.mkdir(parents=True, exist_ok=True)
 
 # Studies with verified data-quality problems that make simulation results
@@ -465,6 +467,184 @@ def filter_collapsed(rows: list[dict]) -> list[dict]:
     return kept
 
 
+# ---------------------------------------------------------------------------
+# Figure 4 — treatment effects scatter + per-study bars
+# ---------------------------------------------------------------------------
+
+def load_effects_rows() -> list[dict]:
+    """Load the effects CSV produced by compare_effects.py.
+    Returns an empty list with a warning if the file doesn't exist yet."""
+    if not EFFECTS_CSV_PATH.exists():
+        print(f"  Effects CSV not found ({EFFECTS_CSV_PATH.name}). "
+              "Run compare_effects.py first.")
+        return []
+    rows = []
+    with open(EFFECTS_CSV_PATH, newline="") as f:
+        for r in csv.DictReader(f):
+            r["seq_id"] = int(r["seq_id"])
+            for k in ("llm_effect", "gt_effect",
+                      "llm_treatment_mean", "llm_control_mean",
+                      "gt_treatment_mean",  "gt_control_mean"):
+                r[k] = float(r[k]) if r.get(k) not in (None, "", "None") else None
+            rows.append(r)
+    return rows
+
+
+def plot_effects(effects: list[dict], palette: dict):
+    """Two-panel figure:
+      Top  — scatter of LLM treatment effect vs GT treatment effect.
+             No normalisation needed: effects are already Δ-centred at 0.
+      Bottom — per-study r bars on treatment effects.
+    """
+    if not effects:
+        print("No effects data — skipping effects figure.")
+        return
+
+    all_seq_ids = sorted({e["seq_id"] for e in effects})
+    study_label_map = {e["seq_id"]: e["study_label"] for e in effects}
+
+    by_study: dict[int, list] = defaultdict(list)
+    for e in effects:
+        by_study[e["seq_id"]].append(e)
+
+    gt_fx  = np.array([e["gt_effect"]  for e in effects])
+    llm_fx = np.array([e["llm_effect"] for e in effects])
+
+    r_all, p_all = stats.pearsonr(gt_fx, llm_fx)
+
+    # Per-study r
+    study_r:   dict[int, float | None] = {}
+    study_n:   dict[int, int]          = {}
+    per_r_n:   list[tuple[float, int]] = []
+
+    for seq_id in all_seq_ids:
+        s = by_study[seq_id]
+        study_n[seq_id] = len(s)
+        gt_s  = np.array([e["gt_effect"]  for e in s])
+        llm_s = np.array([e["llm_effect"] for e in s])
+        if len(s) >= 2 and gt_s.std() > 0 and llm_s.std() > 0:
+            rr, _ = stats.pearsonr(gt_s, llm_s)
+            study_r[seq_id] = float(rr)
+            per_r_n.append((float(rr), len(s)))
+        else:
+            study_r[seq_id] = None
+
+    # Sign accuracy
+    n_nonzero = sum(1 for g, l in zip(gt_fx, llm_fx) if g != 0 and l != 0)
+    n_correct  = sum(1 for g, l in zip(gt_fx, llm_fx)
+                     if g != 0 and l != 0 and (g > 0) == (l > 0))
+    sign_acc   = n_correct / n_nonzero if n_nonzero else float("nan")
+
+    # ---- Layout ------------------------------------------------------------
+    fig = plt.figure(figsize=(13, 11))
+    gs  = fig.add_gridspec(2, 1, height_ratios=[1.15, 0.85], hspace=0.45)
+    ax_sc   = fig.add_subplot(gs[0])
+    ax_bars = fig.add_subplot(gs[1])
+
+    # === Top: effects scatter ===============================================
+    pad = max(abs(gt_fx).max(), abs(llm_fx).max()) * 0.15
+    lo  = min(gt_fx.min(), llm_fx.min()) - pad
+    hi  = max(gt_fx.max(), llm_fx.max()) + pad
+
+    ax_sc.axhline(0, color="gray", lw=0.5, alpha=0.4)
+    ax_sc.axvline(0, color="gray", lw=0.5, alpha=0.4)
+    ax_sc.plot([lo, hi], [lo, hi], "k--", lw=0.8, alpha=0.35,
+               label="Perfect prediction")
+
+    seen: set[int] = set()
+    for e in effects:
+        sid = e["seq_id"]
+        col = palette.get(sid, "#888888")
+        short = textwrap.shorten(e["study_label"], 32)
+        lab   = f"seq={sid}: {short}" if sid not in seen else None
+        seen.add(sid)
+        ax_sc.scatter(e["gt_effect"], e["llm_effect"],
+                      c=col, s=55, alpha=0.85, edgecolors="white", lw=0.3,
+                      label=lab, zorder=3)
+
+    m, b = np.polyfit(gt_fx, llm_fx, 1)
+    x_fit = np.linspace(lo, hi, 200)
+    ax_sc.plot(x_fit, m * x_fit + b, color="#333", lw=1.2, alpha=0.6,
+               label=f"OLS fit  r={r_all:.2f}, p={p_all:.3f}")
+
+    ax_sc.set_xlabel("GT treatment effect  (treatment − control)", fontsize=11)
+    ax_sc.set_ylabel("LLM predicted effect  (treatment − control)", fontsize=11)
+    ax_sc.set_title(
+        f"LLM-predicted vs observed treatment effects — {args.config}\n"
+        f"n={len(effects)} contrasts  |  sign accuracy = {sign_acc:.0%}",
+        fontsize=10,
+    )
+    ax_sc.set_xlim(lo, hi)
+    ax_sc.set_ylim(lo, hi)
+    ax_sc.set_aspect("equal")
+    ax_sc.legend(fontsize=6.5, framealpha=0.9, loc="upper left",
+                 bbox_to_anchor=(1.02, 1), borderaxespad=0)
+
+    # === Bottom: per-study r bars ==========================================
+    x_pos     = np.arange(len(all_seq_ids))
+    bar_h     = []
+    bar_col   = []
+    bar_hatch = []
+    bar_xlabs = []
+
+    for seq_id in all_seq_ids:
+        r_val = study_r.get(seq_id)
+        n_val = study_n.get(seq_id, 0)
+        col   = palette.get(seq_id, "#CCCCCC")
+        if r_val is not None:
+            bar_h.append(r_val)
+            bar_col.append(col)
+            bar_hatch.append("")
+        else:
+            bar_h.append(0.0)
+            bar_col.append("#CCCCCC")
+            bar_hatch.append("///")
+        bar_xlabs.append(f"seq={seq_id}\n(n={n_val})")
+
+    bar_objs = ax_bars.bar(x_pos, bar_h, color=bar_col, width=0.65,
+                           edgecolor="white", zorder=2)
+    for bo, hatch in zip(bar_objs, bar_hatch):
+        if hatch:
+            bo.set_hatch(hatch)
+            bo.set_edgecolor("#888888")
+
+    ax_bars.axhline(0,     color="black", lw=0.9, zorder=3)
+    ax_bars.axhline( 0.5,  color="gray",  lw=0.5, ls="--", alpha=0.45)
+    ax_bars.axhline(-0.5,  color="gray",  lw=0.5, ls="--", alpha=0.45)
+    ax_bars.set_xticks(x_pos)
+    ax_bars.set_xticklabels(bar_xlabs, fontsize=7.5)
+    ax_bars.set_ylabel("Within-study Pearson r  (on effects)", fontsize=10)
+    ax_bars.set_ylim(-1.1, 1.1)
+    ax_bars.spines[["top", "right"]].set_visible(False)
+    ax_bars.set_title(
+        "Per-study r on treatment effects  (hatched = n < 2 contrasts or zero variance)",
+        fontsize=9,
+    )
+
+    if per_r_n:
+        z_arr  = np.array([np.arctanh(np.clip(r, -0.9999, 0.9999))
+                           for r, _ in per_r_n])
+        w_arr  = np.array([n for _, n in per_r_n], dtype=float)
+        r_fish = float(np.tanh(np.average(z_arr, weights=w_arr)))
+        ax_bars.text(
+            0.99, 0.97,
+            f"Fisher z weighted r = {r_fish:.3f}\n"
+            f"({len(per_r_n)} studies with r)",
+            transform=ax_bars.transAxes, fontsize=8.5,
+            ha="right", va="top",
+            bbox=dict(boxstyle="round,pad=0.35", fc="lightyellow",
+                      ec="gray", alpha=0.85),
+        )
+
+    fig.suptitle(
+        f"LLM vs Ground Truth — Treatment Effects  ({args.config})",
+        fontsize=12, fontweight="bold",
+    )
+    fig.savefig(EFFECTS_OUT, bbox_inches="tight")
+    plt.close(fig)
+    print(f"Saved → {EFFECTS_OUT}")
+
+
 def filter_sound(rows: list[dict]) -> list[dict]:
     """Keep only rows belonging to studies with verified sound extraction.
 
@@ -514,3 +694,7 @@ if __name__ == "__main__":
             "missing question text, or identical arm texts)"
         ),
     )
+
+    print("\nGenerating treatment effects figure...")
+    effects = load_effects_rows()
+    plot_effects(effects, palette)

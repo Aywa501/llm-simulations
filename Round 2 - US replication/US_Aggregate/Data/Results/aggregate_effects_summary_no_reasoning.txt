@@ -1,0 +1,18 @@
+Config      : no_reasoning
+Sound-only  : False
+Contrasts   : 37
+Studies     : 6
+
+Pearson  r  = -0.801  (p=0.000)
+Spearman r  = -0.737  (p=0.000)
+Sign accuracy = 25.0%  (8/32 non-zero contrasts)
+
+Per-study breakdown:
+  seq=103  Beliefs about the Labor Market Impact of Immigration     n=4  r=-0.495  p=0.505  sign=75%
+  seq=150  Combatting COVID-19: Measuring and Changing Beliefs, Kn  n=3  (too few for r)  sign=100%
+  seq=151  The Effect of Self-awareness on Dishonesty (Wave 2)      n=8  r=+0.288  p=0.490  sign=0%
+  seq=159  Fake News: Susceptibility, Awareness and Solutions       n=4  (too few for r)  sign=0%
+  seq=164  Polarization and openness to others                      n=10  r=-0.067  p=0.855  sign=40%
+  seq=178  Rational inattention, macroeconomic expectation, and co  n=8  r=+0.302  p=0.467  sign=0%
+
+Fisher z-transform weighted r = 0.067  (4 studies contributing)

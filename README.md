@@ -1,34 +1,82 @@
-Testing whether modern LLMs can reliably replicate results from classic and recent behavioral economics experiments (“homo silicus”). We pull the original experiment text from pre-registered studies, have an LLM act as survey respondents across treatment and control groups, convert its outputs into the same numeric variables as the original studies, and then statistically compare LLM results to human data.
-Proof of concept: replicated three effects (conformity, loss aversion, and tax compliance) using a lightweight GPT model. Ran with ~500 simulated participants per group, The main outcome is whether the LLM reproduces the direction, magnitude, and distribution of the original treatment effects. (mixed results, some signal maybe)
-Now doing with a wider batch of studies, in the process of testing out scraping pipeline
+# LLM Simulations
 
-Full doc here: https://docs.google.com/document/d/1vCyfUhEbOf_YhtKaQOY9ICtdfhbauUEyaB0uIcXun-M/edit?usp=sharing
+Research code for testing whether modern LLMs can reproduce experimental results from behavioral economics and related social science studies.
 
-links/names of papers read (+ doc contents):
+At a high level, the project:
 
-initial:
-Large Language Models as Simulated Economic Agents: What Can We Learn from Homo Silicus?  
-Generative Agents: Interactive Simulacra of Human Behavior  
-Computational Agents Exhibit Believable Humanlike Behavior  
-Generative Agent Simulations of 1,000 People  
-Predicting Results of Social Science Experiments Using Large Language Models  
+1. collects and normalizes study materials,
+2. extracts experimental design and ground-truth results,
+3. simulates participant responses with LLMs, and
+4. compares predicted treatment effects against observed human effects.
 
-metrics:
-https://arxiv.org/abs/1904.09675
-https://aclanthology.org/2020.acl-main.704/
-https://proceedings.mlr.press/v37/kusnerb15.html
-https://pure.psu.edu/en/publications/automatic-analysis-of-syntactic-complexity-in-second-language-wri
+## Repo Guide
 
-distributional comparisons:
-https://jmlr.csail.mit.edu/papers/v13/gretton12a.html
-https://arxiv.org/abs/1806.00035
-https://projecteuclid.org/journals/annals-of-mathematical-statistics/volume-22/issue-1/On-Information-and-Sufficiency/10.1214/aoms/1177729694.full
-https://aclanthology.org/J93-1003/
-https://www.jstor.org/stable/2236101
+### 1. Main active pipeline
 
-studies:
-https://www.econstor.eu/bitstream/10419/325465/1/vfs-2025-pid-129297.pdf
-[there are more that are not listed, will be linked by Aywa501 in the future]
+The most up-to-date end-to-end replication workflow is in:
 
-new:
-https://www.pnas.org/doi/10.1073/pnas.2313925121
+`Round 2 - US replication/US_Aggregate_2/`
+
+Start here for the current treatment-effects pipeline:
+
+- `README.md` — high-level overview and quick start
+- `METHODOLOGY.md` — design rationale and evaluation choices
+- `Scripts/README.md` — per-script documentation
+- `Data/README.md` — data layout and file conventions
+
+This pipeline:
+
+- extracts study design and ground-truth effects from PDFs,
+- simulates participant responses by arm and outcome,
+- computes LLM-predicted treatment effects, and
+- evaluates them against observed treatment effects.
+
+### 2. Base data and metadata enrichment
+
+The AEA registry preparation and design-spec extraction work lives in:
+
+- `Base Data - AEA files/`
+- `Base Data - AEA metadata enrichment/`
+
+These directories contain the earlier-stage data cleaning and schema-building work used to turn registry entries into structured experimental design records.
+
+Helpful docs:
+
+- `Base Data - AEA metadata enrichment/docs/context_summary.md`
+- `Base Data - AEA metadata enrichment/docs/info.md`
+
+### 3. Earlier proof-of-concept work
+
+Older exploratory simulations and trial runs live in:
+
+- `Round 1 - 3 study trial/`
+
+These are useful for historical context, but they are not the main current pipeline.
+
+### 4. Deprecated material
+
+Archived or superseded code is stored under:
+
+- `deprecated/`
+
+Treat this as reference material only unless you know you need it.
+
+## Recommended Starting Points
+
+If you want to understand the current project quickly:
+
+1. read `Round 2 - US replication/US_Aggregate_2/README.md`,
+2. read `Round 2 - US replication/US_Aggregate_2/METHODOLOGY.md`,
+3. inspect `Round 2 - US replication/US_Aggregate_2/Scripts/01_extract_study_data.py` through `05_plot.py`.
+
+If you want the registry/design-spec side:
+
+1. read `Base Data - AEA metadata enrichment/docs/context_summary.md`,
+2. inspect `Base Data - AEA metadata enrichment/Design Spec/build_design_specs.py`,
+3. inspect `Base Data - AEA metadata enrichment/Design Spec/enrich_design_specs_llm.py`.
+
+## Notes
+
+- The repo has evolved over time, so some folders represent older iterations of the project.
+- The `US_Aggregate_2` documentation is currently the best-maintained description of the active replication workflow.
+- An older top-level project document was removed because it no longer matched the current repo structure or script behavior.

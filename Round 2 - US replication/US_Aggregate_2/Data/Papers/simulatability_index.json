@@ -1,0 +1,339 @@
+[
+    {
+        "seq_id": 12,
+        "title": "Does Reading During the Summer Build Reading Skills? Evidence from a Randomized Experiment in 463 Classrooms",
+        "paper_files": [
+            "12.pdf"
+        ],
+        "is_simulatable": false,
+        "simulatability_note": "Field experiment that measures the real-world reading comprehension test scores of students over the course of a summer break.",
+        "simulatability_score": 0
+    },
+    {
+        "seq_id": 19,
+        "title": "Paying for Kidneys? A Randomized Survey and Choice Experiment",
+        "paper_files": [
+            "19.pdf"
+        ],
+        "is_simulatable": true,
+        "simulatability_note": "Online survey presenting text-based vignettes regarding alternative kidney procurement systems and measuring policy support and moral views.",
+        "simulatability_score": 95
+    },
+    {
+        "seq_id": 30,
+        "title": "The Choice Architecture of School Choice Websites",
+        "paper_files": [
+            "30_1.pdf",
+            "30_2.pdf"
+        ],
+        "is_simulatable": false,
+        "simulatability_note": "Study fundamentally tests visual graphical user interfaces, maps, icons, and layout combinations, which cannot be accurately simulated by a text-only LLM.",
+        "simulatability_score": 10
+    },
+    {
+        "seq_id": 47,
+        "title": "Deliberative Polls",
+        "paper_files": [
+            "47.pdf"
+        ],
+        "is_simulatable": false,
+        "simulatability_note": "Experiment relies heavily on in-person, multi-day, real-time group deliberation and interpersonal discussion among a live sample.",
+        "simulatability_score": 0
+    },
+    {
+        "seq_id": 72,
+        "title": "Charitable giving and Freedom from Hunger",
+        "paper_files": [
+            "72.pdf"
+        ],
+        "is_simulatable": false,
+        "simulatability_note": "Direct-mail field experiment that measures actual monetary charitable donations sent via physical mail over several months.",
+        "simulatability_score": 0
+    },
+    {
+        "seq_id": 103,
+        "title": "Labor Market Concerns and Support for Immigration",
+        "paper_files": [
+            "103.pdf"
+        ],
+        "is_simulatable": true,
+        "simulatability_note": "Online survey experiment measuring changes in policy preferences after reading text-based research evidence.",
+        "simulatability_score": 95
+    },
+    {
+        "seq_id": 108,
+        "title": "Does Promoting One Behavior Detract From Others? Evidence from a Field Experiment",
+        "paper_files": [
+            "108.pdf"
+        ],
+        "is_simulatable": false,
+        "simulatability_note": "Real-world field experiment tracking participant engagement in physical behaviors (meditation and meal logging) over 4 weeks via smartphone apps.",
+        "simulatability_score": 0
+    },
+    {
+        "seq_id": 116,
+        "title": "Nudging Study Habits: A Field Experiment in Higher Education",
+        "paper_files": [
+            "116.pdf"
+        ],
+        "is_simulatable": false,
+        "simulatability_note": "Field experiment tracking real students' uptake of university tutoring and academic support services.",
+        "simulatability_score": 5
+    },
+    {
+        "seq_id": 118,
+        "title": "Willingness to pay for a positive externality",
+        "paper_files": [
+            "118.pdf"
+        ],
+        "is_simulatable": true,
+        "simulatability_note": "Online survey eliciting willingness-to-pay via a text-based BDM mechanism.",
+        "simulatability_score": 90
+    },
+    {
+        "seq_id": 119,
+        "title": "Predicting insurance demand from risk attitudes",
+        "paper_files": [
+            "119_1.pdf",
+            "119_2.pdf",
+            "119_3.pdf"
+        ],
+        "is_simulatable": true,
+        "simulatability_note": "Online survey utilizing hypothetical lotteries and insurance demand questions that can be presented as text prompts.",
+        "simulatability_score": 90
+    },
+    {
+        "seq_id": 125,
+        "title": "The relative income effect: an experiment",
+        "paper_files": [
+            "125.pdf",
+            "125_1.pdf"
+        ],
+        "is_simulatable": true,
+        "simulatability_note": "Online experiment randomly assigning point rewards and assessing self-reported subjective well-being (mood) via text surveys.",
+        "simulatability_score": 85
+    },
+    {
+        "seq_id": 128,
+        "title": "Exercise Habits Using Incentives: Flexibility and Routinization",
+        "paper_files": [
+            "128.pdf"
+        ],
+        "is_simulatable": false,
+        "simulatability_note": "Field experiment requiring participants to physically visit a corporate gym, tracked via ID badge swipes.",
+        "simulatability_score": 0
+    },
+    {
+        "seq_id": 131,
+        "title": "Cash transfer narratives and charitable giving",
+        "paper_files": [
+            "131.pdf"
+        ],
+        "is_simulatable": true,
+        "simulatability_note": "Survey experiment presenting text narratives and asking participants to allocate a monetary bonus.",
+        "simulatability_score": 95
+    },
+    {
+        "seq_id": 135,
+        "title": "CHOOSING YOUR POND: LOCATION CHOICES AND RELATIVE INCOME",
+        "paper_files": [
+            "135.pdf"
+        ],
+        "is_simulatable": false,
+        "simulatability_note": "Analyzes the real-world ranking and physical relocation choices of medical students applying for residency programs.",
+        "simulatability_score": 5
+    },
+    {
+        "seq_id": 141,
+        "title": "HOW DOES THE GENDER OF THE VICTIM AFFECT PEOPLE\u2019S MORAL JUDGMENT ABOUT THE DISCRIMINATOR?",
+        "paper_files": [
+            "141.pdf"
+        ],
+        "is_simulatable": true,
+        "simulatability_note": "Survey experiment presenting textual scenarios and eliciting participants' moral judgments and attitudes.",
+        "simulatability_score": 95
+    },
+    {
+        "seq_id": 143,
+        "title": "Forecasting the Results of Experiments",
+        "paper_files": [
+            "143.pdf"
+        ],
+        "is_simulatable": true,
+        "simulatability_note": "Survey task wherein participants read descriptions of other studies and provide text-based forecasts for treatment effects.",
+        "simulatability_score": 95
+    },
+    {
+        "seq_id": 145,
+        "title": "Student loan repayment plan choice",
+        "paper_files": [
+            "145.pdf"
+        ],
+        "is_simulatable": true,
+        "simulatability_note": "Survey experiment asking participants to choose between hypothetically framed student loan repayment plans.",
+        "simulatability_score": 95
+    },
+    {
+        "seq_id": 148,
+        "title": "The Effect of Stay-at-home Orders on Mobility, Economic, and Health Outcomes during the Coronavirus Pandemic",
+        "paper_files": [
+            "148.pdf",
+            "149.pdf"
+        ],
+        "is_simulatable": true,
+        "simulatability_note": "Survey measuring individuals' beliefs about COVID-19 and assessing self-reported social distancing intentions.",
+        "simulatability_score": 85
+    },
+    {
+        "seq_id": 150,
+        "title": "Learning about COVID-19: Improving Knowledge via Incentives and Feedback",
+        "paper_files": [
+            "150_1.pdf",
+            "150_2.pdf"
+        ],
+        "is_simulatable": false,
+        "simulatability_note": "Experiment relies on live telephone survey interactions spread across multiple weeks to a population in Mozambique.",
+        "simulatability_score": 15
+    },
+    {
+        "seq_id": 151,
+        "title": "Dishonesty and self-awareness",
+        "paper_files": [
+            "151.pdf"
+        ],
+        "is_simulatable": true,
+        "simulatability_note": "Online experiment that evaluates cheating via a text-based sender-receiver game and matrix task reports.",
+        "simulatability_score": 80
+    },
+    {
+        "seq_id": 152,
+        "title": "Statistical Fairness Discrimination",
+        "paper_files": [
+            "152.pdf"
+        ],
+        "is_simulatable": true,
+        "simulatability_note": "Online survey exposing participants to text vignettes regarding discrimination and evaluating subsequent fairness judgments.",
+        "simulatability_score": 95
+    },
+    {
+        "seq_id": 157,
+        "title": "Perceived intertemporal inconsistency and demand for commitment in a novel context, volunteering",
+        "paper_files": [
+            "157.pdf"
+        ],
+        "is_simulatable": false,
+        "simulatability_note": "Study outcome depends on subjects taking real-world action to volunteer with a non-profit organization over a subsequent month.",
+        "simulatability_score": 0
+    },
+    {
+        "seq_id": 159,
+        "title": "The Ability to Distill the Truth",
+        "paper_files": [
+            "159.pdf"
+        ],
+        "is_simulatable": true,
+        "simulatability_note": "Survey experiment evaluating subjects' ability to accurately discern true/false news headlines presented in text.",
+        "simulatability_score": 95
+    },
+    {
+        "seq_id": 160,
+        "title": "Machine learning heterogeneous effects in experimental settings",
+        "paper_files": [
+            "160.pdf"
+        ],
+        "is_simulatable": false,
+        "simulatability_note": "Participants engage in a real-effort visual task counting zeroes in an image matrix under strict time pressure, which does not cleanly translate to an LLM context.",
+        "simulatability_score": 15
+    },
+    {
+        "seq_id": 162,
+        "title": "Public administration job attraction",
+        "paper_files": [
+            "162.pdf"
+        ],
+        "is_simulatable": true,
+        "simulatability_note": "Online conjoint experiment evaluating preferences across different hypothetical textual job profile attributes.",
+        "simulatability_score": 95
+    },
+    {
+        "seq_id": 163,
+        "title": "Systematizing inquiry about risk and reward",
+        "paper_files": [
+            "163.pdf"
+        ],
+        "is_simulatable": false,
+        "simulatability_note": "Field experiment with real investors evaluating real pitches and making financial assessments regarding startups.",
+        "simulatability_score": 0
+    },
+    {
+        "seq_id": 164,
+        "title": "Willingness to listen to polarizing views",
+        "paper_files": [
+            "164.pdf"
+        ],
+        "is_simulatable": false,
+        "simulatability_note": "Experiment relies entirely on listening to audio recordings of other individuals' voices.",
+        "simulatability_score": 0
+    },
+    {
+        "seq_id": 167,
+        "title": "Vaccination mandates",
+        "paper_files": [
+            "167.pdf"
+        ],
+        "is_simulatable": false,
+        "simulatability_note": "Study relies on observing real-world public health behaviors and physical COVID-19 vaccination timing.",
+        "simulatability_score": 0
+    },
+    {
+        "seq_id": 169,
+        "title": "Preferences for Giving Versus Preferences for Redistribution",
+        "paper_files": [
+            "169.pdf",
+            "170.pdf"
+        ],
+        "is_simulatable": true,
+        "simulatability_note": "Survey experiment using dictator games and hypothetical voting prompts easily administered via text.",
+        "simulatability_score": 90
+    },
+    {
+        "seq_id": 174,
+        "title": "COVID-19 Information Treatments Shift Related Policy Preferences and Plans for Consumer Behavior",
+        "paper_files": [
+            "174.pdf"
+        ],
+        "is_simulatable": true,
+        "simulatability_note": "Online survey evaluating text-based policy preferences and behavioral intentions after information treatments.",
+        "simulatability_score": 95
+    },
+    {
+        "seq_id": 176,
+        "title": "Word definitions",
+        "paper_files": [
+            "176.pdf"
+        ],
+        "is_simulatable": true,
+        "simulatability_note": "Online survey testing comprehension and ideologically motivated definitions of text passages.",
+        "simulatability_score": 95
+    },
+    {
+        "seq_id": 178,
+        "title": "Attention Allocation, Macroeconomic Expectations, and Consumption Behavior",
+        "paper_files": [
+            "178.pdf"
+        ],
+        "is_simulatable": true,
+        "simulatability_note": "Online survey presenting inflation forecasts and measuring updates to economic expectations.",
+        "simulatability_score": 95
+    },
+    {
+        "seq_id": 183,
+        "title": "Trust in AI-generated content",
+        "paper_files": [
+            "183.pdf"
+        ],
+        "is_simulatable": true,
+        "simulatability_note": "Survey experiment requiring participants to read text paragraphs and judge their authorship and factual accuracy.",
+        "simulatability_score": 95
+    }
+]

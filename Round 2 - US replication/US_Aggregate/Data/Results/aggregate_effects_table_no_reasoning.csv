@@ -1,0 +1,38 @@
+seq_id,study_label,arm_id,outcome_id,control_arm,llm_effect,gt_effect,llm_treatment_mean,llm_control_mean,gt_treatment_mean,gt_control_mean
+103,Beliefs about the Labor Market Impact of Immigration,treatment,actual_signing_of_the_petitions,control,0.7,-0.004,0.72,0.02,0.041,0.045
+103,Beliefs about the Labor Market Impact of Immigration,treatment,attitudes_towards_high_skilled_immigrants,control,0.96,0.04,4.94,3.98,0.04,0.0
+103,Beliefs about the Labor Market Impact of Immigration,treatment,attitudes_towards_low_skilled_immigrants,control,0.9,0.112,4.86,3.96,0.112,0.0
+103,Beliefs about the Labor Market Impact of Immigration,treatment,intention_to_sign_the_petitions,control,0.24,0.141,0.9,0.66,0.141,0.0
+150,"Combatting COVID-19: Measuring and Changing Beliefs, Knowledge and Behaviors",incentive,index_of_covid_19_overall_knowledge,control,0.04,0.02,1.0,0.96,0.801,0.781
+150,"Combatting COVID-19: Measuring and Changing Beliefs, Knowledge and Behaviors",incentive_plus_teaching,index_of_covid_19_overall_knowledge,control,0.04,0.0496,1.0,0.96,0.8306,0.781
+150,"Combatting COVID-19: Measuring and Changing Beliefs, Knowledge and Behaviors",teaching,index_of_covid_19_overall_knowledge,control,0.04,0.016,1.0,0.96,0.797,0.781
+151,The Effect of Self-awareness on Dishonesty (Wave 2),highdishonestytr,matrixpuzzle,controlgroup,2.42,-2.174,6.14,3.72,4.885,7.059
+151,The Effect of Self-awareness on Dishonesty (Wave 2),honestytreatment,matrixpuzzle,controlgroup,3.28,-1.006,7.0,3.72,6.053,7.059
+151,The Effect of Self-awareness on Dishonesty (Wave 2),lowdishonestytr,matrixpuzzle,controlgroup,1.68,-1.703,5.4,3.72,5.356,7.059
+151,The Effect of Self-awareness on Dishonesty (Wave 2),treatmentgroups,matrixpuzzle,controlgroup,3.08,-1.658,6.8,3.72,5.401,7.059
+151,The Effect of Self-awareness on Dishonesty (Wave 2),highdishonestytr,modifiedmatrixpuzzle,controlgroup,3.66,-2.174,6.82,3.16,4.885,7.059
+151,The Effect of Self-awareness on Dishonesty (Wave 2),honestytreatment,modifiedmatrixpuzzle,controlgroup,3.84,-1.006,7.0,3.16,6.053,7.059
+151,The Effect of Self-awareness on Dishonesty (Wave 2),lowdishonestytr,modifiedmatrixpuzzle,controlgroup,1.56,-1.703,4.72,3.16,5.356,7.059
+151,The Effect of Self-awareness on Dishonesty (Wave 2),treatmentgroups,modifiedmatrixpuzzle,controlgroup,3.82,-1.658,6.98,3.16,5.401,7.059
+159,"Fake News: Susceptibility, Awareness and Solutions",score_revelation_treatment,confidence_in_beliefs,control_group,0.04,-0.203,0.975,0.935,1.887,2.09
+159,"Fake News: Susceptibility, Awareness and Solutions",score_revelation_treatment,mid_task_beliefs_about_ability,control_group,0.22,-0.203,7.2,6.98,1.887,2.09
+159,"Fake News: Susceptibility, Awareness and Solutions",score_revelation_treatment,posterior_beliefs_about_ability,control_group,0.1,-0.203,7.12,7.02,1.887,2.09
+159,"Fake News: Susceptibility, Awareness and Solutions",score_revelation_treatment,prior_beliefs_about_ability,control_group,0.08,-0.203,7.1,7.02,1.887,2.09
+164,Polarization and openness to others ,t1_etiq,change_in_views,control,0.0,0.0132,1.0,1.0,0.3412,0.328
+164,Polarization and openness to others ,t2_values,change_in_views,control,0.0,-0.008,1.0,1.0,0.32,0.328
+164,Polarization and openness to others ,t1_etiq,level_of_engagement,control,0.0,0.0071,1.0,1.0,0.9321,0.925
+164,Polarization and openness to others ,t2_values,level_of_engagement,control,0.0,-0.0052,1.0,1.0,0.9198,0.925
+164,Polarization and openness to others ,t1_etiq,policy_views,control,1.86,0.0132,8.9,7.04,0.3412,0.328
+164,Polarization and openness to others ,t2_values,policy_views,control,2.5,-0.008,9.54,7.04,0.32,0.328
+164,Polarization and openness to others ,t1_etiq,reason_views_did_not_change,control,0.38,0.0132,0.88,0.5,0.3412,0.328
+164,Polarization and openness to others ,t2_values,reason_views_did_not_change,control,0.39,-0.008,0.89,0.5,0.32,0.328
+164,Polarization and openness to others ,t1_etiq,willingness_to_engage,control,0.0,0.0071,0.52,0.52,0.9321,0.925
+164,Polarization and openness to others ,t2_values,willingness_to_engage,control,0.23,-0.0052,0.75,0.52,0.9198,0.925
+178,"Rational inattention, macroeconomic expectation, and consumption-investment behavior",affect_group1,inflation_expectation,nigroup,7.54,-5.626,11.58,4.04,-0.378,5.248
+178,"Rational inattention, macroeconomic expectation, and consumption-investment behavior",affect_group4,inflation_expectation,nigroup,8.22,-5.539,12.26,4.04,-0.291,5.248
+178,"Rational inattention, macroeconomic expectation, and consumption-investment behavior",consequence_group2,inflation_expectation,nigroup,3.54,-7.832,7.58,4.04,-2.584,5.248
+178,"Rational inattention, macroeconomic expectation, and consumption-investment behavior",consequence_group5,inflation_expectation,nigroup,5.36,-3.301,9.4,4.04,1.947,5.248
+178,"Rational inattention, macroeconomic expectation, and consumption-investment behavior",affect_group1,unemployment_expectation,nigroup,7.66,-5.626,11.68,4.02,-0.378,5.248
+178,"Rational inattention, macroeconomic expectation, and consumption-investment behavior",affect_group4,unemployment_expectation,nigroup,8.54,-5.539,12.56,4.02,-0.291,5.248
+178,"Rational inattention, macroeconomic expectation, and consumption-investment behavior",consequence_group2,unemployment_expectation,nigroup,3.42,-7.832,7.44,4.02,-2.584,5.248
+178,"Rational inattention, macroeconomic expectation, and consumption-investment behavior",consequence_group5,unemployment_expectation,nigroup,4.96,-3.301,8.98,4.02,1.947,5.248

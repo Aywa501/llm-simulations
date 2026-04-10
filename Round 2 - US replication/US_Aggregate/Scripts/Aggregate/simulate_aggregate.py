@@ -28,8 +28,9 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 DATA_DIR   = SCRIPT_DIR.parents[1] / "Data"
 MODEL      = "gpt-5.1"
 
-# Point directly to the explicitly filtered whitelist
-STUDIES_PATH = DATA_DIR / "Ground_Truth" / "simulatable_studies.jsonl"
+# Default input — can be overridden with --studies-file
+_DEFAULT_STUDIES = "simulatable_studies.jsonl"
+STUDIES_PATH = DATA_DIR / "Ground_Truth" / _DEFAULT_STUDIES
 
 # The boundary per batch input file chunk to safely stay under the queue token limit
 MAX_TOKENS_PER_CHUNK = 1_345_000
@@ -230,8 +231,19 @@ def load_study_configs(path: Path) -> dict[int, dict]:
         seq_id = rec["seq_id"]
 
         instrument = rec.get("instrument", {})
-        if not instrument or not instrument.get("found"):
+        if not instrument:
             print(f"  seq={seq_id}  skipped: no instrument found")
+            continue
+
+        # Support both old format (instrument.found=True) and new study_data.jsonl
+        # format (instrument.is_simulatable=True).  Old files without either flag
+        # are accepted so existing simulatable_studies.jsonl still works.
+        if instrument.get("found") is False:
+            print(f"  seq={seq_id}  skipped: instrument.found=False")
+            continue
+        if instrument.get("is_simulatable") is False:
+            note = instrument.get("simulatability_note", "")
+            print(f"  seq={seq_id}  skipped: not simulatable  ({note})")
             continue
 
         variations = instrument.get("treatment_variations", [])
@@ -250,14 +262,17 @@ def load_study_configs(path: Path) -> dict[int, dict]:
             arm_id = v.get("arm_id") or slugify(v.get("arm_label", "arm"))
             arms[arm_id] = v.get("text", "")
 
-        # Build outcomes list
+        # Build outcomes list.
+        # Prefer outcome_id if set (new format), otherwise derive from outcome_name.
         outcomes = []
         for q in out_questions:
             fmt = q.get("response_format", "integer")
             lo  = q.get("scale_min")
             hi  = q.get("scale_max")
+            oid = (q.get("outcome_id")
+                   or slugify(q.get("outcome_name", "outcome")))
             outcomes.append({
-                "id":              slugify(q.get("outcome_name", "outcome")),
+                "id":              oid,
                 "response_format": fmt,
                 "question":        "\n\n" + q.get("response_instruction", "Reply with a number."),
                 "_parser":         resolve_parser(fmt, lo, hi),
