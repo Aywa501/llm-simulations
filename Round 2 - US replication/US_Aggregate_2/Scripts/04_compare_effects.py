@@ -19,12 +19,16 @@ For each study × treatment arm × outcome:
 Primary metric: Pearson r(predicted_effect, observed_effect)
 Also reports: Spearman r, RMSE, sign accuracy, Fisher z-weighted r.
 
+Always writes raw effects to CSV (scale_min/max included for downstream use).
+Summary text reports four sections: all-rows and drop-one-sided, each in both
+raw and normalized (÷ scale range) form.
+
 Outputs:
-    Data/Results/effects_table_{cfg}.csv
-    Data/Results/effects_summary_{cfg}.txt
+    Data/Results/effects_table.csv
+    Data/Results/effects_summary.txt
 
 Usage:
-    python 04_compare_effects.py [--config no_reasoning] [--sound-only]
+    python 04_compare_effects.py [--sound-only]
 """
 
 import argparse, csv, json, re
@@ -44,14 +48,6 @@ parser = argparse.ArgumentParser()
 parser.add_argument("--sound-only", action="store_true",
                     help="Exclude studies with known data-quality issues "
                          "(seq 151, 164, 169, 174, 176)")
-parser.add_argument("--normalize", action="store_true",
-                    help="Divide effects by (scale_max - scale_min) before "
-                         "computing statistics; rows with unknown scale bounds "
-                         "are excluded from normalized metrics")
-parser.add_argument("--drop-one-sided", action="store_true",
-                    help="Exclude rows where both the treatment and control arm "
-                         "LLM responses had zero variance (all respondents gave "
-                         "the same answer)")
 args = parser.parse_args()
 
 GT_PATH  = DATA_DIR / "Ground_Truth" / "study_data.jsonl"
@@ -288,10 +284,8 @@ def run_stats(rows: list[dict], label: str) -> list[str]:
 
     lines = [
         f"── {label} ──",
-        f"Sound-only       : {args.sound_only}",
-        f"Normalize        : {args.normalize}",
-        f"Drop one-sided   : {args.drop_one_sided}",
-        f"GT file          : {GT_PATH.name}",
+        f"Sound-only  : {args.sound_only}",
+        f"GT file     : {GT_PATH.name}",
         f"Contrasts (total)      : {len(rows)}",
         f"Contrasts (comparable) : {len(comp)}",
         f"Studies with data      : {len({r['seq_id'] for r in comp})}",
@@ -386,10 +380,6 @@ def main():
         for sid, aid, oid in one_sided_ids:
             print(f"  seq={sid:>3}  {aid:<35}  {oid}")
 
-    if args.normalize:
-        rows = normalize_rows(rows)
-        print("Normalization applied: effects divided by (scale_max - scale_min)")
-
     fieldnames = [
         "seq_id", "study_label", "arm_id", "outcome_id", "outcome_name",
         "control_arm", "gt_delta", "llm_effect",
@@ -412,14 +402,17 @@ def main():
             and r["llm_effect"] is not None]
     print(f"Comparable contrasts: {len(comp)} / {len(rows)}")
 
-    # Always report full results
-    all_lines = run_stats(rows, "ALL ROWS")
+    rows_norm    = normalize_rows(rows)
+    rows_nos     = [r for r in rows      if not r.get("one_sided")]
+    rows_nos_norm = normalize_rows(rows_nos)
 
-    # Always also report one-sided-dropped results alongside for comparison
-    rows_no_onesided = [r for r in rows if not r.get("one_sided")]
-    onesided_lines = run_stats(rows_no_onesided, "DROP ONE-SIDED")
-
-    summary = "\n".join(all_lines) + "\n\n\n" + "\n".join(onesided_lines)
+    sections = [
+        run_stats(rows,          "ALL ROWS — raw"),
+        run_stats(rows_norm,     "ALL ROWS — normalized"),
+        run_stats(rows_nos,      "DROP ONE-SIDED — raw"),
+        run_stats(rows_nos_norm, "DROP ONE-SIDED — normalized"),
+    ]
+    summary = "\n\n\n".join("\n".join(s) for s in sections)
     print("\n" + summary)
     open(OUT_TXT, "w").write(summary + "\n")
     print(f"\nSummary → {OUT_TXT}")

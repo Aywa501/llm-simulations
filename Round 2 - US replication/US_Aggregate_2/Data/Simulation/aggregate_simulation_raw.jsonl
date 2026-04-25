@@ -2248,106 +2248,106 @@
 {"seq_id": 143, "arm_id": "large_slider_1_0_sd", "outcome_id": "predicted_causal_effect", "pid": "143__large_slider_1_0_sd__predicted_causal_effect__47", "response": "0.4", "value": 0.0, "parse_ok": true}
 {"seq_id": 143, "arm_id": "large_slider_1_0_sd", "outcome_id": "predicted_causal_effect", "pid": "143__large_slider_1_0_sd__predicted_causal_effect__48", "response": "0.4", "value": 0.0, "parse_ok": true}
 {"seq_id": 143, "arm_id": "large_slider_1_0_sd", "outcome_id": "predicted_causal_effect", "pid": "143__large_slider_1_0_sd__predicted_causal_effect__49", "response": "0.4", "value": 0.0, "parse_ok": true}
-{"seq_id": 145, "arm_id": "repayment_plan_1", "outcome_id": "plan_choice", "pid": "145__repayment_plan_1__plan_choice__0", "response": "Plan 1", "value": 0.0, "parse_ok": true}
-{"seq_id": 145, "arm_id": "repayment_plan_1", "outcome_id": "plan_choice", "pid": "145__repayment_plan_1__plan_choice__1", "response": "Standard", "value": 0.0, "parse_ok": true}
-{"seq_id": 145, "arm_id": "repayment_plan_1", "outcome_id": "plan_choice", "pid": "145__repayment_plan_1__plan_choice__2", "response": "Standard", "value": 0.0, "parse_ok": true}
-{"seq_id": 145, "arm_id": "repayment_plan_1", "outcome_id": "plan_choice", "pid": "145__repayment_plan_1__plan_choice__3", "response": "Plan 1", "value": 0.0, "parse_ok": true}
-{"seq_id": 145, "arm_id": "repayment_plan_1", "outcome_id": "plan_choice", "pid": "145__repayment_plan_1__plan_choice__4", "response": "Plan 1", "value": 0.0, "parse_ok": true}
-{"seq_id": 145, "arm_id": "repayment_plan_1", "outcome_id": "plan_choice", "pid": "145__repayment_plan_1__plan_choice__5", "response": "Plan 1", "value": 0.0, "parse_ok": true}
-{"seq_id": 145, "arm_id": "repayment_plan_1", "outcome_id": "plan_choice", "pid": "145__repayment_plan_1__plan_choice__6", "response": "Plan 1", "value": 0.0, "parse_ok": true}
-{"seq_id": 145, "arm_id": "repayment_plan_1", "outcome_id": "plan_choice", "pid": "145__repayment_plan_1__plan_choice__7", "response": "Plan 1", "value": 0.0, "parse_ok": true}
-{"seq_id": 145, "arm_id": "repayment_plan_1", "outcome_id": "plan_choice", "pid": "145__repayment_plan_1__plan_choice__8", "response": "Standard", "value": 0.0, "parse_ok": true}
-{"seq_id": 145, "arm_id": "repayment_plan_1", "outcome_id": "plan_choice", "pid": "145__repayment_plan_1__plan_choice__9", "response": "Standard", "value": 0.0, "parse_ok": true}
-{"seq_id": 145, "arm_id": "repayment_plan_1", "outcome_id": "plan_choice", "pid": "145__repayment_plan_1__plan_choice__10", "response": "Plan 1", "value": 0.0, "parse_ok": true}
-{"seq_id": 145, "arm_id": "repayment_plan_1", "outcome_id": "plan_choice", "pid": "145__repayment_plan_1__plan_choice__11", "response": "Plan 1", "value": 0.0, "parse_ok": true}
-{"seq_id": 145, "arm_id": "repayment_plan_1", "outcome_id": "plan_choice", "pid": "145__repayment_plan_1__plan_choice__12", "response": "Standard", "value": 0.0, "parse_ok": true}
-{"seq_id": 145, "arm_id": "repayment_plan_1", "outcome_id": "plan_choice", "pid": "145__repayment_plan_1__plan_choice__13", "response": "Plan 1", "value": 0.0, "parse_ok": true}
-{"seq_id": 145, "arm_id": "repayment_plan_1", "outcome_id": "plan_choice", "pid": "145__repayment_plan_1__plan_choice__14", "response": "Plan 1", "value": 0.0, "parse_ok": true}
-{"seq_id": 145, "arm_id": "repayment_plan_1", "outcome_id": "plan_choice", "pid": "145__repayment_plan_1__plan_choice__15", "response": "Plan 1", "value": 0.0, "parse_ok": true}
-{"seq_id": 145, "arm_id": "repayment_plan_1", "outcome_id": "plan_choice", "pid": "145__repayment_plan_1__plan_choice__16", "response": "Plan 1", "value": 0.0, "parse_ok": true}
+{"seq_id": 145, "arm_id": "repayment_plan_1", "outcome_id": "plan_choice", "pid": "145__repayment_plan_1__plan_choice__0", "response": "Plan 1", "value": 1.0, "parse_ok": true}
+{"seq_id": 145, "arm_id": "repayment_plan_1", "outcome_id": "plan_choice", "pid": "145__repayment_plan_1__plan_choice__1", "response": "Standard", "value": null, "parse_ok": false}
+{"seq_id": 145, "arm_id": "repayment_plan_1", "outcome_id": "plan_choice", "pid": "145__repayment_plan_1__plan_choice__2", "response": "Standard", "value": null, "parse_ok": false}
+{"seq_id": 145, "arm_id": "repayment_plan_1", "outcome_id": "plan_choice", "pid": "145__repayment_plan_1__plan_choice__3", "response": "Plan 1", "value": 1.0, "parse_ok": true}
+{"seq_id": 145, "arm_id": "repayment_plan_1", "outcome_id": "plan_choice", "pid": "145__repayment_plan_1__plan_choice__4", "response": "Plan 1", "value": 1.0, "parse_ok": true}
+{"seq_id": 145, "arm_id": "repayment_plan_1", "outcome_id": "plan_choice", "pid": "145__repayment_plan_1__plan_choice__5", "response": "Plan 1", "value": 1.0, "parse_ok": true}
+{"seq_id": 145, "arm_id": "repayment_plan_1", "outcome_id": "plan_choice", "pid": "145__repayment_plan_1__plan_choice__6", "response": "Plan 1", "value": 1.0, "parse_ok": true}
+{"seq_id": 145, "arm_id": "repayment_plan_1", "outcome_id": "plan_choice", "pid": "145__repayment_plan_1__plan_choice__7", "response": "Plan 1", "value": 1.0, "parse_ok": true}
+{"seq_id": 145, "arm_id": "repayment_plan_1", "outcome_id": "plan_choice", "pid": "145__repayment_plan_1__plan_choice__8", "response": "Standard", "value": null, "parse_ok": false}
+{"seq_id": 145, "arm_id": "repayment_plan_1", "outcome_id": "plan_choice", "pid": "145__repayment_plan_1__plan_choice__9", "response": "Standard", "value": null, "parse_ok": false}
+{"seq_id": 145, "arm_id": "repayment_plan_1", "outcome_id": "plan_choice", "pid": "145__repayment_plan_1__plan_choice__10", "response": "Plan 1", "value": 1.0, "parse_ok": true}
+{"seq_id": 145, "arm_id": "repayment_plan_1", "outcome_id": "plan_choice", "pid": "145__repayment_plan_1__plan_choice__11", "response": "Plan 1", "value": 1.0, "parse_ok": true}
+{"seq_id": 145, "arm_id": "repayment_plan_1", "outcome_id": "plan_choice", "pid": "145__repayment_plan_1__plan_choice__12", "response": "Standard", "value": null, "parse_ok": false}
+{"seq_id": 145, "arm_id": "repayment_plan_1", "outcome_id": "plan_choice", "pid": "145__repayment_plan_1__plan_choice__13", "response": "Plan 1", "value": 1.0, "parse_ok": true}
+{"seq_id": 145, "arm_id": "repayment_plan_1", "outcome_id": "plan_choice", "pid": "145__repayment_plan_1__plan_choice__14", "response": "Plan 1", "value": 1.0, "parse_ok": true}
+{"seq_id": 145, "arm_id": "repayment_plan_1", "outcome_id": "plan_choice", "pid": "145__repayment_plan_1__plan_choice__15", "response": "Plan 1", "value": 1.0, "parse_ok": true}
+{"seq_id": 145, "arm_id": "repayment_plan_1", "outcome_id": "plan_choice", "pid": "145__repayment_plan_1__plan_choice__16", "response": "Plan 1", "value": 1.0, "parse_ok": true}
 {"seq_id": 145, "arm_id": "repayment_plan_1", "outcome_id": "plan_choice", "pid": "145__repayment_plan_1__plan_choice__17", "response": "Plan", "value": null, "parse_ok": false}
-{"seq_id": 145, "arm_id": "repayment_plan_1", "outcome_id": "plan_choice", "pid": "145__repayment_plan_1__plan_choice__18", "response": "Plan 1", "value": 0.0, "parse_ok": true}
-{"seq_id": 145, "arm_id": "repayment_plan_1", "outcome_id": "plan_choice", "pid": "145__repayment_plan_1__plan_choice__19", "response": "Plan 1", "value": 0.0, "parse_ok": true}
-{"seq_id": 145, "arm_id": "repayment_plan_1", "outcome_id": "plan_choice", "pid": "145__repayment_plan_1__plan_choice__20", "response": "Plan 1", "value": 0.0, "parse_ok": true}
-{"seq_id": 145, "arm_id": "repayment_plan_1", "outcome_id": "plan_choice", "pid": "145__repayment_plan_1__plan_choice__21", "response": "Plan 1", "value": 0.0, "parse_ok": true}
-{"seq_id": 145, "arm_id": "repayment_plan_1", "outcome_id": "plan_choice", "pid": "145__repayment_plan_1__plan_choice__22", "response": "Standard", "value": 0.0, "parse_ok": true}
-{"seq_id": 145, "arm_id": "repayment_plan_1", "outcome_id": "plan_choice", "pid": "145__repayment_plan_1__plan_choice__23", "response": "Standard", "value": 0.0, "parse_ok": true}
-{"seq_id": 145, "arm_id": "repayment_plan_1", "outcome_id": "plan_choice", "pid": "145__repayment_plan_1__plan_choice__24", "response": "Standard", "value": 0.0, "parse_ok": true}
-{"seq_id": 145, "arm_id": "repayment_plan_1", "outcome_id": "plan_choice", "pid": "145__repayment_plan_1__plan_choice__25", "response": "Standard", "value": 0.0, "parse_ok": true}
-{"seq_id": 145, "arm_id": "repayment_plan_1", "outcome_id": "plan_choice", "pid": "145__repayment_plan_1__plan_choice__26", "response": "Standard", "value": 0.0, "parse_ok": true}
-{"seq_id": 145, "arm_id": "repayment_plan_1", "outcome_id": "plan_choice", "pid": "145__repayment_plan_1__plan_choice__27", "response": "Standard", "value": 0.0, "parse_ok": true}
-{"seq_id": 145, "arm_id": "repayment_plan_1", "outcome_id": "plan_choice", "pid": "145__repayment_plan_1__plan_choice__28", "response": "Standard", "value": 0.0, "parse_ok": true}
-{"seq_id": 145, "arm_id": "repayment_plan_1", "outcome_id": "plan_choice", "pid": "145__repayment_plan_1__plan_choice__29", "response": "Plan 1", "value": 0.0, "parse_ok": true}
-{"seq_id": 145, "arm_id": "repayment_plan_1", "outcome_id": "plan_choice", "pid": "145__repayment_plan_1__plan_choice__30", "response": "Standard", "value": 0.0, "parse_ok": true}
-{"seq_id": 145, "arm_id": "repayment_plan_1", "outcome_id": "plan_choice", "pid": "145__repayment_plan_1__plan_choice__31", "response": "Standard", "value": 0.0, "parse_ok": true}
-{"seq_id": 145, "arm_id": "repayment_plan_1", "outcome_id": "plan_choice", "pid": "145__repayment_plan_1__plan_choice__32", "response": "Standard", "value": 0.0, "parse_ok": true}
-{"seq_id": 145, "arm_id": "repayment_plan_1", "outcome_id": "plan_choice", "pid": "145__repayment_plan_1__plan_choice__33", "response": "Standard", "value": 0.0, "parse_ok": true}
-{"seq_id": 145, "arm_id": "repayment_plan_1", "outcome_id": "plan_choice", "pid": "145__repayment_plan_1__plan_choice__34", "response": "Standard", "value": 0.0, "parse_ok": true}
-{"seq_id": 145, "arm_id": "repayment_plan_1", "outcome_id": "plan_choice", "pid": "145__repayment_plan_1__plan_choice__35", "response": "Standard", "value": 0.0, "parse_ok": true}
-{"seq_id": 145, "arm_id": "repayment_plan_1", "outcome_id": "plan_choice", "pid": "145__repayment_plan_1__plan_choice__36", "response": "Plan 1", "value": 0.0, "parse_ok": true}
-{"seq_id": 145, "arm_id": "repayment_plan_1", "outcome_id": "plan_choice", "pid": "145__repayment_plan_1__plan_choice__37", "response": "Standard", "value": 0.0, "parse_ok": true}
-{"seq_id": 145, "arm_id": "repayment_plan_1", "outcome_id": "plan_choice", "pid": "145__repayment_plan_1__plan_choice__38", "response": "Standard", "value": 0.0, "parse_ok": true}
-{"seq_id": 145, "arm_id": "repayment_plan_1", "outcome_id": "plan_choice", "pid": "145__repayment_plan_1__plan_choice__39", "response": "Standard", "value": 0.0, "parse_ok": true}
-{"seq_id": 145, "arm_id": "repayment_plan_1", "outcome_id": "plan_choice", "pid": "145__repayment_plan_1__plan_choice__40", "response": "Standard", "value": 0.0, "parse_ok": true}
-{"seq_id": 145, "arm_id": "repayment_plan_1", "outcome_id": "plan_choice", "pid": "145__repayment_plan_1__plan_choice__41", "response": "Standard", "value": 0.0, "parse_ok": true}
-{"seq_id": 145, "arm_id": "repayment_plan_1", "outcome_id": "plan_choice", "pid": "145__repayment_plan_1__plan_choice__42", "response": "Standard", "value": 0.0, "parse_ok": true}
-{"seq_id": 145, "arm_id": "repayment_plan_1", "outcome_id": "plan_choice", "pid": "145__repayment_plan_1__plan_choice__43", "response": "Plan 1", "value": 0.0, "parse_ok": true}
-{"seq_id": 145, "arm_id": "repayment_plan_1", "outcome_id": "plan_choice", "pid": "145__repayment_plan_1__plan_choice__44", "response": "Standard", "value": 0.0, "parse_ok": true}
-{"seq_id": 145, "arm_id": "repayment_plan_1", "outcome_id": "plan_choice", "pid": "145__repayment_plan_1__plan_choice__45", "response": "Standard", "value": 0.0, "parse_ok": true}
-{"seq_id": 145, "arm_id": "repayment_plan_1", "outcome_id": "plan_choice", "pid": "145__repayment_plan_1__plan_choice__46", "response": "Standard", "value": 0.0, "parse_ok": true}
-{"seq_id": 145, "arm_id": "repayment_plan_1", "outcome_id": "plan_choice", "pid": "145__repayment_plan_1__plan_choice__47", "response": "Standard", "value": 0.0, "parse_ok": true}
-{"seq_id": 145, "arm_id": "repayment_plan_1", "outcome_id": "plan_choice", "pid": "145__repayment_plan_1__plan_choice__48", "response": "Standard", "value": 0.0, "parse_ok": true}
-{"seq_id": 145, "arm_id": "repayment_plan_1", "outcome_id": "plan_choice", "pid": "145__repayment_plan_1__plan_choice__49", "response": "Standard", "value": 0.0, "parse_ok": true}
-{"seq_id": 145, "arm_id": "repayment_plan_2", "outcome_id": "plan_choice", "pid": "145__repayment_plan_2__plan_choice__0", "response": "Plan 1", "value": 0.0, "parse_ok": true}
-{"seq_id": 145, "arm_id": "repayment_plan_2", "outcome_id": "plan_choice", "pid": "145__repayment_plan_2__plan_choice__1", "response": "Plan A", "value": 0.0, "parse_ok": true}
-{"seq_id": 145, "arm_id": "repayment_plan_2", "outcome_id": "plan_choice", "pid": "145__repayment_plan_2__plan_choice__2", "response": "Plan 2", "value": 1.0, "parse_ok": true}
-{"seq_id": 145, "arm_id": "repayment_plan_2", "outcome_id": "plan_choice", "pid": "145__repayment_plan_2__plan_choice__3", "response": "Plan 1", "value": 0.0, "parse_ok": true}
-{"seq_id": 145, "arm_id": "repayment_plan_2", "outcome_id": "plan_choice", "pid": "145__repayment_plan_2__plan_choice__4", "response": "Plan 1", "value": 0.0, "parse_ok": true}
-{"seq_id": 145, "arm_id": "repayment_plan_2", "outcome_id": "plan_choice", "pid": "145__repayment_plan_2__plan_choice__5", "response": "Plan 1", "value": 0.0, "parse_ok": true}
-{"seq_id": 145, "arm_id": "repayment_plan_2", "outcome_id": "plan_choice", "pid": "145__repayment_plan_2__plan_choice__6", "response": "Plan 2", "value": 1.0, "parse_ok": true}
-{"seq_id": 145, "arm_id": "repayment_plan_2", "outcome_id": "plan_choice", "pid": "145__repayment_plan_2__plan_choice__7", "response": "Plan A", "value": 0.0, "parse_ok": true}
-{"seq_id": 145, "arm_id": "repayment_plan_2", "outcome_id": "plan_choice", "pid": "145__repayment_plan_2__plan_choice__8", "response": "Plan 1", "value": 0.0, "parse_ok": true}
-{"seq_id": 145, "arm_id": "repayment_plan_2", "outcome_id": "plan_choice", "pid": "145__repayment_plan_2__plan_choice__9", "response": "Plan 1", "value": 0.0, "parse_ok": true}
-{"seq_id": 145, "arm_id": "repayment_plan_2", "outcome_id": "plan_choice", "pid": "145__repayment_plan_2__plan_choice__10", "response": "Plan A", "value": 0.0, "parse_ok": true}
-{"seq_id": 145, "arm_id": "repayment_plan_2", "outcome_id": "plan_choice", "pid": "145__repayment_plan_2__plan_choice__11", "response": "Plan 1", "value": 0.0, "parse_ok": true}
-{"seq_id": 145, "arm_id": "repayment_plan_2", "outcome_id": "plan_choice", "pid": "145__repayment_plan_2__plan_choice__12", "response": "Plan 2", "value": 1.0, "parse_ok": true}
-{"seq_id": 145, "arm_id": "repayment_plan_2", "outcome_id": "plan_choice", "pid": "145__repayment_plan_2__plan_choice__13", "response": "Plan 1", "value": 0.0, "parse_ok": true}
-{"seq_id": 145, "arm_id": "repayment_plan_2", "outcome_id": "plan_choice", "pid": "145__repayment_plan_2__plan_choice__14", "response": "Plan 2", "value": 1.0, "parse_ok": true}
-{"seq_id": 145, "arm_id": "repayment_plan_2", "outcome_id": "plan_choice", "pid": "145__repayment_plan_2__plan_choice__15", "response": "Plan 1", "value": 0.0, "parse_ok": true}
-{"seq_id": 145, "arm_id": "repayment_plan_2", "outcome_id": "plan_choice", "pid": "145__repayment_plan_2__plan_choice__16", "response": "Plan 2", "value": 1.0, "parse_ok": true}
-{"seq_id": 145, "arm_id": "repayment_plan_2", "outcome_id": "plan_choice", "pid": "145__repayment_plan_2__plan_choice__17", "response": "Plan 1", "value": 0.0, "parse_ok": true}
-{"seq_id": 145, "arm_id": "repayment_plan_2", "outcome_id": "plan_choice", "pid": "145__repayment_plan_2__plan_choice__18", "response": "Plan 1", "value": 0.0, "parse_ok": true}
-{"seq_id": 145, "arm_id": "repayment_plan_2", "outcome_id": "plan_choice", "pid": "145__repayment_plan_2__plan_choice__19", "response": "Plan 1", "value": 0.0, "parse_ok": true}
-{"seq_id": 145, "arm_id": "repayment_plan_2", "outcome_id": "plan_choice", "pid": "145__repayment_plan_2__plan_choice__20", "response": "Plan 1", "value": 0.0, "parse_ok": true}
-{"seq_id": 145, "arm_id": "repayment_plan_2", "outcome_id": "plan_choice", "pid": "145__repayment_plan_2__plan_choice__21", "response": "Plan A", "value": 0.0, "parse_ok": true}
-{"seq_id": 145, "arm_id": "repayment_plan_2", "outcome_id": "plan_choice", "pid": "145__repayment_plan_2__plan_choice__22", "response": "Plan 1", "value": 0.0, "parse_ok": true}
-{"seq_id": 145, "arm_id": "repayment_plan_2", "outcome_id": "plan_choice", "pid": "145__repayment_plan_2__plan_choice__23", "response": "Plan 1", "value": 0.0, "parse_ok": true}
-{"seq_id": 145, "arm_id": "repayment_plan_2", "outcome_id": "plan_choice", "pid": "145__repayment_plan_2__plan_choice__24", "response": "Plan 1", "value": 0.0, "parse_ok": true}
-{"seq_id": 145, "arm_id": "repayment_plan_2", "outcome_id": "plan_choice", "pid": "145__repayment_plan_2__plan_choice__25", "response": "Plan 1", "value": 0.0, "parse_ok": true}
-{"seq_id": 145, "arm_id": "repayment_plan_2", "outcome_id": "plan_choice", "pid": "145__repayment_plan_2__plan_choice__26", "response": "Plan 1", "value": 0.0, "parse_ok": true}
-{"seq_id": 145, "arm_id": "repayment_plan_2", "outcome_id": "plan_choice", "pid": "145__repayment_plan_2__plan_choice__27", "response": "Plan A", "value": 0.0, "parse_ok": true}
-{"seq_id": 145, "arm_id": "repayment_plan_2", "outcome_id": "plan_choice", "pid": "145__repayment_plan_2__plan_choice__28", "response": "Plan 1", "value": 0.0, "parse_ok": true}
-{"seq_id": 145, "arm_id": "repayment_plan_2", "outcome_id": "plan_choice", "pid": "145__repayment_plan_2__plan_choice__29", "response": "Plan 1", "value": 0.0, "parse_ok": true}
-{"seq_id": 145, "arm_id": "repayment_plan_2", "outcome_id": "plan_choice", "pid": "145__repayment_plan_2__plan_choice__30", "response": "Plan 1", "value": 0.0, "parse_ok": true}
-{"seq_id": 145, "arm_id": "repayment_plan_2", "outcome_id": "plan_choice", "pid": "145__repayment_plan_2__plan_choice__31", "response": "Plan 1", "value": 0.0, "parse_ok": true}
-{"seq_id": 145, "arm_id": "repayment_plan_2", "outcome_id": "plan_choice", "pid": "145__repayment_plan_2__plan_choice__32", "response": "Plan 1", "value": 0.0, "parse_ok": true}
-{"seq_id": 145, "arm_id": "repayment_plan_2", "outcome_id": "plan_choice", "pid": "145__repayment_plan_2__plan_choice__33", "response": "Plan 2", "value": 1.0, "parse_ok": true}
+{"seq_id": 145, "arm_id": "repayment_plan_1", "outcome_id": "plan_choice", "pid": "145__repayment_plan_1__plan_choice__18", "response": "Plan 1", "value": 1.0, "parse_ok": true}
+{"seq_id": 145, "arm_id": "repayment_plan_1", "outcome_id": "plan_choice", "pid": "145__repayment_plan_1__plan_choice__19", "response": "Plan 1", "value": 1.0, "parse_ok": true}
+{"seq_id": 145, "arm_id": "repayment_plan_1", "outcome_id": "plan_choice", "pid": "145__repayment_plan_1__plan_choice__20", "response": "Plan 1", "value": 1.0, "parse_ok": true}
+{"seq_id": 145, "arm_id": "repayment_plan_1", "outcome_id": "plan_choice", "pid": "145__repayment_plan_1__plan_choice__21", "response": "Plan 1", "value": 1.0, "parse_ok": true}
+{"seq_id": 145, "arm_id": "repayment_plan_1", "outcome_id": "plan_choice", "pid": "145__repayment_plan_1__plan_choice__22", "response": "Standard", "value": null, "parse_ok": false}
+{"seq_id": 145, "arm_id": "repayment_plan_1", "outcome_id": "plan_choice", "pid": "145__repayment_plan_1__plan_choice__23", "response": "Standard", "value": null, "parse_ok": false}
+{"seq_id": 145, "arm_id": "repayment_plan_1", "outcome_id": "plan_choice", "pid": "145__repayment_plan_1__plan_choice__24", "response": "Standard", "value": null, "parse_ok": false}
+{"seq_id": 145, "arm_id": "repayment_plan_1", "outcome_id": "plan_choice", "pid": "145__repayment_plan_1__plan_choice__25", "response": "Standard", "value": null, "parse_ok": false}
+{"seq_id": 145, "arm_id": "repayment_plan_1", "outcome_id": "plan_choice", "pid": "145__repayment_plan_1__plan_choice__26", "response": "Standard", "value": null, "parse_ok": false}
+{"seq_id": 145, "arm_id": "repayment_plan_1", "outcome_id": "plan_choice", "pid": "145__repayment_plan_1__plan_choice__27", "response": "Standard", "value": null, "parse_ok": false}
+{"seq_id": 145, "arm_id": "repayment_plan_1", "outcome_id": "plan_choice", "pid": "145__repayment_plan_1__plan_choice__28", "response": "Standard", "value": null, "parse_ok": false}
+{"seq_id": 145, "arm_id": "repayment_plan_1", "outcome_id": "plan_choice", "pid": "145__repayment_plan_1__plan_choice__29", "response": "Plan 1", "value": 1.0, "parse_ok": true}
+{"seq_id": 145, "arm_id": "repayment_plan_1", "outcome_id": "plan_choice", "pid": "145__repayment_plan_1__plan_choice__30", "response": "Standard", "value": null, "parse_ok": false}
+{"seq_id": 145, "arm_id": "repayment_plan_1", "outcome_id": "plan_choice", "pid": "145__repayment_plan_1__plan_choice__31", "response": "Standard", "value": null, "parse_ok": false}
+{"seq_id": 145, "arm_id": "repayment_plan_1", "outcome_id": "plan_choice", "pid": "145__repayment_plan_1__plan_choice__32", "response": "Standard", "value": null, "parse_ok": false}
+{"seq_id": 145, "arm_id": "repayment_plan_1", "outcome_id": "plan_choice", "pid": "145__repayment_plan_1__plan_choice__33", "response": "Standard", "value": null, "parse_ok": false}
+{"seq_id": 145, "arm_id": "repayment_plan_1", "outcome_id": "plan_choice", "pid": "145__repayment_plan_1__plan_choice__34", "response": "Standard", "value": null, "parse_ok": false}
+{"seq_id": 145, "arm_id": "repayment_plan_1", "outcome_id": "plan_choice", "pid": "145__repayment_plan_1__plan_choice__35", "response": "Standard", "value": null, "parse_ok": false}
+{"seq_id": 145, "arm_id": "repayment_plan_1", "outcome_id": "plan_choice", "pid": "145__repayment_plan_1__plan_choice__36", "response": "Plan 1", "value": 1.0, "parse_ok": true}
+{"seq_id": 145, "arm_id": "repayment_plan_1", "outcome_id": "plan_choice", "pid": "145__repayment_plan_1__plan_choice__37", "response": "Standard", "value": null, "parse_ok": false}
+{"seq_id": 145, "arm_id": "repayment_plan_1", "outcome_id": "plan_choice", "pid": "145__repayment_plan_1__plan_choice__38", "response": "Standard", "value": null, "parse_ok": false}
+{"seq_id": 145, "arm_id": "repayment_plan_1", "outcome_id": "plan_choice", "pid": "145__repayment_plan_1__plan_choice__39", "response": "Standard", "value": null, "parse_ok": false}
+{"seq_id": 145, "arm_id": "repayment_plan_1", "outcome_id": "plan_choice", "pid": "145__repayment_plan_1__plan_choice__40", "response": "Standard", "value": null, "parse_ok": false}
+{"seq_id": 145, "arm_id": "repayment_plan_1", "outcome_id": "plan_choice", "pid": "145__repayment_plan_1__plan_choice__41", "response": "Standard", "value": null, "parse_ok": false}
+{"seq_id": 145, "arm_id": "repayment_plan_1", "outcome_id": "plan_choice", "pid": "145__repayment_plan_1__plan_choice__42", "response": "Standard", "value": null, "parse_ok": false}
+{"seq_id": 145, "arm_id": "repayment_plan_1", "outcome_id": "plan_choice", "pid": "145__repayment_plan_1__plan_choice__43", "response": "Plan 1", "value": 1.0, "parse_ok": true}
+{"seq_id": 145, "arm_id": "repayment_plan_1", "outcome_id": "plan_choice", "pid": "145__repayment_plan_1__plan_choice__44", "response": "Standard", "value": null, "parse_ok": false}
+{"seq_id": 145, "arm_id": "repayment_plan_1", "outcome_id": "plan_choice", "pid": "145__repayment_plan_1__plan_choice__45", "response": "Standard", "value": null, "parse_ok": false}
+{"seq_id": 145, "arm_id": "repayment_plan_1", "outcome_id": "plan_choice", "pid": "145__repayment_plan_1__plan_choice__46", "response": "Standard", "value": null, "parse_ok": false}
+{"seq_id": 145, "arm_id": "repayment_plan_1", "outcome_id": "plan_choice", "pid": "145__repayment_plan_1__plan_choice__47", "response": "Standard", "value": null, "parse_ok": false}
+{"seq_id": 145, "arm_id": "repayment_plan_1", "outcome_id": "plan_choice", "pid": "145__repayment_plan_1__plan_choice__48", "response": "Standard", "value": null, "parse_ok": false}
+{"seq_id": 145, "arm_id": "repayment_plan_1", "outcome_id": "plan_choice", "pid": "145__repayment_plan_1__plan_choice__49", "response": "Standard", "value": null, "parse_ok": false}
+{"seq_id": 145, "arm_id": "repayment_plan_2", "outcome_id": "plan_choice", "pid": "145__repayment_plan_2__plan_choice__0", "response": "Plan 1", "value": 1.0, "parse_ok": true}
+{"seq_id": 145, "arm_id": "repayment_plan_2", "outcome_id": "plan_choice", "pid": "145__repayment_plan_2__plan_choice__1", "response": "Plan A", "value": null, "parse_ok": false}
+{"seq_id": 145, "arm_id": "repayment_plan_2", "outcome_id": "plan_choice", "pid": "145__repayment_plan_2__plan_choice__2", "response": "Plan 2", "value": 2.0, "parse_ok": true}
+{"seq_id": 145, "arm_id": "repayment_plan_2", "outcome_id": "plan_choice", "pid": "145__repayment_plan_2__plan_choice__3", "response": "Plan 1", "value": 1.0, "parse_ok": true}
+{"seq_id": 145, "arm_id": "repayment_plan_2", "outcome_id": "plan_choice", "pid": "145__repayment_plan_2__plan_choice__4", "response": "Plan 1", "value": 1.0, "parse_ok": true}
+{"seq_id": 145, "arm_id": "repayment_plan_2", "outcome_id": "plan_choice", "pid": "145__repayment_plan_2__plan_choice__5", "response": "Plan 1", "value": 1.0, "parse_ok": true}
+{"seq_id": 145, "arm_id": "repayment_plan_2", "outcome_id": "plan_choice", "pid": "145__repayment_plan_2__plan_choice__6", "response": "Plan 2", "value": 2.0, "parse_ok": true}
+{"seq_id": 145, "arm_id": "repayment_plan_2", "outcome_id": "plan_choice", "pid": "145__repayment_plan_2__plan_choice__7", "response": "Plan A", "value": null, "parse_ok": false}
+{"seq_id": 145, "arm_id": "repayment_plan_2", "outcome_id": "plan_choice", "pid": "145__repayment_plan_2__plan_choice__8", "response": "Plan 1", "value": 1.0, "parse_ok": true}
+{"seq_id": 145, "arm_id": "repayment_plan_2", "outcome_id": "plan_choice", "pid": "145__repayment_plan_2__plan_choice__9", "response": "Plan 1", "value": 1.0, "parse_ok": true}
+{"seq_id": 145, "arm_id": "repayment_plan_2", "outcome_id": "plan_choice", "pid": "145__repayment_plan_2__plan_choice__10", "response": "Plan A", "value": null, "parse_ok": false}
+{"seq_id": 145, "arm_id": "repayment_plan_2", "outcome_id": "plan_choice", "pid": "145__repayment_plan_2__plan_choice__11", "response": "Plan 1", "value": 1.0, "parse_ok": true}
+{"seq_id": 145, "arm_id": "repayment_plan_2", "outcome_id": "plan_choice", "pid": "145__repayment_plan_2__plan_choice__12", "response": "Plan 2", "value": 2.0, "parse_ok": true}
+{"seq_id": 145, "arm_id": "repayment_plan_2", "outcome_id": "plan_choice", "pid": "145__repayment_plan_2__plan_choice__13", "response": "Plan 1", "value": 1.0, "parse_ok": true}
+{"seq_id": 145, "arm_id": "repayment_plan_2", "outcome_id": "plan_choice", "pid": "145__repayment_plan_2__plan_choice__14", "response": "Plan 2", "value": 2.0, "parse_ok": true}
+{"seq_id": 145, "arm_id": "repayment_plan_2", "outcome_id": "plan_choice", "pid": "145__repayment_plan_2__plan_choice__15", "response": "Plan 1", "value": 1.0, "parse_ok": true}
+{"seq_id": 145, "arm_id": "repayment_plan_2", "outcome_id": "plan_choice", "pid": "145__repayment_plan_2__plan_choice__16", "response": "Plan 2", "value": 2.0, "parse_ok": true}
+{"seq_id": 145, "arm_id": "repayment_plan_2", "outcome_id": "plan_choice", "pid": "145__repayment_plan_2__plan_choice__17", "response": "Plan 1", "value": 1.0, "parse_ok": true}
+{"seq_id": 145, "arm_id": "repayment_plan_2", "outcome_id": "plan_choice", "pid": "145__repayment_plan_2__plan_choice__18", "response": "Plan 1", "value": 1.0, "parse_ok": true}
+{"seq_id": 145, "arm_id": "repayment_plan_2", "outcome_id": "plan_choice", "pid": "145__repayment_plan_2__plan_choice__19", "response": "Plan 1", "value": 1.0, "parse_ok": true}
+{"seq_id": 145, "arm_id": "repayment_plan_2", "outcome_id": "plan_choice", "pid": "145__repayment_plan_2__plan_choice__20", "response": "Plan 1", "value": 1.0, "parse_ok": true}
+{"seq_id": 145, "arm_id": "repayment_plan_2", "outcome_id": "plan_choice", "pid": "145__repayment_plan_2__plan_choice__21", "response": "Plan A", "value": null, "parse_ok": false}
+{"seq_id": 145, "arm_id": "repayment_plan_2", "outcome_id": "plan_choice", "pid": "145__repayment_plan_2__plan_choice__22", "response": "Plan 1", "value": 1.0, "parse_ok": true}
+{"seq_id": 145, "arm_id": "repayment_plan_2", "outcome_id": "plan_choice", "pid": "145__repayment_plan_2__plan_choice__23", "response": "Plan 1", "value": 1.0, "parse_ok": true}
+{"seq_id": 145, "arm_id": "repayment_plan_2", "outcome_id": "plan_choice", "pid": "145__repayment_plan_2__plan_choice__24", "response": "Plan 1", "value": 1.0, "parse_ok": true}
+{"seq_id": 145, "arm_id": "repayment_plan_2", "outcome_id": "plan_choice", "pid": "145__repayment_plan_2__plan_choice__25", "response": "Plan 1", "value": 1.0, "parse_ok": true}
+{"seq_id": 145, "arm_id": "repayment_plan_2", "outcome_id": "plan_choice", "pid": "145__repayment_plan_2__plan_choice__26", "response": "Plan 1", "value": 1.0, "parse_ok": true}
+{"seq_id": 145, "arm_id": "repayment_plan_2", "outcome_id": "plan_choice", "pid": "145__repayment_plan_2__plan_choice__27", "response": "Plan A", "value": null, "parse_ok": false}
+{"seq_id": 145, "arm_id": "repayment_plan_2", "outcome_id": "plan_choice", "pid": "145__repayment_plan_2__plan_choice__28", "response": "Plan 1", "value": 1.0, "parse_ok": true}
+{"seq_id": 145, "arm_id": "repayment_plan_2", "outcome_id": "plan_choice", "pid": "145__repayment_plan_2__plan_choice__29", "response": "Plan 1", "value": 1.0, "parse_ok": true}
+{"seq_id": 145, "arm_id": "repayment_plan_2", "outcome_id": "plan_choice", "pid": "145__repayment_plan_2__plan_choice__30", "response": "Plan 1", "value": 1.0, "parse_ok": true}
+{"seq_id": 145, "arm_id": "repayment_plan_2", "outcome_id": "plan_choice", "pid": "145__repayment_plan_2__plan_choice__31", "response": "Plan 1", "value": 1.0, "parse_ok": true}
+{"seq_id": 145, "arm_id": "repayment_plan_2", "outcome_id": "plan_choice", "pid": "145__repayment_plan_2__plan_choice__32", "response": "Plan 1", "value": 1.0, "parse_ok": true}
+{"seq_id": 145, "arm_id": "repayment_plan_2", "outcome_id": "plan_choice", "pid": "145__repayment_plan_2__plan_choice__33", "response": "Plan 2", "value": 2.0, "parse_ok": true}
 {"seq_id": 145, "arm_id": "repayment_plan_2", "outcome_id": "plan_choice", "pid": "145__repayment_plan_2__plan_choice__34", "response": "Plan", "value": null, "parse_ok": false}
-{"seq_id": 145, "arm_id": "repayment_plan_2", "outcome_id": "plan_choice", "pid": "145__repayment_plan_2__plan_choice__35", "response": "Plan 1", "value": 0.0, "parse_ok": true}
-{"seq_id": 145, "arm_id": "repayment_plan_2", "outcome_id": "plan_choice", "pid": "145__repayment_plan_2__plan_choice__36", "response": "Plan 2", "value": 1.0, "parse_ok": true}
-{"seq_id": 145, "arm_id": "repayment_plan_2", "outcome_id": "plan_choice", "pid": "145__repayment_plan_2__plan_choice__37", "response": "Plan 1", "value": 0.0, "parse_ok": true}
-{"seq_id": 145, "arm_id": "repayment_plan_2", "outcome_id": "plan_choice", "pid": "145__repayment_plan_2__plan_choice__38", "response": "Plan 1", "value": 0.0, "parse_ok": true}
-{"seq_id": 145, "arm_id": "repayment_plan_2", "outcome_id": "plan_choice", "pid": "145__repayment_plan_2__plan_choice__39", "response": "Plan 2", "value": 1.0, "parse_ok": true}
-{"seq_id": 145, "arm_id": "repayment_plan_2", "outcome_id": "plan_choice", "pid": "145__repayment_plan_2__plan_choice__40", "response": "Plan 1", "value": 0.0, "parse_ok": true}
-{"seq_id": 145, "arm_id": "repayment_plan_2", "outcome_id": "plan_choice", "pid": "145__repayment_plan_2__plan_choice__41", "response": "Plan 1", "value": 0.0, "parse_ok": true}
-{"seq_id": 145, "arm_id": "repayment_plan_2", "outcome_id": "plan_choice", "pid": "145__repayment_plan_2__plan_choice__42", "response": "Plan 1", "value": 0.0, "parse_ok": true}
-{"seq_id": 145, "arm_id": "repayment_plan_2", "outcome_id": "plan_choice", "pid": "145__repayment_plan_2__plan_choice__43", "response": "Plan 1", "value": 0.0, "parse_ok": true}
-{"seq_id": 145, "arm_id": "repayment_plan_2", "outcome_id": "plan_choice", "pid": "145__repayment_plan_2__plan_choice__44", "response": "Plan 1", "value": 0.0, "parse_ok": true}
-{"seq_id": 145, "arm_id": "repayment_plan_2", "outcome_id": "plan_choice", "pid": "145__repayment_plan_2__plan_choice__45", "response": "Plan 1", "value": 0.0, "parse_ok": true}
-{"seq_id": 145, "arm_id": "repayment_plan_2", "outcome_id": "plan_choice", "pid": "145__repayment_plan_2__plan_choice__46", "response": "Plan 1", "value": 0.0, "parse_ok": true}
-{"seq_id": 145, "arm_id": "repayment_plan_2", "outcome_id": "plan_choice", "pid": "145__repayment_plan_2__plan_choice__47", "response": "Plan 1", "value": 0.0, "parse_ok": true}
-{"seq_id": 145, "arm_id": "repayment_plan_2", "outcome_id": "plan_choice", "pid": "145__repayment_plan_2__plan_choice__48", "response": "Plan A", "value": 0.0, "parse_ok": true}
-{"seq_id": 145, "arm_id": "repayment_plan_2", "outcome_id": "plan_choice", "pid": "145__repayment_plan_2__plan_choice__49", "response": "Plan A", "value": 0.0, "parse_ok": true}
+{"seq_id": 145, "arm_id": "repayment_plan_2", "outcome_id": "plan_choice", "pid": "145__repayment_plan_2__plan_choice__35", "response": "Plan 1", "value": 1.0, "parse_ok": true}
+{"seq_id": 145, "arm_id": "repayment_plan_2", "outcome_id": "plan_choice", "pid": "145__repayment_plan_2__plan_choice__36", "response": "Plan 2", "value": 2.0, "parse_ok": true}
+{"seq_id": 145, "arm_id": "repayment_plan_2", "outcome_id": "plan_choice", "pid": "145__repayment_plan_2__plan_choice__37", "response": "Plan 1", "value": 1.0, "parse_ok": true}
+{"seq_id": 145, "arm_id": "repayment_plan_2", "outcome_id": "plan_choice", "pid": "145__repayment_plan_2__plan_choice__38", "response": "Plan 1", "value": 1.0, "parse_ok": true}
+{"seq_id": 145, "arm_id": "repayment_plan_2", "outcome_id": "plan_choice", "pid": "145__repayment_plan_2__plan_choice__39", "response": "Plan 2", "value": 2.0, "parse_ok": true}
+{"seq_id": 145, "arm_id": "repayment_plan_2", "outcome_id": "plan_choice", "pid": "145__repayment_plan_2__plan_choice__40", "response": "Plan 1", "value": 1.0, "parse_ok": true}
+{"seq_id": 145, "arm_id": "repayment_plan_2", "outcome_id": "plan_choice", "pid": "145__repayment_plan_2__plan_choice__41", "response": "Plan 1", "value": 1.0, "parse_ok": true}
+{"seq_id": 145, "arm_id": "repayment_plan_2", "outcome_id": "plan_choice", "pid": "145__repayment_plan_2__plan_choice__42", "response": "Plan 1", "value": 1.0, "parse_ok": true}
+{"seq_id": 145, "arm_id": "repayment_plan_2", "outcome_id": "plan_choice", "pid": "145__repayment_plan_2__plan_choice__43", "response": "Plan 1", "value": 1.0, "parse_ok": true}
+{"seq_id": 145, "arm_id": "repayment_plan_2", "outcome_id": "plan_choice", "pid": "145__repayment_plan_2__plan_choice__44", "response": "Plan 1", "value": 1.0, "parse_ok": true}
+{"seq_id": 145, "arm_id": "repayment_plan_2", "outcome_id": "plan_choice", "pid": "145__repayment_plan_2__plan_choice__45", "response": "Plan 1", "value": 1.0, "parse_ok": true}
+{"seq_id": 145, "arm_id": "repayment_plan_2", "outcome_id": "plan_choice", "pid": "145__repayment_plan_2__plan_choice__46", "response": "Plan 1", "value": 1.0, "parse_ok": true}
+{"seq_id": 145, "arm_id": "repayment_plan_2", "outcome_id": "plan_choice", "pid": "145__repayment_plan_2__plan_choice__47", "response": "Plan 1", "value": 1.0, "parse_ok": true}
+{"seq_id": 145, "arm_id": "repayment_plan_2", "outcome_id": "plan_choice", "pid": "145__repayment_plan_2__plan_choice__48", "response": "Plan A", "value": null, "parse_ok": false}
+{"seq_id": 145, "arm_id": "repayment_plan_2", "outcome_id": "plan_choice", "pid": "145__repayment_plan_2__plan_choice__49", "response": "Plan A", "value": null, "parse_ok": false}
 {"seq_id": 151, "arm_id": "controlgroup", "outcome_id": "matrix_puzzle_low", "pid": "151__controlgroup__matrix_puzzle_low__0", "response": "7", "value": 7.0, "parse_ok": true}
 {"seq_id": 151, "arm_id": "controlgroup", "outcome_id": "matrix_puzzle_low", "pid": "151__controlgroup__matrix_puzzle_low__1", "response": "8", "value": 8.0, "parse_ok": true}
 {"seq_id": 151, "arm_id": "controlgroup", "outcome_id": "matrix_puzzle_low", "pid": "151__controlgroup__matrix_puzzle_low__2", "response": "8", "value": 8.0, "parse_ok": true}
@@ -6848,3 +6848,203 @@
 {"seq_id": 183, "arm_id": "ai_written_uninformed", "outcome_id": "high_trust_accuracy", "pid": "183__ai_written_uninformed__high_trust_accuracy__47", "response": "YES", "value": 1.0, "parse_ok": true}
 {"seq_id": 183, "arm_id": "ai_written_uninformed", "outcome_id": "high_trust_accuracy", "pid": "183__ai_written_uninformed__high_trust_accuracy__48", "response": "YES", "value": 1.0, "parse_ok": true}
 {"seq_id": 183, "arm_id": "ai_written_uninformed", "outcome_id": "high_trust_accuracy", "pid": "183__ai_written_uninformed__high_trust_accuracy__49", "response": "YES", "value": 1.0, "parse_ok": true}
+{"seq_id": 178, "arm_id": "low_inflation", "outcome_id": "durable_goods", "pid": "178__low_inflation__durable_goods__0", "response": "Bad time to buy.", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "low_inflation", "outcome_id": "durable_goods", "pid": "178__low_inflation__durable_goods__1", "response": "Bad time to buy.", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "low_inflation", "outcome_id": "durable_goods", "pid": "178__low_inflation__durable_goods__2", "response": "Good time to buy", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "low_inflation", "outcome_id": "durable_goods", "pid": "178__low_inflation__durable_goods__3", "response": "Bad time to buy.", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "low_inflation", "outcome_id": "durable_goods", "pid": "178__low_inflation__durable_goods__4", "response": "Bad time to buy.", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "low_inflation", "outcome_id": "durable_goods", "pid": "178__low_inflation__durable_goods__5", "response": "Good time to buy", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "low_inflation", "outcome_id": "durable_goods", "pid": "178__low_inflation__durable_goods__6", "response": "Bad time to buy.", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "low_inflation", "outcome_id": "durable_goods", "pid": "178__low_inflation__durable_goods__7", "response": "Good time to buy", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "low_inflation", "outcome_id": "durable_goods", "pid": "178__low_inflation__durable_goods__8", "response": "Bad time to buy.", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "low_inflation", "outcome_id": "durable_goods", "pid": "178__low_inflation__durable_goods__9", "response": "Bad time to buy.", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "low_inflation", "outcome_id": "durable_goods", "pid": "178__low_inflation__durable_goods__10", "response": "Good time to buy", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "low_inflation", "outcome_id": "durable_goods", "pid": "178__low_inflation__durable_goods__11", "response": "Good time to buy", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "low_inflation", "outcome_id": "durable_goods", "pid": "178__low_inflation__durable_goods__12", "response": "Bad time to buy.", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "low_inflation", "outcome_id": "durable_goods", "pid": "178__low_inflation__durable_goods__13", "response": "Bad time to buy.", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "low_inflation", "outcome_id": "durable_goods", "pid": "178__low_inflation__durable_goods__14", "response": "Bad time to buy.", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "low_inflation", "outcome_id": "durable_goods", "pid": "178__low_inflation__durable_goods__15", "response": "Bad time to buy.", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "low_inflation", "outcome_id": "durable_goods", "pid": "178__low_inflation__durable_goods__16", "response": "Bad time to buy.", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "low_inflation", "outcome_id": "durable_goods", "pid": "178__low_inflation__durable_goods__17", "response": "Bad time to buy.", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "low_inflation", "outcome_id": "durable_goods", "pid": "178__low_inflation__durable_goods__18", "response": "Bad time to buy.", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "low_inflation", "outcome_id": "durable_goods", "pid": "178__low_inflation__durable_goods__19", "response": "Bad time to buy.", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "low_inflation", "outcome_id": "durable_goods", "pid": "178__low_inflation__durable_goods__20", "response": "Bad time to buy.", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "low_inflation", "outcome_id": "durable_goods", "pid": "178__low_inflation__durable_goods__21", "response": "Bad time to buy", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "low_inflation", "outcome_id": "durable_goods", "pid": "178__low_inflation__durable_goods__22", "response": "Bad time to buy.", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "low_inflation", "outcome_id": "durable_goods", "pid": "178__low_inflation__durable_goods__23", "response": "Uncertain; depends", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "low_inflation", "outcome_id": "durable_goods", "pid": "178__low_inflation__durable_goods__24", "response": "Good time to buy", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "low_inflation", "outcome_id": "durable_goods", "pid": "178__low_inflation__durable_goods__25", "response": "Good time to buy", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "low_inflation", "outcome_id": "durable_goods", "pid": "178__low_inflation__durable_goods__26", "response": "Bad time to buy.", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "low_inflation", "outcome_id": "durable_goods", "pid": "178__low_inflation__durable_goods__27", "response": "Bad time to buy.", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "low_inflation", "outcome_id": "durable_goods", "pid": "178__low_inflation__durable_goods__28", "response": "Bad time to buy", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "low_inflation", "outcome_id": "durable_goods", "pid": "178__low_inflation__durable_goods__29", "response": "Bad time to buy", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "low_inflation", "outcome_id": "durable_goods", "pid": "178__low_inflation__durable_goods__30", "response": "Bad time to buy", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "low_inflation", "outcome_id": "durable_goods", "pid": "178__low_inflation__durable_goods__31", "response": "Bad time to buy.", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "low_inflation", "outcome_id": "durable_goods", "pid": "178__low_inflation__durable_goods__32", "response": "Bad time to buy.", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "low_inflation", "outcome_id": "durable_goods", "pid": "178__low_inflation__durable_goods__33", "response": "Bad time to buy.", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "low_inflation", "outcome_id": "durable_goods", "pid": "178__low_inflation__durable_goods__34", "response": "Bad time to buy.", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "low_inflation", "outcome_id": "durable_goods", "pid": "178__low_inflation__durable_goods__35", "response": "Bad time to buy.", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "low_inflation", "outcome_id": "durable_goods", "pid": "178__low_inflation__durable_goods__36", "response": "Bad time to buy.", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "low_inflation", "outcome_id": "durable_goods", "pid": "178__low_inflation__durable_goods__37", "response": "Bad time to buy", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "low_inflation", "outcome_id": "durable_goods", "pid": "178__low_inflation__durable_goods__38", "response": "Bad time to buy", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "low_inflation", "outcome_id": "durable_goods", "pid": "178__low_inflation__durable_goods__39", "response": "Good time to buy", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "low_inflation", "outcome_id": "durable_goods", "pid": "178__low_inflation__durable_goods__40", "response": "Good time to buy", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "low_inflation", "outcome_id": "durable_goods", "pid": "178__low_inflation__durable_goods__41", "response": "Bad time to buy", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "low_inflation", "outcome_id": "durable_goods", "pid": "178__low_inflation__durable_goods__42", "response": "Bad time to buy.", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "low_inflation", "outcome_id": "durable_goods", "pid": "178__low_inflation__durable_goods__43", "response": "Bad time to buy", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "low_inflation", "outcome_id": "durable_goods", "pid": "178__low_inflation__durable_goods__44", "response": "Bad time to buy.", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "low_inflation", "outcome_id": "durable_goods", "pid": "178__low_inflation__durable_goods__45", "response": "Bad time to buy.", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "low_inflation", "outcome_id": "durable_goods", "pid": "178__low_inflation__durable_goods__46", "response": "Bad time to buy.", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "low_inflation", "outcome_id": "durable_goods", "pid": "178__low_inflation__durable_goods__47", "response": "Bad time to buy", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "low_inflation", "outcome_id": "durable_goods", "pid": "178__low_inflation__durable_goods__48", "response": "Bad time to buy", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "low_inflation", "outcome_id": "durable_goods", "pid": "178__low_inflation__durable_goods__49", "response": "Bad time to buy.", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "low_inflation", "outcome_id": "non_durable_goods", "pid": "178__low_inflation__non_durable_goods__0", "response": "Spend same", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "low_inflation", "outcome_id": "non_durable_goods", "pid": "178__low_inflation__non_durable_goods__1", "response": "Spend same", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "low_inflation", "outcome_id": "non_durable_goods", "pid": "178__low_inflation__non_durable_goods__2", "response": "Spend same", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "low_inflation", "outcome_id": "non_durable_goods", "pid": "178__low_inflation__non_durable_goods__3", "response": "Spend same", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "low_inflation", "outcome_id": "non_durable_goods", "pid": "178__low_inflation__non_durable_goods__4", "response": "Spend same", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "low_inflation", "outcome_id": "non_durable_goods", "pid": "178__low_inflation__non_durable_goods__5", "response": "Spend same", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "low_inflation", "outcome_id": "non_durable_goods", "pid": "178__low_inflation__non_durable_goods__6", "response": "Spend same", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "low_inflation", "outcome_id": "non_durable_goods", "pid": "178__low_inflation__non_durable_goods__7", "response": "Spend same", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "low_inflation", "outcome_id": "non_durable_goods", "pid": "178__low_inflation__non_durable_goods__8", "response": "Spend same", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "low_inflation", "outcome_id": "non_durable_goods", "pid": "178__low_inflation__non_durable_goods__9", "response": "Spend same", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "low_inflation", "outcome_id": "non_durable_goods", "pid": "178__low_inflation__non_durable_goods__10", "response": "Spend same", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "low_inflation", "outcome_id": "non_durable_goods", "pid": "178__low_inflation__non_durable_goods__11", "response": "Spend same", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "low_inflation", "outcome_id": "non_durable_goods", "pid": "178__low_inflation__non_durable_goods__12", "response": "Spend same", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "low_inflation", "outcome_id": "non_durable_goods", "pid": "178__low_inflation__non_durable_goods__13", "response": "Spend same", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "low_inflation", "outcome_id": "non_durable_goods", "pid": "178__low_inflation__non_durable_goods__14", "response": "Spend same", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "low_inflation", "outcome_id": "non_durable_goods", "pid": "178__low_inflation__non_durable_goods__15", "response": "Spend same", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "low_inflation", "outcome_id": "non_durable_goods", "pid": "178__low_inflation__non_durable_goods__16", "response": "Spend same", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "low_inflation", "outcome_id": "non_durable_goods", "pid": "178__low_inflation__non_durable_goods__17", "response": "Spend same", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "low_inflation", "outcome_id": "non_durable_goods", "pid": "178__low_inflation__non_durable_goods__18", "response": "Spend same", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "low_inflation", "outcome_id": "non_durable_goods", "pid": "178__low_inflation__non_durable_goods__19", "response": "Spend same", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "low_inflation", "outcome_id": "non_durable_goods", "pid": "178__low_inflation__non_durable_goods__20", "response": "Spend same", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "low_inflation", "outcome_id": "non_durable_goods", "pid": "178__low_inflation__non_durable_goods__21", "response": "Spend same", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "low_inflation", "outcome_id": "non_durable_goods", "pid": "178__low_inflation__non_durable_goods__22", "response": "Spend same", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "low_inflation", "outcome_id": "non_durable_goods", "pid": "178__low_inflation__non_durable_goods__23", "response": "Spend same", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "low_inflation", "outcome_id": "non_durable_goods", "pid": "178__low_inflation__non_durable_goods__24", "response": "Spend same", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "low_inflation", "outcome_id": "non_durable_goods", "pid": "178__low_inflation__non_durable_goods__25", "response": "Spend same", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "low_inflation", "outcome_id": "non_durable_goods", "pid": "178__low_inflation__non_durable_goods__26", "response": "Spend same", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "low_inflation", "outcome_id": "non_durable_goods", "pid": "178__low_inflation__non_durable_goods__27", "response": "Spend same", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "low_inflation", "outcome_id": "non_durable_goods", "pid": "178__low_inflation__non_durable_goods__28", "response": "Spend same", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "low_inflation", "outcome_id": "non_durable_goods", "pid": "178__low_inflation__non_durable_goods__29", "response": "Spend same", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "low_inflation", "outcome_id": "non_durable_goods", "pid": "178__low_inflation__non_durable_goods__30", "response": "Spend same", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "low_inflation", "outcome_id": "non_durable_goods", "pid": "178__low_inflation__non_durable_goods__31", "response": "Spend same", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "low_inflation", "outcome_id": "non_durable_goods", "pid": "178__low_inflation__non_durable_goods__32", "response": "Spend same", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "low_inflation", "outcome_id": "non_durable_goods", "pid": "178__low_inflation__non_durable_goods__33", "response": "Spend same", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "low_inflation", "outcome_id": "non_durable_goods", "pid": "178__low_inflation__non_durable_goods__34", "response": "Spend same", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "low_inflation", "outcome_id": "non_durable_goods", "pid": "178__low_inflation__non_durable_goods__35", "response": "Spend same", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "low_inflation", "outcome_id": "non_durable_goods", "pid": "178__low_inflation__non_durable_goods__36", "response": "Spend same", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "low_inflation", "outcome_id": "non_durable_goods", "pid": "178__low_inflation__non_durable_goods__37", "response": "Spend same", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "low_inflation", "outcome_id": "non_durable_goods", "pid": "178__low_inflation__non_durable_goods__38", "response": "Spend same", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "low_inflation", "outcome_id": "non_durable_goods", "pid": "178__low_inflation__non_durable_goods__39", "response": "Spend same", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "low_inflation", "outcome_id": "non_durable_goods", "pid": "178__low_inflation__non_durable_goods__40", "response": "Spend same", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "low_inflation", "outcome_id": "non_durable_goods", "pid": "178__low_inflation__non_durable_goods__41", "response": "Spend same", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "low_inflation", "outcome_id": "non_durable_goods", "pid": "178__low_inflation__non_durable_goods__42", "response": "Spend same", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "low_inflation", "outcome_id": "non_durable_goods", "pid": "178__low_inflation__non_durable_goods__43", "response": "Spend same", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "low_inflation", "outcome_id": "non_durable_goods", "pid": "178__low_inflation__non_durable_goods__44", "response": "Spend same", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "low_inflation", "outcome_id": "non_durable_goods", "pid": "178__low_inflation__non_durable_goods__45", "response": "Spend same", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "low_inflation", "outcome_id": "non_durable_goods", "pid": "178__low_inflation__non_durable_goods__46", "response": "Spend same", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "low_inflation", "outcome_id": "non_durable_goods", "pid": "178__low_inflation__non_durable_goods__47", "response": "Spend same", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "low_inflation", "outcome_id": "non_durable_goods", "pid": "178__low_inflation__non_durable_goods__48", "response": "Spend same", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "low_inflation", "outcome_id": "non_durable_goods", "pid": "178__low_inflation__non_durable_goods__49", "response": "Spend same", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "high_inflation", "outcome_id": "durable_goods", "pid": "178__high_inflation__durable_goods__0", "response": "Bad time to buy.", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "high_inflation", "outcome_id": "durable_goods", "pid": "178__high_inflation__durable_goods__1", "response": "Bad time to buy.", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "high_inflation", "outcome_id": "durable_goods", "pid": "178__high_inflation__durable_goods__2", "response": "Bad time to buy.", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "high_inflation", "outcome_id": "durable_goods", "pid": "178__high_inflation__durable_goods__3", "response": "Bad time to buy.", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "high_inflation", "outcome_id": "durable_goods", "pid": "178__high_inflation__durable_goods__4", "response": "Bad time to buy.", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "high_inflation", "outcome_id": "durable_goods", "pid": "178__high_inflation__durable_goods__5", "response": "Bad time to buy.", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "high_inflation", "outcome_id": "durable_goods", "pid": "178__high_inflation__durable_goods__6", "response": "Bad time to buy.", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "high_inflation", "outcome_id": "durable_goods", "pid": "178__high_inflation__durable_goods__7", "response": "Bad time to buy.", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "high_inflation", "outcome_id": "durable_goods", "pid": "178__high_inflation__durable_goods__8", "response": "Bad time to buy.", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "high_inflation", "outcome_id": "durable_goods", "pid": "178__high_inflation__durable_goods__9", "response": "Bad time to buy.", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "high_inflation", "outcome_id": "durable_goods", "pid": "178__high_inflation__durable_goods__10", "response": "Bad time to buy.", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "high_inflation", "outcome_id": "durable_goods", "pid": "178__high_inflation__durable_goods__11", "response": "Bad time to buy.", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "high_inflation", "outcome_id": "durable_goods", "pid": "178__high_inflation__durable_goods__12", "response": "Bad time to buy.", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "high_inflation", "outcome_id": "durable_goods", "pid": "178__high_inflation__durable_goods__13", "response": "Bad time to buy.", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "high_inflation", "outcome_id": "durable_goods", "pid": "178__high_inflation__durable_goods__14", "response": "Bad time to buy.", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "high_inflation", "outcome_id": "durable_goods", "pid": "178__high_inflation__durable_goods__15", "response": "Bad time to buy.", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "high_inflation", "outcome_id": "durable_goods", "pid": "178__high_inflation__durable_goods__16", "response": "Bad time to buy.", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "high_inflation", "outcome_id": "durable_goods", "pid": "178__high_inflation__durable_goods__17", "response": "Bad time to buy.", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "high_inflation", "outcome_id": "durable_goods", "pid": "178__high_inflation__durable_goods__18", "response": "Bad time to buy.", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "high_inflation", "outcome_id": "durable_goods", "pid": "178__high_inflation__durable_goods__19", "response": "Bad time to buy.", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "high_inflation", "outcome_id": "durable_goods", "pid": "178__high_inflation__durable_goods__20", "response": "Bad time to buy.", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "high_inflation", "outcome_id": "durable_goods", "pid": "178__high_inflation__durable_goods__21", "response": "Bad time to buy.", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "high_inflation", "outcome_id": "durable_goods", "pid": "178__high_inflation__durable_goods__22", "response": "Bad time to buy.", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "high_inflation", "outcome_id": "durable_goods", "pid": "178__high_inflation__durable_goods__23", "response": "Bad time to buy.", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "high_inflation", "outcome_id": "durable_goods", "pid": "178__high_inflation__durable_goods__24", "response": "Bad time to buy.", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "high_inflation", "outcome_id": "durable_goods", "pid": "178__high_inflation__durable_goods__25", "response": "Bad time to buy.", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "high_inflation", "outcome_id": "durable_goods", "pid": "178__high_inflation__durable_goods__26", "response": "Bad time to buy.", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "high_inflation", "outcome_id": "durable_goods", "pid": "178__high_inflation__durable_goods__27", "response": "Bad time to buy.", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "high_inflation", "outcome_id": "durable_goods", "pid": "178__high_inflation__durable_goods__28", "response": "Bad time to buy.", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "high_inflation", "outcome_id": "durable_goods", "pid": "178__high_inflation__durable_goods__29", "response": "Bad time to buy.", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "high_inflation", "outcome_id": "durable_goods", "pid": "178__high_inflation__durable_goods__30", "response": "Bad time to buy", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "high_inflation", "outcome_id": "durable_goods", "pid": "178__high_inflation__durable_goods__31", "response": "Bad time to buy.", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "high_inflation", "outcome_id": "durable_goods", "pid": "178__high_inflation__durable_goods__32", "response": "Bad time to buy.", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "high_inflation", "outcome_id": "durable_goods", "pid": "178__high_inflation__durable_goods__33", "response": "Bad time to buy.", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "high_inflation", "outcome_id": "durable_goods", "pid": "178__high_inflation__durable_goods__34", "response": "Bad time to buy.", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "high_inflation", "outcome_id": "durable_goods", "pid": "178__high_inflation__durable_goods__35", "response": "Bad time to buy.", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "high_inflation", "outcome_id": "durable_goods", "pid": "178__high_inflation__durable_goods__36", "response": "Bad time to buy.", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "high_inflation", "outcome_id": "durable_goods", "pid": "178__high_inflation__durable_goods__37", "response": "Bad time to buy.", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "high_inflation", "outcome_id": "durable_goods", "pid": "178__high_inflation__durable_goods__38", "response": "Bad time to buy.", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "high_inflation", "outcome_id": "durable_goods", "pid": "178__high_inflation__durable_goods__39", "response": "Bad time to buy.", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "high_inflation", "outcome_id": "durable_goods", "pid": "178__high_inflation__durable_goods__40", "response": "Bad time to buy.", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "high_inflation", "outcome_id": "durable_goods", "pid": "178__high_inflation__durable_goods__41", "response": "Bad time to buy.", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "high_inflation", "outcome_id": "durable_goods", "pid": "178__high_inflation__durable_goods__42", "response": "Bad time to buy.", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "high_inflation", "outcome_id": "durable_goods", "pid": "178__high_inflation__durable_goods__43", "response": "Bad time to buy.", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "high_inflation", "outcome_id": "durable_goods", "pid": "178__high_inflation__durable_goods__44", "response": "Bad time to buy.", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "high_inflation", "outcome_id": "durable_goods", "pid": "178__high_inflation__durable_goods__45", "response": "Bad time to buy.", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "high_inflation", "outcome_id": "durable_goods", "pid": "178__high_inflation__durable_goods__46", "response": "Bad time to buy.", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "high_inflation", "outcome_id": "durable_goods", "pid": "178__high_inflation__durable_goods__47", "response": "Bad time to buy.", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "high_inflation", "outcome_id": "durable_goods", "pid": "178__high_inflation__durable_goods__48", "response": "Bad time to buy.", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "high_inflation", "outcome_id": "durable_goods", "pid": "178__high_inflation__durable_goods__49", "response": "Bad time to buy.", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "high_inflation", "outcome_id": "non_durable_goods", "pid": "178__high_inflation__non_durable_goods__0", "response": "Spend less", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "high_inflation", "outcome_id": "non_durable_goods", "pid": "178__high_inflation__non_durable_goods__1", "response": "Spend less", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "high_inflation", "outcome_id": "non_durable_goods", "pid": "178__high_inflation__non_durable_goods__2", "response": "Spend less", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "high_inflation", "outcome_id": "non_durable_goods", "pid": "178__high_inflation__non_durable_goods__3", "response": "Spend less", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "high_inflation", "outcome_id": "non_durable_goods", "pid": "178__high_inflation__non_durable_goods__4", "response": "Spend less", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "high_inflation", "outcome_id": "non_durable_goods", "pid": "178__high_inflation__non_durable_goods__5", "response": "Spend less", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "high_inflation", "outcome_id": "non_durable_goods", "pid": "178__high_inflation__non_durable_goods__6", "response": "Spend less", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "high_inflation", "outcome_id": "non_durable_goods", "pid": "178__high_inflation__non_durable_goods__7", "response": "Spend less", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "high_inflation", "outcome_id": "non_durable_goods", "pid": "178__high_inflation__non_durable_goods__8", "response": "Spend less", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "high_inflation", "outcome_id": "non_durable_goods", "pid": "178__high_inflation__non_durable_goods__9", "response": "Spend less", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "high_inflation", "outcome_id": "non_durable_goods", "pid": "178__high_inflation__non_durable_goods__10", "response": "Spend less", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "high_inflation", "outcome_id": "non_durable_goods", "pid": "178__high_inflation__non_durable_goods__11", "response": "Spend less", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "high_inflation", "outcome_id": "non_durable_goods", "pid": "178__high_inflation__non_durable_goods__12", "response": "Spend less", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "high_inflation", "outcome_id": "non_durable_goods", "pid": "178__high_inflation__non_durable_goods__13", "response": "Spend less", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "high_inflation", "outcome_id": "non_durable_goods", "pid": "178__high_inflation__non_durable_goods__14", "response": "Spend less", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "high_inflation", "outcome_id": "non_durable_goods", "pid": "178__high_inflation__non_durable_goods__15", "response": "Spend less", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "high_inflation", "outcome_id": "non_durable_goods", "pid": "178__high_inflation__non_durable_goods__16", "response": "Spend less", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "high_inflation", "outcome_id": "non_durable_goods", "pid": "178__high_inflation__non_durable_goods__17", "response": "Spend less", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "high_inflation", "outcome_id": "non_durable_goods", "pid": "178__high_inflation__non_durable_goods__18", "response": "Spend less", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "high_inflation", "outcome_id": "non_durable_goods", "pid": "178__high_inflation__non_durable_goods__19", "response": "Spend less", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "high_inflation", "outcome_id": "non_durable_goods", "pid": "178__high_inflation__non_durable_goods__20", "response": "Spend less", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "high_inflation", "outcome_id": "non_durable_goods", "pid": "178__high_inflation__non_durable_goods__21", "response": "Spend less", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "high_inflation", "outcome_id": "non_durable_goods", "pid": "178__high_inflation__non_durable_goods__22", "response": "Spend less", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "high_inflation", "outcome_id": "non_durable_goods", "pid": "178__high_inflation__non_durable_goods__23", "response": "Spend less", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "high_inflation", "outcome_id": "non_durable_goods", "pid": "178__high_inflation__non_durable_goods__24", "response": "Spend less", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "high_inflation", "outcome_id": "non_durable_goods", "pid": "178__high_inflation__non_durable_goods__25", "response": "Spend less", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "high_inflation", "outcome_id": "non_durable_goods", "pid": "178__high_inflation__non_durable_goods__26", "response": "Spend less", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "high_inflation", "outcome_id": "non_durable_goods", "pid": "178__high_inflation__non_durable_goods__27", "response": "Spend less", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "high_inflation", "outcome_id": "non_durable_goods", "pid": "178__high_inflation__non_durable_goods__28", "response": "Spend less", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "high_inflation", "outcome_id": "non_durable_goods", "pid": "178__high_inflation__non_durable_goods__29", "response": "Spend less", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "high_inflation", "outcome_id": "non_durable_goods", "pid": "178__high_inflation__non_durable_goods__30", "response": "Spend less", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "high_inflation", "outcome_id": "non_durable_goods", "pid": "178__high_inflation__non_durable_goods__31", "response": "Spend less", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "high_inflation", "outcome_id": "non_durable_goods", "pid": "178__high_inflation__non_durable_goods__32", "response": "Spend less", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "high_inflation", "outcome_id": "non_durable_goods", "pid": "178__high_inflation__non_durable_goods__33", "response": "Spend less", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "high_inflation", "outcome_id": "non_durable_goods", "pid": "178__high_inflation__non_durable_goods__34", "response": "Spend less", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "high_inflation", "outcome_id": "non_durable_goods", "pid": "178__high_inflation__non_durable_goods__35", "response": "Spend less", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "high_inflation", "outcome_id": "non_durable_goods", "pid": "178__high_inflation__non_durable_goods__36", "response": "Spend less", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "high_inflation", "outcome_id": "non_durable_goods", "pid": "178__high_inflation__non_durable_goods__37", "response": "Spend less", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "high_inflation", "outcome_id": "non_durable_goods", "pid": "178__high_inflation__non_durable_goods__38", "response": "Spend less", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "high_inflation", "outcome_id": "non_durable_goods", "pid": "178__high_inflation__non_durable_goods__39", "response": "Spend less", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "high_inflation", "outcome_id": "non_durable_goods", "pid": "178__high_inflation__non_durable_goods__40", "response": "Spend less", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "high_inflation", "outcome_id": "non_durable_goods", "pid": "178__high_inflation__non_durable_goods__41", "response": "Spend less", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "high_inflation", "outcome_id": "non_durable_goods", "pid": "178__high_inflation__non_durable_goods__42", "response": "Spend less", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "high_inflation", "outcome_id": "non_durable_goods", "pid": "178__high_inflation__non_durable_goods__43", "response": "Spend less", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "high_inflation", "outcome_id": "non_durable_goods", "pid": "178__high_inflation__non_durable_goods__44", "response": "Spend less", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "high_inflation", "outcome_id": "non_durable_goods", "pid": "178__high_inflation__non_durable_goods__45", "response": "Spend less", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "high_inflation", "outcome_id": "non_durable_goods", "pid": "178__high_inflation__non_durable_goods__46", "response": "Spend less", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "high_inflation", "outcome_id": "non_durable_goods", "pid": "178__high_inflation__non_durable_goods__47", "response": "Spend less", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "high_inflation", "outcome_id": "non_durable_goods", "pid": "178__high_inflation__non_durable_goods__48", "response": "Spend less", "value": null, "parse_ok": false}
+{"seq_id": 178, "arm_id": "high_inflation", "outcome_id": "non_durable_goods", "pid": "178__high_inflation__non_durable_goods__49", "response": "Spend less", "value": null, "parse_ok": false}
